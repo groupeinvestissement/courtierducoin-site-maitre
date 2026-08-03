@@ -16,6 +16,14 @@ Ne publier aucun témoignage sans l’autorisation écrite du client et la valid
 >
 > — [Prénom et initiale du nom], [type de projet], [secteur facultatif]
 
+## Clients à valider avant publication
+
+- Robert Bugeag - texte final et type de projet à confirmer
+- David Côté - texte final et type de projet à confirmer
+- Marc Perron - texte final et type de projet à confirmer
+- Daniel G. - texte final et type de projet à confirmer
+- Denise Arès - texte final et type de projet à confirmer
+
 ## Autorisation à conserver
 
 - Texte final approuvé par le client
@@ -23,4 +31,3 @@ Ne publier aucun témoignage sans l’autorisation écrite du client et la valid
 - Type de projet et secteur autorisés
 - Source de l’avis, si l’avis provient de Google
 - Date de l’autorisation
-
