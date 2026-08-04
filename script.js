@@ -60,3 +60,14 @@ Object.assign(english,{
 const languageButton=document.createElement('button');languageButton.type='button';languageButton.className='language-switch';const languageHeader=document.querySelector('header');const languageAnchor=languageHeader?.querySelector('.phone');languageAnchor?languageHeader.insertBefore(languageButton,languageAnchor):document.body.appendChild(languageButton);const originalNodes=[];const languageWalker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);while(languageWalker.nextNode()){const node=languageWalker.currentNode,key=node.nodeValue.trim();if(english[key])originalNodes.push({node,original:node.nodeValue,key});}
 function setLanguage(lang){const en=lang==='en';originalNodes.forEach(({node,original,key})=>{const lead=original.match(/^\s*/)[0],trail=original.match(/\s*$/)[0];node.nodeValue=en?lead+english[key]+trail:original;});document.documentElement.lang=en?'en-CA':'fr-CA';languageButton.textContent=en?'FR':'EN';languageButton.setAttribute('aria-label',en?'Passer au français':'Switch to English');const field=form?.querySelector('[name="langue"]');if(field)field.value=en?'English':'Français';localStorage.setItem('courtier-master-language',lang);}
 languageButton.addEventListener('click',()=>setLanguage(document.documentElement.lang.startsWith('en')?'fr':'en'));setLanguage(localStorage.getItem('courtier-master-language')==='en'?'en':'fr');
+
+const mainNav=document.querySelector('.topbar nav');
+if(mainNav&&!document.querySelector('.menu-toggle')){
+  const menuButton=document.createElement('button');
+  menuButton.type='button';menuButton.className='menu-toggle';menuButton.textContent='Menu';menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','Ouvrir le menu principal');
+  languageButton.insertAdjacentElement('afterend',menuButton);
+  const closeMenu=()=>{mainNav.classList.remove('is-open');menuButton.setAttribute('aria-expanded','false');};
+  menuButton.addEventListener('click',()=>{const open=mainNav.classList.toggle('is-open');menuButton.setAttribute('aria-expanded',String(open));});
+  mainNav.addEventListener('click',closeMenu);
+  addEventListener('resize',()=>{if(innerWidth>1050)closeMenu();});
+}
