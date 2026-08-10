@@ -130,7 +130,8 @@ if (!empty($_POST['site_web'])) {
 
 $prenom = clean('prenom', 60);
 $nom = clean('nom', 60);
-$courriel = filter_var(clean('courriel', 120), FILTER_VALIDATE_EMAIL);
+$courrielBrut = clean('courriel', 120);
+$courriel = $courrielBrut === '' ? '' : filter_var($courrielBrut, FILTER_VALIDATE_EMAIL);
 $telephone = clean('telephone', 30);
 $adresse = clean('adresse', 180);
 $projet = clean('projet', 40);
@@ -140,7 +141,7 @@ $langue = clean('langue', 20);
 $langue = in_array($langue, ['Français', 'English'], true) ? $langue : 'Français';
 $projetsPermis = ['Vendre', 'Acheter', 'Investir'];
 
-if ($prenom === '' || $nom === '' || !$courriel || $telephone === '' || !in_array($projet, $projetsPermis, true) || ($_POST['consentement'] ?? '') !== 'oui') {
+if ($prenom === '' || $nom === '' || ($courrielBrut !== '' && !$courriel) || ($courrielBrut === '' && $telephone === '') || !in_array($projet, $projetsPermis, true) || ($_POST['consentement'] ?? '') !== 'oui') {
     http_response_code(422);
     echo json_encode(['message' => 'Veuillez remplir tous les champs obligatoires.']);
     exit;
@@ -162,10 +163,12 @@ $message = "Nouvelle demande depuis www.courtierducoin.ca\n\nProjet : {$projet}\
 $message .= 'Adresse : ' . ($adresse !== '' ? $adresse : 'Non fournie') . "\n\nConsentement : Oui\n";
 $headers = [
     'From: Courtier du coin <contact@courtierducoin.ca>',
-    'Reply-To: ' . $courriel,
     'Content-Type: text/plain; charset=UTF-8',
     'X-Mailer: PHP/' . phpversion(),
 ];
+if ($courriel !== '') {
+    $headers[] = 'Reply-To: ' . $courriel;
+}
 if (!mail($destinataire, '=?UTF-8?B?' . base64_encode($sujet) . '?=', $message, implode("\r\n", $headers))) {
     error_log('Courriel Rosemont non envoyé pour le deal Bigin créé.');
 }
