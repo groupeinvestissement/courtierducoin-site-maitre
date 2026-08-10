@@ -44,7 +44,7 @@ const specialized=(s,code,c)=>{const canonical=`${base}/${s.slug}/${code}/`; ret
 
 const redirects=[]; const sitemap=[`${base}/`];
 for(const s of sectors){
-  const u=`secteurs/${s.slug}/index.html`; await mkdir(join(root,dirname(u)),{recursive:true}); await writeFile(join(root,u),universal(s),'utf8');
+  const u=`secteurs/${s.slug}/index.html`; await mkdir(join(root,dirname(u)),{recursive:true}); if(s.slug!=='rosemont-la-petite-patrie') await writeFile(join(root,u),universal(s),'utf8');
   sitemap.push(`${base}/secteurs/${s.slug}/`); redirects.push({entry:`https://${s.subdomain}.courtierducoin.ca/`,destination:`${base}/secteurs/${s.slug}/`,status:301});
   for(const [code,c] of Object.entries(campaigns)){const p=`${s.slug}/${code}/index.html`; await mkdir(join(root,dirname(p)),{recursive:true}); await writeFile(join(root,p),specialized(s,code,c),'utf8'); sitemap.push(`${base}/${s.slug}/${code}/`); redirects.push({entry:`https://${s.subdomain}.courtierducoin.ca/${code}`,destination:`${base}/${s.slug}/${code}/`,status:301});}
 }
