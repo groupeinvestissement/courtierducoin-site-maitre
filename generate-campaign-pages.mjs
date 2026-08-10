@@ -47,7 +47,7 @@ const redirects=[]; const sitemap=[`${base}/`];
 for(const s of sectors){
   const u=`secteurs/${s.slug}/index.html`; await mkdir(join(root,dirname(u)),{recursive:true}); if(s.slug!=='rosemont-la-petite-patrie') await writeFile(join(root,u),universal(s),'utf8');
   sitemap.push(`${base}/secteurs/${s.slug}/`); redirects.push({entry:`https://${s.subdomain}.courtierducoin.ca/`,destination:`${base}/secteurs/${s.slug}/`,status:301});
-  for(const [code,c] of Object.entries(campaigns)){const p=`${s.slug}/${code}/index.html`; await mkdir(join(root,dirname(p)),{recursive:true}); if(!(s.slug==='rosemont-la-petite-patrie'&&['03i33','04m44','05c55'].includes(code))) await writeFile(join(root,p),specialized(s,code,c),'utf8'); sitemap.push(`${base}/${s.slug}/${code}/`); redirects.push({entry:`https://${s.subdomain}.courtierducoin.ca/${code}`,destination:`${base}/${s.slug}/${code}/`,status:301});}
+  for(const [code,c] of Object.entries(campaigns)){const p=`${s.slug}/${code}/index.html`; await mkdir(join(root,dirname(p)),{recursive:true}); if(!(s.slug==='rosemont-la-petite-patrie'&&['02a22','03i33','04m44','05c55'].includes(code))) await writeFile(join(root,p),specialized(s,code,c),'utf8'); sitemap.push(`${base}/${s.slug}/${code}/`); redirects.push({entry:`https://${s.subdomain}.courtierducoin.ca/${code}`,destination:`${base}/${s.slug}/${code}/`,status:301});}
 }
 await writeFile(join(root,'redirect-map.json'),JSON.stringify(redirects,null,2),'utf8');
 await writeFile(join(root,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemap.map(x=>`  <url><loc>${x}</loc></url>`).join('\n')}\n</urlset>\n`,'utf8');
