@@ -16,6 +16,6 @@ for(const {destination} of redirects){
 if(redirects.length!==102)errors.push(`expected 102 redirects, got ${redirects.length}`);
 if(universal!==17||specialized!==85)errors.push(`expected 17/85 pages, got ${universal}/${specialized}`);
 const sitemap=await readFile(join(root,'sitemap.xml'),'utf8');
-if((sitemap.match(/<url>/g)||[]).length!==103)errors.push('sitemap must contain home + 102 canonical pages');
+if((sitemap.match(/<url>/g)||[]).length!==108)errors.push('sitemap must contain home + 102 canonical pages + 5 English pages');
 if(errors.length){console.error(errors.join('\n'));process.exit(1)}
 console.log(`QA passed: ${universal} universal pages, ${specialized} specialized pages, ${redirects.length} redirects, exact canonicals, one H1, progressive noindex, video, guide and forms.`);
