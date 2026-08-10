@@ -1,0 +1,512 @@
+[
+  {
+    "entry": "https://sud-ouest.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/le-sud-ouest/",
+    "status": 301
+  },
+  {
+    "entry": "https://sud-ouest.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/le-sud-ouest/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://sud-ouest.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/le-sud-ouest/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://sud-ouest.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/le-sud-ouest/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://sud-ouest.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/le-sud-ouest/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://sud-ouest.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/le-sud-ouest/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://mercier-hochelaga.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/mercier-hochelaga-maisonneuve/",
+    "status": 301
+  },
+  {
+    "entry": "https://mercier-hochelaga.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://mercier-hochelaga.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://mercier-hochelaga.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://mercier-hochelaga.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://mercier-hochelaga.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://laval-centre.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/centre-ville-de-laval/",
+    "status": 301
+  },
+  {
+    "entry": "https://laval-centre.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/centre-ville-de-laval/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://laval-centre.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/centre-ville-de-laval/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://laval-centre.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/centre-ville-de-laval/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://laval-centre.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/centre-ville-de-laval/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://laval-centre.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/centre-ville-de-laval/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://rosemont.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/rosemont-la-petite-patrie/",
+    "status": 301
+  },
+  {
+    "entry": "https://rosemont.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/rosemont-la-petite-patrie/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://rosemont.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/rosemont-la-petite-patrie/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://rosemont.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/rosemont-la-petite-patrie/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://rosemont.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/rosemont-la-petite-patrie/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://rosemont.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/rosemont-la-petite-patrie/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://anjou-saint-leonard.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/anjou-saint-leonard/",
+    "status": 301
+  },
+  {
+    "entry": "https://anjou-saint-leonard.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/anjou-saint-leonard/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://anjou-saint-leonard.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/anjou-saint-leonard/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://anjou-saint-leonard.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/anjou-saint-leonard/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://anjou-saint-leonard.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/anjou-saint-leonard/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://anjou-saint-leonard.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/anjou-saint-leonard/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://villeray.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/villeray-saint-michel-parc-extension/",
+    "status": 301
+  },
+  {
+    "entry": "https://villeray.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://villeray.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://villeray.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://villeray.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://villeray.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://lachine-lasalle.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/lachine-lasalle/",
+    "status": 301
+  },
+  {
+    "entry": "https://lachine-lasalle.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/lachine-lasalle/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://lachine-lasalle.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/lachine-lasalle/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://lachine-lasalle.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/lachine-lasalle/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://lachine-lasalle.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/lachine-lasalle/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://lachine-lasalle.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/lachine-lasalle/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-nord.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/ouest-de-lile-nord/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-nord.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-nord.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-nord.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-nord.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-nord.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://plateau.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/le-plateau-mont-royal/",
+    "status": 301
+  },
+  {
+    "entry": "https://plateau.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://plateau.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://plateau.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://plateau.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://plateau.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-sud.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/ouest-de-lile-sud/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-sud.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-sud.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-sud.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-sud.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://ouest-ile-sud.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://saint-laurent.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/saint-laurent/",
+    "status": 301
+  },
+  {
+    "entry": "https://saint-laurent.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/saint-laurent/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://saint-laurent.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/saint-laurent/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://saint-laurent.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/saint-laurent/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://saint-laurent.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/saint-laurent/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://saint-laurent.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/saint-laurent/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://ndg.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/ndg-montreal-ouest/",
+    "status": 301
+  },
+  {
+    "entry": "https://ndg.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://ndg.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://ndg.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://ndg.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://ndg.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/ile-des-soeurs/",
+    "status": 301
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/ile-des-soeurs/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/ile-des-soeurs/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/ile-des-soeurs/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/ile-des-soeurs/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/ile-des-soeurs/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://cdn-csl.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/cdn-cote-saint-luc/",
+    "status": 301
+  },
+  {
+    "entry": "https://cdn-csl.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/cdn-cote-saint-luc/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://cdn-csl.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/cdn-cote-saint-luc/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://cdn-csl.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/cdn-cote-saint-luc/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://cdn-csl.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/cdn-cote-saint-luc/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://cdn-csl.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/cdn-cote-saint-luc/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://ahuntsic.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/ahuntsic-cartierville/",
+    "status": 301
+  },
+  {
+    "entry": "https://ahuntsic.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/ahuntsic-cartierville/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://ahuntsic.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/ahuntsic-cartierville/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://ahuntsic.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/ahuntsic-cartierville/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://ahuntsic.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/ahuntsic-cartierville/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://ahuntsic.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/ahuntsic-cartierville/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://ville-marie.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/ville-marie/",
+    "status": 301
+  },
+  {
+    "entry": "https://ville-marie.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/ville-marie/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://ville-marie.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/ville-marie/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://ville-marie.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/ville-marie/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://ville-marie.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/ville-marie/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://ville-marie.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/ville-marie/05c55/",
+    "status": 301
+  },
+  {
+    "entry": "https://centre.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/centre-outremont-westmount-vmr/",
+    "status": 301
+  },
+  {
+    "entry": "https://centre.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://centre.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://centre.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://centre.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://centre.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/05c55/",
+    "status": 301
+  }
+]
