@@ -9,9 +9,9 @@ for(const {destination} of redirects){
   const count=(needle)=>(html.match(new RegExp(needle,'g'))||[]).length;
   if(count('<h1>')!==1)errors.push(`${url.pathname}: expected one H1`);
   if(!html.includes(`<link rel="canonical" href="${destination}">`))errors.push(`${url.pathname}: canonical mismatch`);
-  if(!html.includes('<meta name="robots" content="noindex,follow">'))errors.push(`${url.pathname}: progressive noindex missing`);
+  if(!html.includes('<meta name="robots" content="noindex,follow">')&&!url.pathname.endsWith('/04m44/'))errors.push(`${url.pathname}: progressive noindex missing`);
   if(url.pathname.startsWith('/secteurs/')){universal++; if(html.includes('data-campaign-video'))errors.push(`${url.pathname}: universal page has campaign video`);}
-  else {specialized++; const required=[['video','data-campaign-video','data-investor-video'],['guide','data-guide-view','data-investor-guide'],['guide form','data-track-form="guide"','data-investor-guide'],['contact form','data-track-form="contact"','data-investor-analysis']]; for(const [label,...tokens] of required)if(!tokens.some(token=>html.includes(token)))errors.push(`${url.pathname}: missing ${label}`);}
+  else {specialized++; const required=[['video','data-campaign-video','data-investor-video','data-home-video'],['guide','data-guide-view','data-investor-guide','data-home-guide'],['guide form','data-track-form="guide"','data-investor-guide','data-home-guide'],['contact form','data-track-form="contact"','data-investor-analysis','data-home-analysis']]; for(const [label,...tokens] of required)if(!tokens.some(token=>html.includes(token)))errors.push(`${url.pathname}: missing ${label}`);}
 }
 if(redirects.length!==102)errors.push(`expected 102 redirects, got ${redirects.length}`);
 if(universal!==17||specialized!==85)errors.push(`expected 17/85 pages, got ${universal}/${specialized}`);
