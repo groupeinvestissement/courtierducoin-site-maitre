@@ -1,9 +1,0 @@
-const page=document.body.dataset.campaign||'universal';
-const context={region:'vaudreuil-soulanges',page_type:page==='universal'?'universal':'specialized',campaign_type:page,campaign_code:document.body.dataset.code||'universal',device:innerWidth<650?'mobile':'desktop'};
-window.dataLayer=window.dataLayer||[];
-const track=(event,extra={})=>window.dataLayer.push({event,...context,...extra});
-const params=new URLSearchParams(location.search),keys=['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid'];
-keys.forEach(k=>{if(params.get(k))sessionStorage.setItem(k,params.get(k))});
-document.querySelectorAll('[data-event]').forEach(el=>el.addEventListener('click',()=>track(el.dataset.event)));
-document.querySelectorAll('[data-video]').forEach(el=>el.addEventListener('click',()=>track('video_start'),{once:true}));
-document.querySelectorAll('form').forEach(form=>{keys.forEach(k=>{const input=document.createElement('input');input.type='hidden';input.name=k;input.value=params.get(k)||sessionStorage.getItem(k)||'';form.append(input)});form.addEventListener('submit',async e=>{e.preventDefault();const phone=form.querySelector('[name="telephone"]')?.value.trim(),email=form.querySelector('[name="courriel"]')?.value.trim(),status=form.querySelector('.form-status');if(!phone&&!email){status.textContent='Ajoutez au moins un téléphone ou un courriel.';return}status.textContent='Envoi en cours…';try{const response=await fetch(form.action,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});if(!response.ok)throw new Error();status.textContent='Merci. Votre demande a bien été transmise.';track(form.dataset.trackForm==='guide'?'guide_request':'valuation_submit')}catch{status.textContent='L’envoi n’a pas fonctionné. Appelez Pierre au 514 216-4013.'}})});
