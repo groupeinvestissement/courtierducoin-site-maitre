@@ -27,7 +27,7 @@ for (const [file,title,canonical,expectedKeys] of pages) {
   if (!html.includes('Vaudreuil-Soulanges') || (html.match(/<h1>/g)||[]).length !== 1) throw new Error(`${file}: contenu local ou H1 invalide`);
   const body = html.match(/<body[\s\S]*<\/body>/)?.[0] || '';
   const visible = body.replace(/<[^>]+>/g,' ');
-  if (/Rosemont|Masson|Angus/.test(visible)) throw new Error(`${file}: fuite Rosemont`);
+  if (/Rosemont|Masson|Angus|Ville de Vaudreuil-Soulanges/.test(visible) || /montreal\.ca/.test(html)) throw new Error(`${file}: fuite locale`);
   if (!html.includes('/vaudreuil-master.css') || !html.includes('/vaudreuil-master.js')) throw new Error(`${file}: master commun absent`);
   const formKeys = [...html.matchAll(/data-source-key="([^"]+)"/g)].map((m)=>m[1]);
   if (JSON.stringify(formKeys) !== JSON.stringify(expectedKeys)) throw new Error(`${file}: source keys invalides`);
