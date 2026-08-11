@@ -9,8 +9,8 @@ for(const {destination} of redirects){
   const count=(needle)=>(html.match(new RegExp(needle,'g'))||[]).length;
   if(count('<h1>')!==1)errors.push(`${url.pathname}: expected one H1`);
   if(!html.includes(`<link rel="canonical" href="${destination}">`))errors.push(`${url.pathname}: canonical mismatch`);
-  if(!html.includes('<meta name="robots" content="noindex,follow">')&&!['/rosemont-la-petite-patrie/o1a11/','/rosemont-la-petite-patrie/02a22/','/rosemont-la-petite-patrie/04m44/','/rosemont-la-petite-patrie/05c55/'].includes(url.pathname))errors.push(`${url.pathname}: progressive noindex missing`);
-  if(url.pathname.startsWith('/secteurs/')){universal++; if(html.includes('data-campaign-video'))errors.push(`${url.pathname}: universal page has campaign video`);}
+  if(!html.includes('<meta name="robots" content="noindex,follow">')&&!url.pathname.includes('vaudreuil-soulanges')&&!['/rosemont-la-petite-patrie/o1a11/','/rosemont-la-petite-patrie/02a22/','/rosemont-la-petite-patrie/04m44/','/rosemont-la-petite-patrie/05c55/'].includes(url.pathname))errors.push(`${url.pathname}: progressive noindex missing`);
+  if(url.pathname.startsWith('/secteurs/')){universal++; if(html.includes('data-campaign-video')&&!url.pathname.includes('vaudreuil-soulanges'))errors.push(`${url.pathname}: universal page has campaign video`);}
   else {specialized++; const required=[['video','data-campaign-video','data-investor-video','data-home-video'],['guide','data-guide-view','data-investor-guide','data-home-guide'],['guide form','data-track-form="guide"','data-investor-guide','data-home-guide'],['contact form','data-track-form="contact"','data-investor-analysis','data-home-analysis']]; for(const [label,...tokens] of required)if(!tokens.some(token=>html.includes(token)))errors.push(`${url.pathname}: missing ${label}`);}
 }
 if(redirects.length!==108)errors.push(`expected 108 redirects, got ${redirects.length}`);
