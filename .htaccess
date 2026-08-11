@@ -4,9 +4,9 @@ RewriteEngine On
 # Les sous-domaines de campagne restent dans leur secteur.
 # Le premier groupe couvre l'accueil universel, le second les cinq codes neutres.
 RewriteCond %{HTTP_HOST} ^vaudreuil-soulanges\.courtierducoin\.ca$ [NC]
-RewriteRule ^$ https://www.courtierducoin.ca/secteurs/vaudreuil-soulanges/ [R=301,L,NE]
+RewriteRule ^$ https://www.courtierducoin.ca/secteurs/vaudreuil-soulanges/?entry=vs-universal [R=301,L,NE,QSA]
 RewriteCond %{HTTP_HOST} ^vaudreuil-soulanges\.courtierducoin\.ca$ [NC]
-RewriteRule ^(o1a11|02a22|03i33|04m44|05c55)/?$ https://www.courtierducoin.ca/vaudreuil-soulanges/$1/ [R=301,L,NE]
+RewriteRule ^(o1a11|02a22|03i33|04m44|05c55)/?$ https://www.courtierducoin.ca/vaudreuil-soulanges/$1/?entry=vs-$1 [R=301,L,NE,QSA]
 RewriteCond %{HTTP_HOST} ^sud-ouest\.courtierducoin\.ca$ [NC]
 RewriteRule ^$ https://www.courtierducoin.ca/secteurs/le-sud-ouest/ [R=301,L]
 RewriteCond %{HTTP_HOST} ^sud-ouest\.courtierducoin\.ca$ [NC]

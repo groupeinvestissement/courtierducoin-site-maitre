@@ -1,0 +1,110 @@
+[
+  {
+    "report": "accompagnement-desktop.json",
+    "performance": 100,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.8 s",
+    "cls": "0"
+  },
+  {
+    "report": "accompagnement-mobile.json",
+    "performance": 90,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "3.5 s",
+    "cls": "0"
+  },
+  {
+    "report": "condo-desktop.json",
+    "performance": 100,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.6 s",
+    "cls": "0"
+  },
+  {
+    "report": "condo-mobile.json",
+    "performance": 95,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "3.0 s",
+    "cls": "0"
+  },
+  {
+    "report": "investisseur-desktop.json",
+    "performance": 100,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.7 s",
+    "cls": "0"
+  },
+  {
+    "report": "investisseur-mobile.json",
+    "performance": 90,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "3.6 s",
+    "cls": "0"
+  },
+  {
+    "report": "maison-desktop.json",
+    "performance": 100,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.7 s",
+    "cls": "0"
+  },
+  {
+    "report": "maison-mobile.json",
+    "performance": 93,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "3.2 s",
+    "cls": "0"
+  },
+  {
+    "report": "options-desktop.json",
+    "performance": 100,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.8 s",
+    "cls": "0"
+  },
+  {
+    "report": "options-mobile.json",
+    "performance": 88,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "3.5 s",
+    "cls": "0"
+  },
+  {
+    "report": "universal-desktop.json",
+    "performance": 100,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "0.7 s",
+    "cls": "0"
+  },
+  {
+    "report": "universal-mobile.json",
+    "performance": 94,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "3.1 s",
+    "cls": "0.043"
+  }
+]

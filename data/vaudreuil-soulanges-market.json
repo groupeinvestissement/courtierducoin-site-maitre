@@ -1,0 +1,11 @@
+{
+  "verifiedAt": "2026-08-11",
+  "period": "T2 2026",
+  "sourceName": "Centris",
+  "sourceUrl": "https://www.centris.ca/fr/outils/statistiques-immobilieres/vaudreuil-soulanges",
+  "geographicScope": {"type": "Secteur statistique Centris", "municipalityCount": 14, "mrcMunicipalityCount": 23},
+  "residential": {"quarter": {"sales": 567, "newListings": 1004, "activeListings": 914}, "rolling4Q": {"sales": 2082, "newListings": 3286, "activeListings": 838}},
+  "singleFamily": {"quarter": {"sales": 417, "activeListings": 636, "medianPrice": 629000, "avgDaysOnMarket": 37}, "rolling4Q": {"sales": 1467, "activeListings": 560, "medianPrice": 625000, "avgDaysOnMarket": 43}},
+  "condo": {"quarter": {"sales": 136, "activeListings": 244, "medianPrice": 382223, "avgDaysOnMarket": 60}, "rolling4Q": {"sales": 538, "activeListings": 237, "medianPrice": 372368, "avgDaysOnMarket": 64}},
+  "plex2to5": {"quarter": {"sales": 13, "activeListings": 23, "medianPrice": null, "avgDaysOnMarket": null, "insufficientVolume": true}, "rolling4Q": {"sales": 64, "activeListings": 29, "medianPrice": 714625, "avgDaysOnMarket": 79}}
+}
