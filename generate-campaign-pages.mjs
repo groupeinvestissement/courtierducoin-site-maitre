@@ -10,6 +10,7 @@ const sectors = [
   ['Mercier / Hochelaga-Maisonneuve','mercier-hochelaga-maisonneuve','mercier-hochelaga','Mercier, Hochelaga et Maisonneuve','maisons, condos, duplex et triplex'],
   ['Centre-Ville de Laval','centre-ville-de-laval','laval-centre','Chomedey, Laval-des-Rapides et Pont-Viau','condos, maisons et immeubles à revenus'],
   ['Rosemont / La Petite-Patrie','rosemont-la-petite-patrie','rosemont','Rosemont, La Petite-Patrie et le secteur Masson','duplex, triplex, condos et maisons'],
+  ['Vaudreuil-Soulanges','vaudreuil-soulanges','vaudreuil-soulanges','Vaudreuil-Dorion, L\u2019\u00cele-Perrot, Saint-Lazare, Hudson et Soulanges Sud','maisons, condos, maisons de ville et immeubles \u00e0 revenus'],
   ['Anjou / Saint-Léonard','anjou-saint-leonard','anjou-saint-leonard','Anjou et Saint-Léonard','bungalows, maisons, condos et plex'],
   ['Villeray / Saint-Michel / Parc-Extension','villeray-saint-michel-parc-extension','villeray','Villeray, Saint-Michel et Parc-Extension','plex, maisons et condos'],
   ['Lachine / LaSalle','lachine-lasalle','lachine-lasalle','Lachine et LaSalle','maisons, condos et immeubles à revenus'],

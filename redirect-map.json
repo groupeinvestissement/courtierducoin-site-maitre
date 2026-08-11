@@ -120,6 +120,36 @@
     "status": 301
   },
   {
+    "entry": "https://vaudreuil-soulanges.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/vaudreuil-soulanges/",
+    "status": 301
+  },
+  {
+    "entry": "https://vaudreuil-soulanges.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/vaudreuil-soulanges/o1a11/",
+    "status": 301
+  },
+  {
+    "entry": "https://vaudreuil-soulanges.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/vaudreuil-soulanges/02a22/",
+    "status": 301
+  },
+  {
+    "entry": "https://vaudreuil-soulanges.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/vaudreuil-soulanges/03i33/",
+    "status": 301
+  },
+  {
+    "entry": "https://vaudreuil-soulanges.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/vaudreuil-soulanges/04m44/",
+    "status": 301
+  },
+  {
+    "entry": "https://vaudreuil-soulanges.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/vaudreuil-soulanges/05c55/",
+    "status": 301
+  },
+  {
     "entry": "https://anjou-saint-leonard.courtierducoin.ca/",
     "destination": "https://www.courtierducoin.ca/secteurs/anjou-saint-leonard/",
     "status": 301

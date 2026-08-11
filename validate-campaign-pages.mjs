@@ -13,9 +13,9 @@ for(const {destination} of redirects){
   if(url.pathname.startsWith('/secteurs/')){universal++; if(html.includes('data-campaign-video'))errors.push(`${url.pathname}: universal page has campaign video`);}
   else {specialized++; const required=[['video','data-campaign-video','data-investor-video','data-home-video'],['guide','data-guide-view','data-investor-guide','data-home-guide'],['guide form','data-track-form="guide"','data-investor-guide','data-home-guide'],['contact form','data-track-form="contact"','data-investor-analysis','data-home-analysis']]; for(const [label,...tokens] of required)if(!tokens.some(token=>html.includes(token)))errors.push(`${url.pathname}: missing ${label}`);}
 }
-if(redirects.length!==102)errors.push(`expected 102 redirects, got ${redirects.length}`);
-if(universal!==17||specialized!==85)errors.push(`expected 17/85 pages, got ${universal}/${specialized}`);
+if(redirects.length!==108)errors.push(`expected 108 redirects, got ${redirects.length}`);
+if(universal!==18||specialized!==90)errors.push(`expected 18/90 pages, got ${universal}/${specialized}`);
 const sitemap=await readFile(join(root,'sitemap.xml'),'utf8');
-if((sitemap.match(/<url>/g)||[]).length!==108)errors.push('sitemap must contain home + 102 canonical pages + 5 English pages');
+if((sitemap.match(/<url>/g)||[]).length!==114)errors.push('sitemap must contain home + 108 canonical pages + 5 English pages');
 if(errors.length){console.error(errors.join('\n'));process.exit(1)}
 console.log(`QA passed: ${universal} universal pages, ${specialized} specialized pages, ${redirects.length} redirects, exact canonicals, one H1, progressive noindex, video, guide and forms.`);
