@@ -141,6 +141,14 @@ function createBiginDeal(array $lead): void {
         $contactId = $contact['data'][0]['details']['id'] ?? null;
     }
     if (!$contactId) throw new RuntimeException('Contact Bigin non créé.');
+    try {
+        biginRequest($apiBase . '/Contacts/' . rawurlencode((string)$contactId), 'PUT', $headers, ['data' => [[
+            'Lead_Source' => 'Site web - Courtier du Coin',
+        ]]]);
+    } catch (Throwable $leadSourceError) {
+        // La provenance complète demeure dans Description et dans chaque opportunité.
+        error_log('Bigin Lead_Source mapping unavailable [' . $lead['submission_id'] . ']');
+    }
     $subPipeline = $lead['projet'] === 'Acheter' ? 'COURTAGE-ACHETEUR' : 'COURTAGE-VENDEUR';
     $dealPrefix = $source ? "[WEB][VS][{$source['code']}][{$source['page']}]" : '[WEB][CDC]';
     biginRequest($apiBase . '/Pipelines', 'POST', $headers, ['data' => [[
