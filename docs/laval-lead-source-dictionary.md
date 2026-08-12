@@ -18,3 +18,7 @@ Le serveur est la source d’autorité. Les valeurs `region`, `page`, `code`, `t
 | `/laval/05c55/` | Condo | 05c55 | laval-condo-analysis | Analyse condo | Courtier du Coin > Laval > Condo > Analyse condo |
 
 Valeurs communes : `Lead Source = Site web - Courtier du Coin`, `Web Region = Laval`, préfixe de notification et d’opportunité `[WEB][LAV]`.
+
+## Versions anglaises
+
+Les routes `/en/secteurs/laval/` et `/en/laval/{code}/` réutilisent les mêmes 12 Form IDs autoritaires afin de conserver exactement la page, le code de campagne et le type de demande. Elles transmettent `langue = English`; cette valeur est conservée dans la description CRM et la notification. Les URLs de landing et de dernière interaction permettent aussi d’identifier la route anglaise utilisée.

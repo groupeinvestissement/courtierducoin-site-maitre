@@ -1,4 +1,14 @@
 (() => {
+  const isEnglish = document.documentElement.lang.toLowerCase().startsWith('en');
+  const t = {
+    contactRequired: isEnglish ? 'Add at least a phone number or an email address.' : 'Ajoutez au moins un téléphone ou un courriel.',
+    sending: isEnglish ? 'Sending…' : 'Envoi en cours…',
+    success: isEnglish ? 'Thank you. Your request has been sent.' : 'Merci. Votre demande a bien été transmise.',
+    error: isEnglish ? 'Your request could not be sent. Please try again, or call or text Pierre at 514 216-4013.' : 'Votre demande n’a pas pu être envoyée. Vous pouvez réessayer ou appeler ou texter Pierre au 514 216-4013.',
+    unavailable: isEnglish ? 'Not published' : 'Non publié',
+    days: isEnglish ? 'days' : 'jours',
+    dataUnavailable: isEnglish ? 'Data temporarily unavailable' : 'Donnée temporairement indisponible'
+  };
   const forms = [...document.querySelectorAll('form[action="/api/contact.php"]')];
   const params = new URLSearchParams(location.search);
   const campaignKeys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid'];
@@ -73,17 +83,17 @@
       const status = form.querySelector('.form-status');
       const phone = form.elements.telephone?.value?.trim();
       const email = form.elements.courriel?.value?.trim();
-      if (!phone && !email) { status.textContent = 'Ajoutez au moins un téléphone ou un courriel.'; status.className = 'form-status error'; return; }
+      if (!phone && !email) { status.textContent = t.contactRequired; status.className = 'form-status error'; return; }
       const button = form.querySelector('button[type="submit"]');
-      button.disabled = true; button.setAttribute('aria-busy', 'true'); status.textContent = 'Envoi en cours…';
+      button.disabled = true; button.setAttribute('aria-busy', 'true'); status.textContent = t.sending;
       try {
         const response = await fetch(form.action, {method:'POST', body:new FormData(form), headers:{Accept:'application/json'}});
         const data = await response.json().catch(() => ({}));
         if (!response.ok) throw new Error(data.message || 'Erreur');
-        status.textContent = 'Merci. Votre demande a bien été transmise.'; status.className = 'form-status success';
+        status.textContent = t.success; status.className = 'form-status success';
         track(form.classList.contains('rm-mini-form') ? 'guide_request_success' : 'form_submit_success', form);
       } catch {
-        status.textContent = 'Votre demande n’a pas pu être envoyée. Vous pouvez réessayer ou appeler ou texter Pierre au 514 216-4013.';
+        status.textContent = t.error;
         status.className = 'form-status error'; button.disabled = false; button.removeAttribute('aria-busy'); track('form_submit_error', form);
       }
     });
@@ -98,14 +108,14 @@
   });
   const getPath = (object, path) => path.split('.').reduce((value, key) => value?.[key], object);
   const renderStat = (element, value) => {
-    if (value === null || value === undefined) { element.textContent = 'Non publié'; return; }
-    const formatted = new Intl.NumberFormat('fr-CA').format(value).replace(/\u00a0/g, ' ');
-    element.textContent = element.dataset.format === 'currency' ? `${formatted} $` : element.dataset.format === 'days' ? `${formatted} jours` : formatted;
+    if (value === null || value === undefined) { element.textContent = t.unavailable; return; }
+    const formatted = new Intl.NumberFormat(isEnglish ? 'en-CA' : 'fr-CA').format(value).replace(/\u00a0/g, ' ');
+    element.textContent = element.dataset.format === 'currency' ? (isEnglish ? `$${formatted}` : `${formatted} $`) : element.dataset.format === 'days' ? `${formatted} ${t.days}` : formatted;
   };
   if (document.querySelector('[data-market-stat]')) {
     fetch('/data/laval-market-data.json', {credentials:'same-origin'})
       .then((response) => { if (!response.ok) throw new Error('market'); return response.json(); })
       .then((market) => document.querySelectorAll('[data-market-stat]').forEach((element) => renderStat(element, getPath(market, element.dataset.marketStat))))
-      .catch(() => document.querySelectorAll('[data-market-stat]').forEach((element) => { element.textContent = 'Donnée temporairement indisponible'; }));
+      .catch(() => document.querySelectorAll('[data-market-stat]').forEach((element) => { element.textContent = t.dataUnavailable; }));
   }
 })();

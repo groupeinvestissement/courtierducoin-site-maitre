@@ -120,6 +120,7 @@ function createBiginDeal(array $lead): void {
         'Consentement marketing : ' . ($lead['consent_marketing'] ? 'Oui (' . $lead['consent_marketing_timestamp'] . ')' : 'Non'),
         '',
         'Projet : ' . $lead['projet'],
+        'Langue : ' . $lead['langue'],
         'Préférence de contact : ' . $lead['contact_pref'],
         'Meilleur moment : ' . $lead['moment'],
         'Adresse de la propriété : ' . ($lead['adresse'] ?: 'Non fournie'),
@@ -183,6 +184,8 @@ $courriel = $courrielBrut === '' ? '' : filter_var($courrielBrut, FILTER_VALIDAT
 $telephone = clean('telephone', 30);
 $adresse = clean('adresse', 180);
 $projet = clean('projet', 40);
+$langue = clean('langue', 20);
+if (!in_array($langue, ['Français', 'English'], true)) $langue = 'Français';
 $contactPref = clean('contact_pref', 30);
 $moment = clean('best_time', 80) ?: (clean('sale_timeline', 80) ?: clean('moment', 80));
 $consentRequest = (($_POST['consent_request'] ?? $_POST['consentement'] ?? '') === 'oui');
@@ -204,7 +207,7 @@ foreach ($allowedAnswerFields as $field) {
 }
 $serverTimestamp = gmdate('c');
 $lead = [
-    'prenom'=>$prenom, 'nom'=>$nom, 'courriel'=>(string)$courriel, 'telephone'=>$telephone, 'adresse'=>$adresse, 'projet'=>$projet,
+    'prenom'=>$prenom, 'nom'=>$nom, 'courriel'=>(string)$courriel, 'telephone'=>$telephone, 'adresse'=>$adresse, 'projet'=>$projet, 'langue'=>$langue,
     'contact_pref'=>$contactPref, 'moment'=>$moment, 'region'=>clean('region', 80), 'source_key'=>$sourceKey, 'source'=>$source,
     'submission_id'=>$submissionId, 'landing_url'=>safeUrl('landing_url'), 'canonical_url'=>safeUrl('canonical_url'), 'first_touch_url'=>safeUrl('first_touch_url'), 'last_touch_url'=>safeUrl('last_touch_url'),
     'entry_host'=>safeHost('entry_host'), 'entry_path'=>clean('entry_path', 250), 'first_touch_timestamp'=>clean('first_touch_timestamp', 40), 'last_touch_timestamp'=>$serverTimestamp,
@@ -229,7 +232,7 @@ $type = $source['type'] ?? $projet;
 $webRegion = $source['region'] ?? ($source ? 'Vaudreuil-Soulanges' : ($lead['region'] ?: 'Non précisée'));
 $regionCode = $source['region_code'] ?? ($source ? 'VS' : 'CDC');
 $subject = "[WEB][{$regionCode}][{$code}][{$page}] {$type}";
-$body = "Source : Courtier du Coin\nRégion : {$webRegion}\nPage : {$webPage}\nCode : {$code}\nFormulaire : {$type}\nForm ID : {$sourceKey}\nURL : {$lead['landing_url']}\nUTM : {$lead['utm_source']} / {$lead['utm_medium']} / {$lead['utm_campaign']}\nSubmission ID : {$submissionId}\n\nNom : {$prenom} {$nom}\nCourriel : {$courriel}\nTéléphone : {$telephone}\nAdresse : " . ($adresse ?: 'Non fournie') . "\nRéponses : {$lead['answers']}\n";
+$body = "Source : Courtier du Coin\nRégion : {$webRegion}\nPage : {$webPage}\nCode : {$code}\nFormulaire : {$type}\nForm ID : {$sourceKey}\nLangue : {$langue}\nURL : {$lead['landing_url']}\nUTM : {$lead['utm_source']} / {$lead['utm_medium']} / {$lead['utm_campaign']}\nSubmission ID : {$submissionId}\n\nNom : {$prenom} {$nom}\nCourriel : {$courriel}\nTéléphone : {$telephone}\nAdresse : " . ($adresse ?: 'Non fournie') . "\nRéponses : {$lead['answers']}\n";
 $headers = ['From: Courtier du Coin <contact@courtierducoin.ca>', 'Content-Type: text/plain; charset=UTF-8', 'X-Mailer: PHP/' . phpversion()];
 if ($courriel !== '') $headers[] = 'Reply-To: ' . $courriel;
 if (!mail($to, '=?UTF-8?B?' . base64_encode($subject) . '?=', $body, implode("\r\n", $headers))) error_log('Web notification failed [' . $submissionId . ']');
