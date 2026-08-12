@@ -60,34 +60,112 @@
     "status": 301
   },
   {
+    "entry": "https://laval.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/laval/?entry=laval-universal",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://laval.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/laval/o1a11/?entry=laval-o1a11",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://laval.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/laval/02a22/?entry=laval-02a22",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://laval.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/laval/03i33/?entry=laval-03i33",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://laval.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/laval/04m44/?entry=laval-04m44",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://laval.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/laval/05c55/?entry=laval-05c55",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
     "entry": "https://laval-centre.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/centre-ville-de-laval/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/laval/?entry=laval-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://laval-centre.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/centre-ville-de-laval/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/laval/o1a11/?entry=laval-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://laval-centre.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/centre-ville-de-laval/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/laval/02a22/?entry=laval-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://laval-centre.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/centre-ville-de-laval/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/laval/03i33/?entry=laval-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://laval-centre.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/centre-ville-de-laval/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/laval/04m44/?entry=laval-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://laval-centre.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/centre-ville-de-laval/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/laval/05c55/?entry=laval-05c55",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://centre-laval.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/laval/?entry=laval-universal",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://centre-laval.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/laval/o1a11/?entry=laval-o1a11",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://centre-laval.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/laval/02a22/?entry=laval-02a22",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://centre-laval.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/laval/03i33/?entry=laval-03i33",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://centre-laval.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/laval/04m44/?entry=laval-04m44",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://centre-laval.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/laval/05c55/?entry=laval-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://rosemont.courtierducoin.ca/",

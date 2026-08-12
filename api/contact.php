@@ -20,13 +20,13 @@ function safeUrl(string $key): string {
     $value = clean($key, 1000);
     if ($value === '') return '';
     $parts = parse_url($value);
-    $allowed = ['www.courtierducoin.ca', 'courtierducoin.ca', 'vaudreuil-soulanges.courtierducoin.ca'];
+    $allowed = ['www.courtierducoin.ca', 'courtierducoin.ca', 'vaudreuil-soulanges.courtierducoin.ca', 'laval.courtierducoin.ca', 'laval-centre.courtierducoin.ca', 'centre-laval.courtierducoin.ca'];
     return is_array($parts) && in_array(strtolower((string)($parts['host'] ?? '')), $allowed, true) ? $value : '';
 }
 
 function safeHost(string $key): string {
     $value = strtolower(clean($key, 120));
-    $allowed = ['www.courtierducoin.ca', 'courtierducoin.ca', 'vaudreuil-soulanges.courtierducoin.ca'];
+    $allowed = ['www.courtierducoin.ca', 'courtierducoin.ca', 'vaudreuil-soulanges.courtierducoin.ca', 'laval.courtierducoin.ca', 'laval-centre.courtierducoin.ca', 'centre-laval.courtierducoin.ca'];
     return in_array($value, $allowed, true) ? $value : '';
 }
 
@@ -90,11 +90,13 @@ function createBiginDeal(array $lead): void {
     $source = $lead['source'];
     $webPage = $source['web_page'] ?? $source['page'] ?? 'Formulaire général';
     $sourceDetailType = $source['source_detail_type'] ?? $source['type'] ?? '';
-    $sourceDetail = $source ? "Courtier du Coin > Vaudreuil-Soulanges > {$source['page']} > {$sourceDetailType}" : 'Courtier du Coin > Formulaire général';
+    $webRegion = $source['region'] ?? ($source ? 'Vaudreuil-Soulanges' : ($lead['region'] ?: 'Non précisée'));
+    $regionCode = $source['region_code'] ?? ($source ? 'VS' : 'CDC');
+    $sourceDetail = $source ? "Courtier du Coin > {$webRegion} > {$source['page']} > {$sourceDetailType}" : 'Courtier du Coin > Formulaire général';
     $lines = [
         'Source : Site web - Courtier du Coin',
         'Site : CourtierDuCoin.ca',
-        'Région : ' . ($source ? 'Vaudreuil-Soulanges' : ($lead['region'] ?: 'Non précisée')),
+        'Région : ' . $webRegion,
         'Page : ' . $webPage,
         'Code : ' . ($source['code'] ?? ''),
         'Formulaire : ' . ($source['type'] ?? ''),
@@ -150,7 +152,7 @@ function createBiginDeal(array $lead): void {
         error_log('Bigin Lead_Source mapping unavailable [' . $lead['submission_id'] . ']');
     }
     $subPipeline = $lead['projet'] === 'Acheter' ? 'COURTAGE-ACHETEUR' : 'COURTAGE-VENDEUR';
-    $dealPrefix = $source ? "[WEB][VS][{$source['code']}][{$source['page']}]" : '[WEB][CDC]';
+    $dealPrefix = $source ? "[WEB][{$regionCode}][{$source['code']}][{$source['page']}]" : '[WEB][CDC]';
     biginRequest($apiBase . '/Pipelines', 'POST', $headers, ['data' => [[
         'Deal_Name' => $dealPrefix . ' ' . $lead['prenom'] . ' ' . $lead['nom'], 'Contact_Name' => ['id'=>$contactId], 'Pipeline' => ['name'=>'Sales Pipeline','id'=>'24592000000003237'], 'Sub_Pipeline'=>$subPipeline, 'Stage'=>'Qualification', 'Closing_Date'=>date('Y-m-d', strtotime('+90 days')), 'Description'=>$description,
     ]]]);
@@ -162,6 +164,11 @@ $sourcesFile = __DIR__ . '/web-form-sources.php';
 $sources = is_file($sourcesFile) ? require $sourcesFile : [];
 $sourceKey = clean('source_key', 80);
 $source = $sourceKey !== '' ? ($sources[$sourceKey] ?? null) : null;
+if ($sourceKey === '' && (clean('region', 80) === 'laval' || str_starts_with(clean('canonical_url', 1000), 'https://www.courtierducoin.ca/laval/') || clean('canonical_url', 1000) === 'https://www.courtierducoin.ca/secteurs/laval/')) {
+    http_response_code(422);
+    echo json_encode(['message'=>'Source du formulaire requise.']);
+    exit;
+}
 if ($sourceKey !== '' && $source === null) {
     error_log('Web form rejected: unknown source_key');
     http_response_code(422);
@@ -189,7 +196,7 @@ if ($prenom === '' || $nom === '' || ($courrielBrut !== '' && !$courriel) || ($c
 
 $submissionId = clean('submission_id', 80);
 if (!preg_match('/^[A-Za-z0-9-]{10,80}$/', $submissionId)) $submissionId = bin2hex(random_bytes(16));
-$allowedAnswerFields = ['property_type','house_type','coproperty_type','condo_type','unit_type','unit_count','occupancy_type','occupancy','sale_timeline','next_purchase','major_work_considered','major_work_known','property_features','unit_features','features','condo_documents_status','documents_status','succession_role','succession_stage','people_to_update','remote_coordination_needed','notice_type','municipality','document_date','registration_date_known','situation_stage','gross_revenue_optional','message'];
+$allowedAnswerFields = ['property_type','house_type','coproperty_type','condo_type','unit_type','unit_count','occupancy_type','occupancy','sale_timeline','timeline','next_purchase','major_work_considered','major_work_known','property_features','unit_features','features','condo_documents_status','documents_status','succession_role','succession_stage','people_to_update','remote_coordination_needed','notice_type','municipality','document_date','registration_date_known','situation_stage','gross_revenue_optional','message'];
 $answerPairs = [];
 foreach ($allowedAnswerFields as $field) {
     $value = requestValue($field);
@@ -219,8 +226,10 @@ $code = $source['code'] ?? 'general';
 $page = $source['page'] ?? 'Contact';
 $webPage = $source['web_page'] ?? $page;
 $type = $source['type'] ?? $projet;
-$subject = "[WEB][VS][{$code}][{$page}] {$type}";
-$body = "Source : Courtier du Coin\nRégion : " . ($source ? 'Vaudreuil-Soulanges' : ($lead['region'] ?: 'Non précisée')) . "\nPage : {$webPage}\nCode : {$code}\nFormulaire : {$type}\nForm ID : {$sourceKey}\nURL : {$lead['landing_url']}\nUTM : {$lead['utm_source']} / {$lead['utm_medium']} / {$lead['utm_campaign']}\nSubmission ID : {$submissionId}\n\nNom : {$prenom} {$nom}\nCourriel : {$courriel}\nTéléphone : {$telephone}\nAdresse : " . ($adresse ?: 'Non fournie') . "\nRéponses : {$lead['answers']}\n";
+$webRegion = $source['region'] ?? ($source ? 'Vaudreuil-Soulanges' : ($lead['region'] ?: 'Non précisée'));
+$regionCode = $source['region_code'] ?? ($source ? 'VS' : 'CDC');
+$subject = "[WEB][{$regionCode}][{$code}][{$page}] {$type}";
+$body = "Source : Courtier du Coin\nRégion : {$webRegion}\nPage : {$webPage}\nCode : {$code}\nFormulaire : {$type}\nForm ID : {$sourceKey}\nURL : {$lead['landing_url']}\nUTM : {$lead['utm_source']} / {$lead['utm_medium']} / {$lead['utm_campaign']}\nSubmission ID : {$submissionId}\n\nNom : {$prenom} {$nom}\nCourriel : {$courriel}\nTéléphone : {$telephone}\nAdresse : " . ($adresse ?: 'Non fournie') . "\nRéponses : {$lead['answers']}\n";
 $headers = ['From: Courtier du Coin <contact@courtierducoin.ca>', 'Content-Type: text/plain; charset=UTF-8', 'X-Mailer: PHP/' . phpversion()];
 if ($courriel !== '') $headers[] = 'Reply-To: ' . $courriel;
 if (!mail($to, '=?UTF-8?B?' . base64_encode($subject) . '?=', $body, implode("\r\n", $headers))) error_log('Web notification failed [' . $submissionId . ']');

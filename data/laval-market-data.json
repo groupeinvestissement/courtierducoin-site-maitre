@@ -1,0 +1,152 @@
+{
+  "region": {
+    "key": "laval",
+    "publicName": "Laval",
+    "canonical": "https://www.courtierducoin.ca/secteurs/laval/",
+    "marketingHost": "laval.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "rollingPeriod": "Cumul des 4 derniers trimestres",
+    "accessedAt": "2026-08-11",
+    "geography": "Région statistique Laval publiée par Centris",
+    "granularityNote": "Les données couvrent Laval dans son ensemble. Elles ne décrivent ni un quartier, ni une rue, ni une propriété précise. Aucune médiane de quartiers n’est combinée ou extrapolée."
+  },
+  "residential": {
+    "quarter": {
+      "sales": 1282,
+      "newListings": 1960,
+      "activeListings": 1566,
+      "volumeThousands": 840444
+    },
+    "rolling4Q": {
+      "sales": 4261,
+      "newListings": 6557,
+      "activeListings": 1415,
+      "volumeThousands": 2727609
+    }
+  },
+  "singleFamily": {
+    "quarter": {
+      "sales": 817,
+      "activeListings": 821,
+      "medianPrice": 634000,
+      "avgDaysOnMarket": 30
+    },
+    "rolling4Q": {
+      "sales": 2577,
+      "activeListings": 699,
+      "medianPrice": 622250,
+      "avgDaysOnMarket": 35
+    }
+  },
+  "condo": {
+    "quarter": {
+      "sales": 367,
+      "activeListings": 613,
+      "medianPrice": 428000,
+      "avgDaysOnMarket": 54
+    },
+    "rolling4Q": {
+      "sales": 1351,
+      "activeListings": 591,
+      "medianPrice": 424475,
+      "avgDaysOnMarket": 53
+    }
+  },
+  "plex2to5": {
+    "quarter": {
+      "sales": 98,
+      "activeListings": 129,
+      "medianPrice": 898000,
+      "avgDaysOnMarket": 42
+    },
+    "rolling4Q": {
+      "sales": 332,
+      "activeListings": 119,
+      "medianPrice": 866687,
+      "avgDaysOnMarket": 48
+    }
+  },
+  "microMarkets": [
+    "Auteuil",
+    "Chomedey",
+    "Duvernay",
+    "Fabreville",
+    "Îles-Laval",
+    "Laval-Ouest",
+    "Laval-des-Rapides",
+    "Laval-sur-le-Lac",
+    "Pont-Viau",
+    "Saint-François",
+    "Saint-Vincent-de-Paul",
+    "Sainte-Dorothée",
+    "Sainte-Rose",
+    "Vimont"
+  ],
+  "localContext": {
+    "officialPlaceReferences": [
+      "Parc Bernard-Landry",
+      "Vieux-Sainte-Dorothée",
+      "Vieux-Sainte-Rose",
+      "Centre de la nature",
+      "Montmorency"
+    ],
+    "propertyDiversityNote": "Le territoire lavallois combine des milieux d'après-guerre, des maisons détachées, des secteurs de plex et des pôles de copropriété plus denses. Le type de propriété et le micro-marché doivent être analysés séparément."
+  },
+  "sources": [
+    {
+      "id": "centris-laval-t2-2026",
+      "publisher": "Centris",
+      "title": "Laval — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/laval",
+      "period": "T2 2026 et cumul des 4 derniers trimestres",
+      "accessedAt": "2026-08-11",
+      "supports": [
+        "residential",
+        "singleFamily",
+        "condo",
+        "plex2to5",
+        "microMarkets"
+      ]
+    },
+    {
+      "id": "ville-laval-histoire-fusion",
+      "publisher": "Ville de Laval",
+      "title": "Contexte et histoire de la fusion",
+      "url": "https://www.laval.ca/culture/histoire-patrimoine/creation-laval/contexte-fusion/",
+      "accessedAt": "2026-08-11",
+      "supports": [
+        "historicalMicroMarkets"
+      ]
+    },
+    {
+      "id": "ville-laval-lieux-emblematiques",
+      "publisher": "Ville de Laval",
+      "title": "Lieux emblématiques",
+      "url": "https://www.laval.ca/culture/histoire-patrimoine/patrimoine-lavallois/lieux-emblematiques/",
+      "accessedAt": "2026-08-11",
+      "supports": [
+        "officialPlaceReferences",
+        "visualDirection"
+      ]
+    },
+    {
+      "id": "ville-laval-role-2025-2027",
+      "publisher": "Ville de Laval",
+      "title": "Évaluation foncière — rôle triennal 2025-2027",
+      "url": "https://www.laval.ca/organisation-municipale/salle-presse/communiques-presse/evaluation-fonciere-role-triennal-2025-2027/",
+      "accessedAt": "2026-08-11",
+      "supports": [
+        "residentialContext"
+      ]
+    }
+  ],
+  "rules": {
+    "missingValue": null,
+    "noCombinedMedian": true,
+    "notAnAutomatedValuation": true,
+    "visibleStatisticsMustResolveFromThisFile": true,
+    "sourceFootnoteRule": "Ne pas reproduire la note municipale étrangère affichée au bas de la page Centris; le titre, le filtre et les données consultés sont ceux de Laval."
+  }
+}
