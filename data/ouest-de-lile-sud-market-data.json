@@ -1,0 +1,63 @@
+{
+  "region": {
+    "key": "ouest-ile-sud",
+    "publicName": "Ouest-de-l’Île — Sud",
+    "canonical": "https://www.courtierducoin.ca/secteurs/ouest-de-lile-sud/",
+    "marketingHost": "ouest-ile-sud.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "rollingPeriod": "Cumul des 4 derniers trimestres",
+    "accessedAt": "2026-08-12",
+    "geography": "Pointe-Claire, publiée par Centris",
+    "granularityNote": "Pointe-Claire sert de repère statistique vérifiable pour le sud de l’Ouest-de-l’Île. Ces données ne représentent pas automatiquement Beaconsfield, Dorval, Baie-d’Urfé ou Kirkland et aucune moyenne combinée n’est calculée."
+  },
+  "residential": {
+    "quarter": {"sales": 99, "newListings": 201, "activeListings": 225, "volumeThousands": 76388},
+    "rolling4Q": {"sales": 336, "newListings": 673, "activeListings": 177, "volumeThousands": 258753}
+  },
+  "singleFamily": {
+    "quarter": {"sales": 70, "activeListings": 99, "medianPrice": 747500, "avgDaysOnMarket": 40},
+    "rolling4Q": {"sales": 221, "activeListings": 79, "medianPrice": 751174, "avgDaysOnMarket": 44}
+  },
+  "condo": {
+    "quarter": {"sales": 28, "activeListings": 122, "medianPrice": null, "avgDaysOnMarket": null},
+    "rolling4Q": {"sales": 111, "activeListings": 94, "medianPrice": 575494, "avgDaysOnMarket": 63}
+  },
+  "plex2to5": {
+    "quarter": {"sales": 1, "activeListings": 3, "medianPrice": null, "avgDaysOnMarket": null},
+    "rolling4Q": {"sales": 4, "activeListings": 2, "medianPrice": null, "avgDaysOnMarket": null}
+  },
+  "microMarkets": ["Pointe-Claire Village", "Valois Village", "Cedar Park", "Bowling Green", "Terra-Cotta", "Lakeshore"],
+  "localContext": {
+    "propertyDiversityNote": "Le sud de l’Ouest-de-l’Île réunit des maisons établies, des secteurs riverains, des copropriétés et quelques petits immeubles à revenus. La municipalité, la proximité du lac, l’âge du bâtiment, le terrain et le micro-marché doivent rester séparés dans l’analyse."
+  },
+  "sources": [
+    {
+      "id": "centris-pointe-claire-t2-2026",
+      "publisher": "Centris",
+      "title": "Pointe-Claire — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/province-de-quebec/pointe-claire",
+      "period": "T2 2026 et cumul des 4 derniers trimestres",
+      "accessedAt": "2026-08-12",
+      "supports": ["residential", "singleFamily", "condo", "plex2to5"]
+    },
+    {
+      "id": "pointe-claire-city-profile",
+      "publisher": "Ville de Pointe-Claire",
+      "title": "Portrait de la ville de Pointe-Claire",
+      "url": "https://www.pointe-claire.ca/histoire-et-patrimoine/portrait-de-pointe-claire/portrait-de-la-ville-de-pointe-claire",
+      "accessedAt": "2026-08-12",
+      "supports": ["visualDirection", "localContext"]
+    },
+    {
+      "id": "pointe-claire-places-sectors",
+      "publisher": "Ville de Pointe-Claire",
+      "title": "Lieux et secteurs de Pointe-Claire",
+      "url": "https://www.pointe-claire.ca/territoire-et-urbanisme/lieux-et-secteurs-de-pointe-claire",
+      "accessedAt": "2026-08-12",
+      "supports": ["microMarkets", "visualDirection", "localContext"]
+    }
+  ],
+  "rules": {"missingValue": null, "noCombinedMedian": true, "notAnAutomatedValuation": true, "visibleStatisticsMustResolveFromThisFile": true}
+}

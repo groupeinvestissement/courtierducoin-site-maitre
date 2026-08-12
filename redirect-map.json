@@ -403,33 +403,39 @@
   },
   {
     "entry": "https://ouest-ile-sud.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/ouest-de-lile-sud/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/ouest-de-lile-sud/?entry=ouestsud-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-sud.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/o1a11/?entry=ouestsud-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-sud.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/02a22/?entry=ouestsud-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-sud.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/03i33/?entry=ouestsud-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-sud.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/04m44/?entry=ouestsud-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-sud.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-sud/05c55/?entry=ouestsud-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://saint-laurent.courtierducoin.ca/",
