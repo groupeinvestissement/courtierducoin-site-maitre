@@ -1,0 +1,15 @@
+{
+  "region": {"key":"mercier-hochelaga-maisonneuve","publicName":"Mercier–Hochelaga-Maisonneuve","canonical":"https://www.courtierducoin.ca/secteurs/mercier-hochelaga-maisonneuve/","marketingHost":"mercier-hochelaga.courtierducoin.ca"},
+  "snapshot": {"period":"T2 2026","rollingPeriod":"Cumul des 4 derniers trimestres","accessedAt":"2026-08-12","geography":"Montréal (Mercier/Hochelaga-Maisonneuve), publiée par Centris","granularityNote":"Les données couvrent l’ensemble de l’arrondissement et ne décrivent ni une rue ni une propriété précise."},
+  "residential": {"quarter":{"sales":358,"newListings":620,"activeListings":543,"volumeThousands":216745},"rolling4Q":{"sales":1296,"newListings":2127,"activeListings":474,"volumeThousands":781223}},
+  "singleFamily": {"quarter":{"sales":46,"activeListings":45,"medianPrice":628000,"avgDaysOnMarket":31},"rolling4Q":{"sales":161,"activeListings":42,"medianPrice":619375,"avgDaysOnMarket":35}},
+  "condo": {"quarter":{"sales":200,"activeListings":296,"medianPrice":428250,"avgDaysOnMarket":36},"rolling4Q":{"sales":710,"activeListings":254,"medianPrice":428875,"avgDaysOnMarket":37}},
+  "plex2to5": {"quarter":{"sales":112,"activeListings":201,"medianPrice":850000,"avgDaysOnMarket":41},"rolling4Q":{"sales":425,"activeListings":177,"medianPrice":823500,"avgDaysOnMarket":47}},
+  "microMarkets": ["Hochelaga-Maisonneuve","Mercier-Est","Mercier-Ouest","Tétraultville","Longue-Pointe","Louis-Riel"],
+  "localContext": {"propertyDiversityNote":"MHM réunit Hochelaga-Maisonneuve, Mercier-Est et Mercier-Ouest. Le patrimoine ouvrier et architectural, les rues de plex, les maisons plus détachées de Mercier et les insertions contemporaines exigent des comparables adaptés au quartier et à la typologie."},
+  "sources": [
+    {"id":"centris-mhm-t2-2026","publisher":"Centris","title":"Montréal (Mercier/Hochelaga-Maisonneuve) — statistiques immobilières","url":"https://www.centris.ca/fr/outils/statistiques-immobilieres/province-de-quebec/montreal-mercier-hochelaga-maisonneuve","period":"T2 2026 et cumul des 4 derniers trimestres","accessedAt":"2026-08-12","supports":["residential","singleFamily","condo","plex2to5"]},
+    {"id":"montreal-mhm-profile","publisher":"Ville de Montréal","title":"Découvrez Mercier–Hochelaga-Maisonneuve","url":"https://montreal.ca/apropos/mercier-hochelaga-maisonneuve","accessedAt":"2026-08-12","supports":["microMarkets","visualDirection","localContext"]}
+  ],
+  "rules": {"missingValue":null,"noCombinedMedian":true,"notAnAutomatedValuation":true,"visibleStatisticsMustResolveFromThisFile":true}
+}

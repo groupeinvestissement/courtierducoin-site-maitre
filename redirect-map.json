@@ -37,33 +37,39 @@
   },
   {
     "entry": "https://mercier-hochelaga.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/mercier-hochelaga-maisonneuve/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/mercier-hochelaga-maisonneuve/?entry=mhm-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://mercier-hochelaga.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/o1a11/?entry=mhm-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://mercier-hochelaga.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/02a22/?entry=mhm-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://mercier-hochelaga.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/03i33/?entry=mhm-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://mercier-hochelaga.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/04m44/?entry=mhm-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://mercier-hochelaga.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/mercier-hochelaga-maisonneuve/05c55/?entry=mhm-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://laval.courtierducoin.ca/",
