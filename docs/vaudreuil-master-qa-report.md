@@ -30,24 +30,26 @@ Portée : 6 pages, 12 formulaires, ordinateur et mobile.
 
 ## C. Provenance CRM
 
-La table complète est dans `docs/web-lead-source-dictionary.md`. Chaque soumission contient une clé unique validée côté serveur. Le serveur injecte la région, la page, le code, le type, la source détaillée, les URL, first/last touch, UTM et les horodatages de consentement. Une nouvelle soumission avec le même courriel ajoute un historique et crée une nouvelle opportunité sans écraser les soumissions précédentes.
+La table complète est dans `docs/web-lead-source-dictionary.md`. Chaque soumission contient une clé unique validée côté serveur. Le serveur injecte la région, la page, le code, le type, la source détaillée, les URL, first/last touch, UTM et les horodatages de consentement. Une nouvelle soumission avec le même courriel ajoute un historique et crée une nouvelle opportunité sans écraser les soumissions précédentes. Le champ Bigin `Lead Source` est également alimenté avec `Site web - Courtier du Coin`.
 
 ## D. Essais des 12 formulaires
 
 | Form ID | Résultat HTTP | Résultat CRM |
 |---|---:|---|
-| `vs-universal-analysis` | À confirmer après publication | À confirmer |
-| `vs-universal-guide` | À confirmer après publication | À confirmer |
-| `vs-options-analysis` | À confirmer après publication | À confirmer |
-| `vs-options-plan-confidentiel` | À confirmer après publication | À confirmer |
-| `vs-accompagnement-analysis` | À confirmer après publication | À confirmer |
-| `vs-accompagnement-checklist` | À confirmer après publication | À confirmer |
-| `vs-investisseur-analysis` | À confirmer après publication | À confirmer |
-| `vs-investisseur-guide` | À confirmer après publication | À confirmer |
-| `vs-maison-analysis` | À confirmer après publication | À confirmer |
-| `vs-maison-guide` | À confirmer après publication | À confirmer |
-| `vs-condo-analysis` | À confirmer après publication | À confirmer |
-| `vs-condo-guide` | À confirmer après publication | À confirmer |
+| `vs-universal-analysis` | 200 — réussi | Opportunité Bigin créée |
+| `vs-universal-guide` | 200 — réussi | Opportunité Bigin créée |
+| `vs-options-analysis` | 200 — réussi | Opportunité Bigin créée |
+| `vs-options-plan-confidentiel` | 200 — réussi | Opportunité Bigin créée |
+| `vs-accompagnement-analysis` | 200 — réussi | Opportunité Bigin créée |
+| `vs-accompagnement-checklist` | 200 — réussi | Opportunité Bigin créée |
+| `vs-investisseur-analysis` | 200 — réussi | Opportunité Bigin créée |
+| `vs-investisseur-guide` | 200 — réussi | Opportunité Bigin créée |
+| `vs-maison-analysis` | 200 — réussi | Opportunité Bigin créée |
+| `vs-maison-guide` | 200 — réussi | Opportunité Bigin créée |
+| `vs-condo-analysis` | 200 — réussi | Opportunité Bigin créée |
+| `vs-condo-guide` | 200 — réussi | Opportunité Bigin créée et provenance confirmée |
+
+Preuve CRM : contact d’essai Bigin `…494370`, 13 opportunités ouvertes après les 12 essais et le retest final du guide Condo. La fiche affiche `Lead Source : Site web - Courtier du Coin` et l’historique confirme la création de l’opportunité.
 
 ## E. Contraste et accessibilité
 
@@ -90,11 +92,11 @@ La note distingue clairement les 14 municipalités du périmètre Centris des 23
 - Données structurées valides : WebPage, BreadcrumbList, Person, Organization, RealEstateAgent et VideoObject.
 - Aucun résidu visible Rosemont/Masson/Angus.
 - Redirections du sous-domaine vers les canoniques avec conservation de l’entrée marketing.
-- Liste Search Console préparée : les 6 URL canoniques ci-dessus.
+- Search Console vérifié sur la propriété de domaine `courtierducoin.ca` : la page Universelle était déjà indexée; les 5 pages spécialisées étaient inconnues de Google et ont toutes été ajoutées à la file d’exploration prioritaire le 11 août 2026. Une nouvelle demande a aussi été envoyée pour la page Universelle afin de faire prendre en compte la version publiée.
 
 ## I. Captures visuelles
 
-30 captures sont dans `qa/vaudreuil-master/screenshots` : pleine page, Hero et formulaire mobile pour chacune des 6 pages. Les 12 rapports Lighthouse sont dans `qa/vaudreuil-master/lighthouse`.
+30 captures sont dans `qa/vaudreuil-master/screenshots` : pleine page, Hero et formulaire mobile pour chacune des 6 pages. La preuve CRM finale est dans `qa/vaudreuil-master/screenshots/crm-bigin-lead-source-proof.png`. Les 12 rapports Lighthouse sont dans `qa/vaudreuil-master/lighthouse`.
 
 ## J. Sources officielles vérifiées
 
@@ -107,5 +109,3 @@ La note distingue clairement les 14 municipalités du périmètre Centris des 23
 ## K. Éléments restant hors code
 
 - Les vidéos définitives demeurent à fournir par le propriétaire; les emplacements et métadonnées sont prêts.
-- La demande d’indexation Search Console exige une session Google autorisée.
-- Les identifiants visuels Bigin seront ajoutés au présent rapport après les 12 essais publics.
