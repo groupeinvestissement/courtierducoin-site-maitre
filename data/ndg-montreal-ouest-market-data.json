@@ -1,0 +1,63 @@
+{
+  "region": {
+    "key": "ndg-montreal-ouest",
+    "publicName": "NDG–Montréal-Ouest",
+    "canonical": "https://www.courtierducoin.ca/secteurs/ndg-montreal-ouest/",
+    "marketingHost": "ndg.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "rollingPeriod": "Cumul des 4 derniers trimestres",
+    "accessedAt": "2026-08-12",
+    "geography": "Montréal (Côte-des-Neiges/Notre-Dame-de-Grâce), publiée par Centris",
+    "granularityNote": "La statistique publique regroupe Côte-des-Neiges et Notre-Dame-de-Grâce. Elle ne permet pas d'isoler NDG et ne comprend pas Montréal-Ouest. Les données de Montréal-Ouest ne sont pas fusionnées, car plusieurs résultats y sont masqués lorsque le nombre de transactions est insuffisant."
+  },
+  "residential": {
+    "quarter": {"sales": 262, "newListings": 537, "activeListings": 617, "volumeThousands": 237615},
+    "rolling4Q": {"sales": 851, "newListings": 1782, "activeListings": 528, "volumeThousands": 757942}
+  },
+  "singleFamily": {
+    "quarter": {"sales": 67, "activeListings": 108, "medianPrice": 1275000, "avgDaysOnMarket": 35},
+    "rolling4Q": {"sales": 213, "activeListings": 90, "medianPrice": 1247000, "avgDaysOnMarket": 48}
+  },
+  "condo": {
+    "quarter": {"sales": 153, "activeListings": 393, "medianPrice": 540000, "avgDaysOnMarket": 47},
+    "rolling4Q": {"sales": 460, "activeListings": 328, "medianPrice": 538625, "avgDaysOnMarket": 58}
+  },
+  "plex2to5": {
+    "quarter": {"sales": 42, "activeListings": 116, "medianPrice": 979444, "avgDaysOnMarket": 55},
+    "rolling4Q": {"sales": 178, "activeListings": 109, "medianPrice": 936611, "avgDaysOnMarket": 66}
+  },
+  "microMarkets": ["Notre-Dame-de-Grâce", "Village Monkland", "Loyola", "Benny Farm", "Westhaven", "Montréal-Ouest"],
+  "localContext": {
+    "propertyDiversityNote": "NDG réunit des rues de duplex et triplex en brique, des maisons avec grandes galeries, des secteurs familiaux établis et des copropriétés intégrées au tissu urbain. Montréal-Ouest ajoute un milieu de banlieue-jardin aux rues arborées et aux maisons unifamiliales. Les comparables doivent respecter la municipalité, le micro-marché et la typologie."
+  },
+  "sources": [
+    {
+      "id": "centris-cdn-ndg-t2-2026",
+      "publisher": "Centris",
+      "title": "Montréal (Côte-des-Neiges/Notre-Dame-de-Grâce) — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/province-de-quebec/montreal-cote-des-neiges-notre-dame-de-grace",
+      "period": "T2 2026 et cumul des 4 derniers trimestres",
+      "accessedAt": "2026-08-12",
+      "supports": ["residential", "singleFamily", "condo", "plex2to5"]
+    },
+    {
+      "id": "montreal-cdn-ndg-profile",
+      "publisher": "Ville de Montréal",
+      "title": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+      "url": "https://montreal.ca/apropos/cote-des-neiges-notre-dame-de-grace",
+      "accessedAt": "2026-08-12",
+      "supports": ["microMarkets", "visualDirection", "localContext"]
+    },
+    {
+      "id": "montreal-west-profile",
+      "publisher": "Ville de Montréal-Ouest",
+      "title": "Profil et histoire de Montréal-Ouest",
+      "url": "https://montreal-ouest.ca/fr/notre-ville/profil-et-histoire/",
+      "accessedAt": "2026-08-12",
+      "supports": ["microMarkets", "visualDirection", "localContext"]
+    }
+  ],
+  "rules": {"missingValue": null, "noCombinedMedian": true, "notAnAutomatedValuation": true, "visibleStatisticsMustResolveFromThisFile": true}
+}

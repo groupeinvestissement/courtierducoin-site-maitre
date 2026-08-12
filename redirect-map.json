@@ -457,33 +457,39 @@
   },
   {
     "entry": "https://ndg.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/ndg-montreal-ouest/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/ndg-montreal-ouest/?entry=ndg-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ndg.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/o1a11/?entry=ndg-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ndg.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/02a22/?entry=ndg-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ndg.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/03i33/?entry=ndg-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ndg.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/04m44/?entry=ndg-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ndg.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ndg-montreal-ouest/05c55/?entry=ndg-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ile-des-soeurs.courtierducoin.ca/",
