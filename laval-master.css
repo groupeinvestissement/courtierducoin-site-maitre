@@ -28,6 +28,10 @@
 .laval-page .source{color:var(--cdc-text-secondary)}.laval-page .source a{color:#333;font-weight:800}
 .laval-page .rm-mini-form button,.laval-page .progress-form button{min-height:48px}
 .laval-page .rm-section h2{overflow-wrap:break-word}
+.laval-page .process .card-grid article{background:#fff;color:#111;border-top-color:#d40000}
+.laval-page .process .card-grid article>span{color:#b70000}
+.laval-page .process .card-grid article h3{color:#111}
+.laval-page .process .card-grid article p{color:#444}
 @media(max-width:1100px){.laval-page .rm-hero{grid-template-columns:1fr}.laval-page .local-proof{grid-template-columns:1fr}}
 @media(max-width:1100px){.laval-page .rm-header nav.is-open{position:absolute;z-index:40;display:grid;top:72px;left:0;right:0;padding:1.2rem;background:var(--cdc-dark);box-shadow:0 12px 25px rgba(0,0,0,.25)}.laval-page .rm-header{position:relative}}
 @media(max-width:650px){.laval-page .rm-hero{min-height:auto}.laval-page .rm-hero-photo{max-width:none}.laval-page .local-proof{grid-template-columns:1fr}.laval-page .rm-mobile{color:#111}.laval-page .rm-mobile a:last-child{color:#fff}}
