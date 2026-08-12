@@ -628,5 +628,41 @@
     "entry": "https://centre.courtierducoin.ca/05c55",
     "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/05c55/",
     "status": 301
+  },
+  {
+    "entry": "https://longueuil.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/longueuil/?entry=longueuil-universal",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://longueuil.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/longueuil/o1a11/?entry=longueuil-o1a11",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://longueuil.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/longueuil/02a22/?entry=longueuil-02a22",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://longueuil.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/longueuil/03i33/?entry=longueuil-03i33",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://longueuil.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/longueuil/04m44/?entry=longueuil-04m44",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://longueuil.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/longueuil/05c55/?entry=longueuil-05c55",
+    "status": 301,
+    "preserveQuery": true
   }
 ]

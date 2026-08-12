@@ -20,13 +20,13 @@ function safeUrl(string $key): string {
     $value = clean($key, 1000);
     if ($value === '') return '';
     $parts = parse_url($value);
-    $allowed = ['www.courtierducoin.ca', 'courtierducoin.ca', 'vaudreuil-soulanges.courtierducoin.ca', 'laval.courtierducoin.ca', 'laval-centre.courtierducoin.ca', 'centre-laval.courtierducoin.ca', 'plateau.courtierducoin.ca', 'sud-ouest.courtierducoin.ca'];
+    $allowed = ['www.courtierducoin.ca', 'courtierducoin.ca', 'vaudreuil-soulanges.courtierducoin.ca', 'laval.courtierducoin.ca', 'laval-centre.courtierducoin.ca', 'centre-laval.courtierducoin.ca', 'plateau.courtierducoin.ca', 'sud-ouest.courtierducoin.ca', 'longueuil.courtierducoin.ca'];
     return is_array($parts) && in_array(strtolower((string)($parts['host'] ?? '')), $allowed, true) ? $value : '';
 }
 
 function safeHost(string $key): string {
     $value = strtolower(clean($key, 120));
-    $allowed = ['www.courtierducoin.ca', 'courtierducoin.ca', 'vaudreuil-soulanges.courtierducoin.ca', 'laval.courtierducoin.ca', 'laval-centre.courtierducoin.ca', 'centre-laval.courtierducoin.ca', 'plateau.courtierducoin.ca', 'sud-ouest.courtierducoin.ca'];
+    $allowed = ['www.courtierducoin.ca', 'courtierducoin.ca', 'vaudreuil-soulanges.courtierducoin.ca', 'laval.courtierducoin.ca', 'laval-centre.courtierducoin.ca', 'centre-laval.courtierducoin.ca', 'plateau.courtierducoin.ca', 'sud-ouest.courtierducoin.ca', 'longueuil.courtierducoin.ca'];
     return in_array($value, $allowed, true) ? $value : '';
 }
 
@@ -166,7 +166,7 @@ $sources = is_file($sourcesFile) ? require $sourcesFile : [];
 $sourceKey = clean('source_key', 80);
 $source = $sourceKey !== '' ? ($sources[$sourceKey] ?? null) : null;
 $submittedRegion = clean('region', 80);
-if ($sourceKey === '' && (clean('region', 80) === 'laval' || $submittedRegion === 'le-plateau-mont-royal' || $submittedRegion === 'le-sud-ouest' || str_starts_with(clean('canonical_url', 1000), 'https://www.courtierducoin.ca/laval/') || clean('canonical_url', 1000) === 'https://www.courtierducoin.ca/secteurs/laval/' || str_starts_with(clean('canonical_url', 1000), 'https://www.courtierducoin.ca/le-plateau-mont-royal/') || clean('canonical_url', 1000) === 'https://www.courtierducoin.ca/secteurs/le-plateau-mont-royal/' || str_starts_with(clean('canonical_url', 1000), 'https://www.courtierducoin.ca/le-sud-ouest/') || clean('canonical_url', 1000) === 'https://www.courtierducoin.ca/secteurs/le-sud-ouest/')) {
+if ($sourceKey === '' && (clean('region', 80) === 'laval' || $submittedRegion === 'le-plateau-mont-royal' || $submittedRegion === 'le-sud-ouest' || $submittedRegion === 'longueuil' || str_starts_with(clean('canonical_url', 1000), 'https://www.courtierducoin.ca/laval/') || clean('canonical_url', 1000) === 'https://www.courtierducoin.ca/secteurs/laval/' || str_starts_with(clean('canonical_url', 1000), 'https://www.courtierducoin.ca/le-plateau-mont-royal/') || clean('canonical_url', 1000) === 'https://www.courtierducoin.ca/secteurs/le-plateau-mont-royal/' || str_starts_with(clean('canonical_url', 1000), 'https://www.courtierducoin.ca/le-sud-ouest/') || clean('canonical_url', 1000) === 'https://www.courtierducoin.ca/secteurs/le-sud-ouest/' || str_starts_with(clean('canonical_url', 1000), 'https://www.courtierducoin.ca/longueuil/') || clean('canonical_url', 1000) === 'https://www.courtierducoin.ca/secteurs/longueuil/')) {
     http_response_code(422);
     echo json_encode(['message'=>'Source du formulaire requise.']);
     exit;

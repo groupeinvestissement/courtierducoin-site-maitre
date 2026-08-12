@@ -1,0 +1,60 @@
+{
+  "region": {
+    "key": "longueuil",
+    "publicName": "Longueuil",
+    "canonical": "https://www.courtierducoin.ca/secteurs/longueuil/",
+    "marketingHost": "longueuil.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "rollingPeriod": "Cumul des 4 derniers trimestres",
+    "accessedAt": "2026-08-12",
+    "geography": "Longueuil (Le Vieux-Longueuil), Montérégie, publiée par Centris",
+    "granularityNote": "Centris publie séparément Le Vieux-Longueuil, Saint-Hubert et Greenfield Park. Les chiffres affichés ici couvrent uniquement Le Vieux-Longueuil et ne doivent pas être présentés comme une moyenne de toute la ville."
+  },
+  "residential": {
+    "quarter": {"sales": 439, "newListings": 639, "activeListings": 477, "volumeThousands": 261140},
+    "rolling4Q": {"sales": 1421, "newListings": 2137, "activeListings": 410, "volumeThousands": 854759}
+  },
+  "singleFamily": {
+    "quarter": {"sales": 178, "activeListings": 134, "medianPrice": 628000, "avgDaysOnMarket": 20},
+    "rolling4Q": {"sales": 549, "activeListings": 119, "medianPrice": 617000, "avgDaysOnMarket": 29}
+  },
+  "condo": {
+    "quarter": {"sales": 189, "activeListings": 232, "medianPrice": 385000, "avgDaysOnMarket": 42},
+    "rolling4Q": {"sales": 603, "activeListings": 198, "medianPrice": 383000, "avgDaysOnMarket": 43}
+  },
+  "plex2to5": {
+    "quarter": {"sales": 72, "activeListings": 111, "medianPrice": 853000, "avgDaysOnMarket": 34},
+    "rolling4Q": {"sales": 269, "activeListings": 92, "medianPrice": 835000, "avgDaysOnMarket": 39}
+  },
+  "microMarkets": ["Vieux-Longueuil", "Saint-Hubert", "Greenfield Park", "LeMoyne", "Fatima", "Parcours-du-Cerf"],
+  "localContext": {
+    "propertyDiversityNote": "Longueuil comprend les arrondissements de Greenfield Park, Saint-Hubert et du Vieux-Longueuil. La ville combine patrimoine ancien, patrimoine moderne de banlieue, maisons unifamiliales, copropriétés et plex; chaque analyse doit respecter le secteur et la typologie."
+  },
+  "sources": [
+    {
+      "id": "centris-vieux-longueuil-t2-2026",
+      "publisher": "Centris",
+      "title": "Longueuil (Le Vieux-Longueuil) — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/monteregie/longueuil-le-vieux-longueuil",
+      "period": "T2 2026 et cumul des 4 derniers trimestres",
+      "accessedAt": "2026-08-12",
+      "supports": ["residential", "singleFamily", "condo", "plex2to5"]
+    },
+    {
+      "id": "longueuil-official-context",
+      "publisher": "Ville de Longueuil",
+      "title": "Histoire et aménagement de Longueuil",
+      "url": "https://longueuil.quebec/fr/histoire-de-longueuil",
+      "accessedAt": "2026-08-12",
+      "supports": ["microMarkets", "visualDirection", "localContext"]
+    }
+  ],
+  "rules": {
+    "missingValue": null,
+    "noCombinedCityMedian": true,
+    "notAnAutomatedValuation": true,
+    "visibleStatisticsMustResolveFromThisFile": true
+  }
+}
