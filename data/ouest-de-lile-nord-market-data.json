@@ -1,0 +1,63 @@
+{
+  "region": {
+    "key": "ouest-ile-nord",
+    "publicName": "Ouest-de-l’Île — Nord",
+    "canonical": "https://www.courtierducoin.ca/secteurs/ouest-de-lile-nord/",
+    "marketingHost": "ouest-ile-nord.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "rollingPeriod": "Cumul des 4 derniers trimestres",
+    "accessedAt": "2026-08-12",
+    "geography": "Montréal (Pierrefonds-Roxboro), publiée par Centris",
+    "granularityNote": "Pierrefonds-Roxboro sert de repère statistique vérifiable pour le nord de l’Ouest-de-l’Île. Ces données ne représentent pas automatiquement L’Île-Bizard ou Sainte-Geneviève et aucune moyenne combinée n’est calculée."
+  },
+  "residential": {
+    "quarter": {"sales": 159, "newListings": 319, "activeListings": 275, "volumeThousands": 101951},
+    "rolling4Q": {"sales": 584, "newListings": 1003, "activeListings": 237, "volumeThousands": 375068}
+  },
+  "singleFamily": {
+    "quarter": {"sales": 115, "activeListings": 177, "medianPrice": 656000, "avgDaysOnMarket": 34},
+    "rolling4Q": {"sales": 422, "activeListings": 148, "medianPrice": 649325, "avgDaysOnMarket": 40}
+  },
+  "condo": {
+    "quarter": {"sales": 41, "activeListings": 88, "medianPrice": 375000, "avgDaysOnMarket": 61},
+    "rolling4Q": {"sales": 146, "activeListings": 76, "medianPrice": 380625, "avgDaysOnMarket": 62}
+  },
+  "plex2to5": {
+    "quarter": {"sales": 3, "activeListings": 9, "medianPrice": null, "avgDaysOnMarket": null},
+    "rolling4Q": {"sales": 16, "activeListings": 12, "medianPrice": null, "avgDaysOnMarket": null}
+  },
+  "microMarkets": ["Cap-Saint-Jacques", "Château-Pierrefonds", "Oakwood", "Rive-Boisée", "Roxboro", "À-Ma-Baie"],
+  "localContext": {
+    "propertyDiversityNote": "Pierrefonds-Roxboro réunit des quartiers de maisons unifamiliales, des secteurs riverains, des copropriétés et quelques petits immeubles à revenus. L’Île-Bizard et Sainte-Geneviève ajoutent des contextes naturels et patrimoniaux distincts; la municipalité, le risque riverain, l’âge du bâtiment et le micro-marché doivent rester séparés dans l’analyse."
+  },
+  "sources": [
+    {
+      "id": "centris-pierrefonds-roxboro-t2-2026",
+      "publisher": "Centris",
+      "title": "Montréal (Pierrefonds-Roxboro) — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/province-de-quebec/montreal-pierrefonds-roxboro",
+      "period": "T2 2026 et cumul des 4 derniers trimestres",
+      "accessedAt": "2026-08-12",
+      "supports": ["residential", "singleFamily", "condo", "plex2to5"]
+    },
+    {
+      "id": "montreal-pierrefonds-roxboro-profile",
+      "publisher": "Ville de Montréal",
+      "title": "Pierrefonds-Roxboro",
+      "url": "https://montreal.ca/apropos/pierrefonds-roxboro",
+      "accessedAt": "2026-08-12",
+      "supports": ["microMarkets", "visualDirection", "localContext"]
+    },
+    {
+      "id": "montreal-ile-bizard-ste-genevieve-profile",
+      "publisher": "Ville de Montréal",
+      "title": "L’Île-Bizard–Sainte-Geneviève",
+      "url": "https://montreal.ca/apropos/lile-bizard-sainte-genevieve",
+      "accessedAt": "2026-08-12",
+      "supports": ["visualDirection", "localContext"]
+    }
+  ],
+  "rules": {"missingValue": null, "noCombinedMedian": true, "notAnAutomatedValuation": true, "visibleStatisticsMustResolveFromThisFile": true}
+}

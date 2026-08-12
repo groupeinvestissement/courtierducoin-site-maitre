@@ -331,33 +331,39 @@
   },
   {
     "entry": "https://ouest-ile-nord.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/ouest-de-lile-nord/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/ouest-de-lile-nord/?entry=ouestnord-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-nord.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/o1a11/?entry=ouestnord-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-nord.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/02a22/?entry=ouestnord-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-nord.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/03i33/?entry=ouestnord-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-nord.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/04m44/?entry=ouestnord-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-nord.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ouest-de-lile-nord/05c55/?entry=ouestnord-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://plateau.courtierducoin.ca/",
