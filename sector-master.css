@@ -1,0 +1,27 @@
+@import url('/laval-master.css?v=20260812-bilingual');
+
+/* Couche partagée par les secteurs produits après Laval. */
+.sector-page{--cdc-text-secondary:#555;--cdc-on-dark-secondary:#e0e4e9;--cdc-focus:#ffd54a;overflow-x:hidden}
+.sector-page .rm-header>img,.sector-page .rm-footer img{filter:none!important;background:transparent!important}
+.sector-page .rm-hero{position:relative;isolation:isolate;overflow:hidden;grid-template-columns:minmax(0,1.05fr) minmax(320px,.7fr);min-height:700px}
+.sector-page .rm-hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 75% 20%,rgba(164,189,205,.16),transparent 40%);z-index:-1}
+.sector-page .rm-hero-portrait{align-self:center;height:620px;display:flex;align-items:flex-end;justify-content:center;isolation:isolate}
+.sector-page .rm-hero-portrait:before{content:"";position:absolute;z-index:-1;width:min(100%,520px);aspect-ratio:1;bottom:2.4rem;border-radius:50%;background:radial-gradient(circle at 50% 45%,rgba(255,255,255,.17),rgba(255,255,255,.035) 68%,transparent 69%);border:1px solid rgba(255,255,255,.12)}
+.sector-page .rm-hero-photo.rm-hero-portrait img{width:min(100%,560px);max-height:640px;aspect-ratio:auto;object-fit:contain;object-position:center bottom;border-radius:0;box-shadow:none;filter:drop-shadow(0 24px 32px rgba(0,0,0,.38))}
+.sector-page .rm-hero-portrait>span{left:50%;right:auto;min-width:min(330px,calc(100% - 2rem));transform:translateX(-50%);text-align:center}
+.sector-page .rm-lead,.sector-page .trust-line{color:var(--cdc-on-dark-secondary)}
+.sector-page .property-proof-section{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(360px,.82fr);gap:clamp(2rem,5vw,5rem);align-items:center}
+.sector-page .property-proof-copy{min-width:0}.sector-page .property-proof-copy .intro{max-width:760px}
+.sector-page .property-proof-photo{position:relative;margin:0;overflow:hidden;background:var(--cdc-dark);box-shadow:0 18px 42px rgba(7,19,33,.18)}
+.sector-page .property-proof-photo img{width:100%;aspect-ratio:16/10;display:block;object-fit:cover}
+.sector-page .property-proof-photo figcaption{position:absolute;left:1rem;right:1rem;bottom:1rem;padding:.72rem .9rem;background:rgba(7,19,33,.82);color:#fff;font-size:.78rem;font-weight:850;letter-spacing:.04em}
+.sector-page .property-proof-section>.local-proof{grid-column:1/-1;margin-top:0}
+.sector-page .local-proof{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2.2rem}.sector-page .local-proof article{padding:1.5rem;border:1px solid var(--cdc-border);background:#fff}
+.sector-page .micro-list{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.4rem 0 0;padding:0;list-style:none}.sector-page .micro-list li{padding:.62rem .85rem;border:1px solid var(--cdc-border);background:#fff;font-size:.84rem}
+.sector-page .video-poster{width:100%;height:100%;display:grid;place-content:center;gap:.6rem;text-align:center;color:#fff;background:linear-gradient(rgba(7,19,33,.56),rgba(7,19,33,.78)),var(--video-image) center/cover;border:0}
+.sector-page .video-poster span{display:grid;place-items:center;width:68px;height:68px;margin:auto;border-radius:50%;background:var(--cdc-primary);font-size:1.25rem}
+.sector-page .notice{padding:1rem 1.2rem;border-left:4px solid var(--cdc-primary);background:#f6f3ed}
+.sector-page .process .card-grid article{background:#fff;color:#111;border-top-color:#d40000}.sector-page .process .card-grid article>span{color:#b70000}.sector-page .process .card-grid article h3{color:#111}.sector-page .process .card-grid article p{color:#444}
+.sector-page :focus-visible{outline:3px solid var(--cdc-focus);outline-offset:3px}.sector-page [hidden]{display:none!important}
+@media(max-width:1100px){.sector-page .rm-hero,.sector-page .property-proof-section{grid-template-columns:1fr}.sector-page .property-proof-photo{max-width:760px}.sector-page .local-proof{grid-template-columns:1fr}}
+@media(max-width:650px){.sector-page .rm-hero{min-height:auto}.sector-page .rm-hero-portrait{height:440px}.sector-page .rm-hero-photo.rm-hero-portrait img{max-height:460px}.sector-page .property-proof-photo{width:100%}}

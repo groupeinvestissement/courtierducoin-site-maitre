@@ -1,0 +1,60 @@
+{
+  "region": {
+    "key": "le-plateau-mont-royal",
+    "publicName": "Le Plateau-Mont-Royal",
+    "canonical": "https://www.courtierducoin.ca/secteurs/le-plateau-mont-royal/",
+    "marketingHost": "plateau.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "rollingPeriod": "Cumul des 4 derniers trimestres",
+    "accessedAt": "2026-08-12",
+    "geography": "Montréal (Le Plateau-Mont-Royal), Montréal (Île), publiée par Centris",
+    "granularityNote": "Les données couvrent l'arrondissement du Plateau-Mont-Royal. Elles ne décrivent ni un quartier, ni une rue, ni une propriété précise. Les valeurs masquées par la source demeurent nulles."
+  },
+  "residential": {
+    "quarter": {"sales": 302, "newListings": 598, "activeListings": 572, "volumeThousands": 247731},
+    "rolling4Q": {"sales": 966, "newListings": 1996, "activeListings": 486, "volumeThousands": 779944}
+  },
+  "singleFamily": {
+    "quarter": {"sales": 26, "activeListings": 44, "medianPrice": null, "avgDaysOnMarket": null},
+    "rolling4Q": {"sales": 77, "activeListings": 37, "medianPrice": 1437562, "avgDaysOnMarket": 46}
+  },
+  "condo": {
+    "quarter": {"sales": 226, "activeListings": 352, "medianPrice": 600000, "avgDaysOnMarket": 39},
+    "rolling4Q": {"sales": 704, "activeListings": 293, "medianPrice": 594375, "avgDaysOnMarket": 38}
+  },
+  "plex2to5": {
+    "quarter": {"sales": 50, "activeListings": 175, "medianPrice": 1212500, "avgDaysOnMarket": 47},
+    "rolling4Q": {"sales": 185, "activeListings": 155, "medianPrice": 1136875, "avgDaysOnMarket": 56}
+  },
+  "microMarkets": ["Le Plateau", "Mile End", "Petit Laurier", "Plateau Est", "Milton-Parc", "Saint-Viateur Est"],
+  "localContext": {
+    "propertyDiversityNote": "Le Plateau-Mont-Royal est un tissu urbain dense et mature où les plex de brique, les copropriétés, les maisons de ville et les insertions contemporaines doivent être comparés selon leur micro-marché, leur architecture et leur état documentaire."
+  },
+  "sources": [
+    {
+      "id": "centris-plateau-t2-2026",
+      "publisher": "Centris",
+      "title": "Montréal (Le Plateau-Mont-Royal) — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-le-plateau-mont-royal",
+      "period": "T2 2026 et cumul des 4 derniers trimestres",
+      "accessedAt": "2026-08-12",
+      "supports": ["residential", "singleFamily", "condo", "plex2to5"]
+    },
+    {
+      "id": "montreal-plateau-profile",
+      "publisher": "Ville de Montréal",
+      "title": "Découvrez Le Plateau-Mont-Royal",
+      "url": "https://montreal.ca/apropos/le-plateau-mont-royal",
+      "accessedAt": "2026-08-12",
+      "supports": ["microMarkets", "visualDirection", "localContext"]
+    }
+  ],
+  "rules": {
+    "missingValue": null,
+    "noCombinedMedian": true,
+    "notAnAutomatedValuation": true,
+    "visibleStatisticsMustResolveFromThisFile": true
+  }
+}

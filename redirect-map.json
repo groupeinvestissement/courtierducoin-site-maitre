@@ -349,33 +349,39 @@
   },
   {
     "entry": "https://plateau.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/le-plateau-mont-royal/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/le-plateau-mont-royal/?entry=le-plateau-mont-royal-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://plateau.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/o1a11/?entry=le-plateau-mont-royal-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://plateau.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/02a22/?entry=le-plateau-mont-royal-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://plateau.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/03i33/?entry=le-plateau-mont-royal-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://plateau.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/04m44/?entry=le-plateau-mont-royal-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://plateau.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/le-plateau-mont-royal/05c55/?entry=le-plateau-mont-royal-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ouest-ile-sud.courtierducoin.ca/",
