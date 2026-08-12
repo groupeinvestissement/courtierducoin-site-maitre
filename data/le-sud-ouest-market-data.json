@@ -1,0 +1,60 @@
+{
+  "region": {
+    "key": "le-sud-ouest",
+    "publicName": "Le Sud-Ouest",
+    "canonical": "https://www.courtierducoin.ca/secteurs/le-sud-ouest/",
+    "marketingHost": "sud-ouest.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "rollingPeriod": "Cumul des 4 derniers trimestres",
+    "accessedAt": "2026-08-12",
+    "geography": "Montréal (Le Sud-Ouest), Montréal (Île), publiée par Centris",
+    "granularityNote": "Les données couvrent l'arrondissement du Sud-Ouest. Elles ne décrivent ni un quartier, ni une rue, ni une propriété précise. Les valeurs masquées par la source demeurent nulles."
+  },
+  "residential": {
+    "quarter": {"sales": 354, "newListings": 798, "activeListings": 998, "volumeThousands": 228064},
+    "rolling4Q": {"sales": 1205, "newListings": 2797, "activeListings": 871, "volumeThousands": 790507}
+  },
+  "singleFamily": {
+    "quarter": {"sales": 18, "activeListings": 41, "medianPrice": null, "avgDaysOnMarket": null},
+    "rolling4Q": {"sales": 88, "activeListings": 34, "medianPrice": 968375, "avgDaysOnMarket": 38}
+  },
+  "condo": {
+    "quarter": {"sales": 279, "activeListings": 826, "medianPrice": 488650, "avgDaysOnMarket": 53},
+    "rolling4Q": {"sales": 935, "activeListings": 722, "medianPrice": 495162, "avgDaysOnMarket": 58}
+  },
+  "plex2to5": {
+    "quarter": {"sales": 57, "activeListings": 130, "medianPrice": 886000, "avgDaysOnMarket": 53},
+    "rolling4Q": {"sales": 182, "activeListings": 114, "medianPrice": 881500, "avgDaysOnMarket": 55}
+  },
+  "microMarkets": ["Pointe-Saint-Charles", "Petite-Bourgogne", "Saint-Henri", "Griffintown", "Émard", "Côte-Saint-Paul"],
+  "localContext": {
+    "propertyDiversityNote": "Le Sud-Ouest combine des rues de plex et maisons de ville, des copropriétés contemporaines, des conversions de bâtiments industriels et des secteurs près du canal de Lachine. La comparaison doit respecter la typologie, le micro-marché, l'état du bâtiment et la qualité du dossier."
+  },
+  "sources": [
+    {
+      "id": "centris-sud-ouest-t2-2026",
+      "publisher": "Centris",
+      "title": "Montréal (Le Sud-Ouest) — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-le-sud-ouest",
+      "period": "T2 2026 et cumul des 4 derniers trimestres",
+      "accessedAt": "2026-08-12",
+      "supports": ["residential", "singleFamily", "condo", "plex2to5"]
+    },
+    {
+      "id": "montreal-sud-ouest-profile",
+      "publisher": "Ville de Montréal",
+      "title": "Découvrez Le Sud-Ouest",
+      "url": "https://montreal.ca/apropos/le-sud-ouest",
+      "accessedAt": "2026-08-12",
+      "supports": ["microMarkets", "visualDirection", "localContext"]
+    }
+  ],
+  "rules": {
+    "missingValue": null,
+    "noCombinedMedian": true,
+    "notAnAutomatedValuation": true,
+    "visibleStatisticsMustResolveFromThisFile": true
+  }
+}

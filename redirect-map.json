@@ -1,33 +1,39 @@
 [
   {
     "entry": "https://sud-ouest.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/le-sud-ouest/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/le-sud-ouest/?entry=sudouest-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://sud-ouest.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/le-sud-ouest/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/le-sud-ouest/o1a11/?entry=sudouest-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://sud-ouest.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/le-sud-ouest/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/le-sud-ouest/02a22/?entry=sudouest-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://sud-ouest.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/le-sud-ouest/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/le-sud-ouest/03i33/?entry=sudouest-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://sud-ouest.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/le-sud-ouest/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/le-sud-ouest/04m44/?entry=sudouest-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://sud-ouest.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/le-sud-ouest/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/le-sud-ouest/05c55/?entry=sudouest-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://mercier-hochelaga.courtierducoin.ca/",

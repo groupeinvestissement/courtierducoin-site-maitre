@@ -1,0 +1,44 @@
+import {readFile, stat} from 'node:fs/promises';
+import {join} from 'node:path';
+
+const configs = {
+  'le-sud-ouest': {prefix:'sudouest',host:'sud-ouest.courtierducoin.ca',imageDir:'le-sud-ouest',data:'le-sud-ouest-market-data.json'}
+};
+const key=process.argv[2]; const config=configs[key];
+if(!config) throw new Error(`Unknown sector: ${key}`);
+const root=process.cwd();
+const paths=[`secteurs/${key}`,`${key}/o1a11`,`${key}/02a22`,`${key}/03i33`,`${key}/04m44`,`${key}/05c55`];
+const allPaths=[...paths,...paths.map((path)=>`en/${path}`)];
+const suffixes=['universal-guide','universal-analysis','options-plan-confidentiel','options-analysis','accompagnement-checklist','accompagnement-analysis','investisseur-guide','investisseur-analysis','maison-guide','maison-analysis','condo-guide','condo-analysis'];
+const expectedKeys=suffixes.map((suffix)=>`${config.prefix}-${suffix}`);
+const errors=[]; const canonicals=new Set(); const titles=new Set(); const h1s=new Set();
+for(const path of allPaths){
+  const html=await readFile(join(root,path,'index.html'),'utf8');
+  const canonical=html.match(/rel="canonical" href="([^"]+)"/)?.[1];
+  const title=html.match(/<title>([^<]+)<\/title>/)?.[1]; const h1=html.match(/<h1>([^<]+)<\/h1>/)?.[1];
+  if(!canonical||canonicals.has(canonical))errors.push(`${path}: canonical absent ou double`);else canonicals.add(canonical);
+  if(!title||titles.has(title))errors.push(`${path}: title absent ou double`);else titles.add(title);
+  if(!h1||h1s.has(h1))errors.push(`${path}: H1 absent ou double`);else h1s.add(h1);
+  for(const token of ['index,follow','hreflang="fr-CA"','hreflang="en-CA"','pierre-dalpe-portrait-transparent.png','property-proof-photo','sector-master.css','sector-master.js','consent_request','consent_marketing','application/ld+json']) if(!html.includes(token))errors.push(`${path}: ${token} absent`);
+  for(const schemaType of ['WebPage','BreadcrumbList','Person','Organization','RealEstateAgent','VideoObject','FAQPage'])if(!html.includes(`"@type":"${schemaType}"`))errors.push(`${path}: schema ${schemaType} absent`);
+  if((html.match(/<h1>/g)||[]).length!==1)errors.push(`${path}: un seul H1 requis`);
+  if((html.match(/<form /g)||[]).length!==2)errors.push(`${path}: deux formulaires requis`);
+  if(!html.includes(`data-entry-prefix="${config.prefix}"`))errors.push(`${path}: préfixe attribution absent`);
+  const image=(html.match(/property-proof-photo[\s\S]*?<img src="([^"]+)"/)||[])[1];
+  if(!image||!image.includes(`/assets/${config.imageDir}/`))errors.push(`${path}: photo locale absente`);
+  const sourceKeys=[...html.matchAll(/data-source-key="([^"]+)"/g)].map((m)=>m[1]);
+  if(sourceKeys.length!==2||new Set(sourceKeys).size!==2)errors.push(`${path}: deux Form IDs distincts requis`);
+}
+const registry=await readFile(join(root,'api','web-form-sources.php'),'utf8');
+for(const sourceKey of expectedKeys)if(!registry.includes(`'${sourceKey}'`))errors.push(`registre: ${sourceKey} absent`);
+const registryKeys=[...registry.matchAll(new RegExp(`'(${config.prefix}-[^']+)'\\s*=>`,'g'))].map((match)=>match[1]);
+if(registryKeys.length!==12||new Set(registryKeys).size!==12)errors.push('registre: 12 Form IDs uniques requis');
+const sitemap=await readFile(join(root,'sitemap.xml'),'utf8');
+for(const canonical of canonicals)if(!sitemap.includes(`<loc>${canonical}</loc>`))errors.push(`sitemap: ${canonical} absent`);
+JSON.parse(await readFile(join(root,'data',config.data),'utf8'));
+for(const image of ['universal','options','accompagnement','investisseur','maison','condo']){const file=join(root,'assets',config.imageDir,`hero-${config.imageDir}-${image}.webp`);try{const info=await stat(file);if(info.size<100000)errors.push(`${file}: image trop petite`);}catch{errors.push(`${file}: image absente`);}}
+const htaccess=await readFile(join(root,'.htaccess'),'utf8');
+if(!htaccess.includes(config.host.replaceAll('.','\\.'))||!htaccess.includes(`entry=${config.prefix}-`))errors.push('.htaccess: redirection sectorielle absente');
+const redirects=JSON.parse(await readFile(join(root,'redirect-map.json'),'utf8')).filter((item)=>item.entry.startsWith(`https://${config.host}/`));
+if(redirects.length!==6||redirects.some((item)=>item.status!==301||item.preserveQuery!==true||!item.destination.includes(`?entry=${config.prefix}-`)))errors.push('redirect-map: 6 redirections 301 avec conservation des paramètres requises');
+if(errors.length){console.error(errors.join('\n'));process.exit(1);}console.log(`PASS: ${key} — 12 pages FR/EN, 12 Form IDs, images, data, SEO and routing validated.`);
