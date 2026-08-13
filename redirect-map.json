@@ -601,33 +601,39 @@
   },
   {
     "entry": "https://ville-marie.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/ville-marie/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/ville-marie/?entry=villemarie-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ville-marie.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/ville-marie/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ville-marie/o1a11/?entry=villemarie-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ville-marie.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/ville-marie/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ville-marie/02a22/?entry=villemarie-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ville-marie.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/ville-marie/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ville-marie/03i33/?entry=villemarie-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ville-marie.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/ville-marie/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ville-marie/04m44/?entry=villemarie-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ville-marie.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/ville-marie/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/ville-marie/05c55/?entry=villemarie-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://centre.courtierducoin.ca/",

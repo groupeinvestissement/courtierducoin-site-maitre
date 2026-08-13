@@ -1,0 +1,12 @@
+{
+  "region":{"key":"ville-marie","publicName":"Ville-Marie","canonical":"https://www.courtierducoin.ca/secteurs/ville-marie/","marketingHost":"ville-marie.courtierducoin.ca"},
+  "snapshot":{"period":"T2 2026","rollingPeriod":"Cumul des 4 derniers trimestres","accessedAt":"2026-08-13","geography":"Montréal (Ville-Marie), publiée par Centris","granularityNote":"Les statistiques couvrent tout l’arrondissement de Ville-Marie et ne remplacent pas une analyse de la propriété, de son immeuble et de son quartier."},
+  "residential":{"quarter":{"sales":479,"newListings":1470,"activeListings":2475,"volumeThousands":304609},"rolling4Q":{"sales":1672,"newListings":5319,"activeListings":2335,"volumeThousands":1061898}},
+  "singleFamily":{"quarter":{"sales":20,"activeListings":71,"medianPrice":null,"avgDaysOnMarket":null},"rolling4Q":{"sales":52,"activeListings":63,"medianPrice":1097937,"avgDaysOnMarket":74}},
+  "condo":{"quarter":{"sales":432,"activeListings":2305,"medianPrice":465000,"avgDaysOnMarket":89},"rolling4Q":{"sales":1527,"activeListings":2186,"medianPrice":459662,"avgDaysOnMarket":87}},
+  "plex2to5":{"quarter":{"sales":27,"activeListings":98,"medianPrice":null,"avgDaysOnMarket":null},"rolling4Q":{"sales":93,"activeListings":84,"medianPrice":1019250,"avgDaysOnMarket":71}},
+  "microMarkets":["Vieux-Montréal","Peter-McGill","Sainte-Marie","Quartier des Faubourgs","Shaughnessy Village","Quartier latin"],
+  "localContext":{"propertyDiversityNote":"Ville-Marie juxtapose copropriétés récentes, édifices patrimoniaux, maisons urbaines rares et petits immeubles à revenus. Le quartier, l’immeuble, les charges, l’étage, la vue, l’état et la typologie doivent rester distincts dans l’analyse."},
+  "sources":[{"id":"centris-ville-marie-t2-2026","publisher":"Centris","title":"Montréal (Ville-Marie) — statistiques immobilières","url":"https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-ville-marie","period":"T2 2026 et cumul des 4 derniers trimestres","accessedAt":"2026-08-13","supports":["residential","singleFamily","condo","plex2to5"]},{"id":"montreal-ville-marie-profile","publisher":"Ville de Montréal","title":"Ville-Marie","url":"https://montreal.ca/apropos/ville-marie","accessedAt":"2026-08-13","supports":["visualDirection","microMarkets","localContext"]}],
+  "rules":{"missingValue":null,"noCombinedMedian":true,"notAnAutomatedValuation":true,"visibleStatisticsMustResolveFromThisFile":true}
+}
