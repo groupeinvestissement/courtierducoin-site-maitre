@@ -1,0 +1,15 @@
+{
+  "region": {"key":"saint-laurent","publicName":"Saint-Laurent","canonical":"https://www.courtierducoin.ca/secteurs/saint-laurent/","marketingHost":"saint-laurent.courtierducoin.ca"},
+  "snapshot": {"period":"T2 2026","rollingPeriod":"Cumul des 4 derniers trimestres","accessedAt":"2026-08-13","geography":"Montréal (Saint-Laurent), publiée par Centris","granularityNote":"Les statistiques couvrent l’arrondissement de Saint-Laurent et servent de repère; elles ne remplacent pas une analyse de la propriété, de sa rue et de son micro-marché."},
+  "residential": {"quarter":{"sales":274,"newListings":480,"activeListings":567,"volumeThousands":215641},"rolling4Q":{"sales":846,"newListings":1690,"activeListings":504,"volumeThousands":636829}},
+  "singleFamily": {"quarter":{"sales":102,"activeListings":148,"medianPrice":1000000,"avgDaysOnMarket":43},"rolling4Q":{"sales":298,"activeListings":126,"medianPrice":890937,"avgDaysOnMarket":48}},
+  "condo": {"quarter":{"sales":150,"activeListings":366,"medianPrice":482289,"avgDaysOnMarket":58},"rolling4Q":{"sales":460,"activeListings":328,"medianPrice":482447,"avgDaysOnMarket":63}},
+  "plex2to5": {"quarter":{"sales":22,"activeListings":53,"medianPrice":null,"avgDaysOnMarket":null},"rolling4Q":{"sales":88,"activeListings":49,"medianPrice":917375,"avgDaysOnMarket":79}},
+  "microMarkets": ["Bois-Franc","Nouveau Saint-Laurent","Marlborough","Norvick","Chameran","Vieux-Saint-Laurent"],
+  "localContext": {"propertyDiversityNote":"Saint-Laurent réunit des maisons d’après-guerre, des bungalows, des copropriétés récentes, des maisons de ville et de petits immeubles à revenus. Le quartier, l’âge, l’état, la typologie et la proximité du transport collectif changent la comparaison."},
+  "sources": [
+    {"id":"centris-saint-laurent-t2-2026","publisher":"Centris","title":"Montréal (Saint-Laurent) — statistiques immobilières","url":"https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-saint-laurent","period":"T2 2026 et cumul des 4 derniers trimestres","accessedAt":"2026-08-13","supports":["residential","singleFamily","condo","plex2to5"]},
+    {"id":"montreal-saint-laurent-profile","publisher":"Ville de Montréal","title":"Saint-Laurent","url":"https://montreal.ca/apropos/saint-laurent","accessedAt":"2026-08-13","supports":["visualDirection","microMarkets","localContext"]}
+  ],
+  "rules":{"missingValue":null,"noCombinedMedian":true,"notAnAutomatedValuation":true,"visibleStatisticsMustResolveFromThisFile":true}
+}

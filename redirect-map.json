@@ -439,33 +439,39 @@
   },
   {
     "entry": "https://saint-laurent.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/saint-laurent/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/saint-laurent/?entry=saintlaurent-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://saint-laurent.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/saint-laurent/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/saint-laurent/o1a11/?entry=saintlaurent-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://saint-laurent.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/saint-laurent/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/saint-laurent/02a22/?entry=saintlaurent-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://saint-laurent.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/saint-laurent/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/saint-laurent/03i33/?entry=saintlaurent-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://saint-laurent.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/saint-laurent/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/saint-laurent/04m44/?entry=saintlaurent-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://saint-laurent.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/saint-laurent/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/saint-laurent/05c55/?entry=saintlaurent-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://ndg.courtierducoin.ca/",
