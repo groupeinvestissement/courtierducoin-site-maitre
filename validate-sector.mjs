@@ -10,7 +10,8 @@ const configs = {
   'ouest-de-lile-sud': {prefix:'ouestsud',host:'ouest-ile-sud.courtierducoin.ca',imageDir:'ouest-de-lile-sud',data:'ouest-de-lile-sud-market-data.json'},
   'outremont-westmount-vmr': {prefix:'owvmr',host:'outremont-westmount-vmr.courtierducoin.ca',imageDir:'outremont-westmount-vmr',data:'outremont-westmount-vmr-market-data.json'},
   'repentigny': {prefix:'repentigny',host:'repentigny.courtierducoin.ca',imageDir:'repentigny',data:'repentigny-market-data.json'},
-  'saint-laurent': {prefix:'saintlaurent',host:'saint-laurent.courtierducoin.ca',imageDir:'saint-laurent',data:'saint-laurent-market-data.json'}
+  'saint-laurent': {prefix:'saintlaurent',host:'saint-laurent.courtierducoin.ca',imageDir:'saint-laurent',data:'saint-laurent-market-data.json'},
+  'verdun': {prefix:'verdun',host:'verdun.courtierducoin.ca',imageDir:'verdun',data:'verdun-market-data.json'}
 };
 const key=process.argv[2]; const config=configs[key];
 if(!config) throw new Error(`Unknown sector: ${key}`);

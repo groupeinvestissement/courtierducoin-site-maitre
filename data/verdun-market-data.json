@@ -1,0 +1,15 @@
+{
+  "region":{"key":"verdun","publicName":"Verdun","canonical":"https://www.courtierducoin.ca/secteurs/verdun/","marketingHost":"verdun.courtierducoin.ca"},
+  "snapshot":{"period":"T2 2026","rollingPeriod":"Cumul des 4 derniers trimestres","accessedAt":"2026-08-13","geography":"Montréal (Verdun/Île-des-Sœurs), publiée par Centris","granularityNote":"Centris publie Verdun et l’Île-des-Sœurs dans un même profil. Les chiffres affichés couvrent donc les deux territoires et ne doivent pas être attribués au seul Verdun continental. Le secteur verrouillé de l’Île-des-Sœurs n’est pas modifié."},
+  "residential":{"quarter":{"sales":242,"newListings":435,"activeListings":463,"volumeThousands":199633},"rolling4Q":{"sales":806,"newListings":1586,"activeListings":432,"volumeThousands":666566}},
+  "singleFamily":{"quarter":{"sales":35,"activeListings":35,"medianPrice":1250000,"avgDaysOnMarket":40},"rolling4Q":{"sales":98,"activeListings":30,"medianPrice":1285625,"avgDaysOnMarket":41}},
+  "condo":{"quarter":{"sales":178,"activeListings":377,"medianPrice":575000,"avgDaysOnMarket":57},"rolling4Q":{"sales":596,"activeListings":352,"medianPrice":602266,"avgDaysOnMarket":59}},
+  "plex2to5":{"quarter":{"sales":29,"activeListings":50,"medianPrice":null,"avgDaysOnMarket":null},"rolling4Q":{"sales":112,"activeListings":48,"medianPrice":938262,"avgDaysOnMarket":44}},
+  "microMarkets":["Wellington–De l’Église","Desmarchais-Crawford","Rue Wellington","Berges de Verdun","De l’Église","Crawford"],
+  "localContext":{"propertyDiversityNote":"Le Verdun continental réunit des duplex et triplex en brique, des maisons dans Desmarchais-Crawford et des copropriétés intégrées à une trame urbaine près du fleuve et du métro. Les images et le texte local excluent l’Île-des-Sœurs, même si la source Centris agrège les deux territoires."},
+  "sources":[
+    {"id":"centris-verdun-ids-t2-2026","publisher":"Centris","title":"Montréal (Verdun/Île-des-Sœurs) — statistiques immobilières","url":"https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-verdun-ile-des-soeurs","period":"T2 2026 et cumul des 4 derniers trimestres","accessedAt":"2026-08-13","supports":["residential","singleFamily","condo","plex2to5","scopeDisclosure"]},
+    {"id":"montreal-verdun-profile","publisher":"Ville de Montréal","title":"Verdun","url":"https://montreal.ca/apropos/verdun","accessedAt":"2026-08-13","supports":["visualDirection","microMarkets","localContext"]}
+  ],
+  "rules":{"missingValue":null,"noCombinedMedian":true,"notAnAutomatedValuation":true,"visibleStatisticsMustResolveFromThisFile":true}
+}

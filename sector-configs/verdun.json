@@ -1,0 +1,33 @@
+{
+  "key":"verdun","template":"generate-plateau-pages.mjs","replacements":[
+    ["microMarkets: ['Le Plateau', 'Mile End', 'Petit Laurier', 'Plateau Est', 'Milton-Parc', 'Saint-Viateur Est']","microMarkets: ['Wellington–De l’Église', 'Desmarchais-Crawford', 'Rue Wellington', 'Berges de Verdun', 'De l’Église', 'Crawford']"],
+    ["https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-le-plateau-mont-royal","https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-verdun-ile-des-soeurs"],
+    ["https://www.centris.ca/en/tools/real-estate-statistics/montreal-island/montreal-le-plateau-mont-royal","https://www.centris.ca/en/tools/real-estate-statistics/montreal-island/montreal-verdun-ile-des-soeurs"],
+    ["Duplex du Plateau, triplex du Mile End, condo près du Petit Laurier ou maison de ville à Milton-Parc","Duplex près de Wellington, triplex près de De l’Église, condo près des berges ou maison à Desmarchais-Crawford"],
+    ["A Plateau duplex, Mile End triplex, condo near Petit Laurier or Milton-Parc townhouse","A duplex near Wellington, triplex near De l’Église, riverside-area condo or Desmarchais-Crawford house"],
+    ["Le Plateau • Mile End • Petit Laurier • Plateau Est • Milton-Parc","Wellington–De l’Église • Desmarchais-Crawford • rue Wellington • berges de Verdun"],
+    ["Dans Le Plateau, quelques rues peuvent changer la comparaison.","Dans le Verdun continental, la rue, la proximité du fleuve et la typologie changent la comparaison."],
+    ["In Le Plateau, a few streets can change the comparison.","In mainland Verdun, street, river proximity and property type change the comparison."],
+    ["La densité, l’architecture, la qualité des rénovations, l’occupation et la proximité des artères","La trame urbaine, la proximité du fleuve et du métro, l’état, l’occupation et la typologie"],
+    ["Density, architecture, renovation quality, occupancy and proximity to commercial streets","Urban fabric, river and metro proximity, condition, occupancy and property type"],
+    ["Le Mile End, le Petit Laurier, Milton-Parc et le Plateau Est","Wellington–De l’Église, Desmarchais-Crawford, la rue Wellington et les berges de Verdun"],
+    ["Mile End, Petit Laurier, Milton-Parc and Plateau Est","Wellington–De l’Église, Desmarchais-Crawford, rue Wellington and Verdun’s riverfront"],
+    ["Un plex du Plateau","Un plex du Verdun continental"],["A Plateau plex","A mainland Verdun plex"],
+    ["Une maison du Plateau","Une maison du Verdun continental"],["A Plateau house","A mainland Verdun house"],
+    ["Une statistique du Plateau","Une statistique Verdun/Île-des-Sœurs"],["borough-wide statistics","Verdun/Nuns’ Island-wide statistics"],
+    ["plateau.courtierducoin.ca","verdun.courtierducoin.ca"],["le-plateau-mont-royal","verdun"],["Le Plateau-Mont-Royal","Verdun"],["le Plateau-Mont-Royal","Verdun"],["Le Plateau","Verdun"],["le Plateau","Verdun"],
+    ["Mile End","Desmarchais-Crawford"],["Petit Laurier","Rue Wellington"],["Plateau Est","Wellington–De l’Église"],["Milton-Parc","Berges de Verdun"],["Saint-Viateur Est","Crawford"],
+    ["plateau-page","verdun-page"],["plateauAlts","verdunAlts"],["plateau","verdun"],["Plateau-Mont-Royal","Verdun"],
+    ["Rue arborée du Verdun bordée de duplex et triplex en brique avec escaliers extérieurs.","Rue arborée du Verdun continental bordée de duplex et triplex en brique près du fleuve."],
+    ["Tree-lined Verdun street with brick duplexes, triplexes and exterior stairs.","Tree-lined mainland Verdun street with brick duplexes and triplexes near the river."],
+    ["Duplex en brique dans une rue calme et arborée du Verdun.","Duplex en brique dans une rue calme et arborée du Verdun continental."],
+    ["Brick duplex on a quiet, tree-lined Verdun street.","Brick duplex on a quiet, tree-lined mainland Verdun street."],
+    ["Duplex familial en brique entouré d’arbres matures dans Verdun.","Duplex familial de longue date entouré d’arbres matures dans le Verdun continental."],
+    ["Long-held brick family duplex surrounded by mature trees in Verdun.","Long-held family duplex surrounded by mature trees in mainland Verdun."],
+    ["Maison de ville en brique avec jardin dans une rue arborée de Verdun.","Maison familiale compacte avec jardin dans Desmarchais-Crawford."],
+    ["Brick townhouse with a front garden on a tree-lined Verdun street.","Compact family home with a garden in Desmarchais-Crawford."],
+    ["Immeuble de copropriétés contemporain intégré à une rue de Verdun.","Immeuble de copropriétés contemporain intégré à une rue du Verdun continental."],
+    ["Contemporary condominium building integrated into a Verdun street.","Contemporary condominium building integrated into a mainland Verdun street."],
+    ["v=20260812-verdun","v=20260813-verdun-v1"]
+  ]
+}

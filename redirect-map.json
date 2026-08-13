@@ -772,5 +772,41 @@
     "destination": "https://www.courtierducoin.ca/repentigny/05c55/?entry=repentigny-05c55",
     "status": 301,
     "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/verdun/?entry=verdun-universal",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/verdun/o1a11/?entry=verdun-o1a11",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/verdun/02a22/?entry=verdun-02a22",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/verdun/03i33/?entry=verdun-03i33",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/verdun/04m44/?entry=verdun-04m44",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/verdun/05c55/?entry=verdun-05c55",
+    "status": 301,
+    "preserveQuery": true
   }
 ]
