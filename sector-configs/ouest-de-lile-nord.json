@@ -1,5 +1,7 @@
 {
   "key": "ouest-de-lile-nord",
+  "status": "deprecated-redirect-only",
+  "mergedInto": "ouest-de-lile",
   "template": "generate-plateau-pages.mjs",
   "replacements": [
     ["microMarkets: ['Le Plateau', 'Mile End', 'Petit Laurier', 'Plateau Est', 'Milton-Parc', 'Saint-Viateur Est']", "microMarkets: ['Cap-Saint-Jacques', 'Château-Pierrefonds', 'Oakwood', 'Rive-Boisée', 'Roxboro', 'À-Ma-Baie']"],

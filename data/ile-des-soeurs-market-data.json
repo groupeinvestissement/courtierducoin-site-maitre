@@ -1,0 +1,85 @@
+{
+  "regionKey": "ile-des-soeurs",
+  "publicName": "L’Île-des-Sœurs",
+  "verifiedAt": "2026-08-11",
+  "period": "2e trimestre 2026",
+  "source": {
+    "name": "Centris — Montréal (Verdun/Île-des-Soeurs)",
+    "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-verdun-ile-des-soeurs",
+    "warning": "Les statistiques publiques couvrent Verdun et L’Île-des-Sœurs ensemble. Ne jamais les présenter comme exclusives à L’Île-des-Sœurs."
+  },
+  "totalResidential": {
+    "quarter": {
+      "sales": 242,
+      "newListings": 435,
+      "activeListings": 463,
+      "volumeThousandsCAD": 199633
+    },
+    "rolling4Q": {
+      "sales": 806,
+      "newListings": 1586,
+      "activeListings": 432,
+      "volumeThousandsCAD": 666566
+    }
+  },
+  "singleFamily": {
+    "quarter": {
+      "sales": 35,
+      "activeListings": 35,
+      "medianPrice": 1250000,
+      "avgDaysOnMarket": 40
+    },
+    "rolling4Q": {
+      "sales": 98,
+      "activeListings": 30,
+      "medianPrice": 1285625,
+      "avgDaysOnMarket": 41
+    }
+  },
+  "condo": {
+    "quarter": {
+      "sales": 178,
+      "activeListings": 377,
+      "medianPrice": 575000,
+      "avgDaysOnMarket": 57
+    },
+    "rolling4Q": {
+      "sales": 596,
+      "activeListings": 352,
+      "medianPrice": 602266,
+      "avgDaysOnMarket": 59
+    }
+  },
+  "plex2to5": {
+    "quarter": {
+      "sales": 29,
+      "activeListings": 50,
+      "medianPrice": null,
+      "avgDaysOnMarket": null,
+      "note": "Transactions insuffisantes pour une statistique fiable au T2 2026."
+    },
+    "rolling4Q": {
+      "sales": 112,
+      "activeListings": 48,
+      "medianPrice": 938262,
+      "avgDaysOnMarket": 44
+    }
+  },
+  "localReferences": [
+    {
+      "name": "Domaine Saint-Paul",
+      "url": "https://montreal.ca/lieux/domaine-saint-paul",
+      "notes": "Boisé de 26 hectares près du lac des Battures."
+    },
+    {
+      "name": "Parc Dan-Hanganu (Elgar)",
+      "url": "https://montreal.ca/lieux/parc-dan-hanganu-parc-elgar",
+      "notes": "Repère familial proche école, bibliothèque et centre communautaire."
+    },
+    {
+      "name": "Pointe-Nord",
+      "url": "https://montreal.ca/lieux/parc-de-lesplanade-de-la-pointe-nord",
+      "notes": "Repère secondaire riverain; ne doit pas dominer le Hero Universal."
+    }
+  ]
+}

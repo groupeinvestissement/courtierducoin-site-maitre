@@ -1,6 +1,15 @@
 DirectoryIndex index.html
 Options -Indexes
 RewriteEngine On
+# Ouest-de-l’Île unifié : les anciens hôtes et les anciennes routes conservent leurs paramètres.
+RewriteCond %{HTTP_HOST} ^(ouest-ile|ouest-ile-nord|ouest-ile-sud)\.courtierducoin\.ca$ [NC]
+RewriteRule ^$ https://www.courtierducoin.ca/secteurs/ouest-de-lile/?entry=ouestile-universal [R=301,L,NE,QSA]
+RewriteCond %{HTTP_HOST} ^(ouest-ile|ouest-ile-nord|ouest-ile-sud)\.courtierducoin\.ca$ [NC]
+RewriteRule ^(o1a11|02a22|03i33|04m44|05c55)/?$ https://www.courtierducoin.ca/ouest-de-lile/$1/?entry=ouestile-$1 [R=301,L,NE,QSA]
+RewriteRule ^secteurs/ouest-de-lile-(nord|sud)/?$ https://www.courtierducoin.ca/secteurs/ouest-de-lile/?entry=ouestile-universal [R=301,L,NE,QSA]
+RewriteRule ^ouest-de-lile-(nord|sud)/(o1a11|02a22|03i33|04m44|05c55)/?$ https://www.courtierducoin.ca/ouest-de-lile/$2/?entry=ouestile-$2 [R=301,L,NE,QSA]
+RewriteRule ^en/secteurs/ouest-de-lile-(nord|sud)/?$ https://www.courtierducoin.ca/en/secteurs/ouest-de-lile/ [R=301,L,NE,QSA]
+RewriteRule ^en/ouest-de-lile-(nord|sud)/(o1a11|02a22|03i33|04m44|05c55)/?$ https://www.courtierducoin.ca/en/ouest-de-lile/$2/ [R=301,L,NE,QSA]
 # Les sous-domaines de campagne restent dans leur secteur.
 # Le premier groupe couvre l'accueil universel, le second les cinq codes neutres.
 RewriteCond %{HTTP_HOST} ^vaudreuil-soulanges\.courtierducoin\.ca$ [NC]
@@ -39,18 +48,10 @@ RewriteCond %{HTTP_HOST} ^lachine-lasalle\.courtierducoin\.ca$ [NC]
 RewriteRule ^$ https://www.courtierducoin.ca/secteurs/lachine-lasalle/ [R=301,L]
 RewriteCond %{HTTP_HOST} ^lachine-lasalle\.courtierducoin\.ca$ [NC]
 RewriteRule ^(o1a11|02a22|03i33|04m44|05c55)/?$ https://www.courtierducoin.ca/lachine-lasalle/$1/ [R=301,L]
-RewriteCond %{HTTP_HOST} ^ouest-ile-nord\.courtierducoin\.ca$ [NC]
-RewriteRule ^$ https://www.courtierducoin.ca/secteurs/ouest-de-lile-nord/?entry=ouestnord-universal [R=301,L,QSA]
-RewriteCond %{HTTP_HOST} ^ouest-ile-nord\.courtierducoin\.ca$ [NC]
-RewriteRule ^(o1a11|02a22|03i33|04m44|05c55)/?$ https://www.courtierducoin.ca/ouest-de-lile-nord/$1/?entry=ouestnord-$1 [R=301,L,QSA]
 RewriteCond %{HTTP_HOST} ^plateau\.courtierducoin\.ca$ [NC]
 RewriteRule ^$ https://www.courtierducoin.ca/secteurs/le-plateau-mont-royal/?entry=le-plateau-mont-royal-universal [R=301,L,NE,QSA]
 RewriteCond %{HTTP_HOST} ^plateau\.courtierducoin\.ca$ [NC]
 RewriteRule ^(o1a11|02a22|03i33|04m44|05c55)/?$ https://www.courtierducoin.ca/le-plateau-mont-royal/$1/?entry=le-plateau-mont-royal-$1 [R=301,L,NE,QSA]
-RewriteCond %{HTTP_HOST} ^ouest-ile-sud\.courtierducoin\.ca$ [NC]
-RewriteRule ^$ https://www.courtierducoin.ca/secteurs/ouest-de-lile-sud/?entry=ouestsud-universal [R=301,L,QSA]
-RewriteCond %{HTTP_HOST} ^ouest-ile-sud\.courtierducoin\.ca$ [NC]
-RewriteRule ^(o1a11|02a22|03i33|04m44|05c55)/?$ https://www.courtierducoin.ca/ouest-de-lile-sud/$1/?entry=ouestsud-$1 [R=301,L,QSA]
 RewriteCond %{HTTP_HOST} ^saint-laurent\.courtierducoin\.ca$ [NC]
 RewriteRule ^$ https://www.courtierducoin.ca/secteurs/saint-laurent/?entry=saintlaurent-universal [R=301,L,NE,QSA]
 RewriteCond %{HTTP_HOST} ^saint-laurent\.courtierducoin\.ca$ [NC]

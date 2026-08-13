@@ -1,0 +1,152 @@
+{
+  "regionKey": "anjou-saint-leonard",
+  "publicName": "Anjou / Saint-Léonard",
+  "verifiedAt": "2026-08-11",
+  "period": "2e trimestre 2026",
+  "methodNote": "Pour ce secteur combiné, les données doivent être présentées séparément par arrondissement (Anjou et Saint-Léonard) afin d'éviter d'inventer des médianes combinées non publiées officiellement par Centris.",
+  "sources": [
+    {
+      "name": "Centris — Montréal (Anjou)",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-anjou"
+    },
+    {
+      "name": "Centris — Montréal (Saint-Léonard)",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-saint-leonard"
+    }
+  ],
+  "anjou": {
+    "totalResidential": {
+      "quarter": {
+        "sales": 81,
+        "newListings": 115,
+        "activeListings": 105,
+        "volumeThousandsCAD": 48881
+      },
+      "rolling4Q": {
+        "sales": 277,
+        "newListings": 406,
+        "activeListings": 87,
+        "volumeThousandsCAD": 161910
+      }
+    },
+    "singleFamily": {
+      "quarter": {
+        "sales": 23,
+        "activeListings": 15,
+        "medianPrice": null,
+        "avgDaysOnMarket": null,
+        "note": "Statistiques T2 indisponibles publiquement pour le prix médian et les jours moyens."
+      },
+      "rolling4Q": {
+        "sales": 75,
+        "activeListings": 15,
+        "medianPrice": 625125,
+        "avgDaysOnMarket": 32
+      }
+    },
+    "condo": {
+      "quarter": {
+        "sales": 38,
+        "activeListings": 60,
+        "medianPrice": 381000,
+        "avgDaysOnMarket": 57
+      },
+      "rolling4Q": {
+        "sales": 144,
+        "activeListings": 51,
+        "medianPrice": 383750,
+        "avgDaysOnMarket": 48
+      }
+    },
+    "plex2to5": {
+      "quarter": {
+        "sales": 20,
+        "activeListings": 30,
+        "medianPrice": null,
+        "avgDaysOnMarket": null,
+        "note": "Statistiques T2 indisponibles publiquement pour le prix médian et les jours moyens."
+      },
+      "rolling4Q": {
+        "sales": 58,
+        "activeListings": 21,
+        "medianPrice": 912250,
+        "avgDaysOnMarket": 42
+      }
+    }
+  },
+  "saintLeonard": {
+    "totalResidential": {
+      "quarter": {
+        "sales": 79,
+        "newListings": 162,
+        "activeListings": 168,
+        "volumeThousandsCAD": 68810
+      },
+      "rolling4Q": {
+        "sales": 318,
+        "newListings": 530,
+        "activeListings": 141,
+        "volumeThousandsCAD": 265774
+      }
+    },
+    "singleFamily": {
+      "quarter": {
+        "sales": 15,
+        "activeListings": 26,
+        "medianPrice": null,
+        "avgDaysOnMarket": null,
+        "note": "Statistiques T2 indisponibles publiquement pour le prix médian et les jours moyens."
+      },
+      "rolling4Q": {
+        "sales": 70,
+        "activeListings": 24,
+        "medianPrice": 740875,
+        "avgDaysOnMarket": 55
+      }
+    },
+    "condo": {
+      "quarter": {
+        "sales": 26,
+        "activeListings": 82,
+        "medianPrice": null,
+        "avgDaysOnMarket": null,
+        "note": "Statistiques T2 indisponibles publiquement pour le prix médian et les jours moyens."
+      },
+      "rolling4Q": {
+        "sales": 103,
+        "activeListings": 67,
+        "medianPrice": 423375,
+        "avgDaysOnMarket": 57
+      }
+    },
+    "plex2to5": {
+      "quarter": {
+        "sales": 38,
+        "activeListings": 60,
+        "medianPrice": 1032500,
+        "avgDaysOnMarket": 28
+      },
+      "rolling4Q": {
+        "sales": 145,
+        "activeListings": 48,
+        "medianPrice": 1051875,
+        "avgDaysOnMarket": 42
+      }
+    }
+  },
+  "internalSimpleTotals": {
+    "quarter": {
+      "sales": 160,
+      "newListings": 277,
+      "activeListings": 273,
+      "volumeThousandsCAD": 117691
+    },
+    "rolling4Q": {
+      "sales": 595,
+      "newListings": 936,
+      "activeListings": 228,
+      "volumeThousandsCAD": 427684
+    },
+    "warning": "Ces totaux sont des additions internes utiles au pilotage, mais l'affichage public principal doit demeurer scindé par arrondissement."
+  }
+}

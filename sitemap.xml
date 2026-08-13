@@ -55,24 +55,12 @@
   <url><loc>https://www.courtierducoin.ca/lachine-lasalle/03i33/</loc></url>
   <url><loc>https://www.courtierducoin.ca/lachine-lasalle/04m44/</loc></url>
   <url><loc>https://www.courtierducoin.ca/lachine-lasalle/05c55/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/secteurs/ouest-de-lile-nord/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ouest-de-lile-nord/o1a11/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ouest-de-lile-nord/02a22/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ouest-de-lile-nord/03i33/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ouest-de-lile-nord/04m44/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ouest-de-lile-nord/05c55/</loc></url>
   <url><loc>https://www.courtierducoin.ca/secteurs/le-plateau-mont-royal/</loc></url>
   <url><loc>https://www.courtierducoin.ca/le-plateau-mont-royal/o1a11/</loc></url>
   <url><loc>https://www.courtierducoin.ca/le-plateau-mont-royal/02a22/</loc></url>
   <url><loc>https://www.courtierducoin.ca/le-plateau-mont-royal/03i33/</loc></url>
   <url><loc>https://www.courtierducoin.ca/le-plateau-mont-royal/04m44/</loc></url>
   <url><loc>https://www.courtierducoin.ca/le-plateau-mont-royal/05c55/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/secteurs/ouest-de-lile-sud/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ouest-de-lile-sud/o1a11/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ouest-de-lile-sud/02a22/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ouest-de-lile-sud/03i33/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ouest-de-lile-sud/04m44/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ouest-de-lile-sud/05c55/</loc></url>
   <url><loc>https://www.courtierducoin.ca/secteurs/saint-laurent/</loc></url>
   <url><loc>https://www.courtierducoin.ca/saint-laurent/o1a11/</loc></url>
   <url><loc>https://www.courtierducoin.ca/saint-laurent/02a22/</loc></url>
@@ -156,18 +144,6 @@
   <url><loc>https://www.courtierducoin.ca/en/ndg-montreal-ouest/03i33/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/ndg-montreal-ouest/04m44/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/ndg-montreal-ouest/05c55/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/secteurs/ouest-de-lile-nord/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile-nord/o1a11/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile-nord/02a22/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile-nord/03i33/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile-nord/04m44/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile-nord/05c55/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/secteurs/ouest-de-lile-sud/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile-sud/o1a11/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile-sud/02a22/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile-sud/03i33/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile-sud/04m44/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile-sud/05c55/</loc></url>
   <url><loc>https://www.courtierducoin.ca/secteurs/outremont-westmount-vmr/</loc></url>
   <url><loc>https://www.courtierducoin.ca/outremont-westmount-vmr/o1a11/</loc></url>
   <url><loc>https://www.courtierducoin.ca/outremont-westmount-vmr/02a22/</loc></url>
@@ -222,4 +198,52 @@
   <url><loc>https://www.courtierducoin.ca/en/villeray-saint-michel-parc-extension/03i33/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/villeray-saint-michel-parc-extension/04m44/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/villeray-saint-michel-parc-extension/05c55/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/secteurs/ouest-de-lile/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/ouest-de-lile/o1a11/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/ouest-de-lile/02a22/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/ouest-de-lile/03i33/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/ouest-de-lile/04m44/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/ouest-de-lile/05c55/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/secteurs/ouest-de-lile/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile/o1a11/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile/02a22/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile/03i33/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile/04m44/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ouest-de-lile/05c55/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/secteurs/ahuntsic-cartierville/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ahuntsic-cartierville/o1a11/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ahuntsic-cartierville/02a22/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ahuntsic-cartierville/03i33/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ahuntsic-cartierville/04m44/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ahuntsic-cartierville/05c55/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/secteurs/anjou-saint-leonard/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/anjou-saint-leonard/o1a11/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/anjou-saint-leonard/02a22/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/anjou-saint-leonard/03i33/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/anjou-saint-leonard/04m44/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/anjou-saint-leonard/05c55/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/secteurs/cdn-cote-saint-luc/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/cdn-cote-saint-luc/o1a11/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/cdn-cote-saint-luc/02a22/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/cdn-cote-saint-luc/03i33/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/cdn-cote-saint-luc/04m44/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/cdn-cote-saint-luc/05c55/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/secteurs/lachine-lasalle/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/lachine-lasalle/o1a11/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/lachine-lasalle/02a22/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/lachine-lasalle/03i33/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/lachine-lasalle/04m44/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/lachine-lasalle/05c55/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/secteurs/ile-des-soeurs/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ile-des-soeurs/o1a11/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ile-des-soeurs/02a22/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ile-des-soeurs/03i33/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ile-des-soeurs/04m44/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/ile-des-soeurs/05c55/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/secteurs/vaudreuil-soulanges/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/vaudreuil-soulanges/o1a11/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/vaudreuil-soulanges/02a22/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/vaudreuil-soulanges/03i33/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/vaudreuil-soulanges/04m44/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/vaudreuil-soulanges/05c55/</loc></url>
 </urlset>

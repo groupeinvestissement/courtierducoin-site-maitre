@@ -1,5 +1,7 @@
 {
   "key": "ouest-de-lile-sud",
+  "status": "deprecated-redirect-only",
+  "mergedInto": "ouest-de-lile",
   "template": "generate-plateau-pages.mjs",
   "replacements": [
     ["microMarkets: ['Le Plateau', 'Mile End', 'Petit Laurier', 'Plateau Est', 'Milton-Parc', 'Saint-Viateur Est']", "microMarkets: ['Pointe-Claire Village', 'Valois Village', 'Cedar Park', 'Bowling Green', 'Terra-Cotta', 'Lakeshore']"],

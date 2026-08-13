@@ -1,0 +1,138 @@
+{
+  "regionKey": "cdn-cote-saint-luc",
+  "publicName": "CDN / Côte-Saint-Luc",
+  "verifiedAt": "2026-08-11",
+  "period": "2e trimestre 2026",
+  "criticalMethodNote": "Centris ne publie pas une page statistique publique pour Côte-des-Neiges seul. Le contexte public disponible est Montréal (Côte-des-Neiges/Notre-Dame-de-Grâce), qui inclut NDG. Il est interdit de présenter ces chiffres comme s'ils représentaient uniquement Côte-des-Neiges. Côte-Saint-Luc possède une page Centris distincte.",
+  "sources": {
+    "cdnContext": {
+      "label": "Montréal (Côte-des-Neiges/Notre-Dame-de-Grâce)",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-cote-des-neiges-notre-dame-de-grace",
+      "scopeWarning": "Inclut Côte-des-Neiges ET Notre-Dame-de-Grâce."
+    },
+    "coteSaintLuc": {
+      "label": "Côte-Saint-Luc",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/province-de-quebec/cote-saint-luc",
+      "scopeWarning": "Données spécifiques à Côte-Saint-Luc."
+    }
+  },
+  "cdnNdgContext": {
+    "totalResidential": {
+      "quarter": {
+        "sales": 262,
+        "newListings": 537,
+        "activeListings": 617,
+        "volumeThousandsCAD": 237615
+      },
+      "rolling4Q": {
+        "sales": 851,
+        "newListings": 1782,
+        "activeListings": 528,
+        "volumeThousandsCAD": 757942
+      }
+    },
+    "singleFamily": {
+      "quarter": {
+        "sales": 67,
+        "activeListings": 108,
+        "medianPrice": 1275000,
+        "avgDaysOnMarket": 35
+      },
+      "rolling4Q": {
+        "sales": 213,
+        "activeListings": 90,
+        "medianPrice": 1247000,
+        "avgDaysOnMarket": 48
+      }
+    },
+    "condo": {
+      "quarter": {
+        "sales": 153,
+        "activeListings": 393,
+        "medianPrice": 540000,
+        "avgDaysOnMarket": 47
+      },
+      "rolling4Q": {
+        "sales": 460,
+        "activeListings": 328,
+        "medianPrice": 538625,
+        "avgDaysOnMarket": 58
+      }
+    },
+    "plex2to5": {
+      "quarter": {
+        "sales": 42,
+        "activeListings": 116,
+        "medianPrice": 979444,
+        "avgDaysOnMarket": 55
+      },
+      "rolling4Q": {
+        "sales": 178,
+        "activeListings": 109,
+        "medianPrice": 936611,
+        "avgDaysOnMarket": 66
+      }
+    }
+  },
+  "coteSaintLuc": {
+    "totalResidential": {
+      "quarter": {
+        "sales": 66,
+        "newListings": 174,
+        "activeListings": 170,
+        "volumeThousandsCAD": 50763
+      },
+      "rolling4Q": {
+        "sales": 232,
+        "newListings": 497,
+        "activeListings": 139,
+        "volumeThousandsCAD": 186860
+      }
+    },
+    "singleFamily": {
+      "quarter": {
+        "sales": 23,
+        "activeListings": 61,
+        "medianPrice": null,
+        "avgDaysOnMarket": null,
+        "note": "Nombre de transactions insuffisant pour produire le prix médian et les jours moyens T2."
+      },
+      "rolling4Q": {
+        "sales": 94,
+        "activeListings": 45,
+        "medianPrice": 970562,
+        "avgDaysOnMarket": 54
+      }
+    },
+    "condo": {
+      "quarter": {
+        "sales": 39,
+        "activeListings": 105,
+        "medianPrice": 633000,
+        "avgDaysOnMarket": 55
+      },
+      "rolling4Q": {
+        "sales": 128,
+        "activeListings": 88,
+        "medianPrice": 557937,
+        "avgDaysOnMarket": 67
+      }
+    },
+    "plex2to5": {
+      "quarter": {
+        "sales": 4,
+        "activeListings": 4,
+        "medianPrice": null,
+        "avgDaysOnMarket": null,
+        "note": "Volume insuffisant pour une statistique fiable."
+      },
+      "rolling4Q": {
+        "sales": 10,
+        "activeListings": 4,
+        "medianPrice": null,
+        "avgDaysOnMarket": null,
+        "note": "Volume insuffisant pour une statistique fiable."
+      }
+    }
+  }
+}

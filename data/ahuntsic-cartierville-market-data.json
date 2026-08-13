@@ -1,0 +1,74 @@
+{
+  "region": {
+    "key": "ahuntsic-cartierville",
+    "publicName": "Ahuntsic-Cartierville",
+    "canonical": "https://www.courtierducoin.ca/secteurs/ahuntsic-cartierville/",
+    "marketingHost": "ahuntsic.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "accessedAt": "2026-08-11",
+    "geography": "Montréal (Ahuntsic-Cartierville), published by Centris",
+    "granularityNote": "These figures provide borough context and are not a property or street valuation."
+  },
+  "residential": {
+    "quarter": {
+      "sales": 274,
+      "newListings": 493,
+      "activeListings": 450
+    },
+    "rolling4Q": {
+      "sales": 894,
+      "newListings": 1553,
+      "activeListings": 375
+    }
+  },
+  "singleFamily": {
+    "quarter": {
+      "sales": 66,
+      "activeListings": 103,
+      "medianPrice": 926000,
+      "avgDaysOnMarket": 56
+    },
+    "rolling4Q": {
+      "sales": 204,
+      "activeListings": 94,
+      "medianPrice": 926500,
+      "avgDaysOnMarket": 60
+    }
+  },
+  "condo": {
+    "quarter": {
+      "sales": 123,
+      "activeListings": 213,
+      "medianPrice": 412500,
+      "avgDaysOnMarket": 48
+    },
+    "rolling4Q": {
+      "sales": 423,
+      "activeListings": 176,
+      "medianPrice": 421500,
+      "avgDaysOnMarket": 54
+    }
+  },
+  "plex2to5": {
+    "quarter": {
+      "sales": 85,
+      "activeListings": 134,
+      "medianPrice": 900000,
+      "avgDaysOnMarket": 33
+    },
+    "rolling4Q": {
+      "sales": 267,
+      "activeListings": 104,
+      "medianPrice": 905750,
+      "avgDaysOnMarket": 43
+    }
+  },
+  "rules": {
+    "missingValue": null,
+    "noCombinedMedian": true,
+    "notAnAutomatedValuation": true,
+    "visibleStatisticsMustResolveFromThisFile": true
+  }
+}

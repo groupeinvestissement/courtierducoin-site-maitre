@@ -1,0 +1,16 @@
+{
+  "key": "ouest-de-lile",
+  "status": "active-bilingual",
+  "architecture": {
+    "overview": "/secteurs/ouest-de-lile/",
+    "specialized": ["o1a11", "02a22", "03i33", "04m44", "05c55"],
+    "englishPrefix": "/en",
+    "formPrefix": "ouestile",
+    "marketingHost": "ouest-ile.courtierducoin.ca"
+  },
+  "mergedFrom": ["ouest-de-lile-nord", "ouest-de-lile-sud"],
+  "redirectPolicy": "301-preserve-query-string",
+  "dataPolicy": "Keep Pierrefonds-Roxboro and Pointe-Claire references separate; never invent a combined median.",
+  "visualPattern": "Pierre Dalpe portrait in the hero; property image beside the first explanatory block.",
+  "sourceOfTruth": "Current generated FR and EN pages in the repository."
+}

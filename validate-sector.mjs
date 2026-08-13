@@ -6,6 +6,7 @@ const configs = {
   'longueuil': {prefix:'longueuil',host:'longueuil.courtierducoin.ca',imageDir:'longueuil',data:'longueuil-market-data.json'},
   'mercier-hochelaga-maisonneuve': {prefix:'mhm',host:'mercier-hochelaga.courtierducoin.ca',imageDir:'mercier-hochelaga-maisonneuve',data:'mercier-hochelaga-maisonneuve-market-data.json'},
   'ndg-montreal-ouest': {prefix:'ndg',host:'ndg.courtierducoin.ca',imageDir:'ndg-montreal-ouest',data:'ndg-montreal-ouest-market-data.json'},
+  'ouest-de-lile': {prefix:'ouestile',host:'ouest-ile.courtierducoin.ca',imageDir:'ouest-de-lile',data:'ouest-de-lile-market-data.json'},
   'ouest-de-lile-nord': {prefix:'ouestnord',host:'ouest-ile-nord.courtierducoin.ca',imageDir:'ouest-de-lile-nord',data:'ouest-de-lile-nord-market-data.json'},
   'ouest-de-lile-sud': {prefix:'ouestsud',host:'ouest-ile-sud.courtierducoin.ca',imageDir:'ouest-de-lile-sud',data:'ouest-de-lile-sud-market-data.json'},
   'outremont-westmount-vmr': {prefix:'owvmr',host:'outremont-westmount-vmr.courtierducoin.ca',imageDir:'outremont-westmount-vmr',data:'outremont-westmount-vmr-market-data.json'},
@@ -49,7 +50,9 @@ for(const canonical of canonicals)if(!sitemap.includes(`<loc>${canonical}</loc>`
 JSON.parse(await readFile(join(root,'data',config.data),'utf8'));
 for(const image of ['universal','options','accompagnement','investisseur','maison','condo']){const file=join(root,'assets',config.imageDir,`hero-${config.imageDir}-${image}.webp`);try{const info=await stat(file);if(info.size<100000)errors.push(`${file}: image trop petite`);}catch{errors.push(`${file}: image absente`);}}
 const htaccess=await readFile(join(root,'.htaccess'),'utf8');
-if(!htaccess.includes(config.host.replaceAll('.','\\.'))||!htaccess.includes(`entry=${config.prefix}-`))errors.push('.htaccess: redirection sectorielle absente');
+const escapedHost=config.host.replaceAll('.','\\.');
+const hostPresent=htaccess.includes(escapedHost)||(config.host==='ouest-ile.courtierducoin.ca'&&htaccess.includes('^(ouest-ile|ouest-ile-nord|ouest-ile-sud)\\.courtierducoin\\.ca$'));
+if(!hostPresent||!htaccess.includes(`entry=${config.prefix}-`))errors.push('.htaccess: redirection sectorielle absente');
 const redirects=JSON.parse(await readFile(join(root,'redirect-map.json'),'utf8')).filter((item)=>item.entry.startsWith(`https://${config.host}/`));
 if(redirects.length!==6||redirects.some((item)=>item.status!==301||item.preserveQuery!==true||!item.destination.includes(`?entry=${config.prefix}-`)))errors.push('redirect-map: 6 redirections 301 avec conservation des paramètres requises');
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}console.log(`PASS: ${key} — 12 pages FR/EN, 12 Form IDs, images, data, SEO and routing validated.`);

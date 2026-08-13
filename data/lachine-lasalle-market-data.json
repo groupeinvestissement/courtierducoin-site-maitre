@@ -1,0 +1,149 @@
+{
+  "regionKey": "lachine-lasalle",
+  "publicName": "Lachine / LaSalle",
+  "verifiedAt": "2026-08-11",
+  "period": "2e trimestre 2026",
+  "methodNote": "Ce secteur combine deux arrondissements montréalais distincts. Les statistiques publiques doivent être présentées séparément pour Lachine et pour LaSalle. Il est interdit d'inventer une médiane combinée officielle Lachine / LaSalle.",
+  "sources": [
+    {
+      "name": "Centris — Montréal (Lachine)",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-lachine"
+    },
+    {
+      "name": "Centris — Montréal (LaSalle)",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/province-de-quebec/montreal-lasalle"
+    }
+  ],
+  "lachine": {
+    "totalResidential": {
+      "quarter": {
+        "sales": 120,
+        "newListings": 225,
+        "activeListings": 206,
+        "volumeThousandsCAD": 75920
+      },
+      "rolling4Q": {
+        "sales": 396,
+        "newListings": 737,
+        "activeListings": 179,
+        "volumeThousandsCAD": 243938
+      }
+    },
+    "singleFamily": {
+      "quarter": {
+        "sales": 38,
+        "activeListings": 56,
+        "medianPrice": 722500,
+        "avgDaysOnMarket": 34
+      },
+      "rolling4Q": {
+        "sales": 117,
+        "activeListings": 49,
+        "medianPrice": 763125,
+        "avgDaysOnMarket": 39
+      }
+    },
+    "condo": {
+      "quarter": {
+        "sales": 50,
+        "activeListings": 97,
+        "medianPrice": 403500,
+        "avgDaysOnMarket": 49
+      },
+      "rolling4Q": {
+        "sales": 181,
+        "activeListings": 84,
+        "medianPrice": 410625,
+        "avgDaysOnMarket": 49
+      }
+    },
+    "plex2to5": {
+      "quarter": {
+        "sales": 32,
+        "activeListings": 52,
+        "medianPrice": 791250,
+        "avgDaysOnMarket": 47
+      },
+      "rolling4Q": {
+        "sales": 98,
+        "activeListings": 45,
+        "medianPrice": 705937,
+        "avgDaysOnMarket": 41
+      }
+    }
+  },
+  "lasalle": {
+    "totalResidential": {
+      "quarter": {
+        "sales": 158,
+        "newListings": 282,
+        "activeListings": 351,
+        "volumeThousandsCAD": 107592
+      },
+      "rolling4Q": {
+        "sales": 544,
+        "newListings": 985,
+        "activeListings": 314,
+        "volumeThousandsCAD": 362986
+      }
+    },
+    "singleFamily": {
+      "quarter": {
+        "sales": 28,
+        "activeListings": 63,
+        "medianPrice": null,
+        "avgDaysOnMarket": null,
+        "note": "T2 2026 : prix médian et jours moyens non publiés par Centris."
+      },
+      "rolling4Q": {
+        "sales": 83,
+        "activeListings": 55,
+        "medianPrice": 711250,
+        "avgDaysOnMarket": 51
+      }
+    },
+    "condo": {
+      "quarter": {
+        "sales": 77,
+        "activeListings": 212,
+        "medianPrice": 449000,
+        "avgDaysOnMarket": 54
+      },
+      "rolling4Q": {
+        "sales": 273,
+        "activeListings": 186,
+        "medianPrice": 449250,
+        "avgDaysOnMarket": 61
+      }
+    },
+    "plex2to5": {
+      "quarter": {
+        "sales": 53,
+        "activeListings": 75,
+        "medianPrice": 920000,
+        "avgDaysOnMarket": 59
+      },
+      "rolling4Q": {
+        "sales": 188,
+        "activeListings": 71,
+        "medianPrice": 894625,
+        "avgDaysOnMarket": 61
+      }
+    }
+  },
+  "internalSimpleTotals": {
+    "quarter": {
+      "sales": 278,
+      "newListings": 507,
+      "activeListings": 557,
+      "volumeThousandsCAD": 183512
+    },
+    "rolling4Q": {
+      "sales": 940,
+      "newListings": 1722,
+      "activeListings": 493,
+      "volumeThousandsCAD": 606924
+    },
+    "warning": "Ces additions internes peuvent servir au pilotage, mais l'affichage public principal doit demeurer scindé entre Lachine et LaSalle."
+  }
+}

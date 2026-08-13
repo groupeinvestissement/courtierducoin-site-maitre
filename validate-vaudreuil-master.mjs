@@ -47,7 +47,7 @@ for (const [file,title,canonical,expectedKeys] of pages) {
 }
 
 if (new Set(keys).size !== 12 || keys.length !== 12) throw new Error('Les 12 Form IDs doivent être uniques');
-if (!endpoint.includes("Web form rejected: unknown source_key") || !endpoint.includes("Courtier du Coin > Vaudreuil-Soulanges")) throw new Error('Validation serveur de provenance absente');
+if (!endpoint.includes("Web form rejected: unknown source_key") || !endpoint.includes('Courtier du Coin > {$webRegion} >') || !registry.includes("'vs-universal-analysis'")) throw new Error('Validation serveur de provenance absente');
 if (!registry.includes("'web_page' => 'Vaudreuil-Soulanges — Universelle'") || !registry.includes("'source_detail_type' => 'Faire le point'")) throw new Error('Libellés CRM autoritaires invalides');
 if (!redirects.includes('?entry=vs-universal') || !redirects.includes('?entry=vs-$1')) throw new Error('Attribution du sous-domaine marketing absente');
 const market = JSON.parse(fs.readFileSync('data/vaudreuil-soulanges-market.json','utf8'));
