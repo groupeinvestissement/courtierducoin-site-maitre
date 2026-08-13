@@ -625,33 +625,39 @@
   },
   {
     "entry": "https://centre.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/centre-outremont-westmount-vmr/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/outremont-westmount-vmr/?entry=owvmr-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://centre.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/o1a11/?entry=owvmr-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://centre.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/02a22/?entry=owvmr-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://centre.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/03i33/?entry=owvmr-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://centre.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/04m44/?entry=owvmr-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://centre.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/centre-outremont-westmount-vmr/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/05c55/?entry=owvmr-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://longueuil.courtierducoin.ca/",
@@ -686,6 +692,42 @@
   {
     "entry": "https://longueuil.courtierducoin.ca/05c55",
     "destination": "https://www.courtierducoin.ca/longueuil/05c55/?entry=longueuil-05c55",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://outremont-westmount-vmr.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/outremont-westmount-vmr/?entry=owvmr-universal",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://outremont-westmount-vmr.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/o1a11/?entry=owvmr-o1a11",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://outremont-westmount-vmr.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/02a22/?entry=owvmr-02a22",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://outremont-westmount-vmr.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/03i33/?entry=owvmr-03i33",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://outremont-westmount-vmr.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/04m44/?entry=owvmr-04m44",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://outremont-westmount-vmr.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/05c55/?entry=owvmr-05c55",
     "status": 301,
     "preserveQuery": true
   }

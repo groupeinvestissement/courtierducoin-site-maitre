@@ -7,7 +7,8 @@ const configs = {
   'mercier-hochelaga-maisonneuve': {prefix:'mhm',host:'mercier-hochelaga.courtierducoin.ca',imageDir:'mercier-hochelaga-maisonneuve',data:'mercier-hochelaga-maisonneuve-market-data.json'},
   'ndg-montreal-ouest': {prefix:'ndg',host:'ndg.courtierducoin.ca',imageDir:'ndg-montreal-ouest',data:'ndg-montreal-ouest-market-data.json'},
   'ouest-de-lile-nord': {prefix:'ouestnord',host:'ouest-ile-nord.courtierducoin.ca',imageDir:'ouest-de-lile-nord',data:'ouest-de-lile-nord-market-data.json'},
-  'ouest-de-lile-sud': {prefix:'ouestsud',host:'ouest-ile-sud.courtierducoin.ca',imageDir:'ouest-de-lile-sud',data:'ouest-de-lile-sud-market-data.json'}
+  'ouest-de-lile-sud': {prefix:'ouestsud',host:'ouest-ile-sud.courtierducoin.ca',imageDir:'ouest-de-lile-sud',data:'ouest-de-lile-sud-market-data.json'},
+  'outremont-westmount-vmr': {prefix:'owvmr',host:'outremont-westmount-vmr.courtierducoin.ca',imageDir:'outremont-westmount-vmr',data:'outremont-westmount-vmr-market-data.json'}
 };
 const key=process.argv[2]; const config=configs[key];
 if(!config) throw new Error(`Unknown sector: ${key}`);

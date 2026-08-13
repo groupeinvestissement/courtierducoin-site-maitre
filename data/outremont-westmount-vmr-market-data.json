@@ -1,0 +1,73 @@
+{
+  "region": {
+    "key": "outremont-westmount-vmr",
+    "publicName": "Outremont / Westmount / VMR",
+    "canonical": "https://www.courtierducoin.ca/secteurs/outremont-westmount-vmr/",
+    "marketingHost": "outremont-westmount-vmr.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "rollingPeriod": "Cumul des 4 derniers trimestres",
+    "accessedAt": "2026-08-12",
+    "geography": "Montréal (Outremont), publiée par Centris",
+    "granularityNote": "Outremont sert de repère statistique vérifiable. Westmount et Mont-Royal possèdent leurs propres profils Centris et ne sont ni additionnés ni moyennés avec Outremont."
+  },
+  "residential": {
+    "quarter": {"sales": 67, "newListings": 125, "activeListings": 162, "volumeThousands": 91956},
+    "rolling4Q": {"sales": 239, "newListings": 444, "activeListings": 153, "volumeThousands": 336015}
+  },
+  "singleFamily": {
+    "quarter": {"sales": 21, "activeListings": 32, "medianPrice": null, "avgDaysOnMarket": null},
+    "rolling4Q": {"sales": 72, "activeListings": 31, "medianPrice": 2201700, "avgDaysOnMarket": 67}
+  },
+  "condo": {
+    "quarter": {"sales": 43, "activeListings": 115, "medianPrice": 770000, "avgDaysOnMarket": 58},
+    "rolling4Q": {"sales": 157, "activeListings": 107, "medianPrice": 787500, "avgDaysOnMarket": 58}
+  },
+  "plex2to5": {
+    "quarter": {"sales": 3, "activeListings": 14, "medianPrice": null, "avgDaysOnMarket": null},
+    "rolling4Q": {"sales": 10, "activeListings": 14, "medianPrice": null, "avgDaysOnMarket": null}
+  },
+  "microMarkets": ["Outremont", "Haut-Outremont", "Westmount", "Westmount-Adjacente", "Mont-Royal", "Secteur Beaumont"],
+  "localContext": {
+    "propertyDiversityNote": "Outremont, Westmount et Mont-Royal réunissent des maisons patrimoniales, des résidences détachées, des copropriétés et quelques petits immeubles à revenus. La municipalité, la rue, le patrimoine, la topographie, l’état et la typologie doivent rester séparés dans l’analyse."
+  },
+  "sources": [
+    {
+      "id": "centris-outremont-t2-2026",
+      "publisher": "Centris",
+      "title": "Montréal (Outremont) — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-outremont",
+      "period": "T2 2026 et cumul des 4 derniers trimestres",
+      "accessedAt": "2026-08-12",
+      "supports": ["residential", "singleFamily", "condo", "plex2to5"]
+    },
+    {
+      "id": "centris-westmount-t2-2026",
+      "publisher": "Centris",
+      "title": "Westmount — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/westmount",
+      "period": "T2 2026",
+      "accessedAt": "2026-08-12",
+      "supports": ["scopeDisclosure", "localContext"]
+    },
+    {
+      "id": "centris-mont-royal-t2-2026",
+      "publisher": "Centris",
+      "title": "Mont-Royal — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/mont-royal",
+      "period": "T2 2026",
+      "accessedAt": "2026-08-12",
+      "supports": ["scopeDisclosure", "localContext"]
+    },
+    {
+      "id": "montreal-outremont-profile",
+      "publisher": "Ville de Montréal",
+      "title": "Outremont",
+      "url": "https://montreal.ca/apropos/outremont",
+      "accessedAt": "2026-08-12",
+      "supports": ["visualDirection", "localContext"]
+    }
+  ],
+  "rules": {"missingValue": null, "noCombinedMedian": true, "notAnAutomatedValuation": true, "visibleStatisticsMustResolveFromThisFile": true}
+}
