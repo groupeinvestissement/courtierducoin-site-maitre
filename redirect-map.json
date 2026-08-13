@@ -730,5 +730,41 @@
     "destination": "https://www.courtierducoin.ca/outremont-westmount-vmr/05c55/?entry=owvmr-05c55",
     "status": 301,
     "preserveQuery": true
+  },
+  {
+    "entry": "https://repentigny.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/repentigny/?entry=repentigny-universal",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://repentigny.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/repentigny/o1a11/?entry=repentigny-o1a11",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://repentigny.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/repentigny/02a22/?entry=repentigny-02a22",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://repentigny.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/repentigny/03i33/?entry=repentigny-03i33",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://repentigny.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/repentigny/04m44/?entry=repentigny-04m44",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://repentigny.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/repentigny/05c55/?entry=repentigny-05c55",
+    "status": 301,
+    "preserveQuery": true
   }
 ]

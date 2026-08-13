@@ -1,0 +1,63 @@
+{
+  "region": {
+    "key": "repentigny",
+    "publicName": "Repentigny",
+    "canonical": "https://www.courtierducoin.ca/secteurs/repentigny/",
+    "marketingHost": "repentigny.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "rollingPeriod": "Cumul des 4 derniers trimestres",
+    "accessedAt": "2026-08-13",
+    "geography": "Repentigny (Repentigny), publiée par Centris",
+    "granularityNote": "Les statistiques couvrent la ville de Repentigny. Elles servent de repère et ne remplacent pas une analyse de la propriété, de sa rue et de son micro-marché."
+  },
+  "residential": {
+    "quarter": {"sales": 257, "newListings": 348, "activeListings": 244, "volumeThousands": 137933},
+    "rolling4Q": {"sales": 830, "newListings": 1168, "activeListings": 201, "volumeThousands": 472248}
+  },
+  "singleFamily": {
+    "quarter": {"sales": 172, "activeListings": 145, "medianPrice": 589000, "avgDaysOnMarket": 23},
+    "rolling4Q": {"sales": 563, "activeListings": 117, "medianPrice": 596250, "avgDaysOnMarket": 25}
+  },
+  "condo": {
+    "quarter": {"sales": 80, "activeListings": 90, "medianPrice": 326500, "avgDaysOnMarket": 47},
+    "rolling4Q": {"sales": 249, "activeListings": 76, "medianPrice": 351600, "avgDaysOnMarket": 41}
+  },
+  "plex2to5": {
+    "quarter": {"sales": 5, "activeListings": 8, "medianPrice": null, "avgDaysOnMarket": null},
+    "rolling4Q": {"sales": 18, "activeListings": 8, "medianPrice": null, "avgDaysOnMarket": null}
+  },
+  "microMarkets": ["Repentigny-les-Bains", "Des Moulins", "Vieux-Saint-Paul", "Le Gardeur", "Rue Notre-Dame", "Notre-Dame-des-Champs"],
+  "localContext": {
+    "propertyDiversityNote": "Repentigny réunit des maisons unifamiliales, des bungalows, des copropriétés et de petits immeubles à revenus. La proximité du fleuve, le secteur, l’âge, l’état, les rénovations et la typologie doivent rester distincts dans l’analyse."
+  },
+  "sources": [
+    {
+      "id": "centris-repentigny-t2-2026",
+      "publisher": "Centris",
+      "title": "Repentigny (Repentigny) — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/province-de-quebec/repentigny-repentigny",
+      "period": "T2 2026 et cumul des 4 derniers trimestres",
+      "accessedAt": "2026-08-13",
+      "supports": ["residential", "singleFamily", "condo", "plex2to5"]
+    },
+    {
+      "id": "repentigny-amenagement",
+      "publisher": "Ville de Repentigny",
+      "title": "Aménagement du territoire",
+      "url": "https://repentigny.ca/services/citoyens/amenagement-territoire-urbanisme/amenagement-territoire",
+      "accessedAt": "2026-08-13",
+      "supports": ["visualDirection", "localContext"]
+    },
+    {
+      "id": "repentigny-districts",
+      "publisher": "Ville de Repentigny",
+      "title": "Districts",
+      "url": "https://repentigny.ca/la-ville/vie-democratique/districts",
+      "accessedAt": "2026-08-13",
+      "supports": ["microMarkets", "localContext"]
+    }
+  ],
+  "rules": {"missingValue": null, "noCombinedMedian": true, "notAnAutomatedValuation": true, "visibleStatisticsMustResolveFromThisFile": true}
+}
