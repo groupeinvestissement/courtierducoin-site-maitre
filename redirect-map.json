@@ -271,33 +271,39 @@
   },
   {
     "entry": "https://villeray.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/villeray-saint-michel-parc-extension/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/secteurs/villeray-saint-michel-parc-extension/?entry=vsp-universal",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://villeray.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/o1a11/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/o1a11/?entry=vsp-o1a11",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://villeray.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/02a22/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/02a22/?entry=vsp-02a22",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://villeray.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/03i33/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/03i33/?entry=vsp-03i33",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://villeray.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/04m44/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/04m44/?entry=vsp-04m44",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://villeray.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/05c55/",
-    "status": 301
+    "destination": "https://www.courtierducoin.ca/villeray-saint-michel-parc-extension/05c55/?entry=vsp-05c55",
+    "status": 301,
+    "preserveQuery": true
   },
   {
     "entry": "https://lachine-lasalle.courtierducoin.ca/",

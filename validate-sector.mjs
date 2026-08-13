@@ -12,7 +12,8 @@ const configs = {
   'repentigny': {prefix:'repentigny',host:'repentigny.courtierducoin.ca',imageDir:'repentigny',data:'repentigny-market-data.json'},
   'saint-laurent': {prefix:'saintlaurent',host:'saint-laurent.courtierducoin.ca',imageDir:'saint-laurent',data:'saint-laurent-market-data.json'},
   'verdun': {prefix:'verdun',host:'verdun.courtierducoin.ca',imageDir:'verdun',data:'verdun-market-data.json'},
-  'ville-marie': {prefix:'villemarie',host:'ville-marie.courtierducoin.ca',imageDir:'ville-marie',data:'ville-marie-market-data.json'}
+  'ville-marie': {prefix:'villemarie',host:'ville-marie.courtierducoin.ca',imageDir:'ville-marie',data:'ville-marie-market-data.json'},
+  'villeray-saint-michel-parc-extension': {prefix:'vsp',host:'villeray.courtierducoin.ca',imageDir:'villeray-saint-michel-parc-extension',data:'villeray-saint-michel-parc-extension-market-data.json'}
 };
 const key=process.argv[2]; const config=configs[key];
 if(!config) throw new Error(`Unknown sector: ${key}`);
