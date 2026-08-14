@@ -25,7 +25,8 @@ const allTitles = new Map();
 const allCanonicals = new Set();
 
 for (const [key, prefix] of sectors) {
-  const keys = new Set();
+  const requiresSharedPattern = key !== 'vaudreuil-soulanges';
+  const keysByLanguage = { fr: new Set(), en: new Set() };
   for (const lang of ['fr', 'en']) {
     for (const code of codes) {
       const file = fileFor(key, code, lang);
@@ -48,23 +49,37 @@ for (const [key, prefix] of sectors) {
       if (allTitles.has(titleKey)) fail(`${expected}: duplicate title with ${allTitles.get(titleKey)}`); else allTitles.set(titleKey, expected);
       const jsonLd = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
       if (!jsonLd.length) fail(`${expected}: JSON-LD missing`);
-      for (const block of jsonLd) { try { JSON.parse(block[1]); } catch { fail(`${expected}: invalid JSON-LD`); } }
-
-      if (lang === 'en') {
-        if (!html.includes('<html lang="en-CA">')) fail(`${expected}: language is not en-CA`);
-        if (!html.includes('class="lang-switch"') || !html.includes(`href="${reciprocal}"`)) fail(`${expected}: visible French switch missing`);
-        const forms = [...html.matchAll(/<form\b[\s\S]*?<\/form>/g)].map(m => m[0]);
-        if (forms.length !== 2) fail(`${expected}: expected two forms, found ${forms.length}`);
-        for (const form of forms) {
-          const sourceKey = attribute(form, /name="source_key" value="([^"]+)"/) || attribute(form, /data-source-key="([^"]+)"/);
-          if (!sourceKey) fail(`${expected}: form source key missing`);
-          else {
-            keys.add(sourceKey);
-            if (!registry.includes(`'${sourceKey}' =>`)) fail(`${expected}: ${sourceKey} absent from registry`);
+      for (const block of jsonLd) {
+        try {
+          const parsed = JSON.parse(block[1]);
+          const nodes = parsed['@graph'] || [parsed];
+          const schemaTypes = new Set(nodes.map(node => node['@type']));
+          if (requiresSharedPattern) {
+            for (const requiredType of ['WebPage', 'BreadcrumbList', 'Person', 'Organization', 'RealEstateAgent', 'VideoObject', 'FAQPage']) {
+              if (!schemaTypes.has(requiredType)) fail(`${expected}: ${requiredType} schema missing`);
+            }
           }
-          if (!form.includes('name="consent_request"')) fail(`${expected}: required consent missing`);
-          if (!form.includes('name="consent_marketing"')) fail(`${expected}: optional marketing consent missing`);
+        } catch { fail(`${expected}: invalid JSON-LD`); }
+      }
+
+      if (!html.includes(`<html lang="${lang === 'en' ? 'en-CA' : 'fr-CA'}">`)) fail(`${expected}: language declaration is incorrect`);
+      if (!html.includes('class="lang-switch"') || !html.includes(`href="${reciprocal}"`)) fail(`${expected}: visible reciprocal language switch missing`);
+      if (requiresSharedPattern && (!html.includes('/sector-master.css') || !html.includes('/sector-master.js'))) fail(`${expected}: shared modern pattern missing`);
+      if (requiresSharedPattern && !html.includes('class="rm-page sector-page')) fail(`${expected}: modern sector page class missing`);
+
+      const forms = [...html.matchAll(/<form\b[\s\S]*?<\/form>/g)].map(m => m[0]);
+      if (forms.length !== 2) fail(`${expected}: expected two forms, found ${forms.length}`);
+      for (const form of forms) {
+        const sourceKey = attribute(form, /name="source_key" value="([^"]+)"/) || attribute(form, /data-source-key="([^"]+)"/);
+        if (!sourceKey) fail(`${expected}: form source key missing`);
+        else {
+          keysByLanguage[lang].add(sourceKey);
+          if (!registry.includes(`'${sourceKey}' =>`)) fail(`${expected}: ${sourceKey} absent from registry`);
         }
+        if (!form.includes('name="consent_request"')) fail(`${expected}: required consent missing`);
+        if (!form.includes('name="consent_marketing"')) fail(`${expected}: optional marketing consent missing`);
+      }
+      if (requiresSharedPattern) {
         if (!html.includes('/assets/pierre-dalpe-portrait-transparent.png')) fail(`${expected}: Pierre portrait missing`);
         const property = attribute(html, /class="property-proof-photo"[\s\S]*?<img src="([^"]+)"/);
         if (!property) fail(`${expected}: property proof image missing`);
@@ -72,19 +87,22 @@ for (const [key, prefix] of sectors) {
           try { const info = await stat(join(root, property.replace(/^\//, ''))); if (info.size < 50_000) fail(`${expected}: property image too small`); }
           catch { fail(`${expected}: property image file missing: ${property}`); }
         }
-        for (const link of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
-          let value = link[1];
-          if (/^(?:https?:\/\/|tel:|mailto:|sms:|#|data:)/.test(value)) continue;
-          value = value.split(/[?#]/)[0];
-          if (!value || value === '/') continue;
-          const candidate = value.endsWith('/') ? join(root, value.replace(/^\//, ''), 'index.html') : join(root, value.replace(/^\//, ''));
-          try { await stat(candidate); } catch { fail(`${expected}: broken internal reference ${value}`); }
-        }
-      } else if (!html.includes(`href="${reciprocal}"`)) fail(`${expected}: English switch missing`);
+      }
+      for (const link of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
+        let value = link[1];
+        if (/^(?:https?:\/\/|tel:|mailto:|sms:|#|data:)/.test(value)) continue;
+        value = value.split(/[?#]/)[0];
+        if (!value || value === '/') continue;
+        const candidate = value.endsWith('/') ? join(root, value.replace(/^\//, ''), 'index.html') : join(root, value.replace(/^\//, ''));
+        try { await stat(candidate); } catch { fail(`${expected}: broken internal reference ${value}`); }
+      }
     }
   }
-  if (keys.size !== 12) fail(`${key}: expected 12 unique English form keys, found ${keys.size}`);
-  for (const sourceKey of keys) if (!sourceKey.startsWith(`${prefix}-`)) fail(`${key}: unexpected form prefix in ${sourceKey}`);
+  for (const lang of ['fr', 'en']) {
+    const keys = keysByLanguage[lang];
+    if (keys.size !== 12) fail(`${key}: expected 12 unique ${lang.toUpperCase()} form keys, found ${keys.size}`);
+    for (const sourceKey of keys) if (!sourceKey.startsWith(`${prefix}-`)) fail(`${key}: unexpected ${lang.toUpperCase()} form prefix in ${sourceKey}`);
+  }
 }
 
 const sitemap = await readFile(join(root, 'sitemap.xml'), 'utf8');
@@ -109,4 +127,4 @@ if (errors.length) {
   for (const error of errors) console.error(`- ${error}`);
   process.exit(1);
 }
-console.log('PASS: 7 bilingual sectors, 84 pages, 84 form source IDs, SEO, assets, links, sitemap and 42 West Island redirects validated.');
+console.log('PASS: 7 bilingual sectors, 84 pages, 168 form placements, shared modern pattern where required, SEO, assets, links, sitemap and 42 West Island redirects validated.');

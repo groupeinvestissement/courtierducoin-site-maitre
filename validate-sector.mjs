@@ -2,6 +2,11 @@ import {readFile, stat} from 'node:fs/promises';
 import {join} from 'node:path';
 
 const configs = {
+  'ahuntsic-cartierville': {prefix:'ahuntsic',host:'ahuntsic.courtierducoin.ca',imageDir:'ahuntsic-cartierville',data:'ahuntsic-cartierville-market-data.json',directRouting:true},
+  'anjou-saint-leonard': {prefix:'anjou',host:'anjou-saint-leonard.courtierducoin.ca',imageDir:'anjou-saint-leonard',data:'anjou-saint-leonard-market-data.json',directRouting:true},
+  'cdn-cote-saint-luc': {prefix:'cdn',host:'cdn-csl.courtierducoin.ca',imageDir:'cdn-cote-saint-luc',data:'cdn-cote-saint-luc-market-data.json',directRouting:true},
+  'ile-des-soeurs': {prefix:'ids',host:'ile-des-soeurs.courtierducoin.ca',imageDir:'ile-des-soeurs',data:'ile-des-soeurs-market-data.json',directRouting:true},
+  'lachine-lasalle': {prefix:'lachinelasalle',host:'lachine-lasalle.courtierducoin.ca',imageDir:'lachine-lasalle',data:'lachine-lasalle-market-data.json',directRouting:true},
   'le-sud-ouest': {prefix:'sudouest',host:'sud-ouest.courtierducoin.ca',imageDir:'le-sud-ouest',data:'le-sud-ouest-market-data.json'},
   'longueuil': {prefix:'longueuil',host:'longueuil.courtierducoin.ca',imageDir:'longueuil',data:'longueuil-market-data.json'},
   'mercier-hochelaga-maisonneuve': {prefix:'mhm',host:'mercier-hochelaga.courtierducoin.ca',imageDir:'mercier-hochelaga-maisonneuve',data:'mercier-hochelaga-maisonneuve-market-data.json'},
@@ -52,7 +57,7 @@ for(const image of ['universal','options','accompagnement','investisseur','maiso
 const htaccess=await readFile(join(root,'.htaccess'),'utf8');
 const escapedHost=config.host.replaceAll('.','\\.');
 const hostPresent=htaccess.includes(escapedHost)||(config.host==='ouest-ile.courtierducoin.ca'&&htaccess.includes('^(ouest-ile|ouest-ile-nord|ouest-ile-sud)\\.courtierducoin\\.ca$'));
-if(!hostPresent||!htaccess.includes(`entry=${config.prefix}-`))errors.push('.htaccess: redirection sectorielle absente');
+if(!hostPresent||(!config.directRouting&&!htaccess.includes(`entry=${config.prefix}-`)))errors.push('.htaccess: redirection sectorielle absente');
 const redirects=JSON.parse(await readFile(join(root,'redirect-map.json'),'utf8')).filter((item)=>item.entry.startsWith(`https://${config.host}/`));
-if(redirects.length!==6||redirects.some((item)=>item.status!==301||item.preserveQuery!==true||!item.destination.includes(`?entry=${config.prefix}-`)))errors.push('redirect-map: 6 redirections 301 avec conservation des paramètres requises');
+if(redirects.length!==6||redirects.some((item)=>item.status!==301||(!config.directRouting&&item.preserveQuery!==true)||(!config.directRouting&&!item.destination.includes(`?entry=${config.prefix}-`))))errors.push('redirect-map: 6 redirections 301 avec conservation des paramètres requises');
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}console.log(`PASS: ${key} — 12 pages FR/EN, 12 Form IDs, images, data, SEO and routing validated.`);
