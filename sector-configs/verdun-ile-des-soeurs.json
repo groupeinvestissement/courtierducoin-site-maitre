@@ -9,9 +9,15 @@
   ],
   "canonicalHost": "www.courtierducoin.ca",
   "marketingHosts": [
-    "verdun.courtierducoin.ca",
+    "verdun.courtierducoin.ca"
+  ],
+  "legacyHostRules": [
     "ile-des-soeurs.courtierducoin.ca"
   ],
+  "dnsState": {
+    "verdun.courtierducoin.ca": "ACTIVE",
+    "ile-des-soeurs.courtierducoin.ca": "NOT_PROVISIONED"
+  },
   "formPrefix": "verdunids",
   "dataFile": "data/verdun-ile-des-soeurs-market-data.json",
   "imageDirectory": "assets/verdun-ile-des-soeurs",
