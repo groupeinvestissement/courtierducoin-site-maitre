@@ -17,6 +17,7 @@ const configs = {
   'outremont-westmount-vmr': {prefix:'owvmr',host:'outremont-westmount-vmr.courtierducoin.ca',imageDir:'outremont-westmount-vmr',data:'outremont-westmount-vmr-market-data.json'},
   'repentigny': {prefix:'repentigny',host:'repentigny.courtierducoin.ca',imageDir:'repentigny',data:'repentigny-market-data.json'},
   'saint-laurent': {prefix:'saintlaurent',host:'saint-laurent.courtierducoin.ca',imageDir:'saint-laurent',data:'saint-laurent-market-data.json'},
+  'verdun-ile-des-soeurs': {prefix:'verdunids',host:'verdun.courtierducoin.ca',imageDir:'verdun-ile-des-soeurs',data:'verdun-ile-des-soeurs-market-data.json',mergedRouting:true},
   'verdun': {prefix:'verdun',host:'verdun.courtierducoin.ca',imageDir:'verdun',data:'verdun-market-data.json'},
   'ville-marie': {prefix:'villemarie',host:'ville-marie.courtierducoin.ca',imageDir:'ville-marie',data:'ville-marie-market-data.json'},
   'villeray-saint-michel-parc-extension': {prefix:'vsp',host:'villeray.courtierducoin.ca',imageDir:'villeray-saint-michel-parc-extension',data:'villeray-saint-michel-parc-extension-market-data.json'}
@@ -56,7 +57,7 @@ JSON.parse(await readFile(join(root,'data',config.data),'utf8'));
 for(const image of ['universal','options','accompagnement','investisseur','maison','condo']){const file=join(root,'assets',config.imageDir,`hero-${config.imageDir}-${image}.webp`);try{const info=await stat(file);if(info.size<100000)errors.push(`${file}: image trop petite`);}catch{errors.push(`${file}: image absente`);}}
 const htaccess=await readFile(join(root,'.htaccess'),'utf8');
 const escapedHost=config.host.replaceAll('.','\\.');
-const hostPresent=htaccess.includes(escapedHost)||(config.host==='ouest-ile.courtierducoin.ca'&&htaccess.includes('^(ouest-ile|ouest-ile-nord|ouest-ile-sud)\\.courtierducoin\\.ca$'));
+const hostPresent=htaccess.includes(escapedHost)||(config.host==='ouest-ile.courtierducoin.ca'&&htaccess.includes('^(ouest-ile|ouest-ile-nord|ouest-ile-sud)\\.courtierducoin\\.ca$'))||(config.mergedRouting&&htaccess.includes('^(verdun|ile-des-soeurs)\\.courtierducoin\\.ca$'));
 if(!hostPresent||(!config.directRouting&&!htaccess.includes(`entry=${config.prefix}-`)))errors.push('.htaccess: redirection sectorielle absente');
 const redirects=JSON.parse(await readFile(join(root,'redirect-map.json'),'utf8')).filter((item)=>item.entry.startsWith(`https://${config.host}/`));
 if(redirects.length!==6||redirects.some((item)=>item.status!==301||(!config.directRouting&&item.preserveQuery!==true)||(!config.directRouting&&!item.destination.includes(`?entry=${config.prefix}-`))))errors.push('redirect-map: 6 redirections 301 avec conservation des paramètres requises');

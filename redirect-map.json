@@ -516,36 +516,6 @@
     "preserveQuery": true
   },
   {
-    "entry": "https://ile-des-soeurs.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/ile-des-soeurs/",
-    "status": 301
-  },
-  {
-    "entry": "https://ile-des-soeurs.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/ile-des-soeurs/o1a11/",
-    "status": 301
-  },
-  {
-    "entry": "https://ile-des-soeurs.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/ile-des-soeurs/02a22/",
-    "status": 301
-  },
-  {
-    "entry": "https://ile-des-soeurs.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/ile-des-soeurs/03i33/",
-    "status": 301
-  },
-  {
-    "entry": "https://ile-des-soeurs.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/ile-des-soeurs/04m44/",
-    "status": 301
-  },
-  {
-    "entry": "https://ile-des-soeurs.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/ile-des-soeurs/05c55/",
-    "status": 301
-  },
-  {
     "entry": "https://cdn-csl.courtierducoin.ca/",
     "destination": "https://www.courtierducoin.ca/secteurs/cdn-cote-saint-luc/",
     "status": 301
@@ -786,42 +756,6 @@
     "preserveQuery": true
   },
   {
-    "entry": "https://verdun.courtierducoin.ca/",
-    "destination": "https://www.courtierducoin.ca/secteurs/verdun/?entry=verdun-universal",
-    "status": 301,
-    "preserveQuery": true
-  },
-  {
-    "entry": "https://verdun.courtierducoin.ca/o1a11",
-    "destination": "https://www.courtierducoin.ca/verdun/o1a11/?entry=verdun-o1a11",
-    "status": 301,
-    "preserveQuery": true
-  },
-  {
-    "entry": "https://verdun.courtierducoin.ca/02a22",
-    "destination": "https://www.courtierducoin.ca/verdun/02a22/?entry=verdun-02a22",
-    "status": 301,
-    "preserveQuery": true
-  },
-  {
-    "entry": "https://verdun.courtierducoin.ca/03i33",
-    "destination": "https://www.courtierducoin.ca/verdun/03i33/?entry=verdun-03i33",
-    "status": 301,
-    "preserveQuery": true
-  },
-  {
-    "entry": "https://verdun.courtierducoin.ca/04m44",
-    "destination": "https://www.courtierducoin.ca/verdun/04m44/?entry=verdun-04m44",
-    "status": 301,
-    "preserveQuery": true
-  },
-  {
-    "entry": "https://verdun.courtierducoin.ca/05c55",
-    "destination": "https://www.courtierducoin.ca/verdun/05c55/?entry=verdun-05c55",
-    "status": 301,
-    "preserveQuery": true
-  },
-  {
     "entry": "https://ouest-ile.courtierducoin.ca/",
     "destination": "https://www.courtierducoin.ca/secteurs/ouest-de-lile/?entry=ouestile-universal",
     "status": 301,
@@ -998,6 +932,222 @@
   {
     "entry": "https://www.courtierducoin.ca/en/ouest-de-lile-sud/05c55/",
     "destination": "https://www.courtierducoin.ca/en/ouest-de-lile/05c55/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/verdun-ile-des-soeurs/?entry=verdunids-universal",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/o1a11/?entry=verdunids-o1a11",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/02a22/?entry=verdunids-02a22",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/03i33/?entry=verdunids-03i33",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/04m44/?entry=verdunids-04m44",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://verdun.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/05c55/?entry=verdunids-05c55",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/",
+    "destination": "https://www.courtierducoin.ca/secteurs/verdun-ile-des-soeurs/?entry=verdunids-universal",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/o1a11",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/o1a11/?entry=verdunids-o1a11",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/02a22",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/02a22/?entry=verdunids-02a22",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/03i33",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/03i33/?entry=verdunids-03i33",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/04m44",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/04m44/?entry=verdunids-04m44",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://ile-des-soeurs.courtierducoin.ca/05c55",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/05c55/?entry=verdunids-05c55",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/secteurs/verdun/",
+    "destination": "https://www.courtierducoin.ca/secteurs/verdun-ile-des-soeurs/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/verdun/o1a11/",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/o1a11/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/verdun/02a22/",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/02a22/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/verdun/03i33/",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/03i33/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/verdun/04m44/",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/04m44/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/verdun/05c55/",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/05c55/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/secteurs/verdun/",
+    "destination": "https://www.courtierducoin.ca/en/secteurs/verdun-ile-des-soeurs/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/verdun/o1a11/",
+    "destination": "https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/o1a11/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/verdun/02a22/",
+    "destination": "https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/02a22/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/verdun/03i33/",
+    "destination": "https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/03i33/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/verdun/04m44/",
+    "destination": "https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/04m44/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/verdun/05c55/",
+    "destination": "https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/05c55/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/secteurs/ile-des-soeurs/",
+    "destination": "https://www.courtierducoin.ca/secteurs/verdun-ile-des-soeurs/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/ile-des-soeurs/o1a11/",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/o1a11/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/ile-des-soeurs/02a22/",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/02a22/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/ile-des-soeurs/03i33/",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/03i33/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/ile-des-soeurs/04m44/",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/04m44/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/ile-des-soeurs/05c55/",
+    "destination": "https://www.courtierducoin.ca/verdun-ile-des-soeurs/05c55/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/secteurs/ile-des-soeurs/",
+    "destination": "https://www.courtierducoin.ca/en/secteurs/verdun-ile-des-soeurs/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/ile-des-soeurs/o1a11/",
+    "destination": "https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/o1a11/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/ile-des-soeurs/02a22/",
+    "destination": "https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/02a22/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/ile-des-soeurs/03i33/",
+    "destination": "https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/03i33/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/ile-des-soeurs/04m44/",
+    "destination": "https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/04m44/",
+    "status": 301,
+    "preserveQuery": true
+  },
+  {
+    "entry": "https://www.courtierducoin.ca/en/ile-des-soeurs/05c55/",
+    "destination": "https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/05c55/",
     "status": 301,
     "preserveQuery": true
   }

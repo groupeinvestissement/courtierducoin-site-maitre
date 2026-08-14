@@ -73,12 +73,6 @@
   <url><loc>https://www.courtierducoin.ca/ndg-montreal-ouest/03i33/</loc></url>
   <url><loc>https://www.courtierducoin.ca/ndg-montreal-ouest/04m44/</loc></url>
   <url><loc>https://www.courtierducoin.ca/ndg-montreal-ouest/05c55/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/secteurs/ile-des-soeurs/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ile-des-soeurs/o1a11/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ile-des-soeurs/02a22/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ile-des-soeurs/03i33/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ile-des-soeurs/04m44/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/ile-des-soeurs/05c55/</loc></url>
   <url><loc>https://www.courtierducoin.ca/secteurs/cdn-cote-saint-luc/</loc></url>
   <url><loc>https://www.courtierducoin.ca/cdn-cote-saint-luc/o1a11/</loc></url>
   <url><loc>https://www.courtierducoin.ca/cdn-cote-saint-luc/02a22/</loc></url>
@@ -174,18 +168,6 @@
   <url><loc>https://www.courtierducoin.ca/en/saint-laurent/03i33/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/saint-laurent/04m44/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/saint-laurent/05c55/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/secteurs/verdun/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/verdun/o1a11/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/verdun/02a22/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/verdun/03i33/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/verdun/04m44/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/verdun/05c55/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/secteurs/verdun/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/verdun/o1a11/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/verdun/02a22/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/verdun/03i33/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/verdun/04m44/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/verdun/05c55/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/secteurs/ville-marie/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/ville-marie/o1a11/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/ville-marie/02a22/</loc></url>
@@ -234,16 +216,22 @@
   <url><loc>https://www.courtierducoin.ca/en/lachine-lasalle/03i33/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/lachine-lasalle/04m44/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/lachine-lasalle/05c55/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/secteurs/ile-des-soeurs/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ile-des-soeurs/o1a11/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ile-des-soeurs/02a22/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ile-des-soeurs/03i33/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ile-des-soeurs/04m44/</loc></url>
-  <url><loc>https://www.courtierducoin.ca/en/ile-des-soeurs/05c55/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/secteurs/vaudreuil-soulanges/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/vaudreuil-soulanges/o1a11/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/vaudreuil-soulanges/02a22/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/vaudreuil-soulanges/03i33/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/vaudreuil-soulanges/04m44/</loc></url>
   <url><loc>https://www.courtierducoin.ca/en/vaudreuil-soulanges/05c55/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/secteurs/verdun-ile-des-soeurs/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/verdun-ile-des-soeurs/o1a11/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/verdun-ile-des-soeurs/02a22/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/verdun-ile-des-soeurs/03i33/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/verdun-ile-des-soeurs/04m44/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/verdun-ile-des-soeurs/05c55/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/secteurs/verdun-ile-des-soeurs/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/o1a11/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/02a22/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/03i33/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/04m44/</loc></url>
+  <url><loc>https://www.courtierducoin.ca/en/verdun-ile-des-soeurs/05c55/</loc></url>
 </urlset>

@@ -1,0 +1,117 @@
+{
+  "region": {
+    "key": "verdun-ile-des-soeurs",
+    "publicName": "Verdun / L’Île-des-Sœurs",
+    "canonical": "https://www.courtierducoin.ca/secteurs/verdun-ile-des-soeurs/",
+    "marketingHost": "verdun.courtierducoin.ca"
+  },
+  "snapshot": {
+    "period": "T2 2026",
+    "rollingPeriod": "Cumul des 4 derniers trimestres",
+    "accessedAt": "2026-08-13",
+    "geography": "Montréal (Verdun/Île-des-Sœurs), publiée par Centris",
+    "granularityNote": "Centris publie Verdun et L’Île-des-Sœurs dans un même profil. Les données couvrent donc le nouveau secteur unifié; elles ne remplacent jamais une analyse par type de propriété et micro-marché."
+  },
+  "residential": {
+    "quarter": {
+      "sales": 242,
+      "newListings": 435,
+      "activeListings": 463,
+      "volumeThousands": 199633
+    },
+    "rolling4Q": {
+      "sales": 806,
+      "newListings": 1586,
+      "activeListings": 432,
+      "volumeThousands": 666566
+    }
+  },
+  "singleFamily": {
+    "quarter": {
+      "sales": 35,
+      "activeListings": 35,
+      "medianPrice": 1250000,
+      "avgDaysOnMarket": 40
+    },
+    "rolling4Q": {
+      "sales": 98,
+      "activeListings": 30,
+      "medianPrice": 1285625,
+      "avgDaysOnMarket": 41
+    }
+  },
+  "condo": {
+    "quarter": {
+      "sales": 178,
+      "activeListings": 377,
+      "medianPrice": 575000,
+      "avgDaysOnMarket": 57
+    },
+    "rolling4Q": {
+      "sales": 596,
+      "activeListings": 352,
+      "medianPrice": 602266,
+      "avgDaysOnMarket": 59
+    }
+  },
+  "plex2to5": {
+    "quarter": {
+      "sales": 29,
+      "activeListings": 50,
+      "medianPrice": null,
+      "avgDaysOnMarket": null
+    },
+    "rolling4Q": {
+      "sales": 112,
+      "activeListings": 48,
+      "medianPrice": 938262,
+      "avgDaysOnMarket": 44
+    }
+  },
+  "microMarkets": [
+    "Wellington–De l’Église",
+    "Desmarchais-Crawford",
+    "Berges de Verdun",
+    "Pointe-Sud",
+    "Pointe-Nord",
+    "centre de L’Île-des-Sœurs"
+  ],
+  "localContext": {
+    "propertyDiversityNote": "Le secteur unifié réunit les plex, maisons et copropriétés du Verdun continental ainsi que les copropriétés, maisons de ville et maisons de L’Île-des-Sœurs. Les comparables doivent rester propres au territoire et à la typologie."
+  },
+  "sources": [
+    {
+      "id": "centris-verdun-ids-t2-2026",
+      "publisher": "Centris",
+      "title": "Montréal (Verdun/Île-des-Sœurs) — statistiques immobilières",
+      "url": "https://www.centris.ca/fr/outils/statistiques-immobilieres/montreal-ile/montreal-verdun-ile-des-soeurs",
+      "period": "T2 2026 et cumul des 4 derniers trimestres",
+      "accessedAt": "2026-08-13",
+      "supports": [
+        "residential",
+        "singleFamily",
+        "condo",
+        "plex2to5",
+        "scopeDisclosure"
+      ]
+    },
+    {
+      "id": "montreal-verdun-profile",
+      "publisher": "Ville de Montréal",
+      "title": "Verdun",
+      "url": "https://montreal.ca/apropos/verdun",
+      "accessedAt": "2026-08-13",
+      "supports": [
+        "visualDirection",
+        "microMarkets",
+        "localContext"
+      ]
+    }
+  ],
+  "rules": {
+    "missingValue": null,
+    "noCombinedMedian": true,
+    "notAnAutomatedValuation": true,
+    "visibleStatisticsMustResolveFromThisFile": true
+  }
+}

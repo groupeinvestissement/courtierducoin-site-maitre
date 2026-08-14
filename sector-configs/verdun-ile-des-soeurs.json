@@ -1,0 +1,28 @@
+{
+  "key": "verdun-ile-des-soeurs",
+  "publicNameFr": "Verdun / L’Île-des-Sœurs",
+  "publicNameEn": "Verdun / Nuns’ Island",
+  "status": "ACTIVE_BILINGUAL",
+  "mergedFrom": [
+    "verdun",
+    "ile-des-soeurs"
+  ],
+  "canonicalHost": "www.courtierducoin.ca",
+  "marketingHosts": [
+    "verdun.courtierducoin.ca",
+    "ile-des-soeurs.courtierducoin.ca"
+  ],
+  "formPrefix": "verdunids",
+  "dataFile": "data/verdun-ile-des-soeurs-market-data.json",
+  "imageDirectory": "assets/verdun-ile-des-soeurs",
+  "redirectPolicy": {
+    "status": 301,
+    "preserveQuery": true,
+    "legacySectors": [
+      "verdun",
+      "ile-des-soeurs"
+    ]
+  },
+  "pattern": "sector-master-bilingual-v2",
+  "notes": "Les données Centris couvrent déjà le profil combiné Montréal (Verdun/Île-des-Sœurs). Les comparables doivent toujours être filtrés par micro-marché et typologie."
+}

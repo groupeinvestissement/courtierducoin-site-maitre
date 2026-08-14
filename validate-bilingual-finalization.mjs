@@ -10,7 +10,7 @@ const sectors = [
   ['anjou-saint-leonard', 'anjou'],
   ['cdn-cote-saint-luc', 'cdn'],
   ['lachine-lasalle', 'lachinelasalle'],
-  ['ile-des-soeurs', 'ids'],
+  ['verdun-ile-des-soeurs', 'verdunids'],
   ['vaudreuil-soulanges', 'vs'],
 ];
 const errors = [];
