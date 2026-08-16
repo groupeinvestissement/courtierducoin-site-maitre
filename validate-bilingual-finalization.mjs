@@ -15,6 +15,12 @@ const sectors = [
 ];
 const errors = [];
 const fail = message => errors.push(message);
+const checklistParitySectors = new Set([
+  'ahuntsic-cartierville',
+  'anjou-saint-leonard',
+  'cdn-cote-saint-luc',
+  'lachine-lasalle',
+]);
 const fileFor = (key, code, lang) => code
   ? join(root, lang === 'en' ? 'en' : '', key, code, 'index.html')
   : join(root, lang === 'en' ? 'en' : '', 'secteurs', key, 'index.html');
@@ -66,6 +72,12 @@ for (const [key, prefix] of sectors) {
       if (!html.includes('class="lang-switch"') || !html.includes(`href="${reciprocal}"`)) fail(`${expected}: visible reciprocal language switch missing`);
       if (requiresSharedPattern && (!html.includes('/sector-master.css') || !html.includes('/sector-master.js'))) fail(`${expected}: shared modern pattern missing`);
       if (requiresSharedPattern && !html.includes('class="rm-page sector-page')) fail(`${expected}: modern sector page class missing`);
+      if (lang === 'fr' && code === '02a22' && checklistParitySectors.has(key)) {
+        if (html.includes('Liste succession') || html.includes('Recevoir la liste')) fail(`${expected}: obsolete succession list wording remains`);
+        if (!html.includes('Checklist succession — propriété héritée')) fail(`${expected}: succession checklist heading missing`);
+        if (!html.includes('href="#guide">Recevoir la checklist</a>')) fail(`${expected}: succession checklist hero CTA missing`);
+        if (!html.includes('>Recevoir la checklist</button>')) fail(`${expected}: succession checklist form CTA missing`);
+      }
 
       const forms = [...html.matchAll(/<form\b[\s\S]*?<\/form>/g)].map(m => m[0]);
       if (forms.length !== 2) fail(`${expected}: expected two forms, found ${forms.length}`);
