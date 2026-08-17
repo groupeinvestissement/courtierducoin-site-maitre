@@ -76,6 +76,12 @@
   scroll-margin-top: 1rem;
 }
 
+.rm-footer a {
+  display: inline-flex;
+  min-height: 2rem;
+  align-items: center;
+}
+
 @media (max-width: 700px) {
   .rosemont-video-hero {
     min-height: 720px;
