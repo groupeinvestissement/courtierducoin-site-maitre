@@ -40,6 +40,10 @@ const markets=`<section class="rm-section shade micro-markets"><p class="rm-kick
 const genericTranscript={universal:'Une première analyse commence par le type de propriété, son état, ses caractéristiques, le marché actuel et votre calendrier. Le but est de mettre les faits en ordre avant de parler de prix ou de stratégie.',options:'Lorsqu’un document comporte une échéance, identifiez d’abord le document, sa date et les professionnels concernés. Le courtier organise le volet immobilier sans remplacer un avis juridique ou financier.',accompagnement:'Une propriété héritée demande de clarifier les personnes, les documents, l’état du bien, sa valeur et les décisions à prendre. Le volet immobilier peut être préparé progressivement avec les professionnels concernés.',investisseur:'La valeur d’un immeuble à revenus dépend des baux, revenus, dépenses, état, travaux, occupation et profil d’acheteur. Un dossier clair facilite l’analyse et la mise en marché.',maison:'Avant de rénover ou de vendre une maison, commencez par comprendre les comparables, l’état, les travaux réellement utiles, la présentation et votre calendrier.',condo:'Avant de vendre un condo, clarifiez l’unité, la concurrence et le dossier de copropriété : documents, fonds de prévoyance, travaux, frais et cotisations.'};
 const replaceVideoTranscript=(html,c)=>html.replace(/(<section class="rm-section video-section[^"]*">[\s\S]*?<details><summary>Lire la transcription<\/summary>)[\s\S]*?(<\/details>[\s\S]*?<\/section>)/,`$1<p>${genericTranscript[c.campaign]}</p>$2`);
 for(const [key,c] of Object.entries(pages)){
+ if(key==='universal'&&c.src==='secteurs/rosemont-la-petite-patrie/index.html'){
+  console.log('Skipped Vaudreuil universal regeneration: the Rosemont source has a route-specific video hero.');
+  continue;
+ }
  let html=localize(await readFile(join(root,c.src),'utf8'));
  html=setTitleMeta(html,c);
  if(!html.includes('rel="icon"')) html=html.replace('</title>','</title><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png">');
