@@ -44,6 +44,10 @@ for(const [key,c] of Object.entries(pages)){
   console.log('Skipped Vaudreuil universal regeneration: the Rosemont source has a route-specific video hero.');
   continue;
  }
+ if(c.src.startsWith('rosemont-la-petite-patrie/')){
+  console.log(`Skipped Vaudreuil ${key} regeneration: the Rosemont source has a route-specific lead video hero.`);
+  continue;
+ }
  let html=localize(await readFile(join(root,c.src),'utf8'));
  html=setTitleMeta(html,c);
  if(!html.includes('rel="icon"')) html=html.replace('</title>','</title><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png">');
@@ -75,4 +79,4 @@ for(const [key,c] of Object.entries(pages)){
  let js=localize(await readFile(join(root,c.script),'utf8')).replaceAll("region:'Vaudreuil-Soulanges'","region:'vaudreuil-soulanges'").replaceAll("region: 'Vaudreuil-Soulanges'","region: 'vaudreuil-soulanges'");
  await writeFile(join(root,`vaudreuil-parity-${c.code}.js`),js,'utf8');
 }
-console.log('Generated strict Rosemont-parity Vaudreuil pages.');
+console.log('Completed strict Rosemont-parity Vaudreuil generation pass.');

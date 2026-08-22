@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Crédits des médias — hero Rosemont | Courtier du coin</title>
-  <meta name="description" content="Sources, auteurs et licences des médias utilisés dans le hero vidéo de la page Rosemont–La Petite-Patrie.">
+  <title>Crédits des médias Rosemont | Courtier du coin</title>
+  <meta name="description" content="Sources, auteurs et licences des médias utilisés dans le héros universel et les héros des pages de leads de Rosemont–La Petite-Patrie.">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://www.courtierducoin.ca/credits-photos.html">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -27,6 +27,17 @@
     .credits-page h1 {
       max-width: 820px;
       font-size: clamp(2.7rem, 7vw, 5.4rem);
+    }
+
+    .credits-page h2 {
+      max-width: 820px;
+      margin-top: 0;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+    }
+
+    .credits-page h3 {
+      margin-bottom: .8rem;
+      font-size: clamp(1.35rem, 2.5vw, 1.8rem);
     }
 
     .credits-intro {
@@ -64,6 +75,67 @@
       color: #fff;
       font-weight: 700;
     }
+
+    .credits-section {
+      margin-top: clamp(3.5rem, 8vw, 7rem);
+    }
+
+    .credits-warning {
+      margin: 1.75rem 0;
+      padding: 1.25rem 1.4rem;
+      border: 2px solid #de0000;
+      border-left-width: 8px;
+      background: #fff;
+    }
+
+    .media-registry {
+      display: grid;
+      gap: 1rem;
+      margin: 2.5rem 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .media-registry > li {
+      padding: clamp(1.25rem, 3vw, 2rem);
+      border-top: 4px solid #de0000;
+      background: #fff;
+    }
+
+    .credit-details {
+      display: grid;
+      gap: .65rem;
+      margin: 0;
+    }
+
+    .credit-details > div {
+      display: grid;
+      grid-template-columns: minmax(145px, .32fr) 1fr;
+      gap: .75rem;
+      padding-top: .65rem;
+      border-top: 1px solid #ddd;
+    }
+
+    .credit-details dt {
+      font-weight: 850;
+    }
+
+    .credit-details dd {
+      min-width: 0;
+      margin: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .credits-obligations li + li {
+      margin-top: .65rem;
+    }
+
+    @media (max-width: 650px) {
+      .credit-details > div {
+        grid-template-columns: 1fr;
+        gap: .2rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -71,36 +143,165 @@
     <a class="credits-back" href="/secteurs/rosemont-la-petite-patrie/">← Retour à la page Rosemont–La Petite-Patrie</a>
 
     <p class="eyebrow dark">Sources et licences</p>
-    <h1>Crédits des médias — hero Rosemont</h1>
-    <p class="credits-intro">Les photos ont été recadrées, redimensionnées, légèrement animées et assombries pour constituer une boucle vidéo décorative. Elles ne représentent pas des propriétés actuellement à vendre.</p>
+    <h1>Crédits des médias — Rosemont</h1>
 
-    <ol class="credits-list">
-      <li>
-        <strong>Rue Masson, Rosemont</strong> — Ashoola,
-        <a href="https://commons.wikimedia.org/wiki/File:Rue_Masson,_Rosemont.jpg">Wikimedia Commons</a>,
-        licence <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a>.
-      </li>
-      <li>
-        <strong>Plex de la rue De Saint-Vallier</strong> — Jeangagnon,
-        <a href="https://commons.wikimedia.org/wiki/File:Sixplex_sur_la_rue_De_Saint-Vallier.jpg">Wikimedia Commons</a>,
-        licence <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA 3.0</a>.
-      </li>
-      <li>
-        <strong>Anciens ateliers Angus</strong> — Cantons-de-l’Est,
-        <a href="https://commons.wikimedia.org/wiki/File:Montreal,_Quebec_-_anciens_Ateliers_Angus_-_01.jpg">Wikimedia Commons</a>,
-        licence <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a>.
-      </li>
-      <li>
-        <strong>Marché Jean-Talon / Petite Italie</strong> — archive Panoramio via
-        <a href="https://commons.wikimedia.org/wiki/File:March%C3%A9_Jean_Talon_-_petite_Italie_-_Montreal_-_Quebec_-_panoramio_(1).jpg">Wikimedia Commons</a>,
-        licence <a href="https://creativecommons.org/licenses/by/3.0/" rel="license">CC BY 3.0</a>.
-      </li>
-      <li>
-        <strong>Portrait de Pierre Dalpé</strong> — portrait professionnel officiel fourni dans les actifs du site de Pierre Dalpé; utilisé avec son autorisation. Ce portrait n’est pas généré par IA.
-      </li>
-    </ol>
+    <section class="credits-section" aria-labelledby="universal-title">
+      <h2 id="universal-title">Héros universel Rosemont</h2>
+      <p class="credits-intro">Les photos ont été recadrées, redimensionnées, légèrement animées et assombries pour constituer une boucle vidéo décorative. Elles ne représentent pas des propriétés actuellement à vendre.</p>
 
-    <p class="credits-note">Les licences et leurs conditions doivent rester associées aux médias lors de toute réutilisation ou redistribution.</p>
+      <ol class="credits-list">
+        <li>
+          <strong>Rue Masson, Rosemont</strong> — Ashoola,
+          <a href="https://commons.wikimedia.org/wiki/File:Rue_Masson,_Rosemont.jpg">Wikimedia Commons</a>,
+          licence <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a>.
+        </li>
+        <li>
+          <strong>Plex de la rue De Saint-Vallier</strong> — Jeangagnon,
+          <a href="https://commons.wikimedia.org/wiki/File:Sixplex_sur_la_rue_De_Saint-Vallier.jpg">Wikimedia Commons</a>,
+          licence <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA 3.0</a>.
+        </li>
+        <li>
+          <strong>Anciens ateliers Angus</strong> — Cantons-de-l’Est,
+          <a href="https://commons.wikimedia.org/wiki/File:Montreal,_Quebec_-_anciens_Ateliers_Angus_-_01.jpg">Wikimedia Commons</a>,
+          licence <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a>.
+        </li>
+        <li>
+          <strong>Marché Jean-Talon / Petite Italie</strong> — archive Panoramio via
+          <a href="https://commons.wikimedia.org/wiki/File:March%C3%A9_Jean_Talon_-_petite_Italie_-_Montreal_-_Quebec_-_panoramio_(1).jpg">Wikimedia Commons</a>,
+          licence <a href="https://creativecommons.org/licenses/by/3.0/" rel="license">CC BY 3.0</a>.
+        </li>
+        <li>
+          <strong>Portrait de Pierre Dalpé</strong> — portrait professionnel officiel fourni dans les actifs du site de Pierre Dalpé; utilisé avec son autorisation. Ce portrait n’est pas généré par IA.
+        </li>
+      </ol>
+
+      <p class="credits-note">Les licences et leurs conditions doivent rester associées aux médias lors de toute réutilisation ou redistribution.</p>
+    </section>
+
+    <section class="credits-section" aria-labelledby="lead-title">
+      <h2 id="lead-title">Héros des pages de leads Rosemont</h2>
+      <p>Ce registre reprend strictement les médias déclarés dans <code>remotion/src/lead-heroes/leadHeroCatalog.mjs</code> au moment de la livraison. Le catalogue contient onze identifiants d’image qui pointent vers neuf fichiers photo distincts, ainsi que le portrait officiel. Il ne couvre aucune image absente de ce catalogue.</p>
+      <p class="credits-intro">Les photos ont été recadrées, redimensionnées, légèrement animées et assombries afin de constituer des boucles vidéo décoratives. Elles servent uniquement à situer Rosemont–La Petite-Patrie et ses milieux de vie.</p>
+
+      <p class="credits-warning"><strong>Aucune vue ne représente une propriété actuellement à vendre, le bien d’un visiteur, un préavis réel, une vente pour taxes réelle, une succession réelle ou un dossier traité par Pierre Dalpé.</strong> Cette distinction doit rester explicite sur les pages <code>o1a11</code> et <code>02a22</code>.</p>
+
+      <ul class="media-registry">
+        <li>
+          <h3>Rue Masson, Rosemont</h3>
+          <dl class="credit-details">
+            <div><dt>Identifiant du catalogue</dt><dd><code>masson</code></dd></div>
+            <div><dt>Fichier local</dt><dd><code>assets/final-rosemont/01-rue-masson.jpg</code></dd></div>
+            <div><dt>Crédit et provenance</dt><dd>Ashoola, <a href="https://commons.wikimedia.org/wiki/File:Rue_Masson,_Rosemont.jpg">Wikimedia Commons</a></dd></div>
+            <div><dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a></dd></div>
+            <div><dt>Variantes qui l’utilisent</dt><dd><code>o1a11</code>, <code>02a22</code>, <code>05c55</code></dd></div>
+          </dl>
+        </li>
+        <li>
+          <h3>Rue De Saint-Vallier, près du boulevard Rosemont</h3>
+          <dl class="credit-details">
+            <div><dt>Identifiant du catalogue</dt><dd><code>residentialStreet</code></dd></div>
+            <div><dt>Fichier local</dt><dd><code>assets/demo-web/03-rue-saint-vallier.jpg</code></dd></div>
+            <div><dt>Crédit et provenance</dt><dd>Jeangagnon, <a href="https://commons.wikimedia.org/wiki/File:Rue_De_Saint-Vallier_-_boulevard_Rosemont.jpg">Wikimedia Commons</a></dd></div>
+            <div><dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA 3.0</a></dd></div>
+            <div><dt>Variantes qui l’utilisent</dt><dd><code>03i33</code>, <code>04m44</code></dd></div>
+          </dl>
+        </li>
+        <li>
+          <h3>Sixplex de la rue De Saint-Vallier, utilisé en vue d’ensemble et en façade rapprochée</h3>
+          <dl class="credit-details">
+            <div><dt>Identifiants du catalogue</dt><dd><code>plexWide</code>, <code>plexFacade</code></dd></div>
+            <div><dt>Fichier local</dt><dd><code>assets/final-rosemont/04-sixplex-saint-vallier.jpg</code></dd></div>
+            <div><dt>Crédit et provenance</dt><dd>Jeangagnon, <a href="https://commons.wikimedia.org/wiki/File:Sixplex_sur_la_rue_De_Saint-Vallier.jpg">Wikimedia Commons</a></dd></div>
+            <div><dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA 3.0</a></dd></div>
+            <div><dt>Variante qui l’utilise</dt><dd><code>03i33</code></dd></div>
+          </dl>
+        </li>
+        <li>
+          <h3>Anciens ateliers Angus</h3>
+          <dl class="credit-details">
+            <div><dt>Identifiant du catalogue</dt><dd><code>angus</code></dd></div>
+            <div><dt>Fichier local</dt><dd><code>assets/final-rosemont/05-angus.jpg</code></dd></div>
+            <div><dt>Crédit et provenance</dt><dd>Cantons-de-l’Est, <a href="https://commons.wikimedia.org/wiki/File:Montreal,_Quebec_-_anciens_Ateliers_Angus_-_01.jpg">Wikimedia Commons</a></dd></div>
+            <div><dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a></dd></div>
+            <div><dt>Variantes qui l’utilisent</dt><dd><code>o1a11</code>, <code>02a22</code>, <code>05c55</code></dd></div>
+          </dl>
+        </li>
+        <li>
+          <h3>Entrée du parc Molson, rue d’Iberville</h3>
+          <dl class="credit-details">
+            <div><dt>Identifiant du catalogue</dt><dd><code>park</code></dd></div>
+            <div><dt>Fichier local</dt><dd><code>assets/final-rosemont/07-parc-molson.jpg</code></dd></div>
+            <div><dt>Crédit et provenance</dt><dd>Ptaff, <a href="https://commons.wikimedia.org/wiki/File:Parc_Molson,_entr%C3%A9e_rue_d%27Iberville.jpg">Wikimedia Commons</a></dd></div>
+            <div><dt>Licence</dt><dd><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license">CC0 1.0</a></dd></div>
+            <div><dt>Variantes qui l’utilisent</dt><dd><code>o1a11</code>, <code>02a22</code>, <code>04m44</code></dd></div>
+          </dl>
+        </li>
+        <li>
+          <h3>Marché Jean-Talon / Petite Italie</h3>
+          <dl class="credit-details">
+            <div><dt>Identifiant du catalogue</dt><dd><code>localLife</code></dd></div>
+            <div><dt>Fichier local</dt><dd><code>assets/final-rosemont/08-marche-jean-talon.jpg</code></dd></div>
+            <div><dt>Crédit et provenance</dt><dd>Archive Panoramio via <a href="https://commons.wikimedia.org/wiki/File:March%C3%A9_Jean_Talon_-_petite_Italie_-_Montreal_-_Quebec_-_panoramio_(1).jpg">Wikimedia Commons</a></dd></div>
+            <div><dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by/3.0/" rel="license">CC BY 3.0</a></dd></div>
+            <div><dt>Variantes qui l’utilisent</dt><dd><code>o1a11</code>, <code>02a22</code></dd></div>
+          </dl>
+        </li>
+        <li>
+          <h3>Maisons typiques de la Cité-jardin du Tricentenaire, utilisées en vue large et en cadrage rapproché</h3>
+          <dl class="credit-details">
+            <div><dt>Identifiants du catalogue</dt><dd><code>houseCiteGardenWide</code>, <code>houseCiteGardenCloser</code></dd></div>
+            <div><dt>Fichier local</dt><dd><code>assets/lead-heroes/09-cite-jardin-tricentenaire.jpg</code></dd></div>
+            <div><dt>Crédit et provenance</dt><dd>Cossette.phil, <a href="https://commons.wikimedia.org/wiki/File:Cité-jardin_du_Tricentenaire.jpg">Wikimedia Commons</a></dd></div>
+            <div><dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA 3.0</a></dd></div>
+            <div><dt>Variante qui l’utilise</dt><dd><code>04m44</code></dd></div>
+          </dl>
+        </li>
+        <li>
+          <h3>Copropriété Quartier 54, 600 boulevard Rosemont</h3>
+          <dl class="credit-details">
+            <div><dt>Identifiant du catalogue</dt><dd><code>condoQuartier54</code></dd></div>
+            <div><dt>Fichier local</dt><dd><code>assets/lead-heroes/11-quartier-54-condo.jpg</code></dd></div>
+            <div><dt>Crédit et provenance</dt><dd>Jeangagnon, <a href="https://commons.wikimedia.org/wiki/File:Quartier_54_-_01.jpg">Wikimedia Commons</a></dd></div>
+            <div><dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA 3.0</a></dd></div>
+            <div><dt>Variante qui l’utilise</dt><dd><code>05c55</code></dd></div>
+          </dl>
+        </li>
+        <li>
+          <h3>Immeuble résidentiel de l’avenue de Lorimier; dérivé Web redimensionné de l’original conservé localement</h3>
+          <dl class="credit-details">
+            <div><dt>Identifiant du catalogue</dt><dd><code>multiunitLorimier</code></dd></div>
+            <div><dt>Fichier local</dt><dd><code>assets/lead-heroes/12-immeuble-avenue-de-lorimier-web.jpg</code></dd></div>
+            <div><dt>Crédit et provenance</dt><dd>Iván Hernández Cazorla, <a href="https://commons.wikimedia.org/wiki/File:Apartment_building_in_Avenue_de_Lorimier,_Montreal.jpg">Wikimedia Commons</a></dd></div>
+            <div><dt>Licence</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a></dd></div>
+            <div><dt>Variantes qui l’utilisent</dt><dd><code>03i33</code>, <code>05c55</code></dd></div>
+          </dl>
+        </li>
+        <li>
+          <h3>Portrait de Pierre Dalpé</h3>
+          <dl class="credit-details">
+            <div><dt>Identifiant du catalogue</dt><dd><code>leadHeroPortrait</code></dd></div>
+            <div><dt>Fichier local</dt><dd><code>assets/final-rosemont/pierre-dalpe-portrait-transparent.png</code></dd></div>
+            <div><dt>Crédit et provenance</dt><dd>Portrait professionnel officiel fourni dans les actifs du site de Pierre Dalpé; utilisé avec son autorisation</dd></div>
+            <div><dt>Licence</dt><dd>Autorisation existante du titulaire; aucune licence ouverte déclarée</dd></div>
+            <div><dt>Variantes qui l’utilisent</dt><dd>Les cinq variantes</dd></div>
+          </dl>
+          <p><strong>Le portrait officiel n’est pas généré par IA.</strong></p>
+        </li>
+      </ul>
+
+      <section aria-labelledby="obligations-title">
+        <h3 id="obligations-title">Obligations de diffusion</h3>
+        <ul class="credits-obligations">
+          <li>Conserver les noms d’auteurs, les liens de provenance et les licences dans une page ou un bloc de crédits accessible depuis le pied de page.</li>
+          <li>Respecter les conditions d’attribution de CC BY 3.0, CC BY-SA 3.0 et CC BY-SA 4.0.</li>
+          <li>Conserver l’information de licence avec toute copie ou redistribution.</li>
+          <li>Traiter les recadrages, animations et assombrissements comme des adaptations et respecter les conditions de partage applicables aux licences BY-SA.</li>
+          <li>Ne pas attribuer une licence Creative Commons au portrait de Pierre; son usage demeure limité à l’autorisation existante.</li>
+          <li>Ne jamais utiliser une adresse visible, un nom de rue ou une légende pour associer une façade à un cas d’échéance, de vente pour taxes ou de succession.</li>
+          <li>Mettre à jour ce registre et le catalogue dans la même modification si un média est remplacé.</li>
+        </ul>
+      </section>
+    </section>
   </main>
 </body>
 </html>
