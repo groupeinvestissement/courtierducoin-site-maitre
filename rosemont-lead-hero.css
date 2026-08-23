@@ -125,6 +125,12 @@
   outline-offset: 4px;
 }
 
+.rm-page .rm-footer a {
+  display: flex;
+  align-items: center;
+  min-height: 28px;
+}
+
 @media (max-width: 900px), (orientation: portrait) {
   .lead-hero__poster {
     background-image: var(--lead-hero-mobile-poster);
