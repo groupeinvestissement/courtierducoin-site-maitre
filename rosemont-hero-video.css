@@ -82,6 +82,35 @@
   align-items: center;
 }
 
+.rosemont-avatar-player {
+  overflow: hidden;
+  border: 0;
+  border-radius: 8px;
+  background: #000;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, .18);
+}
+
+.rosemont-avatar-player video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  object-fit: contain;
+}
+
+.rosemont-avatar-player video:focus-visible {
+  outline: 3px solid var(--cdc-primary);
+  outline-offset: 4px;
+}
+
+.rosemont-avatar-transcript p {
+  margin-bottom: .75rem;
+}
+
+.rosemont-avatar-transcript p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 700px) {
   .rosemont-video-hero {
     min-height: 720px;

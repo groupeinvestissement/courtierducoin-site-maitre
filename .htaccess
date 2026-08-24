@@ -114,17 +114,18 @@ Header always set X-Frame-Options "SAMEORIGIN"
 <IfModule mod_mime.c>
 AddType video/mp4 .mp4
 AddType image/jpeg .jpg .jpeg
+AddType text/vtt .vtt
 </IfModule>
 <IfModule mod_headers.c>
-<FilesMatch "\.(mp4|jpe?g)$">
+<FilesMatch "\.(mp4|jpe?g|vtt)$">
 Header set Cache-Control "public, max-age=31536000, immutable"
 </FilesMatch>
 </IfModule>
 <IfModule mod_filter.c>
 <IfModule mod_brotli.c>
-AddOutputFilterByType BROTLI_COMPRESS text/html text/css application/javascript application/x-javascript text/javascript
+AddOutputFilterByType BROTLI_COMPRESS text/html text/css text/vtt application/javascript application/x-javascript text/javascript
 </IfModule>
 <IfModule mod_deflate.c>
-AddOutputFilterByType DEFLATE text/html text/css application/javascript application/x-javascript text/javascript
+AddOutputFilterByType DEFLATE text/html text/css text/vtt application/javascript application/x-javascript text/javascript
 </IfModule>
 </IfModule>

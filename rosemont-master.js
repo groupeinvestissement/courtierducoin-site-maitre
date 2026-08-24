@@ -1,6 +1,6 @@
 const context={region:'rosemont-la-petite-patrie',page_type:'universal',campaign:'sector_universal',device:innerWidth<650?'mobile':'desktop'};window.dataLayer=window.dataLayer||[];const track=(event,extra={})=>window.dataLayer.push({event,...context,source:new URLSearchParams(location.search).get('utm_source')||'direct',...extra});
 document.querySelectorAll('[data-event]').forEach(el=>el.addEventListener('click',()=>track(el.dataset.event)));
-document.querySelector('[data-video]')?.addEventListener('click',()=>track('video_start'));
+document.querySelector('[data-presentation-video]')?.addEventListener('play',()=>track('video_start'),{once:true});
 document.querySelector('[data-video]')&&track('video_impression');document.querySelector('[data-guide-view]')&&track('guide_view');
 const params=new URLSearchParams(location.search),keys=['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid'];keys.forEach(k=>{if(params.get(k))sessionStorage.setItem(k,params.get(k))});
 const enrich=form=>{const data={landing_url:location.href,referrer:document.referrer,first_touch_timestamp:sessionStorage.getItem('first_touch_timestamp')||new Date().toISOString(),last_touch_timestamp:new Date().toISOString()};sessionStorage.setItem('first_touch_timestamp',data.first_touch_timestamp);[...keys,...Object.keys(data)].forEach(k=>{let input=form.elements[k];if(!input){input=document.createElement('input');input.type='hidden';input.name=k;form.append(input)}input.value=data[k]||params.get(k)||sessionStorage.getItem(k)||''})};
