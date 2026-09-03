@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "rosemont-la-petite-patrie",
+  "displayName": "Rosemont–La Petite-Patrie",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/rosemont-la-petite-patrie/",
+      "applicable": true,
+      "desktopVideo": "rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-desktop-web.mp4",
+      "mobileVideo": "rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-mobile-web.mp4",
+      "desktopPoster": "rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-desktop-poster.jpg",
+      "mobilePoster": "rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "2708bbc0843d1b5c5238835091e58c423cb03243fdb535a8e928a5810d711d9a",
+        "desktopPoster": "c47fe3efa8367f98e293e03bc12ca21f9e9d691199d270753d3238f0213e63eb",
+        "mobileVideo": "7546a3a1ac8944d4d61606edb47f34ea660fb48ccbaf5f4f5a28e2a3a248a2c8",
+        "mobilePoster": "16552c9ef9824c9991156264b9de2fd208463f2c8be99637338bdd6ba717b90d"
+      }
+    },
+    "o1a11": {
+      "route": "/rosemont-la-petite-patrie/o1a11/",
+      "applicable": true,
+      "desktopVideo": "rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "a4a597c372f9bac1443719821f749bfc4e932d7919a07c1ea700fa9d7b1c1332",
+        "desktopPoster": "c551165a0184baa3eec41c751f4c97b275d2210dd6bff02f625f60957b8e808a",
+        "mobileVideo": "3dd168f1cc90a0a9d0deef2d5bcdfa1974c74034fd5e5f2f7659fed295e279f3",
+        "mobilePoster": "4e52bf2bd95e7088202981297a936b7554e7adb3e6a9faef00e8f7ab25d6d2e0"
+      }
+    },
+    "02a22": {
+      "route": "/rosemont-la-petite-patrie/02a22/",
+      "applicable": true,
+      "desktopVideo": "rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "7c05de934bacc1553c2326cbb948722f38e12e44ae5a11dabf90790a4adee46c",
+        "desktopPoster": "99e7c81f6ec9a1da3794b692878050f84369d6f806e0f42d62556fa60b4ba618",
+        "mobileVideo": "05fb91990ff30e1928c46ef9c3428808cdde5f87ffa575f764f50eb4279d0150",
+        "mobilePoster": "7daea3bea1417d319216e7233472872183625b4a52ce8672aa489bb5d9e707eb"
+      }
+    },
+    "03i33": {
+      "route": "/rosemont-la-petite-patrie/03i33/",
+      "applicable": true,
+      "desktopVideo": "rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "8df2b1bd2f1d7efae74044022af9a1f4634bc790983c98ef09b6aa313a64c991",
+        "desktopPoster": "c72641716db2943d356916dcf554994e7efe38496f0f56e4606442f307960fcc",
+        "mobileVideo": "d51b7e52c3a6c3c6686bce3d8de2fe68849a3235df789f2650d09cf7cefcbd2b",
+        "mobilePoster": "a6f7105b4baf6315d5fdf2e21c43c89e8b325fd1ad224d8bebd43c3b11a85597"
+      }
+    },
+    "04m44": {
+      "route": "/rosemont-la-petite-patrie/04m44/",
+      "applicable": true,
+      "desktopVideo": "rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "85be669a9edab909676e162eb3dce273aa6e619e9fdf00006d53199eee7432e7",
+        "desktopPoster": "041184b1ba3a51e64adfd34ad083cb1c497f47ee68045379fa218ba6b041a082",
+        "mobileVideo": "bebe2b3918b14516fa2c940e263ac7fd5753bede3f1c8b4bb1822f422eb42204",
+        "mobilePoster": "79afbf6b0c5e8f2a69de3602c298896d1ec276b3651ac9f064ff644d7a58ec26"
+      }
+    },
+    "05c55": {
+      "route": "/rosemont-la-petite-patrie/05c55/",
+      "applicable": true,
+      "desktopVideo": "rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "f77b03d8039282cda608ad4799e1f87075aa5959600fb467444410b2518eec33",
+        "desktopPoster": "b45903fc7d1683ce671ca7136841287e92413669b2641b85d30727d8cfc1d8c3",
+        "mobileVideo": "85ff49782830acb21cd9b349ba5afc3fc39cc01d3248d7a852e36a1119b4d16a",
+        "mobilePoster": "bdd268386525488dc6fecca5c54169d8734cd7ac1d4a62e9553adc46a65d3f28"
+      }
+    }
+  }
+}

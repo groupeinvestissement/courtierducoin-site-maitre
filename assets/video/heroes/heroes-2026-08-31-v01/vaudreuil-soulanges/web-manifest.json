@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "vaudreuil-soulanges",
+  "displayName": "Vaudreuil-Soulanges",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/vaudreuil-soulanges/",
+      "applicable": true,
+      "desktopVideo": "vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-desktop-web.mp4",
+      "mobileVideo": "vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-mobile-web.mp4",
+      "desktopPoster": "vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-desktop-poster.jpg",
+      "mobilePoster": "vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "638cf4cc2a8de54c2cd2053ee6b4521c5dae5feef24ac1a33c121ab9fd745203",
+        "desktopPoster": "7914ab44938ae0712ea433ebf6763af8c71189745534ff5c49291484f3bed8fb",
+        "mobileVideo": "9b4be34de35aa61e514a16d161dc65e2386a7f6642f4fdb0cd0d45e66d0710a6",
+        "mobilePoster": "787296bf6b80011be9a9cdfbd25575eb9818930f2960f6613a3fff373ced359f"
+      }
+    },
+    "o1a11": {
+      "route": "/vaudreuil-soulanges/o1a11/",
+      "applicable": true,
+      "desktopVideo": "vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "33afc5f69bb2ed1b0f689a97655ad27924b2f3012571e13fae8894353837ae87",
+        "desktopPoster": "8c5b5d3acfa127bc334917b9634bf4fa1b39d40129612597aef31586c84e022f",
+        "mobileVideo": "7832a4083caa67902932648aec70d6062086adda4cabe289011244bbf2a7f8fe",
+        "mobilePoster": "c4bfa30809d2cb49b7b82247a481922b46c4abe39ca0150d5c657be9eda7bcfe"
+      }
+    },
+    "02a22": {
+      "route": "/vaudreuil-soulanges/02a22/",
+      "applicable": true,
+      "desktopVideo": "vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "27e8de1e20e641b90521c15eb62ffe0bdafb6585b1b938c67a657f175e588848",
+        "desktopPoster": "ee03d4f3d9b2635ae75bc243abbb72dbc3086ad4aa531a21722408a0e4557264",
+        "mobileVideo": "d35468db38adeb43012691779c570b441dd6be5ebbf09e3a411fc831847bacaa",
+        "mobilePoster": "14d0fb64cb91588f624a75412f4ff65b48f642e0af4768bf11f248ce00193c31"
+      }
+    },
+    "03i33": {
+      "route": "/vaudreuil-soulanges/03i33/",
+      "applicable": true,
+      "desktopVideo": "vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "28aec2eaab6b1b2c08f96f07bdafd2d5a3d8ad0cf154b72e385aab0b2f6c656c",
+        "desktopPoster": "17bbe43cdd33282f617fa4210a137302f177c120e8b5b835e2e6dca5e265dd1e",
+        "mobileVideo": "d6ae71d9597cabec379738cc310e7be5bdc21841a69188bd04735143c42dfa40",
+        "mobilePoster": "2489da3606a271039eace36d717c568bac19664c7dc8b1f5cfe21f2fb1cec743"
+      }
+    },
+    "04m44": {
+      "route": "/vaudreuil-soulanges/04m44/",
+      "applicable": true,
+      "desktopVideo": "vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "badfdb045cd184ec11916048a927fea20325dcf8e86e556f5d533c461d8cb4f0",
+        "desktopPoster": "c9e8fdb296259e27c3bb453f120405fe6aee8ac1fcf61ed4df3c648461eadac7",
+        "mobileVideo": "60ae012c044e72e68f7cc664fdf75f7b33e841d7be0bccb2fa799b77e01fb5a3",
+        "mobilePoster": "39596d9266aa23c5afb8f146235af2ecb58c2d10719f5f888ebff76ed09d228b"
+      }
+    },
+    "05c55": {
+      "route": "/vaudreuil-soulanges/05c55/",
+      "applicable": true,
+      "desktopVideo": "vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "4702b26352d1523060b41201e780b4414745849ae6256b7e6dbb185488d11538",
+        "desktopPoster": "b2d8331af1da4210ed583aba00f94d475b16830c4776ceaf037af201f91ec6d2",
+        "mobileVideo": "14b5065beb25837eb56cd7156accbfbf985c6bd7b2b8bcb44248741868689124",
+        "mobilePoster": "b68cb079324b0b62bd02fee87074402270d63af2faa50309810f01c398ff0230"
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "saint-laurent",
+  "displayName": "Saint-Laurent",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/saint-laurent/",
+      "applicable": true,
+      "desktopVideo": "saint-laurent/main/saint-laurent-main-hero-desktop-web.mp4",
+      "mobileVideo": "saint-laurent/main/saint-laurent-main-hero-mobile-web.mp4",
+      "desktopPoster": "saint-laurent/main/saint-laurent-main-hero-desktop-poster.jpg",
+      "mobilePoster": "saint-laurent/main/saint-laurent-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "20823f4785574a54d282e93854a8f93d2313d714ca0c96779d495c289d300738",
+        "desktopPoster": "1da69c609c6b0a060aa9462dd2aba03d5ab86acce6e70e1d47dc455b0f6dc3d4",
+        "mobileVideo": "4ea636fc4e2639ac060d7bf46ba3e47eb2957fe9f3f0ab6df3aac79b5b60b19c",
+        "mobilePoster": "32a0a19c741250bd7e067e9407092a3d44fc1573fbc6f995586c9a1d29aa1999"
+      }
+    },
+    "o1a11": {
+      "route": "/saint-laurent/o1a11/",
+      "applicable": true,
+      "desktopVideo": "saint-laurent/o1a11/saint-laurent-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "saint-laurent/o1a11/saint-laurent-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "saint-laurent/o1a11/saint-laurent-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "saint-laurent/o1a11/saint-laurent-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "12cc327e2ddc321e036c18dbb020a67bcda386f612f6a5c9d3cad8813be650ef",
+        "desktopPoster": "381fb1090dfe6bb713ba1938ace814f6b9d5f16006d86bd1d76d47e3cb4df091",
+        "mobileVideo": "7f25f59de5dbbdf06406087f89e0e6174b6a235c5a5793a050aa6d760018c490",
+        "mobilePoster": "d09050abe0e08a220a21d1b90e504826feed0df50098bb65157a206aea29dedf"
+      }
+    },
+    "02a22": {
+      "route": "/saint-laurent/02a22/",
+      "applicable": true,
+      "desktopVideo": "saint-laurent/02a22/saint-laurent-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "saint-laurent/02a22/saint-laurent-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "saint-laurent/02a22/saint-laurent-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "saint-laurent/02a22/saint-laurent-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "fea540d67e184200ea71fbaf9005f1cc46be078f82c0239457293c2f41d77503",
+        "desktopPoster": "ac1f6f88d4a7bdf0487beeb44ab21537fae7bf56e1ccb1fbafd326a066b78286",
+        "mobileVideo": "7e80ed2f832bbc1757c70926c4eae3d825852fadf206f35b8388fda513602295",
+        "mobilePoster": "a9e870fe208fe6930ae9fc7dced87ccd11d440d1e46238cd05c00c1257d412ce"
+      }
+    },
+    "03i33": {
+      "route": "/saint-laurent/03i33/",
+      "applicable": true,
+      "desktopVideo": "saint-laurent/03i33/saint-laurent-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "saint-laurent/03i33/saint-laurent-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "saint-laurent/03i33/saint-laurent-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "saint-laurent/03i33/saint-laurent-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "8a330c882a891c12c3a4553eeaa8cd23b5051e7e82d365deb385a81559407629",
+        "desktopPoster": "57ce4444214fd3ce3eff31122d894f7d19f8e28fb8bf3337f4e5489879d6ca4c",
+        "mobileVideo": "991b5f5abc42609fc6fcd12df3f6e4c18559ceccf3d2290f56e6e9651a86caa6",
+        "mobilePoster": "8ce4cf0adbbb872340e1ef7562754b1fb2c0bc2eb81e5d3a73b9e7d790a88207"
+      }
+    },
+    "04m44": {
+      "route": "/saint-laurent/04m44/",
+      "applicable": true,
+      "desktopVideo": "saint-laurent/04m44/saint-laurent-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "saint-laurent/04m44/saint-laurent-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "saint-laurent/04m44/saint-laurent-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "saint-laurent/04m44/saint-laurent-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "e5efb16aa30ece6ad713953252cf2857df494f9217923f3f2ac886841971ca8c",
+        "desktopPoster": "df7a57dc0cf594d77ea47946318a22858bc9695b93b647162c4e97cd20d9860c",
+        "mobileVideo": "07694ee2ad38e62d1c5f816d841bf30c5e68f6032fc75ce3f6865b51fb48e7e7",
+        "mobilePoster": "dc052ea6824a7a2f1dbdc60c0a47434a67af62979881dae21e8e345736aa35a8"
+      }
+    },
+    "05c55": {
+      "route": "/saint-laurent/05c55/",
+      "applicable": true,
+      "desktopVideo": "saint-laurent/05c55/saint-laurent-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "saint-laurent/05c55/saint-laurent-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "saint-laurent/05c55/saint-laurent-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "saint-laurent/05c55/saint-laurent-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "938ba1b83fcb08c3a118adeb359e1e53687ecdd93df038133a7ab3a3f6c31319",
+        "desktopPoster": "12d32eb1390e8420373d2dd62c7a228f2d2502c1e3829a8fa7ed4bce61c925f3",
+        "mobileVideo": "ba936a4b2d14d9c42a4298b5a4fa02214c7bf1c65bab3e30dbaeba0a4d9d03d7",
+        "mobilePoster": "fb11861db7118c43b613b697750453af98211752c31875e7bb832e3a23bb3a25"
+      }
+    }
+  }
+}

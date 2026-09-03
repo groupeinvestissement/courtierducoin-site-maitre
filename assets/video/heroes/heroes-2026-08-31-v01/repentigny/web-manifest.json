@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "repentigny",
+  "displayName": "Repentigny",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/repentigny/",
+      "applicable": true,
+      "desktopVideo": "repentigny/main/repentigny-main-hero-desktop-web.mp4",
+      "mobileVideo": "repentigny/main/repentigny-main-hero-mobile-web.mp4",
+      "desktopPoster": "repentigny/main/repentigny-main-hero-desktop-poster.jpg",
+      "mobilePoster": "repentigny/main/repentigny-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "56d93a70b88887404bccb3fb04d7eb374a2c19c058debb56f38715663b4e0895",
+        "desktopPoster": "58772d189f0764f90551916deea50ea48a881b6f454386c9a289653aeb829c6a",
+        "mobileVideo": "dbf3370d6afddd98a43648575fce7502b9df07ec50f0edb0f14ac50c15d20315",
+        "mobilePoster": "0dcb390fdff528405db39e3187611fda0898921919ca9e8ed8509b34145c5d95"
+      }
+    },
+    "o1a11": {
+      "route": "/repentigny/o1a11/",
+      "applicable": true,
+      "desktopVideo": "repentigny/o1a11/repentigny-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "repentigny/o1a11/repentigny-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "repentigny/o1a11/repentigny-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "repentigny/o1a11/repentigny-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "ac38a3c6ad931ac5c8d6c58c14a29fc0b3ded477ff8954e4da33191b828c7e14",
+        "desktopPoster": "013e8fdea3fb6161a218c0e31ad5002c53bb956c7f8546f51bffc70300f77e49",
+        "mobileVideo": "5bad547338fffeb123268e6d4d70655b1b3fbb47708c8156dbe8788fffc05c32",
+        "mobilePoster": "c83b92d87526b065ff3aed34c5600babde4d17680bd53d7ce64cefe20cf50482"
+      }
+    },
+    "02a22": {
+      "route": "/repentigny/02a22/",
+      "applicable": true,
+      "desktopVideo": "repentigny/02a22/repentigny-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "repentigny/02a22/repentigny-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "repentigny/02a22/repentigny-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "repentigny/02a22/repentigny-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "9bb87ace42dc36df3c2e3315a1f3fc9bfac4f10673e257b6ac75094f3103f6e2",
+        "desktopPoster": "e02b46ac3844552b0ac088c27f6bb267036ebb64b92a2db1c30e4b161fb8e9f4",
+        "mobileVideo": "cead016043ec289fc6e3a86e0ab5b1a52997bd7b4d3e3c8e252fce962902ccfd",
+        "mobilePoster": "132e7e682151eacca06757e47af4b56ed66a1b10a81cb902148bd6043f4784a4"
+      }
+    },
+    "03i33": {
+      "route": "/repentigny/03i33/",
+      "applicable": true,
+      "desktopVideo": "repentigny/03i33/repentigny-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "repentigny/03i33/repentigny-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "repentigny/03i33/repentigny-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "repentigny/03i33/repentigny-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "a66014228de2eed459820a11df2dfad869c5680c6f71fca0c3411a6049338840",
+        "desktopPoster": "7974a399729bc9184346afbcd2ddd319b84c671b4ae14a7ef0618c074560a133",
+        "mobileVideo": "38fd3531e01bb0fdef296f43f56a6736c6703ef5e3ae44229415790bb01244bd",
+        "mobilePoster": "044d44b35a7b5c0a7eee1224657e2d592b35b46cd36938b6ddc6e18546108a13"
+      }
+    },
+    "04m44": {
+      "route": "/repentigny/04m44/",
+      "applicable": true,
+      "desktopVideo": "repentigny/04m44/repentigny-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "repentigny/04m44/repentigny-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "repentigny/04m44/repentigny-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "repentigny/04m44/repentigny-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "8bd5359fcaa9ceb5f7701699c4f83c72a450fde9a60d0735e993d2e261d4851a",
+        "desktopPoster": "fd5b5962bb49687f2fd145afb8e029d6e7d85a65352982445e96548d51f2c330",
+        "mobileVideo": "9cdce985f19941f09d70eea6bb13b26b08779407844bfa8b875a540159950df4",
+        "mobilePoster": "c5ec6d10a36988d50132e2074444db89d0f8ab0b75ff32134c01910585ff1d7d"
+      }
+    },
+    "05c55": {
+      "route": "/repentigny/05c55/",
+      "applicable": true,
+      "desktopVideo": "repentigny/05c55/repentigny-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "repentigny/05c55/repentigny-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "repentigny/05c55/repentigny-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "repentigny/05c55/repentigny-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "3f02c54d58c99c2b56a084a4945d703bd90afe25e567bf272c97e2caa0c97cf3",
+        "desktopPoster": "f327498f3b4ba0b949fef1c423108e0086ac51a2cffad1aa95091ff653414a7d",
+        "mobileVideo": "08f4d9111b77407f0b4905b6382b7732be1afc2edf350a5296bb3e9f3a815b9c",
+        "mobilePoster": "05ebb931568aad78fdc1a2e4284c5a3de042379380947a80486dd251bb5097ac"
+      }
+    }
+  }
+}
