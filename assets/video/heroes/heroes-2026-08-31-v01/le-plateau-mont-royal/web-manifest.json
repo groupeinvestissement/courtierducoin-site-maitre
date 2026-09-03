@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "le-plateau-mont-royal",
+  "displayName": "Le Plateau-Mont-Royal",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/le-plateau-mont-royal/",
+      "applicable": true,
+      "desktopVideo": "le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-desktop-web.mp4",
+      "mobileVideo": "le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-mobile-web.mp4",
+      "desktopPoster": "le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-desktop-poster.jpg",
+      "mobilePoster": "le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "803fe410a7e847ab9f7d913e84f8fa630777a46fa96bb5a400e7cfa7a79c882e",
+        "desktopPoster": "bfcf6c35a5e7d9bfcac5a50a938d155be3f8292d37329261447ff17a6a6c488e",
+        "mobileVideo": "6948a91dc32209bb5c32dd4ad83859d81ad2cfa4ff2d412fb02b09543b5da657",
+        "mobilePoster": "220e19e69ada03645d692bf0fa9146a37db46739e8d81a350fd52d888ee404a3"
+      }
+    },
+    "o1a11": {
+      "route": "/le-plateau-mont-royal/o1a11/",
+      "applicable": true,
+      "desktopVideo": "le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "8e99371927068fb69c8d5258c1ca8dd43715c437a37e8b82d4f35e4a90ecbf69",
+        "desktopPoster": "633b7281122447301271ab6f5b10fe2c0118f88c9d4dad2e666ab2284c4a9dc1",
+        "mobileVideo": "111a2fc509973729e660fbb003bbc2dfc96ca90fb3c91807dfdbf14adfa03836",
+        "mobilePoster": "6c60e4051920a30c789ffdb58ea86036a1ccfb73960092b4fc2c529b62806300"
+      }
+    },
+    "02a22": {
+      "route": "/le-plateau-mont-royal/02a22/",
+      "applicable": true,
+      "desktopVideo": "le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "4261b863f112b52292e80f67271a562ce8c689d13d6e76bc4e338afca2f6ccd0",
+        "desktopPoster": "6ae6ece0914c22aad868aac4f92c92b7fda7cc727aa9c0488841f34d594e4309",
+        "mobileVideo": "9b39ec93c709969067e07a91fe22f4101c5d3f2055e4509edd2d71c785bc6c06",
+        "mobilePoster": "e8f1a2907581c763854530e71cfcc1fcbb1eb48ca2f96d16b649594aa0f38b04"
+      }
+    },
+    "03i33": {
+      "route": "/le-plateau-mont-royal/03i33/",
+      "applicable": true,
+      "desktopVideo": "le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "4721efde2fa1f785a8915f65fb3a18644fbdf4f5c2d251b3fc069da1976c91f4",
+        "desktopPoster": "857ce362535b0b7c64985dd617b859bfd01a538ca3115e3b51be771877fbc272",
+        "mobileVideo": "9a7b886f4bed5f61f877e48f3671bbbf6b0da32a2781550a2ca58e45fc4365ec",
+        "mobilePoster": "c0f72c72e6e66060e0549db391bf21b5f14fca8473ee9da80c0a8d03feed91fe"
+      }
+    },
+    "04m44": {
+      "route": "/le-plateau-mont-royal/04m44/",
+      "applicable": true,
+      "desktopVideo": "le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "1b27c7fc280d980405c257d0f599bb8d75bdb73de3815ad58015da3b82391657",
+        "desktopPoster": "5ca4782ecc8c4259c37ab5d8d897470bf3079949c0cdc975f9217bb916ce6ae8",
+        "mobileVideo": "ab1b226acdffeda286ff3f24697101f21f0622bfb98cdd15a599ccf88f36c538",
+        "mobilePoster": "78dec91a01b981396a0fb6513496f9cde0982b501360e73496d297f436856c53"
+      }
+    },
+    "05c55": {
+      "route": "/le-plateau-mont-royal/05c55/",
+      "applicable": true,
+      "desktopVideo": "le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "fe07e58a9fa1cb9ae28b61909ca838e86a5be1b4e457d34915563c8e5a266f14",
+        "desktopPoster": "f63f8886983ae5a4f86cfb6bddab8560343463dceaaa15d64182915398fb96d9",
+        "mobileVideo": "20dcc9aa27d7aa2ad838332003b608b9464534cd919c6fda73e9505a57b78759",
+        "mobilePoster": "8db218946ca38a1ccd43cfa543a117e003fa8258d957caadb3f0b4670aa7e8e0"
+      }
+    }
+  }
+}

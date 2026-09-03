@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "longueuil",
+  "displayName": "Longueuil",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/longueuil/",
+      "applicable": true,
+      "desktopVideo": "longueuil/main/longueuil-main-hero-desktop-web.mp4",
+      "mobileVideo": "longueuil/main/longueuil-main-hero-mobile-web.mp4",
+      "desktopPoster": "longueuil/main/longueuil-main-hero-desktop-poster.jpg",
+      "mobilePoster": "longueuil/main/longueuil-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "24cce9fd4a896b41162748f02208e125411821ed9a75d7a1d3cabf5cb247a7d6",
+        "desktopPoster": "bb2e28384a8d2401e7938662b784604e4120d46a0dd2e94671d0dca98d16cad9",
+        "mobileVideo": "98fd20535db168191348b2de57a6306058d08e9d1ad8179ffcd3a3662aefb0dc",
+        "mobilePoster": "9b2d4e718c2350a3670cf24571223d5a2e8ac4e746c86036510936ddd5fe28bf"
+      }
+    },
+    "o1a11": {
+      "route": "/longueuil/o1a11/",
+      "applicable": true,
+      "desktopVideo": "longueuil/o1a11/longueuil-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "longueuil/o1a11/longueuil-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "longueuil/o1a11/longueuil-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "longueuil/o1a11/longueuil-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "c0385be8b3ef2016a73ebd8798c996805e0240d14df433ac08b76aa52ab884d4",
+        "desktopPoster": "7b2ab0a7d4c1dbd3e4767cd85e0b181d1b5633df6e7c8d24d3bf9ed001d9286e",
+        "mobileVideo": "20e723ee731fd1748b838e6407281f72038bca033df9fc2a1f8b52cf4adca027",
+        "mobilePoster": "0d8b92efb2d0478b38631df3e3e4fc543b702c65f50aa9384c8fd65f139f530c"
+      }
+    },
+    "02a22": {
+      "route": "/longueuil/02a22/",
+      "applicable": true,
+      "desktopVideo": "longueuil/02a22/longueuil-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "longueuil/02a22/longueuil-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "longueuil/02a22/longueuil-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "longueuil/02a22/longueuil-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "ad559f456decf0e07612e62e861481307935f8e6db886407f0db2d73f502bdda",
+        "desktopPoster": "8d9d16f3a3bd5a2a6de40e9c4e8299e03d3396430a64d4b4f1a95fdee088e48f",
+        "mobileVideo": "33594c55d7b20c184a0e4b38de739679771225db678640f25e0650baf73a0683",
+        "mobilePoster": "9b431336381a471e2c1432f054633ff176907e25c8873cf71b3d3234e0991840"
+      }
+    },
+    "03i33": {
+      "route": "/longueuil/03i33/",
+      "applicable": true,
+      "desktopVideo": "longueuil/03i33/longueuil-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "longueuil/03i33/longueuil-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "longueuil/03i33/longueuil-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "longueuil/03i33/longueuil-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "5a4723eb65347ef5129f494f51b72dad27282c19ff065f453f6aada3767cca4b",
+        "desktopPoster": "eddf0f6fb4d290cb2ff6283899a30765a09338a72ec862037d6c90dfd19de53e",
+        "mobileVideo": "a2ba222f87b0d4d22715b914b0847ba97781427d74e8b5cca3a10528783fc8bd",
+        "mobilePoster": "e75c50cade17126ebcadc0781d24b65ab5e54b05df74a839ee789af6d93fbe8a"
+      }
+    },
+    "04m44": {
+      "route": "/longueuil/04m44/",
+      "applicable": true,
+      "desktopVideo": "longueuil/04m44/longueuil-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "longueuil/04m44/longueuil-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "longueuil/04m44/longueuil-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "longueuil/04m44/longueuil-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "8ac7de3d14aed4056a42c6663c2463da673262ae363db32c35b7a5ea94ec30bb",
+        "desktopPoster": "23b6e8e78fe1568aa42d07c66a74503e56323d536629c7ee71e0e7c9a460be74",
+        "mobileVideo": "c743b9f25309a350eb7994525c01af3a75b247637bbb89c2f822a9d78a740afe",
+        "mobilePoster": "04aae622489206eedca1a2ca7e986f3b495ef648a46b05e1f29e943f88768b98"
+      }
+    },
+    "05c55": {
+      "route": "/longueuil/05c55/",
+      "applicable": true,
+      "desktopVideo": "longueuil/05c55/longueuil-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "longueuil/05c55/longueuil-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "longueuil/05c55/longueuil-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "longueuil/05c55/longueuil-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "ca1b469ef79811a322b9b77e259f18afe86d92f08bd1db61fb64ae1b2fcbd9e7",
+        "desktopPoster": "cf1c8888ec0a699de536f6bd9815e842c2f6be0ec87c176666812f885124f5ef",
+        "mobileVideo": "8fc3579d94d4298d7a647b441754f750bc751479925549a7edb6a93d342fd662",
+        "mobilePoster": "00cdadbb867d046823a5f5bf885c4044359fe38c8c48f5c589ed1de068c6c3e9"
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "le-sud-ouest",
+  "displayName": "Le Sud-Ouest",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/le-sud-ouest/",
+      "applicable": true,
+      "desktopVideo": "le-sud-ouest/main/le-sud-ouest-main-hero-desktop-web.mp4",
+      "mobileVideo": "le-sud-ouest/main/le-sud-ouest-main-hero-mobile-web.mp4",
+      "desktopPoster": "le-sud-ouest/main/le-sud-ouest-main-hero-desktop-poster.jpg",
+      "mobilePoster": "le-sud-ouest/main/le-sud-ouest-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "a36d9294e8420928b9b79dcd89615ba7e2f6dfc49edea1eb808e8d87ecacc96a",
+        "desktopPoster": "3d0aae39d8e2ce1aef0ab5099fba792ee8ec67f1e6b81cbe7279890934b5205f",
+        "mobileVideo": "39144ba2de473ba363b2b9ae26bcc2164921ff2080a4cd4a084f997f7e4c3095",
+        "mobilePoster": "5d5564c4c54b2566ab98ee8760dd387bcf74eb8e3a4c1fd3c79f996e6eebe9f7"
+      }
+    },
+    "o1a11": {
+      "route": "/le-sud-ouest/o1a11/",
+      "applicable": true,
+      "desktopVideo": "le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "85070acc912e7e9a76a728228c6c782964424acd4952406c3d7b594bd8c0bb63",
+        "desktopPoster": "75fe2fd8f11735329e18a2a982f26f037f4c00e8ec7678677549aac42e78010e",
+        "mobileVideo": "150f1e2bf99d1367481f7f41471a860e5afda79c284692c22a2e4daed74183ad",
+        "mobilePoster": "62305f9a3da2e4da422f399c157a101ed9170548ab1ec94921eed222c1b4e3f0"
+      }
+    },
+    "02a22": {
+      "route": "/le-sud-ouest/02a22/",
+      "applicable": true,
+      "desktopVideo": "le-sud-ouest/02a22/le-sud-ouest-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "le-sud-ouest/02a22/le-sud-ouest-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "le-sud-ouest/02a22/le-sud-ouest-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "le-sud-ouest/02a22/le-sud-ouest-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "18d03ebf177bfe77a06686aafc487da3a52621e65d364243b1792efad3796f01",
+        "desktopPoster": "3c51f3cf2b57dca17b0d5c51bcf35f059ddb6bb286c418285e63780ce492f49f",
+        "mobileVideo": "c480d1d1059b5b11ad06290630017afeb7bb6c64c40ef566c0f5e69fee5c825c",
+        "mobilePoster": "f5a62ae445f4b2a5a6792e4ce24ff43691434fc69c957b7c7ffc5d6814a8f3fc"
+      }
+    },
+    "03i33": {
+      "route": "/le-sud-ouest/03i33/",
+      "applicable": true,
+      "desktopVideo": "le-sud-ouest/03i33/le-sud-ouest-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "le-sud-ouest/03i33/le-sud-ouest-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "le-sud-ouest/03i33/le-sud-ouest-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "le-sud-ouest/03i33/le-sud-ouest-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "fd9079d78099915cfb57953724ede273d313ceade4c50f2b3ac70eeac8535f73",
+        "desktopPoster": "2bdde38c6831298a6e5d609168c63f071984f2b3c172055dae4adae77f3c82fb",
+        "mobileVideo": "410713253e07f90e5e5cfaf935adbf17bbec3b666e20d2185a3620743de297db",
+        "mobilePoster": "8c6db4699554380d64dd5275bd77bba04290f2a188791fb5971e303bb96baf13"
+      }
+    },
+    "04m44": {
+      "route": "/le-sud-ouest/04m44/",
+      "applicable": true,
+      "desktopVideo": "le-sud-ouest/04m44/le-sud-ouest-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "le-sud-ouest/04m44/le-sud-ouest-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "le-sud-ouest/04m44/le-sud-ouest-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "le-sud-ouest/04m44/le-sud-ouest-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "19cab7ed032cff716a0157b2a8f4a43a108bafc3c0269f3c7d5a255185933132",
+        "desktopPoster": "03bca1d5f0bb1a870abad1f8e4728811215efea9e5d441a50c7426a7d2ad8286",
+        "mobileVideo": "388613fc751aa009852fda093eb0e42eeca1c588871dfbb2504a68222266e792",
+        "mobilePoster": "f8ce16298cbb3dbc5baa31d4f73fa998f9945403758fd626addd59616d997f7b"
+      }
+    },
+    "05c55": {
+      "route": "/le-sud-ouest/05c55/",
+      "applicable": true,
+      "desktopVideo": "le-sud-ouest/05c55/le-sud-ouest-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "le-sud-ouest/05c55/le-sud-ouest-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "le-sud-ouest/05c55/le-sud-ouest-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "le-sud-ouest/05c55/le-sud-ouest-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "61754fc473ff8f239b5cc55d7129513eefca8f1a8920c6eff1d7fcf1d3af4d11",
+        "desktopPoster": "6c4592b939603d6db63db491fd56d2aec7a23ef669af2e6612f38c3c43b2a0a3",
+        "mobileVideo": "18e20b9884a839a038df3601e17f968f8968cacda57c73be55931ea84863ceac",
+        "mobilePoster": "a63a64984901d4351580988ed40a93c4ec332094f5d2d257b3c07c74bede9f41"
+      }
+    }
+  }
+}

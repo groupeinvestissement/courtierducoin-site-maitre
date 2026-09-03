@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "laval",
+  "displayName": "Laval",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/laval/",
+      "applicable": true,
+      "desktopVideo": "laval/main/laval-main-hero-desktop-web.mp4",
+      "mobileVideo": "laval/main/laval-main-hero-mobile-web.mp4",
+      "desktopPoster": "laval/main/laval-main-hero-desktop-poster.jpg",
+      "mobilePoster": "laval/main/laval-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "3af85a0d4c6f6de1afe586471d9287fa093bc63272869b3e4df5fdbb890c5388",
+        "desktopPoster": "14e0614258646e4df6c195eaa1650b11c007b450f01457adbc4e83fdef0aec36",
+        "mobileVideo": "9dcb77e35ebc96e138cc79a956b32bec7124adf43817905ad5dcf659be9d30b2",
+        "mobilePoster": "ef5a677135dbabde4adecf1cf390c3fbf5da9cd48ef45906137b242742d3c121"
+      }
+    },
+    "o1a11": {
+      "route": "/laval/o1a11/",
+      "applicable": true,
+      "desktopVideo": "laval/o1a11/laval-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "laval/o1a11/laval-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "laval/o1a11/laval-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "laval/o1a11/laval-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "4f999ebdf72b75efe643b07df364313a52d9eb9a9e5c2cc1a8f3f67f21cddf17",
+        "desktopPoster": "c6abd0cdf3f68887d49a7d961428db06f7284e427b6def31d6d6d80b713d191e",
+        "mobileVideo": "b2c87f7ea3e721fbf4e6b88eb393bef4af8193069c745ceee3a74aabe8a1edc5",
+        "mobilePoster": "5bd9dccc56ff6a6e01f4f2edaca5c73300ec7f71036d202d2ee1fbd6af21149b"
+      }
+    },
+    "02a22": {
+      "route": "/laval/02a22/",
+      "applicable": true,
+      "desktopVideo": "laval/02a22/laval-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "laval/02a22/laval-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "laval/02a22/laval-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "laval/02a22/laval-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "28450a2ae2dfb6b57cee5db0419f05be1b708e69702bfdafca1635c3168e06b2",
+        "desktopPoster": "c96b5ca67a3352deb925be94b5549bb6775498c06685dbae08e3fadfdb1ca7fd",
+        "mobileVideo": "e6af279b19ee0d79079b5e3274001d4c8a8c7a0709367c405cf1898fe0879216",
+        "mobilePoster": "e115c5b5024bc81347aeb89b790a3ad9422abf78e638da988dfabf6619fbff46"
+      }
+    },
+    "03i33": {
+      "route": "/laval/03i33/",
+      "applicable": true,
+      "desktopVideo": "laval/03i33/laval-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "laval/03i33/laval-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "laval/03i33/laval-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "laval/03i33/laval-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "b2fdd1c9fd15801a07399f8b03023a2a0be1168357aa16db1cae5b9b0ee077e2",
+        "desktopPoster": "c1216779fa38093c651458a120c25a7c9d2d8c7eb54ede1f1edbfffc3b4c019a",
+        "mobileVideo": "61fbe8c184229af9d767c22bed6dbffea2d10455ea2c530a44f45bb6c56882cb",
+        "mobilePoster": "8f6ed40bc1cf6cfb8de823917bce5a6b5fa6ccc04a5bcff2ddcd3bb1f172eec6"
+      }
+    },
+    "04m44": {
+      "route": "/laval/04m44/",
+      "applicable": true,
+      "desktopVideo": "laval/04m44/laval-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "laval/04m44/laval-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "laval/04m44/laval-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "laval/04m44/laval-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "b0bdd5c775f06e2393139b9a0d542126f396f0af068fac00e52a94df6d5342d9",
+        "desktopPoster": "10c92d29573e0ce9720322744d8263f25ebe63150134a167d873a5f49287f502",
+        "mobileVideo": "b725fc6465cd937754721ea92fd1d9006c690a6522d9a8fa930c40bd8cb5accf",
+        "mobilePoster": "f7a4ffff70a3b5781eb960635743adb8ad84fc6c713419e9e7a085a221c9376d"
+      }
+    },
+    "05c55": {
+      "route": "/laval/05c55/",
+      "applicable": true,
+      "desktopVideo": "laval/05c55/laval-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "laval/05c55/laval-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "laval/05c55/laval-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "laval/05c55/laval-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "1110aaf22b0f3b535581d5e7dbbc3140fbf6a5d953a757dacbd8a37ea3041b50",
+        "desktopPoster": "1add867769057561ba6c30904f946cda737d94d41a5ace05afe32c8541d208ad",
+        "mobileVideo": "e2ce9e886675e6a453064590f4133a7c431d140b990cba84ab7ab6cb6344233a",
+        "mobilePoster": "32d06b47f53fe2db573cd9aaa4321af1446ba29e8ab54f3207022503514ec627"
+      }
+    }
+  }
+}
