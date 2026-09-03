@@ -1,10 +1,10 @@
 # Paquet local de déploiement — héros vidéo multi-secteurs
 
-Date : 2026-09-02  
-Branche : `codex/multi-sector-heroes-v1`  
-Base : `b3e4643146af928a37194259e08181196c8de2e7`  
-Release : `heroes-2026-08-31-v01`  
-État : **PRÊT LOCALEMENT — NON PUBLIÉ — NON DÉPLOYÉ**
+Date : 2026-09-03
+Branche : `main`
+Base : `b3e4643146af928a37194259e08181196c8de2e7`
+Release : `heroes-2026-08-31-v01`
+État : **PUBLIÉ — G9 PASS**
 
 ## Contenu
 
@@ -27,7 +27,7 @@ Ces deux fichiers d'inventaire s'excluent eux-mêmes pour éviter des empreintes
 
 1. Les gates G0 à G8 doivent rester à PASS.
 2. Le commit local livré doit être identifié et son inventaire conservé avec le journal de déploiement.
-3. Une autorisation humaine explicite distincte est obligatoire. Le superviseur interdit tout déploiement dans le présent créneau.
+3. Une autorisation humaine explicite distincte est obligatoire. Elle a été reçue avant la publication du 2026-09-03.
 4. Aucun fichier ne doit être renommé, recompressé ou modifié pendant le transfert.
 5. Le déploiement doit reprendre l'arborescence à la racine publique telle quelle.
 
@@ -58,3 +58,7 @@ Contrôler au minimum la page principale et une page de propriété de Rosemont,
 - vidéo distincte « Rencontrez Pierre » Rosemont toujours fonctionnelle, avec contrôles et son.
 
 Ne supprimer les anciens médias qu'après acceptation humaine de cette recette. La procédure de retour arrière est définie dans `ROLLBACK.md`.
+
+## Résultat de production
+
+Le commit fonctionnel `4000570fcd259cd22ec536aabc45c70d7329e2e4` a été publié sur `main`. Son arbre `3af83c4079d08f7b0766f2cf9c07331b1287aa22` est identique à celui du livrable validé. La recette publique et la contre-vérification indépendante sont consignées dans `reports/hero-integration/G9-production.md`.

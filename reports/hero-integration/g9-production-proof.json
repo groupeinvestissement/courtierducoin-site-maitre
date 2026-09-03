@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-03",
+  "status": "PASS_LIVE",
+  "origin": "https://www.courtierducoin.ca",
+  "integrationCommit": "4000570fcd259cd22ec536aabc45c70d7329e2e4",
+  "validatedSourceCommit": "7dc602fa365ab3870179ab3668a6a5cfd6adcc2c",
+  "tree": "3af83c4079d08f7b0766f2cf9c07331b1287aa22",
+  "releaseId": "heroes-2026-08-31-v01",
+  "publicAudit": {
+    "pages": { "checked": 114, "passed": 114 },
+    "declaredMedia": { "checked": 456, "passed": 456 },
+    "rangeVideos": { "checked": 20, "passed": 20 },
+    "supportResources": { "checked": 5, "passed": 5 },
+    "creditsSections": 19
+  },
+  "browserAudit": {
+    "desktopViewport": "1440x900",
+    "mobileViewport": "390x844",
+    "representativeRoutes": [
+      "/secteurs/rosemont-la-petite-patrie/",
+      "/secteurs/villeray-saint-michel-parc-extension/",
+      "/vaudreuil-soulanges/04m44/",
+      "/secteurs/laval/",
+      "/rosemont-la-petite-patrie/o1a11/"
+    ],
+    "consoleErrors": 0,
+    "horizontalOverflowFailures": 0,
+    "reducedMotionObserved": true,
+    "presentationVideoPlaybackObserved": true,
+    "presentationVideoAudibleConfiguration": true,
+    "fullscreenApiAvailableInHarness": false
+  },
+  "independentReview": {
+    "status": "PASS",
+    "productDefects": 0,
+    "sampleMp4BitExact": "10/10"
+  },
+  "limitations": [
+    "The available browser harness enforces prefers-reduced-motion: reduce.",
+    "The available browser harness does not expose the Fullscreen API."
+  ]
+}

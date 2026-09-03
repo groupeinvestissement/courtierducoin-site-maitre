@@ -1,8 +1,9 @@
 # Statut d'intégration — héros vidéo multi-secteurs
 
-Release : `heroes-2026-08-31-v01`  
-Branche : `codex/multi-sector-heroes-v1`  
-Déploiement : `NOT_DEPLOYED`
+Release : `heroes-2026-08-31-v01`
+Branche : `main`
+Déploiement : **LIVE — G9 PASS — 2026-09-03**
+Commit fonctionnel : `4000570fcd259cd22ec536aabc45c70d7329e2e4`
 
 | Gate | Statut | Preuve | Fichiers modifiés | Défaut / correction | Prochaine action |
 |---|---|---|---|---|---|
@@ -14,5 +15,5 @@ Déploiement : `NOT_DEPLOYED`
 | G5 — QA statique | PASS | `reports/hero-integration/G5-static-qa.md` | Scripts QA | 699 cibles locales vérifiées, 0 défaut | Revue finale indépendante |
 | G6 — QA navigateur | PASS | `reports/hero-integration/G6-browser-qa.md`, captures | Serveur QA seulement | 252 contrôles page/viewport PASS; quatre replis PASS | Revue finale indépendante |
 | G7 — Revue indépendante | PASS | `reports/hero-integration/G7-independent-review.md` | Rapport indépendant | Blocker réseau mobile levé; aucun défaut bloquant restant | Préparer et tester G8 |
-| G8 — Prêt au déploiement | PASS_LOCAL | `reports/hero-integration/G8-deployment-readiness.md` | Paquet, inventaires et retour arrière | Commit local et réversion exacte testés; aucun défaut ouvert | Conserver le paquet sans le publier |
-| G9 — Production | NOT_AUTHORIZED | `reports/hero-integration/G9-production-not-authorized.md` | Aucun | Déploiement explicitement interdit dans ce créneau | Attendre une nouvelle autorisation humaine explicite |
+| G8 — Prêt au déploiement | PASS | `reports/hero-integration/G8-deployment-readiness.md` | Paquet, inventaires et retour arrière | Commit local et réversion exacte testés; aucun défaut ouvert | Terminé |
+| G9 — Production | PASS | `reports/hero-integration/G9-production.md`, `reports/hero-integration/g9-production-proof.json` | Journal de production et procédure de retour arrière mise à jour | 114/114 pages et 456/456 médias publics conformes; contre-vérification indépendante PASS | Conserver les anciens médias pendant la période d'acceptation |
