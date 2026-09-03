@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "villeray-saint-michel-parc-extension",
+  "displayName": "Villeray / Saint-Michel / Parc-Extension",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/villeray-saint-michel-parc-extension/",
+      "applicable": true,
+      "desktopVideo": "villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-desktop-web.mp4",
+      "mobileVideo": "villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-mobile-web.mp4",
+      "desktopPoster": "villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-desktop-poster.jpg",
+      "mobilePoster": "villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "49238e454004b243aae41753ae027b9bc7434e03585da09286186e742097489e",
+        "desktopPoster": "866069e53737e5b980b39964b1a7744f1b3a1c06e161095bd8aa6a8bd754c9ca",
+        "mobileVideo": "15b08eee6b00c64da2f03694ae94330ede2cc09f61b6a0e16a60b403bea314c7",
+        "mobilePoster": "3c535021a00479eecf39ef0195ea3fe9564717f2bc4aea36586db176529403d3"
+      }
+    },
+    "o1a11": {
+      "route": "/villeray-saint-michel-parc-extension/o1a11/",
+      "applicable": true,
+      "desktopVideo": "villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "585de2c5bc36407c25526c70c511ba2c0ee454316a8f3a9bda834f38127325a1",
+        "desktopPoster": "c612200069e2b55db930f87442dd4c1458e62adb0388e78bc4e9b051f802275c",
+        "mobileVideo": "1d08801670f5543bc6320b68b0e423bfeaa6aa34f562ea66a7e1f23e45a680f6",
+        "mobilePoster": "9622395cb775ac65bbbb66b40d4fd46647ad14751f75f333c3b6ee70d89b7830"
+      }
+    },
+    "02a22": {
+      "route": "/villeray-saint-michel-parc-extension/02a22/",
+      "applicable": true,
+      "desktopVideo": "villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "cf3111bfefd190546ad4bdd42e20b1884b6c0247b9c46938838234146bb7c61b",
+        "desktopPoster": "3dddc023a0792ae9592162197f84b586f175c8b2359afd75b8aa7c8f4b3c6b02",
+        "mobileVideo": "368cc674ba6acc5131c7af9bc282ef1f42ab49aa0a463856f64193c96db384eb",
+        "mobilePoster": "d28996b3c42cab57d836508c3d9b304b11666f2d36066e6388b51ca28f7a7d09"
+      }
+    },
+    "03i33": {
+      "route": "/villeray-saint-michel-parc-extension/03i33/",
+      "applicable": true,
+      "desktopVideo": "villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "3f2c769956c955889c73e2a1ada83a16be7543872aa70ff60ebce9bbea9e95dc",
+        "desktopPoster": "96b592eb8a233c210633ab523dd3ff93d959a101ab09493f5759718d0511f902",
+        "mobileVideo": "e4d27de21540a8d5cb3b7f2156fe48f0d4881a79b8fc2d9429024a81b3367a7b",
+        "mobilePoster": "5ccae538b8a9c004d4a8d20dff40f66f625d6719a2ca7a396bbf785c09f6b315"
+      }
+    },
+    "04m44": {
+      "route": "/villeray-saint-michel-parc-extension/04m44/",
+      "applicable": true,
+      "desktopVideo": "villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "ab5ffc105c2f0ba9fdd36b4ee2a757dc37441a99b924fda18ad48013ca952959",
+        "desktopPoster": "4f1597ac7db0be80a77afc57e2e874351dab0ada69feecfba5fafe199743242d",
+        "mobileVideo": "44de31d4cdc27dda2c3839f7816ba6d8e4c6666921b4ecfe55e1303a37cb4253",
+        "mobilePoster": "8fcc8936358d946754deb13e278eb8492f8398695be54dab4fbf470d8b4d2c75"
+      }
+    },
+    "05c55": {
+      "route": "/villeray-saint-michel-parc-extension/05c55/",
+      "applicable": true,
+      "desktopVideo": "villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "eedcfc41deab63e684c18c3a08c759e10d3d7b600d84d70f7c69b50a69d20e45",
+        "desktopPoster": "786e2705375e7a73bce766901d10657558b04bd5c58b18fa49c12d6218c6049b",
+        "mobileVideo": "fd2feadfc60883030ad7ea968f2bf0146acb9dda72ca6f6de131f7fb6d754b67",
+        "mobilePoster": "bc79e43344e3131da4f2ba0a37824ea2e895be505531f11eb5f84c08fc2d9396"
+      }
+    }
+  }
+}

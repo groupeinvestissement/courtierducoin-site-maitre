@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "verdun-ile-des-soeurs",
+  "displayName": "Verdun / L’Île-des-Sœurs",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/verdun-ile-des-soeurs/",
+      "applicable": true,
+      "desktopVideo": "verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-desktop-web.mp4",
+      "mobileVideo": "verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-mobile-web.mp4",
+      "desktopPoster": "verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-desktop-poster.jpg",
+      "mobilePoster": "verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "63753dcf53a0c7731b015d059a882322ca72434fb83df49e1e3139ca2c56d29e",
+        "desktopPoster": "6f306955238839c3321fbff9ed90b37cdb0af3b488282b12a019e54f24ca8135",
+        "mobileVideo": "cc1bd34e4fc787733bb236f941ce7a7391e1da0a7463995fa550849fabf63a80",
+        "mobilePoster": "f0a50ef849bd62c065c050a9123c8c1ba0f4172043784c2e6fc68e33dc6d3a56"
+      }
+    },
+    "o1a11": {
+      "route": "/verdun-ile-des-soeurs/o1a11/",
+      "applicable": true,
+      "desktopVideo": "verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "cf4d29bb8993e13979f5389d82c8b530b178a76164ed5368f58ef0bc134838ec",
+        "desktopPoster": "f5bac8833dafb95df7300e2ab2614669949fdefa65fab28461c6ea360c5ba85d",
+        "mobileVideo": "35ea841bfc3e35fd3c067645ae245a48125ef90fc445a25af3e172ef8553928e",
+        "mobilePoster": "9d35a7476173369137ad7f355bb18bf621674c09b9d06498fe7caf55d2e04044"
+      }
+    },
+    "02a22": {
+      "route": "/verdun-ile-des-soeurs/02a22/",
+      "applicable": true,
+      "desktopVideo": "verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "886da2d3e3f8feecfb5612ee316a42fe63ece9a472224d7a9aeb64e01d4e7913",
+        "desktopPoster": "6199468b94d04a0331da8b38620947856aa97070fb2cc3b7c6fdb77586083666",
+        "mobileVideo": "c32867ec4ff8b398007e8e0d564d732f9408213e46440b6d2787854ab1136a08",
+        "mobilePoster": "ce40847246e076a656b46f0ea4510b658b589161abb3f2fe4a0fd5f153ac3f5a"
+      }
+    },
+    "03i33": {
+      "route": "/verdun-ile-des-soeurs/03i33/",
+      "applicable": true,
+      "desktopVideo": "verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "e52b6cd7bdd89678ba91497f73e22e2cf1017ccee818a48ccfff533aeb4743dd",
+        "desktopPoster": "451868f04752d2a5b89444ed6e5a907db1f80622f57b82e655d4057e2e38ab5d",
+        "mobileVideo": "31dc6c6bb3d8812bf290fd3cea4073d20d4908779d06882ad2b54483c8e705fa",
+        "mobilePoster": "537afc5d5e00df80c4c231bcba574e5b7afe9ce73cc610d604ac5401034f97a7"
+      }
+    },
+    "04m44": {
+      "route": "/verdun-ile-des-soeurs/04m44/",
+      "applicable": true,
+      "desktopVideo": "verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "6767e607cf50080b8eac8f9fd9f0f1bb390879afb6bbb244b12af2c8aade738e",
+        "desktopPoster": "342209545fbf3103a4f87e9cd7339d69fd60cdffe1e37cb53d2ca8ecd1be8531",
+        "mobileVideo": "d4ba595d3127902a460cd13c43e1057f937a77f646f54dbdf0d30290a3293d2e",
+        "mobilePoster": "ab9e8b15e6f77ee45a176fe10b159bb5f22cda553ff90c414154f070e4cbaac5"
+      }
+    },
+    "05c55": {
+      "route": "/verdun-ile-des-soeurs/05c55/",
+      "applicable": true,
+      "desktopVideo": "verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "f8d0804557b7025270c3239c6dc67c82505053ff8235347a8b8632f5fe514a02",
+        "desktopPoster": "3ceb548092d66695afecb30ef076fe35e039c09875b8c362b4f620d87545c0b8",
+        "mobileVideo": "790595cf901ba2685c1b54e5f497a20e628f5d05e349a636af7748f2db1540fd",
+        "mobilePoster": "4d87ef8337da5099a9b67fbc747cd3655274736160daa84302a2636d9c3b8fc4"
+      }
+    }
+  }
+}

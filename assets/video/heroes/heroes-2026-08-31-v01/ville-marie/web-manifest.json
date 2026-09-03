@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "ville-marie",
+  "displayName": "Ville-Marie",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/ville-marie/",
+      "applicable": true,
+      "desktopVideo": "ville-marie/main/ville-marie-main-hero-desktop-web.mp4",
+      "mobileVideo": "ville-marie/main/ville-marie-main-hero-mobile-web.mp4",
+      "desktopPoster": "ville-marie/main/ville-marie-main-hero-desktop-poster.jpg",
+      "mobilePoster": "ville-marie/main/ville-marie-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "d505a0d8b4a4d1fe8b4475d8846eee1a90b6f89a8a535363cc943576473119f5",
+        "desktopPoster": "e3efa48d1fb6d7ee7c154578777d8496985a08ebe090b40cfe072bd112da74de",
+        "mobileVideo": "506f6c1b52d2032696e435f4050b973eab1eaec13c3f0a997e9ea1eca0730f53",
+        "mobilePoster": "107adfa3312f187a0df5d50201aab07326976501edd94a98dca4e7834b844f02"
+      }
+    },
+    "o1a11": {
+      "route": "/ville-marie/o1a11/",
+      "applicable": true,
+      "desktopVideo": "ville-marie/o1a11/ville-marie-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "ville-marie/o1a11/ville-marie-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "ville-marie/o1a11/ville-marie-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "ville-marie/o1a11/ville-marie-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "dab022b36fa27815d7b50ba4891cdc79d46b854897dac3fc97d98a4b04b6a2bc",
+        "desktopPoster": "13b5e271b2a0cdaf1566889e8e0f2a44bc3f41ae481c2dd1cd511ac4f2fbb557",
+        "mobileVideo": "6bbaeafc8840359249a0bc9d04fee64e394b7f014303025c6770ab4359bc4f3a",
+        "mobilePoster": "41072534edafb54a84fb3c62bd134fe64669951c335f6e366efc0711ee7753fd"
+      }
+    },
+    "02a22": {
+      "route": "/ville-marie/02a22/",
+      "applicable": true,
+      "desktopVideo": "ville-marie/02a22/ville-marie-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "ville-marie/02a22/ville-marie-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "ville-marie/02a22/ville-marie-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "ville-marie/02a22/ville-marie-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "b93313d2dcfa53e149c4afdf81963bffe3d0a0dbced93e70db1f81c3501f4841",
+        "desktopPoster": "6e2a9ad1e33c5acd43d887c2ae1c6612f2cff0af22ea6fb786423b6e3f6268f6",
+        "mobileVideo": "7a0a337e436651823cce4cb32ba49ad4bd54199c85bb6b98a89f15acc5f3ee0c",
+        "mobilePoster": "53f141c8ef71aed88ba34112bdf657a83a10d6fb1b2e31fee39e7fcbf740b152"
+      }
+    },
+    "03i33": {
+      "route": "/ville-marie/03i33/",
+      "applicable": true,
+      "desktopVideo": "ville-marie/03i33/ville-marie-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "ville-marie/03i33/ville-marie-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "ville-marie/03i33/ville-marie-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "ville-marie/03i33/ville-marie-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "63cee296d2ed238213c9c5d96ec1cd2eb749cb021e34cca9fb7049a7a4a77cf1",
+        "desktopPoster": "7ac8821f52f52e1107a0422dc491ca1f5c513fab0591f1cd2209a301e7fe72b6",
+        "mobileVideo": "4753c9976cf569b30dcd35809a8ee76bacab9e4ccdc1b91e41123fd49dce9f9f",
+        "mobilePoster": "56695bda5f8dc6db7745f9038a27140b083418479ee0d2882d648c9c5b7c51d6"
+      }
+    },
+    "04m44": {
+      "route": "/ville-marie/04m44/",
+      "applicable": true,
+      "desktopVideo": "ville-marie/04m44/ville-marie-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "ville-marie/04m44/ville-marie-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "ville-marie/04m44/ville-marie-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "ville-marie/04m44/ville-marie-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "52875771060d81c0a0a0118d0d8f0e02b0da65f6e1fcd566cf5cf7cabe97f538",
+        "desktopPoster": "f6a9c6215204cd83fbb06dbc21cacf3a0a8c557c5667301c37ca22a23b3e1b44",
+        "mobileVideo": "70525a5c714aee40b52fdbc1177629c9fa5df628f02803c90e516dd43c95b9db",
+        "mobilePoster": "0cebb542b071ff84468ac4943918e2d1d1ff5ad6a76b12a6b96852ef745bdcd9"
+      }
+    },
+    "05c55": {
+      "route": "/ville-marie/05c55/",
+      "applicable": true,
+      "desktopVideo": "ville-marie/05c55/ville-marie-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "ville-marie/05c55/ville-marie-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "ville-marie/05c55/ville-marie-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "ville-marie/05c55/ville-marie-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "459a7feec6b2facf04432412f04cddf0c66db5a37aecbaaa151fd7303c79881a",
+        "desktopPoster": "900f8a4ae1e55b3d9e1925200c7f1e84ef1c4cb1d6d4dfc946db86347186735e",
+        "mobileVideo": "90e1962e4fbb8a66de4720f23cc57fc16d12c41e9db0a3ea41b2c7ef4e938613",
+        "mobilePoster": "d1e60d416051b1a4c27339cd86eea81ea2bf0f26f095d26aab04ccb5c3b5c106"
+      }
+    }
+  }
+}

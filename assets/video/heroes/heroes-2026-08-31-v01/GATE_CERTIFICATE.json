@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0.0",
+  "release_id": "heroes-2026-08-31-v01",
+  "decision": "pass",
+  "certified_at": "2026-09-02T01:41:10.770Z",
+  "gates": [
+    {
+      "id": "G0",
+      "status": "pass",
+      "evidence": [
+        {
+          "path": "reports/site-route-validation-v12.json",
+          "sha256": "7558942ad999ffbba3f7b213007aa31dce1cf32f2402154b50f335dd8060ee52"
+        }
+      ]
+    },
+    {
+      "id": "G1",
+      "status": "pass",
+      "evidence": [
+        {
+          "path": "deliverables/multi-sector-heroes/reports/preflight-media.json",
+          "sha256": "c89a4066e73283b30a2cf922d105fbdf37dfaa8dfb3f0224277539f521f4009b"
+        },
+        {
+          "path": "reports/validation-sources-globale-g1-final.md",
+          "sha256": "1d1db1f20b6378d37148e4734e254592c2b97e08a03ebbda3c3e625c7034d6de"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "status": "pass",
+      "evidence": [
+        {
+          "path": "reports/validation-inventaire-finale-g0.md",
+          "sha256": "5d96006117a04feab23deefe669285e27add9d792be626fd33a0442338a0ff5b"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "status": "pass",
+      "evidence": [
+        {
+          "path": "reports/validation-technique-globale-final-g3.md",
+          "sha256": "4d28522678fead205d2b08452b558fd119c019674cdfb0d484e4843db664f148"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "status": "pass",
+      "evidence": [
+        {
+          "path": "reports/audit-final-heros-multisecteurs-g4-g6.json",
+          "sha256": "5eb9e6683d42f9f2d64f9ec9331fedf1a7e74619c0c3344d7ce92bf5974ab5aa"
+        }
+      ]
+    },
+    {
+      "id": "G5",
+      "status": "pass",
+      "evidence": [
+        {
+          "path": "deliverables/multi-sector-heroes/production-report.json",
+          "sha256": "e2a94c71320e035be34917e1b89be8cb8fa93ed5a50e64e581917d6bdddf6d17"
+        }
+      ]
+    },
+    {
+      "id": "G6",
+      "status": "pass",
+      "evidence": [
+        {
+          "path": "reports/audit-final-heros-multisecteurs-g4-g6.json",
+          "sha256": "5eb9e6683d42f9f2d64f9ec9331fedf1a7e74619c0c3344d7ce92bf5974ab5aa"
+        },
+        {
+          "path": "reports/validation-technique-globale-final-g3.md",
+          "sha256": "4d28522678fead205d2b08452b558fd119c019674cdfb0d484e4843db664f148"
+        }
+      ]
+    },
+    {
+      "id": "G7",
+      "status": "pass",
+      "evidence": [
+        {
+          "path": "reports/integration-qa/sector-hero-integration-g7.json",
+          "sha256": "20eb071d28d3fd1a374c045c1098e8b098c36c277756a7977ec02250e6888ff3"
+        },
+        {
+          "path": "reports/site-route-validation-v12.json",
+          "sha256": "7558942ad999ffbba3f7b213007aa31dce1cf32f2402154b50f335dd8060ee52"
+        }
+      ]
+    }
+  ]
+}
