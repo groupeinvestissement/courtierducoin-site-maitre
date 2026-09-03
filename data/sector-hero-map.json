@@ -1,0 +1,1148 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "generatedBy": "tools/integrate-multi-sector-heroes.mjs",
+  "pageCount": 114,
+  "pages": [
+    {
+      "displayName": "Ahuntsic-Cartierville",
+      "sectorId": "ahuntsic-cartierville",
+      "pageKey": "main",
+      "route": "/secteurs/ahuntsic-cartierville/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ahuntsic-Cartierville",
+      "sectorId": "ahuntsic-cartierville",
+      "pageKey": "o1a11",
+      "route": "/ahuntsic-cartierville/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ahuntsic-Cartierville",
+      "sectorId": "ahuntsic-cartierville",
+      "pageKey": "02a22",
+      "route": "/ahuntsic-cartierville/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ahuntsic-Cartierville",
+      "sectorId": "ahuntsic-cartierville",
+      "pageKey": "03i33",
+      "route": "/ahuntsic-cartierville/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ahuntsic-Cartierville",
+      "sectorId": "ahuntsic-cartierville",
+      "pageKey": "04m44",
+      "route": "/ahuntsic-cartierville/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ahuntsic-Cartierville",
+      "sectorId": "ahuntsic-cartierville",
+      "pageKey": "05c55",
+      "route": "/ahuntsic-cartierville/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Anjou / Saint-Léonard",
+      "sectorId": "anjou-saint-leonard",
+      "pageKey": "main",
+      "route": "/secteurs/anjou-saint-leonard/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/main/anjou-saint-leonard-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/main/anjou-saint-leonard-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/main/anjou-saint-leonard-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/main/anjou-saint-leonard-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Anjou / Saint-Léonard",
+      "sectorId": "anjou-saint-leonard",
+      "pageKey": "o1a11",
+      "route": "/anjou-saint-leonard/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Anjou / Saint-Léonard",
+      "sectorId": "anjou-saint-leonard",
+      "pageKey": "02a22",
+      "route": "/anjou-saint-leonard/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Anjou / Saint-Léonard",
+      "sectorId": "anjou-saint-leonard",
+      "pageKey": "03i33",
+      "route": "/anjou-saint-leonard/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Anjou / Saint-Léonard",
+      "sectorId": "anjou-saint-leonard",
+      "pageKey": "04m44",
+      "route": "/anjou-saint-leonard/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Anjou / Saint-Léonard",
+      "sectorId": "anjou-saint-leonard",
+      "pageKey": "05c55",
+      "route": "/anjou-saint-leonard/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "CDN / Côte-Saint-Luc",
+      "sectorId": "cdn-cote-saint-luc",
+      "pageKey": "main",
+      "route": "/secteurs/cdn-cote-saint-luc/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "CDN / Côte-Saint-Luc",
+      "sectorId": "cdn-cote-saint-luc",
+      "pageKey": "o1a11",
+      "route": "/cdn-cote-saint-luc/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "CDN / Côte-Saint-Luc",
+      "sectorId": "cdn-cote-saint-luc",
+      "pageKey": "02a22",
+      "route": "/cdn-cote-saint-luc/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "CDN / Côte-Saint-Luc",
+      "sectorId": "cdn-cote-saint-luc",
+      "pageKey": "03i33",
+      "route": "/cdn-cote-saint-luc/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "CDN / Côte-Saint-Luc",
+      "sectorId": "cdn-cote-saint-luc",
+      "pageKey": "04m44",
+      "route": "/cdn-cote-saint-luc/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "CDN / Côte-Saint-Luc",
+      "sectorId": "cdn-cote-saint-luc",
+      "pageKey": "05c55",
+      "route": "/cdn-cote-saint-luc/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Lachine / LaSalle",
+      "sectorId": "lachine-lasalle",
+      "pageKey": "main",
+      "route": "/secteurs/lachine-lasalle/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/main/lachine-lasalle-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/main/lachine-lasalle-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/main/lachine-lasalle-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/main/lachine-lasalle-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Lachine / LaSalle",
+      "sectorId": "lachine-lasalle",
+      "pageKey": "o1a11",
+      "route": "/lachine-lasalle/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Lachine / LaSalle",
+      "sectorId": "lachine-lasalle",
+      "pageKey": "02a22",
+      "route": "/lachine-lasalle/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/02a22/lachine-lasalle-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/02a22/lachine-lasalle-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/02a22/lachine-lasalle-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/02a22/lachine-lasalle-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Lachine / LaSalle",
+      "sectorId": "lachine-lasalle",
+      "pageKey": "03i33",
+      "route": "/lachine-lasalle/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/03i33/lachine-lasalle-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/03i33/lachine-lasalle-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/03i33/lachine-lasalle-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/03i33/lachine-lasalle-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Lachine / LaSalle",
+      "sectorId": "lachine-lasalle",
+      "pageKey": "04m44",
+      "route": "/lachine-lasalle/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/04m44/lachine-lasalle-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/04m44/lachine-lasalle-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/04m44/lachine-lasalle-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/04m44/lachine-lasalle-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Lachine / LaSalle",
+      "sectorId": "lachine-lasalle",
+      "pageKey": "05c55",
+      "route": "/lachine-lasalle/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/05c55/lachine-lasalle-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/05c55/lachine-lasalle-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/05c55/lachine-lasalle-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/05c55/lachine-lasalle-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Laval",
+      "sectorId": "laval",
+      "pageKey": "main",
+      "route": "/secteurs/laval/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/main/laval-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/main/laval-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/main/laval-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/main/laval-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Laval",
+      "sectorId": "laval",
+      "pageKey": "o1a11",
+      "route": "/laval/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/o1a11/laval-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/o1a11/laval-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/o1a11/laval-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/o1a11/laval-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Laval",
+      "sectorId": "laval",
+      "pageKey": "02a22",
+      "route": "/laval/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/02a22/laval-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/02a22/laval-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/02a22/laval-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/02a22/laval-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Laval",
+      "sectorId": "laval",
+      "pageKey": "03i33",
+      "route": "/laval/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/03i33/laval-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/03i33/laval-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/03i33/laval-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/03i33/laval-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Laval",
+      "sectorId": "laval",
+      "pageKey": "04m44",
+      "route": "/laval/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/04m44/laval-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/04m44/laval-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/04m44/laval-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/04m44/laval-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Laval",
+      "sectorId": "laval",
+      "pageKey": "05c55",
+      "route": "/laval/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/05c55/laval-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/laval/05c55/laval-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/05c55/laval-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/laval/05c55/laval-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Plateau-Mont-Royal",
+      "sectorId": "le-plateau-mont-royal",
+      "pageKey": "main",
+      "route": "/secteurs/le-plateau-mont-royal/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Plateau-Mont-Royal",
+      "sectorId": "le-plateau-mont-royal",
+      "pageKey": "o1a11",
+      "route": "/le-plateau-mont-royal/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Plateau-Mont-Royal",
+      "sectorId": "le-plateau-mont-royal",
+      "pageKey": "02a22",
+      "route": "/le-plateau-mont-royal/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Plateau-Mont-Royal",
+      "sectorId": "le-plateau-mont-royal",
+      "pageKey": "03i33",
+      "route": "/le-plateau-mont-royal/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Plateau-Mont-Royal",
+      "sectorId": "le-plateau-mont-royal",
+      "pageKey": "04m44",
+      "route": "/le-plateau-mont-royal/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Plateau-Mont-Royal",
+      "sectorId": "le-plateau-mont-royal",
+      "pageKey": "05c55",
+      "route": "/le-plateau-mont-royal/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Sud-Ouest",
+      "sectorId": "le-sud-ouest",
+      "pageKey": "main",
+      "route": "/secteurs/le-sud-ouest/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/main/le-sud-ouest-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/main/le-sud-ouest-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/main/le-sud-ouest-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/main/le-sud-ouest-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Sud-Ouest",
+      "sectorId": "le-sud-ouest",
+      "pageKey": "o1a11",
+      "route": "/le-sud-ouest/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Sud-Ouest",
+      "sectorId": "le-sud-ouest",
+      "pageKey": "02a22",
+      "route": "/le-sud-ouest/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/02a22/le-sud-ouest-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/02a22/le-sud-ouest-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/02a22/le-sud-ouest-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/02a22/le-sud-ouest-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Sud-Ouest",
+      "sectorId": "le-sud-ouest",
+      "pageKey": "03i33",
+      "route": "/le-sud-ouest/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/03i33/le-sud-ouest-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/03i33/le-sud-ouest-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/03i33/le-sud-ouest-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/03i33/le-sud-ouest-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Sud-Ouest",
+      "sectorId": "le-sud-ouest",
+      "pageKey": "04m44",
+      "route": "/le-sud-ouest/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/04m44/le-sud-ouest-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/04m44/le-sud-ouest-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/04m44/le-sud-ouest-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/04m44/le-sud-ouest-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Le Sud-Ouest",
+      "sectorId": "le-sud-ouest",
+      "pageKey": "05c55",
+      "route": "/le-sud-ouest/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/05c55/le-sud-ouest-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/05c55/le-sud-ouest-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/05c55/le-sud-ouest-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/05c55/le-sud-ouest-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Longueuil",
+      "sectorId": "longueuil",
+      "pageKey": "main",
+      "route": "/secteurs/longueuil/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/main/longueuil-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/main/longueuil-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/main/longueuil-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/main/longueuil-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Longueuil",
+      "sectorId": "longueuil",
+      "pageKey": "o1a11",
+      "route": "/longueuil/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/o1a11/longueuil-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/o1a11/longueuil-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/o1a11/longueuil-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/o1a11/longueuil-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Longueuil",
+      "sectorId": "longueuil",
+      "pageKey": "02a22",
+      "route": "/longueuil/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/02a22/longueuil-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/02a22/longueuil-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/02a22/longueuil-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/02a22/longueuil-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Longueuil",
+      "sectorId": "longueuil",
+      "pageKey": "03i33",
+      "route": "/longueuil/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/03i33/longueuil-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/03i33/longueuil-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/03i33/longueuil-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/03i33/longueuil-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Longueuil",
+      "sectorId": "longueuil",
+      "pageKey": "04m44",
+      "route": "/longueuil/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/04m44/longueuil-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/04m44/longueuil-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/04m44/longueuil-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/04m44/longueuil-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Longueuil",
+      "sectorId": "longueuil",
+      "pageKey": "05c55",
+      "route": "/longueuil/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/05c55/longueuil-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/05c55/longueuil-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/05c55/longueuil-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/longueuil/05c55/longueuil-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Mercier–Hochelaga-Maisonneuve",
+      "sectorId": "mercier-hochelaga-maisonneuve",
+      "pageKey": "main",
+      "route": "/secteurs/mercier-hochelaga-maisonneuve/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Mercier–Hochelaga-Maisonneuve",
+      "sectorId": "mercier-hochelaga-maisonneuve",
+      "pageKey": "o1a11",
+      "route": "/mercier-hochelaga-maisonneuve/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Mercier–Hochelaga-Maisonneuve",
+      "sectorId": "mercier-hochelaga-maisonneuve",
+      "pageKey": "02a22",
+      "route": "/mercier-hochelaga-maisonneuve/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Mercier–Hochelaga-Maisonneuve",
+      "sectorId": "mercier-hochelaga-maisonneuve",
+      "pageKey": "03i33",
+      "route": "/mercier-hochelaga-maisonneuve/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Mercier–Hochelaga-Maisonneuve",
+      "sectorId": "mercier-hochelaga-maisonneuve",
+      "pageKey": "04m44",
+      "route": "/mercier-hochelaga-maisonneuve/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Mercier–Hochelaga-Maisonneuve",
+      "sectorId": "mercier-hochelaga-maisonneuve",
+      "pageKey": "05c55",
+      "route": "/mercier-hochelaga-maisonneuve/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "NDG / Montréal-Ouest",
+      "sectorId": "ndg-montreal-ouest",
+      "pageKey": "main",
+      "route": "/secteurs/ndg-montreal-ouest/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "NDG / Montréal-Ouest",
+      "sectorId": "ndg-montreal-ouest",
+      "pageKey": "o1a11",
+      "route": "/ndg-montreal-ouest/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "NDG / Montréal-Ouest",
+      "sectorId": "ndg-montreal-ouest",
+      "pageKey": "02a22",
+      "route": "/ndg-montreal-ouest/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "NDG / Montréal-Ouest",
+      "sectorId": "ndg-montreal-ouest",
+      "pageKey": "03i33",
+      "route": "/ndg-montreal-ouest/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "NDG / Montréal-Ouest",
+      "sectorId": "ndg-montreal-ouest",
+      "pageKey": "04m44",
+      "route": "/ndg-montreal-ouest/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "NDG / Montréal-Ouest",
+      "sectorId": "ndg-montreal-ouest",
+      "pageKey": "05c55",
+      "route": "/ndg-montreal-ouest/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ouest-de-l’Île",
+      "sectorId": "ouest-de-lile",
+      "pageKey": "main",
+      "route": "/secteurs/ouest-de-lile/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/main/ouest-de-lile-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/main/ouest-de-lile-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/main/ouest-de-lile-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/main/ouest-de-lile-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ouest-de-l’Île",
+      "sectorId": "ouest-de-lile",
+      "pageKey": "o1a11",
+      "route": "/ouest-de-lile/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ouest-de-l’Île",
+      "sectorId": "ouest-de-lile",
+      "pageKey": "02a22",
+      "route": "/ouest-de-lile/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/02a22/ouest-de-lile-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/02a22/ouest-de-lile-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/02a22/ouest-de-lile-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/02a22/ouest-de-lile-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ouest-de-l’Île",
+      "sectorId": "ouest-de-lile",
+      "pageKey": "03i33",
+      "route": "/ouest-de-lile/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/03i33/ouest-de-lile-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/03i33/ouest-de-lile-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/03i33/ouest-de-lile-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/03i33/ouest-de-lile-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ouest-de-l’Île",
+      "sectorId": "ouest-de-lile",
+      "pageKey": "04m44",
+      "route": "/ouest-de-lile/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/04m44/ouest-de-lile-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/04m44/ouest-de-lile-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/04m44/ouest-de-lile-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/04m44/ouest-de-lile-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ouest-de-l’Île",
+      "sectorId": "ouest-de-lile",
+      "pageKey": "05c55",
+      "route": "/ouest-de-lile/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/05c55/ouest-de-lile-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/05c55/ouest-de-lile-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/05c55/ouest-de-lile-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/05c55/ouest-de-lile-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Outremont / Westmount / VMR",
+      "sectorId": "outremont-westmount-vmr",
+      "pageKey": "main",
+      "route": "/secteurs/outremont-westmount-vmr/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Outremont / Westmount / VMR",
+      "sectorId": "outremont-westmount-vmr",
+      "pageKey": "o1a11",
+      "route": "/outremont-westmount-vmr/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Outremont / Westmount / VMR",
+      "sectorId": "outremont-westmount-vmr",
+      "pageKey": "02a22",
+      "route": "/outremont-westmount-vmr/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Outremont / Westmount / VMR",
+      "sectorId": "outremont-westmount-vmr",
+      "pageKey": "03i33",
+      "route": "/outremont-westmount-vmr/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Outremont / Westmount / VMR",
+      "sectorId": "outremont-westmount-vmr",
+      "pageKey": "04m44",
+      "route": "/outremont-westmount-vmr/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Outremont / Westmount / VMR",
+      "sectorId": "outremont-westmount-vmr",
+      "pageKey": "05c55",
+      "route": "/outremont-westmount-vmr/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Repentigny",
+      "sectorId": "repentigny",
+      "pageKey": "main",
+      "route": "/secteurs/repentigny/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/main/repentigny-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/main/repentigny-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/main/repentigny-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/main/repentigny-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Repentigny",
+      "sectorId": "repentigny",
+      "pageKey": "o1a11",
+      "route": "/repentigny/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/o1a11/repentigny-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/o1a11/repentigny-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/o1a11/repentigny-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/o1a11/repentigny-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Repentigny",
+      "sectorId": "repentigny",
+      "pageKey": "02a22",
+      "route": "/repentigny/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/02a22/repentigny-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/02a22/repentigny-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/02a22/repentigny-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/02a22/repentigny-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Repentigny",
+      "sectorId": "repentigny",
+      "pageKey": "03i33",
+      "route": "/repentigny/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/03i33/repentigny-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/03i33/repentigny-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/03i33/repentigny-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/03i33/repentigny-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Repentigny",
+      "sectorId": "repentigny",
+      "pageKey": "04m44",
+      "route": "/repentigny/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/04m44/repentigny-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/04m44/repentigny-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/04m44/repentigny-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/04m44/repentigny-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Repentigny",
+      "sectorId": "repentigny",
+      "pageKey": "05c55",
+      "route": "/repentigny/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/05c55/repentigny-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/05c55/repentigny-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/05c55/repentigny-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/repentigny/05c55/repentigny-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Rosemont–La Petite-Patrie",
+      "sectorId": "rosemont-la-petite-patrie",
+      "pageKey": "main",
+      "route": "/secteurs/rosemont-la-petite-patrie/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Rosemont–La Petite-Patrie",
+      "sectorId": "rosemont-la-petite-patrie",
+      "pageKey": "o1a11",
+      "route": "/rosemont-la-petite-patrie/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Rosemont–La Petite-Patrie",
+      "sectorId": "rosemont-la-petite-patrie",
+      "pageKey": "02a22",
+      "route": "/rosemont-la-petite-patrie/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Rosemont–La Petite-Patrie",
+      "sectorId": "rosemont-la-petite-patrie",
+      "pageKey": "03i33",
+      "route": "/rosemont-la-petite-patrie/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Rosemont–La Petite-Patrie",
+      "sectorId": "rosemont-la-petite-patrie",
+      "pageKey": "04m44",
+      "route": "/rosemont-la-petite-patrie/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Rosemont–La Petite-Patrie",
+      "sectorId": "rosemont-la-petite-patrie",
+      "pageKey": "05c55",
+      "route": "/rosemont-la-petite-patrie/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Saint-Laurent",
+      "sectorId": "saint-laurent",
+      "pageKey": "main",
+      "route": "/secteurs/saint-laurent/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/main/saint-laurent-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/main/saint-laurent-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/main/saint-laurent-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/main/saint-laurent-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Saint-Laurent",
+      "sectorId": "saint-laurent",
+      "pageKey": "o1a11",
+      "route": "/saint-laurent/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/o1a11/saint-laurent-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/o1a11/saint-laurent-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/o1a11/saint-laurent-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/o1a11/saint-laurent-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Saint-Laurent",
+      "sectorId": "saint-laurent",
+      "pageKey": "02a22",
+      "route": "/saint-laurent/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/02a22/saint-laurent-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/02a22/saint-laurent-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/02a22/saint-laurent-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/02a22/saint-laurent-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Saint-Laurent",
+      "sectorId": "saint-laurent",
+      "pageKey": "03i33",
+      "route": "/saint-laurent/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/03i33/saint-laurent-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/03i33/saint-laurent-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/03i33/saint-laurent-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/03i33/saint-laurent-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Saint-Laurent",
+      "sectorId": "saint-laurent",
+      "pageKey": "04m44",
+      "route": "/saint-laurent/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/04m44/saint-laurent-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/04m44/saint-laurent-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/04m44/saint-laurent-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/04m44/saint-laurent-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Saint-Laurent",
+      "sectorId": "saint-laurent",
+      "pageKey": "05c55",
+      "route": "/saint-laurent/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/05c55/saint-laurent-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/05c55/saint-laurent-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/05c55/saint-laurent-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/05c55/saint-laurent-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Vaudreuil-Soulanges",
+      "sectorId": "vaudreuil-soulanges",
+      "pageKey": "main",
+      "route": "/secteurs/vaudreuil-soulanges/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Vaudreuil-Soulanges",
+      "sectorId": "vaudreuil-soulanges",
+      "pageKey": "o1a11",
+      "route": "/vaudreuil-soulanges/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Vaudreuil-Soulanges",
+      "sectorId": "vaudreuil-soulanges",
+      "pageKey": "02a22",
+      "route": "/vaudreuil-soulanges/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Vaudreuil-Soulanges",
+      "sectorId": "vaudreuil-soulanges",
+      "pageKey": "03i33",
+      "route": "/vaudreuil-soulanges/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Vaudreuil-Soulanges",
+      "sectorId": "vaudreuil-soulanges",
+      "pageKey": "04m44",
+      "route": "/vaudreuil-soulanges/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Vaudreuil-Soulanges",
+      "sectorId": "vaudreuil-soulanges",
+      "pageKey": "05c55",
+      "route": "/vaudreuil-soulanges/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Verdun / L’Île-des-Sœurs",
+      "sectorId": "verdun-ile-des-soeurs",
+      "pageKey": "main",
+      "route": "/secteurs/verdun-ile-des-soeurs/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Verdun / L’Île-des-Sœurs",
+      "sectorId": "verdun-ile-des-soeurs",
+      "pageKey": "o1a11",
+      "route": "/verdun-ile-des-soeurs/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Verdun / L’Île-des-Sœurs",
+      "sectorId": "verdun-ile-des-soeurs",
+      "pageKey": "02a22",
+      "route": "/verdun-ile-des-soeurs/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Verdun / L’Île-des-Sœurs",
+      "sectorId": "verdun-ile-des-soeurs",
+      "pageKey": "03i33",
+      "route": "/verdun-ile-des-soeurs/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Verdun / L’Île-des-Sœurs",
+      "sectorId": "verdun-ile-des-soeurs",
+      "pageKey": "04m44",
+      "route": "/verdun-ile-des-soeurs/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Verdun / L’Île-des-Sœurs",
+      "sectorId": "verdun-ile-des-soeurs",
+      "pageKey": "05c55",
+      "route": "/verdun-ile-des-soeurs/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ville-Marie",
+      "sectorId": "ville-marie",
+      "pageKey": "main",
+      "route": "/secteurs/ville-marie/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/main/ville-marie-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/main/ville-marie-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/main/ville-marie-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/main/ville-marie-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ville-Marie",
+      "sectorId": "ville-marie",
+      "pageKey": "o1a11",
+      "route": "/ville-marie/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/o1a11/ville-marie-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/o1a11/ville-marie-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/o1a11/ville-marie-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/o1a11/ville-marie-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ville-Marie",
+      "sectorId": "ville-marie",
+      "pageKey": "02a22",
+      "route": "/ville-marie/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/02a22/ville-marie-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/02a22/ville-marie-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/02a22/ville-marie-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/02a22/ville-marie-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ville-Marie",
+      "sectorId": "ville-marie",
+      "pageKey": "03i33",
+      "route": "/ville-marie/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/03i33/ville-marie-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/03i33/ville-marie-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/03i33/ville-marie-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/03i33/ville-marie-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ville-Marie",
+      "sectorId": "ville-marie",
+      "pageKey": "04m44",
+      "route": "/ville-marie/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/04m44/ville-marie-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/04m44/ville-marie-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/04m44/ville-marie-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/04m44/ville-marie-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Ville-Marie",
+      "sectorId": "ville-marie",
+      "pageKey": "05c55",
+      "route": "/ville-marie/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/05c55/ville-marie-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/05c55/ville-marie-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/05c55/ville-marie-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/ville-marie/05c55/ville-marie-05c55-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Villeray / Saint-Michel / Parc-Extension",
+      "sectorId": "villeray-saint-michel-parc-extension",
+      "pageKey": "main",
+      "route": "/secteurs/villeray-saint-michel-parc-extension/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Villeray / Saint-Michel / Parc-Extension",
+      "sectorId": "villeray-saint-michel-parc-extension",
+      "pageKey": "o1a11",
+      "route": "/villeray-saint-michel-parc-extension/o1a11/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Villeray / Saint-Michel / Parc-Extension",
+      "sectorId": "villeray-saint-michel-parc-extension",
+      "pageKey": "02a22",
+      "route": "/villeray-saint-michel-parc-extension/02a22/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Villeray / Saint-Michel / Parc-Extension",
+      "sectorId": "villeray-saint-michel-parc-extension",
+      "pageKey": "03i33",
+      "route": "/villeray-saint-michel-parc-extension/03i33/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Villeray / Saint-Michel / Parc-Extension",
+      "sectorId": "villeray-saint-michel-parc-extension",
+      "pageKey": "04m44",
+      "route": "/villeray-saint-michel-parc-extension/04m44/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-mobile-poster.jpg"
+    },
+    {
+      "displayName": "Villeray / Saint-Michel / Parc-Extension",
+      "sectorId": "villeray-saint-michel-parc-extension",
+      "pageKey": "05c55",
+      "route": "/villeray-saint-michel-parc-extension/05c55/",
+      "desktopVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "/assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-mobile-poster.jpg"
+    }
+  ]
+}

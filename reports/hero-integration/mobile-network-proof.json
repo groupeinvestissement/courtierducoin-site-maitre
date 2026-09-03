@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-02",
+  "address": "http://127.0.0.1:4174/",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "renderedClientWidth": 375,
+    "note": "The 15 px difference is the browser scrollbar inside the 390 px viewport override."
+  },
+  "networkProfile": {
+    "name": "mobile-simulated",
+    "latencyMsPerResponse": 150,
+    "downstreamMbpsPerResponse": 1.6
+  },
+  "cacheMode": "cold",
+  "cacheMethod": "A unique cache-busting token was applied to the shared hero component and hero media for every navigation.",
+  "normalMotionQaOverride": true,
+  "results": [
+    {
+      "architecture": "Villeray",
+      "route": "/secteurs/villeray-saint-michel-parc-extension/",
+      "lcpMs": 864,
+      "lcpElement": "IMG",
+      "lcpAsset": "villeray-saint-michel-parc-extension-main-hero-mobile-poster.jpg",
+      "cls": 0,
+      "loadEventEndMs": 2975.7,
+      "releaseVideoCount": 1,
+      "videoVariant": "villeray-saint-michel-parc-extension-main-hero-mobile-web.mp4",
+      "desktopVideoObserved": false,
+      "pass": true
+    },
+    {
+      "architecture": "Rosemont",
+      "route": "/rosemont-la-petite-patrie/o1a11/",
+      "lcpMs": 1000,
+      "lcpElement": "IMG",
+      "lcpAsset": "rosemont-la-petite-patrie-o1a11-hero-mobile-poster.jpg",
+      "cls": 0,
+      "loadEventEndMs": 1222.4,
+      "releaseVideoCount": 1,
+      "videoVariant": "rosemont-la-petite-patrie-o1a11-hero-mobile-web.mp4",
+      "desktopVideoObserved": false,
+      "pass": true
+    },
+    {
+      "architecture": "Vaudreuil",
+      "route": "/vaudreuil-soulanges/04m44/",
+      "lcpMs": 1576,
+      "lcpElement": "IMG",
+      "lcpAsset": "vaudreuil-soulanges-04m44-hero-mobile-poster.jpg",
+      "cls": 0,
+      "loadEventEndMs": 2125.8,
+      "releaseVideoCount": 1,
+      "videoVariant": "vaudreuil-soulanges-04m44-hero-mobile-web.mp4",
+      "desktopVideoObserved": false,
+      "pass": true
+    },
+    {
+      "architecture": "Laval",
+      "route": "/secteurs/laval/",
+      "lcpMs": 1576,
+      "lcpElement": "IMG",
+      "lcpAsset": "laval-main-hero-mobile-poster.jpg",
+      "cls": 0,
+      "loadEventEndMs": 3338.9,
+      "releaseVideoCount": 1,
+      "videoVariant": "laval-main-hero-mobile-web.mp4",
+      "desktopVideoObserved": false,
+      "pass": true
+    }
+  ],
+  "verdict": "PASS"
+}

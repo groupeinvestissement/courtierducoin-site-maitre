@@ -1,0 +1,3768 @@
+{
+  "generatedAt": "2026-09-02T18:01:01.129Z",
+  "baseCommit": "b3e4643146af928a37194259e08181196c8de2e7",
+  "branch": "codex/multi-sector-heroes-v1",
+  "selfExcludedReports": [
+    "reports/hero-integration/deployment-files.json",
+    "reports/hero-integration/deployment-files.txt"
+  ],
+  "note": "The two inventory reports exclude themselves to avoid circular hashes.",
+  "summary": {
+    "totalFiles": 623,
+    "addedFiles": 509,
+    "modifiedFiles": 114,
+    "totalBytes": 547940297,
+    "byExtension": {
+      ".css": 1,
+      ".html": 115,
+      ".jpg": 228,
+      ".js": 1,
+      ".json": 23,
+      ".md": 16,
+      ".mjs": 6,
+      ".mp4": 228,
+      ".png": 4,
+      ".sha256": 1
+    }
+  },
+  "files": [
+    {
+      "status": "M",
+      "path": "ahuntsic-cartierville/02a22/index.html",
+      "bytes": 20642,
+      "sha256": "f24ef1869823983a3e36d957a721f7612b2cfd09bbc3cfd95df713c28e411a67"
+    },
+    {
+      "status": "M",
+      "path": "ahuntsic-cartierville/03i33/index.html",
+      "bytes": 20475,
+      "sha256": "53fb3f2f64a8a3b0a9fa3d15656c792a68f4a8af0072f1f7946113586f87dde4"
+    },
+    {
+      "status": "M",
+      "path": "ahuntsic-cartierville/04m44/index.html",
+      "bytes": 20415,
+      "sha256": "30876869f0a2ded1c67ad9d843530d96150982ac58f1b3104415b907311552ec"
+    },
+    {
+      "status": "M",
+      "path": "ahuntsic-cartierville/05c55/index.html",
+      "bytes": 20462,
+      "sha256": "7cd9718eda974424d27a78ad77846383476053eb5dd5a4d50c1f577d5e717a7b"
+    },
+    {
+      "status": "M",
+      "path": "ahuntsic-cartierville/o1a11/index.html",
+      "bytes": 20512,
+      "sha256": "73a35edb8592837fc9343b38f0e628f1482ebc8fc4283af58f53080ac9c9f9eb"
+    },
+    {
+      "status": "M",
+      "path": "anjou-saint-leonard/02a22/index.html",
+      "bytes": 20535,
+      "sha256": "8e02c7686ecc30e6d2295d6a4a00df0930b9a6c9537a6a448f352719afc456e3"
+    },
+    {
+      "status": "M",
+      "path": "anjou-saint-leonard/03i33/index.html",
+      "bytes": 20370,
+      "sha256": "419d727b3fb8d59e5ae37c74993848be69bec7efc31b898828177067a4fa9c0b"
+    },
+    {
+      "status": "M",
+      "path": "anjou-saint-leonard/04m44/index.html",
+      "bytes": 20310,
+      "sha256": "b98f2e1471d75fe4c048a149e8842f0be0d36422e69603cfee7f1cd57ac85d6c"
+    },
+    {
+      "status": "M",
+      "path": "anjou-saint-leonard/05c55/index.html",
+      "bytes": 20357,
+      "sha256": "a23ef71bfdcd07c02e7497336d98122f6beb2f67a86921405cdc992915baffdc"
+    },
+    {
+      "status": "M",
+      "path": "anjou-saint-leonard/o1a11/index.html",
+      "bytes": 20406,
+      "sha256": "5399e4397a3a91cc7bceea5e9fd76d4affa576c05dc79d4e157c5c8207927df0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-desktop-poster.jpg",
+      "bytes": 377685,
+      "sha256": "56dd83a5c40c2c2d74ec67081d13ba5f3d874194e5eb6042eac7cebd6eb313d7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-desktop-web.mp4",
+      "bytes": 5351959,
+      "sha256": "4ef3e6bfc100df5dd71dff0cc6c7c53c9aa51be007eefa2ef31ed88bdf936790"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-mobile-poster.jpg",
+      "bytes": 230929,
+      "sha256": "812a903a6ac8d0cbb9e6fef4883b15e52cd027afbcce5cce5cb492e105eba7d9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-mobile-web.mp4",
+      "bytes": 2926354,
+      "sha256": "e89134539a000746b3a0efd83e2408ea270c9924003d877ec0e8db13c2cf24f4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-desktop-poster.jpg",
+      "bytes": 180686,
+      "sha256": "2fe34a6eb489d4d8546421e0ff006a7dbda2015f5fafa2acfec613e2c2e7691a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-desktop-web.mp4",
+      "bytes": 2942853,
+      "sha256": "5b9647171b789ef9b2279613b281ae266a9f1c94995acd66a407460bcd950898"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-mobile-poster.jpg",
+      "bytes": 115436,
+      "sha256": "fb6d01e3adf3698aa0597857ddef82ac5b57c3307bbe8570f86cb1e216add2ea"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-mobile-web.mp4",
+      "bytes": 1280726,
+      "sha256": "a4c6e1025f67c09f0f31c6a61e3b79e6aa42beaff5d697564fe7d2440c88d8d5"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-desktop-poster.jpg",
+      "bytes": 274140,
+      "sha256": "095ec190bac8491e58f6201db0b902447f36c414eb0e30856ec8fe38626759d0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-desktop-web.mp4",
+      "bytes": 3882013,
+      "sha256": "9bd96c4ab2431b5b70e1d3a987673869a98154e7d0c042c0ccaf3f1a1be370e3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-mobile-poster.jpg",
+      "bytes": 143156,
+      "sha256": "4f686af6df198e8f4dfef449b06e5451a7305e51e9f6ca64405a572c83817360"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-mobile-web.mp4",
+      "bytes": 1898763,
+      "sha256": "26a7109409ed8023585f54fc7a979f1f851b7baa11f03d4207f5cb7151844bf6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-desktop-poster.jpg",
+      "bytes": 243001,
+      "sha256": "d427c6fa560a770bf6f4dbd048bb33d07f64817358c2235f23ad416d7791f38f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-desktop-web.mp4",
+      "bytes": 3746040,
+      "sha256": "23a9adb35a833e0611c76b1e78a2654ff136ba2d177ad18ada058e2bc1a14a8b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-mobile-poster.jpg",
+      "bytes": 129761,
+      "sha256": "21fa24882b4dac315ad2f767055be4017c2f6348c9911a1d508cd530c18a7a89"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-mobile-web.mp4",
+      "bytes": 1782969,
+      "sha256": "d86b3eba9d6179e7d535863b2b18b6b0788cd9815935f5cb019ef1627ff12fa8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-desktop-poster.jpg",
+      "bytes": 246708,
+      "sha256": "d6da76cfc9df8ef5a2ce1f945340d706902b44d60855084cd4fe2ff3a56988f5"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-desktop-web.mp4",
+      "bytes": 3621778,
+      "sha256": "35109c61e0193e5d86866d385e667ec956149cf1561166bf89cb9cf67a83af08"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-mobile-poster.jpg",
+      "bytes": 154044,
+      "sha256": "c52762cab0eb726fcb697367ea4ec13050c26fc2b6d781358c4a50de4a130c3f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-mobile-web.mp4",
+      "bytes": 1900147,
+      "sha256": "539a855157d04ead53096232c0294a38156f8be89a12fd4c187ec49828823849"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-desktop-poster.jpg",
+      "bytes": 237839,
+      "sha256": "1b111aaee1624e435685ffc458038a880475ce35ef782f76eb1afb8629b228db"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-desktop-web.mp4",
+      "bytes": 4108160,
+      "sha256": "efd03b6de8870b416b6bfb86d31aafa679cd327f0983921151829926d08f24ec"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-mobile-poster.jpg",
+      "bytes": 154826,
+      "sha256": "7b8cfd2df12d97c3e093f93d40f10b712f9a427b56bff13f5d8d05da5ca400a7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-mobile-web.mp4",
+      "bytes": 2553628,
+      "sha256": "9b5313b7a1f7295bc1122b9a8c31a05457bd361f6afb1272b9c07d0da62b0084"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ahuntsic-cartierville/web-manifest.json",
+      "bytes": 5704,
+      "sha256": "e3b4efe1b83ceafb7fc3c341e77a22b32d1b496956e83162626719d0c23cd220"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-desktop-poster.jpg",
+      "bytes": 165114,
+      "sha256": "9af763f186608d2ef0b03799f27eaa12bdeb1a24b297fc6db26ee157f69e3ef8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-desktop-web.mp4",
+      "bytes": 1512302,
+      "sha256": "6aa13f014281cf29d8c17b645f5bf9cd6bd80b5b727872892a32c26ea0e9a4c0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-mobile-poster.jpg",
+      "bytes": 85899,
+      "sha256": "2d7cad32dac3c611c21c38403f31a6bffc3150926b7d3286ebc024cce5ad7017"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-mobile-web.mp4",
+      "bytes": 860930,
+      "sha256": "8b4d650643a3e759c973a14343c022da4f090fe18e917badd493070c5456f428"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-desktop-poster.jpg",
+      "bytes": 190791,
+      "sha256": "cb1e7b6e3c19722cf53130ac966f9cde0089ec5bfdad5bbf46a0a52ae8e60879"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-desktop-web.mp4",
+      "bytes": 1667812,
+      "sha256": "d3f7e6ef656d0d95ae7e0a79776bbcfb183fd469470e191e40beb712da9754d4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-mobile-poster.jpg",
+      "bytes": 115942,
+      "sha256": "419837459913220f695ecf866f3dce173b3556f7c1958655ab55861fa59be199"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-mobile-web.mp4",
+      "bytes": 872910,
+      "sha256": "467a4b63b34efe289feadad34970b77a8cfc0f893dd62ac7b074b76d96b12a9f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-desktop-poster.jpg",
+      "bytes": 297359,
+      "sha256": "9172d5bf40c92447e4699e2a917a3c60fa730eacdff7b085f8e42edb16c08e12"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-desktop-web.mp4",
+      "bytes": 2435337,
+      "sha256": "e2fc13fd2f23620bd281b6e3e0ce30b64f0ca8e48928e2b3768d82e16c0df3a0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-mobile-poster.jpg",
+      "bytes": 161448,
+      "sha256": "a85aab283fa50d1ee612f67c2aefc22ca18f7e073df56bfe4d051f3deb1387ee"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-mobile-web.mp4",
+      "bytes": 1284417,
+      "sha256": "59b5ee2cbb84ec52662f31afcc479c64ccb6e19837fa20f57c7751ff8a9d68fd"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-desktop-poster.jpg",
+      "bytes": 245169,
+      "sha256": "34e43135adc4973ccf84a698211dcec3c93a06523287f9c58d71b187b2d45bb7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-desktop-web.mp4",
+      "bytes": 1934984,
+      "sha256": "002446f5c02703acfc984b7551ed60c195ca9e74ffeb2634eca97a1be65bba73"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-mobile-poster.jpg",
+      "bytes": 140681,
+      "sha256": "2fe6e7afbaeb50f387b9c2afedc5782ecd9b840e5c581cecc16a8a48f6e654a1"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-mobile-web.mp4",
+      "bytes": 1042690,
+      "sha256": "5b2ce56b65c56af6c105dc94981453d6fd3dfc615f442d7aac20533e95999645"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/main/anjou-saint-leonard-main-hero-desktop-poster.jpg",
+      "bytes": 156536,
+      "sha256": "72dd668e107594366b619bcda22c0c530bf7c938392256f5b13230c760964b36"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/main/anjou-saint-leonard-main-hero-desktop-web.mp4",
+      "bytes": 1715847,
+      "sha256": "d03f18d7939ed7921966152a0398b7f96fcb3700943663113e3eb3d4639744ef"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/main/anjou-saint-leonard-main-hero-mobile-poster.jpg",
+      "bytes": 91660,
+      "sha256": "ce643a50004c88153b8197573509fe63a172567f4c2a5992838c740d5520885d"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/main/anjou-saint-leonard-main-hero-mobile-web.mp4",
+      "bytes": 868840,
+      "sha256": "77926ad01485941a2c1d766d9401049341e6537ae9b9b03d1492b86c1d608701"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-desktop-poster.jpg",
+      "bytes": 151919,
+      "sha256": "763e2b647068a9fd9144f6844634e35161d862b10fbb94690a0749b61a909c72"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-desktop-web.mp4",
+      "bytes": 1462305,
+      "sha256": "892f976fe8a54415fb6a53589c4393fd588ee735e9a67e7d0b09170fb50c08ae"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-mobile-poster.jpg",
+      "bytes": 87097,
+      "sha256": "9b03f7c390af381c3995f32173944d3192392d227d90c2e18471f0901eb15b4e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-mobile-web.mp4",
+      "bytes": 822501,
+      "sha256": "ef45e1e58789cf0b06df1db0e3d29f63b59f6c44af36f4e9f1175fe227090c2f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/anjou-saint-leonard/web-manifest.json",
+      "bytes": 5595,
+      "sha256": "cadecd02464c993bc6b416b4838b243c8c6cb552280f5c09149f26624ddcb04c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-desktop-poster.jpg",
+      "bytes": 332281,
+      "sha256": "e9158c5d9b69581969134b0d0e9a82ae51c6f113ba91c5201673028708d2fdf3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-desktop-web.mp4",
+      "bytes": 2468441,
+      "sha256": "4785a5e599c39ade61fb20730238ea635da52fbac078a778ed04713dd313ddbd"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-mobile-poster.jpg",
+      "bytes": 197911,
+      "sha256": "b24b5cb45cc9a1f102cb83abb9a521afbe9718e405a0217cec12a22c6bb68e92"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-mobile-web.mp4",
+      "bytes": 1491589,
+      "sha256": "e612ceb9727a4a7bd0fab8e8790255aa42be331eac9f000aa68e0c66d1321732"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-desktop-poster.jpg",
+      "bytes": 196240,
+      "sha256": "9718a7142ca391bdfc309e9e49453743c1403cc8cb225c0ae9e7cf347ff88861"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-desktop-web.mp4",
+      "bytes": 1363791,
+      "sha256": "45c8c734ea8eb581b4edcb3de4f6469c98424aadcdd14c40f36287c049ffbca2"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-mobile-poster.jpg",
+      "bytes": 147730,
+      "sha256": "a053070f1b4edad2eab624d62c7bb063df85d85fde87447342ee98a4989b6627"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-mobile-web.mp4",
+      "bytes": 942507,
+      "sha256": "37f8f74763130ce5b712e00b98ab26bcd0cdab5143f2d99f08278f396b07a400"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-desktop-poster.jpg",
+      "bytes": 222364,
+      "sha256": "089bb3cacdee2f47caf734d205b07a629b83c44da1c6e2ad1dc423c6b497de12"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-desktop-web.mp4",
+      "bytes": 2436928,
+      "sha256": "829a3bbe1db741eb749957f401ad2bbf0f5f7eca3e928322325fe17632f7b690"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-mobile-poster.jpg",
+      "bytes": 141524,
+      "sha256": "a2f6350e7dc70a20796d46ad099d53a3b97ae0a42420513b3c2e346e4d21e2f3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-mobile-web.mp4",
+      "bytes": 1342728,
+      "sha256": "b735f64295171b4390223ad80000cd35542dbe71ea1db317c27556fb6de9ef75"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-desktop-poster.jpg",
+      "bytes": 163842,
+      "sha256": "46b869afd7aed8b050a747a719373a5ba8d4b14a162abf40a26b6264dec57409"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-desktop-web.mp4",
+      "bytes": 1442279,
+      "sha256": "409feeac01e791c3cb8407b59512d48b7d1817d34a5ffe97ebe99f93999b7166"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-mobile-poster.jpg",
+      "bytes": 112579,
+      "sha256": "0be9c7001044dcc07a80133112eca62db00bedbb81e49171744f1c760227640e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-mobile-web.mp4",
+      "bytes": 830937,
+      "sha256": "520c43511bb803321b7373bebb13421a6e293755568ea36f3fb88a1e262037e4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-desktop-poster.jpg",
+      "bytes": 225738,
+      "sha256": "d64edf3ebe614b9b3f16cf79f8dc7bdd28b87a4a21b1f7c6904a1b6659729f95"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-desktop-web.mp4",
+      "bytes": 1666943,
+      "sha256": "df1b6150b404c52bb6960f7b2470f3ed53cdb129314beb9d6a961c20c64fe845"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-mobile-poster.jpg",
+      "bytes": 134154,
+      "sha256": "38e7e57bfe4d75a5eec021eece1b62f9651abadc98b4d5922776709b8c62e60b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-mobile-web.mp4",
+      "bytes": 961552,
+      "sha256": "8a01c8eda353131322b28e0cb408e04deb2edb2e7cd73ebe541c7716c4fb2c00"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-desktop-poster.jpg",
+      "bytes": 218640,
+      "sha256": "4ac8b3a5d07914d6b89b5556646e1ff31396a5b5ec05aae3ba1442f9d32fa28e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-desktop-web.mp4",
+      "bytes": 2103534,
+      "sha256": "679567ac8749b0e5f7b030b4eac59abd62ececb4af1a5b814a92a5c8b30b4b7d"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-mobile-poster.jpg",
+      "bytes": 131873,
+      "sha256": "4b58d859db85a6ea4924b0ea505ff7a982050a88578c38e26f03f4932ab5fb95"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-mobile-web.mp4",
+      "bytes": 1274937,
+      "sha256": "1a661520fe0249242a2c7252f98fd9419a8e628f9e674afd32ff4f468d35899b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/cdn-cote-saint-luc/web-manifest.json",
+      "bytes": 5539,
+      "sha256": "2ad73a4fd391ccf072508f3505d1f572193b10dfdc31ad738acd6ec41d84e247"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/CREDITS_PHOTOS.md",
+      "bytes": 93926,
+      "sha256": "0346988b73042090927aa0bcaf82bca2c6f8c99f3d1a5911491eee89d4722a09"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/GATE_CERTIFICATE.json",
+      "bytes": 2774,
+      "sha256": "554f49314afb702ec5cc17f018b6b335b70233e3069abc6b0595d65eedaf1e6b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/INTEGRATION_SITE_PARAMETRIQUE.md",
+      "bytes": 18731,
+      "sha256": "68ae28c25939e60d3325b46eb0b4a3f034267bfca3557f1055c854b97433933d"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/02a22/lachine-lasalle-02a22-hero-desktop-poster.jpg",
+      "bytes": 248137,
+      "sha256": "14089c11d9cc7c5b5a7468e3226cca000840fac1b286020a469ce84948b13880"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/02a22/lachine-lasalle-02a22-hero-desktop-web.mp4",
+      "bytes": 2823597,
+      "sha256": "ce5bb943e6965efd302cd7ed28414a7666221fcf85a3e5bef3688f85ff2f5dca"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/02a22/lachine-lasalle-02a22-hero-mobile-poster.jpg",
+      "bytes": 147506,
+      "sha256": "f12b212a5e4bd76e5601006844ca24c362ea94781047d8b8336fb273c9decaa3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/02a22/lachine-lasalle-02a22-hero-mobile-web.mp4",
+      "bytes": 1798676,
+      "sha256": "0b1ce0ce2c3ea5f0857af44750804054de00f9fb8ae1201dd0f148bfaef391e6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/03i33/lachine-lasalle-03i33-hero-desktop-poster.jpg",
+      "bytes": 163473,
+      "sha256": "52d15b1e51a55339928899f27044991951ce5ad8e93a60d149c7e64dda88cbac"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/03i33/lachine-lasalle-03i33-hero-desktop-web.mp4",
+      "bytes": 1840395,
+      "sha256": "9bbfca28d213bebedf1d85f081fd58c83872da423289d070e99247f9ebf3bdd1"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/03i33/lachine-lasalle-03i33-hero-mobile-poster.jpg",
+      "bytes": 98733,
+      "sha256": "77ab8453cbb45b6b502175d226d2b222ae6c3c851333a745a86cb65920622a9c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/03i33/lachine-lasalle-03i33-hero-mobile-web.mp4",
+      "bytes": 1067173,
+      "sha256": "004e7405e8ff1b1ca50425b01d8135e756aa13e3a73302529977a37255b7a4d8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/04m44/lachine-lasalle-04m44-hero-desktop-poster.jpg",
+      "bytes": 231245,
+      "sha256": "9991febbd1418d8356e1635bbfc95f40fa0e08fb328180e2ab899ea6bd4050f9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/04m44/lachine-lasalle-04m44-hero-desktop-web.mp4",
+      "bytes": 2335120,
+      "sha256": "1fc3500e88b9812dbeeaf2083307a12eaa7d78905bcb8b31088d2defb6658f88"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/04m44/lachine-lasalle-04m44-hero-mobile-poster.jpg",
+      "bytes": 114116,
+      "sha256": "7f3d7949bb5f7f4b304ce03ffe3ffbbcae510b47f0fcfd5c2178d031973411b6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/04m44/lachine-lasalle-04m44-hero-mobile-web.mp4",
+      "bytes": 1188131,
+      "sha256": "c9fb969eae7da388c491b8129498df9560680f7bb3abfbc0040b899206492049"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/05c55/lachine-lasalle-05c55-hero-desktop-poster.jpg",
+      "bytes": 258341,
+      "sha256": "d6023972267d76a1a0922fa1d71e96fe613128486ff33b036032a598a8de0a20"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/05c55/lachine-lasalle-05c55-hero-desktop-web.mp4",
+      "bytes": 2943462,
+      "sha256": "8de2fd726906ada65af35f50f17d3f76b18c04fd5fe3424472945d19915159ed"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/05c55/lachine-lasalle-05c55-hero-mobile-poster.jpg",
+      "bytes": 154734,
+      "sha256": "d624f8d20e4d21976639ebaa798de834c4d53d7a13fb4fae1e212a74274595d7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/05c55/lachine-lasalle-05c55-hero-mobile-web.mp4",
+      "bytes": 1906023,
+      "sha256": "97d855205db73cdb781d13009621a694031619181949beb420401641870657c5"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/main/lachine-lasalle-main-hero-desktop-poster.jpg",
+      "bytes": 191741,
+      "sha256": "ce993b9bd7f95b724851e678661b2eec3a261c84b0f1a9f3068b714bba53ad91"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/main/lachine-lasalle-main-hero-desktop-web.mp4",
+      "bytes": 1845044,
+      "sha256": "93caee8d034973224d2ce12e17380282f8a6a71782b3573e2ab49cb03c9161c2"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/main/lachine-lasalle-main-hero-mobile-poster.jpg",
+      "bytes": 115738,
+      "sha256": "3b10d5107a6c63362a1466c01466739b758750437d84d8f01a6b549363f8b19c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/main/lachine-lasalle-main-hero-mobile-web.mp4",
+      "bytes": 1100825,
+      "sha256": "95609d13d0cf95858aaaa00aa2b9f322ea4029f08fcc35f35e1f3b28c536a873"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-desktop-poster.jpg",
+      "bytes": 186213,
+      "sha256": "7f71b5085bfa7ec7ad4d1602b1942dfff021fda4ac2ad9cf93d2f0aaf1bf47f5"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-desktop-web.mp4",
+      "bytes": 2640228,
+      "sha256": "259993c1111242eaecf73516ac4aa647f74151ce25526950243b94f44d0e365c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-mobile-poster.jpg",
+      "bytes": 113995,
+      "sha256": "728e4be409408651d0b4725cd1cc44ebe2157e38ad73870af76393cc74c74003"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-mobile-web.mp4",
+      "bytes": 1677441,
+      "sha256": "5fc7c6bc25acb751e192af2b5dadcbadcc5f8bb43402ffb5cd6ffae885196750"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/lachine-lasalle/web-manifest.json",
+      "bytes": 5370,
+      "sha256": "b284a3110b79bc306b56ccd051530c1d40fed8323b7a879a26a7301a1690527c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/02a22/laval-02a22-hero-desktop-poster.jpg",
+      "bytes": 167866,
+      "sha256": "c96b5ca67a3352deb925be94b5549bb6775498c06685dbae08e3fadfdb1ca7fd"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/02a22/laval-02a22-hero-desktop-web.mp4",
+      "bytes": 2296561,
+      "sha256": "28450a2ae2dfb6b57cee5db0419f05be1b708e69702bfdafca1635c3168e06b2"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/02a22/laval-02a22-hero-mobile-poster.jpg",
+      "bytes": 98519,
+      "sha256": "e115c5b5024bc81347aeb89b790a3ad9422abf78e638da988dfabf6619fbff46"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/02a22/laval-02a22-hero-mobile-web.mp4",
+      "bytes": 1633210,
+      "sha256": "e6af279b19ee0d79079b5e3274001d4c8a8c7a0709367c405cf1898fe0879216"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/03i33/laval-03i33-hero-desktop-poster.jpg",
+      "bytes": 161400,
+      "sha256": "c1216779fa38093c651458a120c25a7c9d2d8c7eb54ede1f1edbfffc3b4c019a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/03i33/laval-03i33-hero-desktop-web.mp4",
+      "bytes": 1796729,
+      "sha256": "b2fdd1c9fd15801a07399f8b03023a2a0be1168357aa16db1cae5b9b0ee077e2"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/03i33/laval-03i33-hero-mobile-poster.jpg",
+      "bytes": 93264,
+      "sha256": "8f6ed40bc1cf6cfb8de823917bce5a6b5fa6ccc04a5bcff2ddcd3bb1f172eec6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/03i33/laval-03i33-hero-mobile-web.mp4",
+      "bytes": 975277,
+      "sha256": "61fbe8c184229af9d767c22bed6dbffea2d10455ea2c530a44f45bb6c56882cb"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/04m44/laval-04m44-hero-desktop-poster.jpg",
+      "bytes": 249794,
+      "sha256": "10c92d29573e0ce9720322744d8263f25ebe63150134a167d873a5f49287f502"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/04m44/laval-04m44-hero-desktop-web.mp4",
+      "bytes": 2966622,
+      "sha256": "b0bdd5c775f06e2393139b9a0d542126f396f0af068fac00e52a94df6d5342d9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/04m44/laval-04m44-hero-mobile-poster.jpg",
+      "bytes": 141007,
+      "sha256": "f7a4ffff70a3b5781eb960635743adb8ad84fc6c713419e9e7a085a221c9376d"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/04m44/laval-04m44-hero-mobile-web.mp4",
+      "bytes": 1496273,
+      "sha256": "b725fc6465cd937754721ea92fd1d9006c690a6522d9a8fa930c40bd8cb5accf"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/05c55/laval-05c55-hero-desktop-poster.jpg",
+      "bytes": 217508,
+      "sha256": "1add867769057561ba6c30904f946cda737d94d41a5ace05afe32c8541d208ad"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/05c55/laval-05c55-hero-desktop-web.mp4",
+      "bytes": 2503900,
+      "sha256": "1110aaf22b0f3b535581d5e7dbbc3140fbf6a5d953a757dacbd8a37ea3041b50"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/05c55/laval-05c55-hero-mobile-poster.jpg",
+      "bytes": 130086,
+      "sha256": "32d06b47f53fe2db573cd9aaa4321af1446ba29e8ab54f3207022503514ec627"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/05c55/laval-05c55-hero-mobile-web.mp4",
+      "bytes": 1482386,
+      "sha256": "e2ce9e886675e6a453064590f4133a7c431d140b990cba84ab7ab6cb6344233a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/main/laval-main-hero-desktop-poster.jpg",
+      "bytes": 229524,
+      "sha256": "14e0614258646e4df6c195eaa1650b11c007b450f01457adbc4e83fdef0aec36"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/main/laval-main-hero-desktop-web.mp4",
+      "bytes": 2491798,
+      "sha256": "3af85a0d4c6f6de1afe586471d9287fa093bc63272869b3e4df5fdbb890c5388"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/main/laval-main-hero-mobile-poster.jpg",
+      "bytes": 144548,
+      "sha256": "ef5a677135dbabde4adecf1cf390c3fbf5da9cd48ef45906137b242742d3c121"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/main/laval-main-hero-mobile-web.mp4",
+      "bytes": 1476737,
+      "sha256": "9dcb77e35ebc96e138cc79a956b32bec7124adf43817905ad5dcf659be9d30b2"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/o1a11/laval-o1a11-hero-desktop-poster.jpg",
+      "bytes": 221938,
+      "sha256": "c6abd0cdf3f68887d49a7d961428db06f7284e427b6def31d6d6d80b713d191e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/o1a11/laval-o1a11-hero-desktop-web.mp4",
+      "bytes": 2570569,
+      "sha256": "4f999ebdf72b75efe643b07df364313a52d9eb9a9e5c2cc1a8f3f67f21cddf17"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/o1a11/laval-o1a11-hero-mobile-poster.jpg",
+      "bytes": 139780,
+      "sha256": "5bd9dccc56ff6a6e01f4f2edaca5c73300ec7f71036d202d2ee1fbd6af21149b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/o1a11/laval-o1a11-hero-mobile-web.mp4",
+      "bytes": 1778616,
+      "sha256": "b2c87f7ea3e721fbf4e6b88eb393bef4af8193069c745ceee3a74aabe8a1edc5"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/laval/web-manifest.json",
+      "bytes": 4808,
+      "sha256": "af4e4659f4fa57a754c43680c3739f6866869cd6a8ff01c9553a4e0d5d8608aa"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-desktop-poster.jpg",
+      "bytes": 401385,
+      "sha256": "6ae6ece0914c22aad868aac4f92c92b7fda7cc727aa9c0488841f34d594e4309"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-desktop-web.mp4",
+      "bytes": 6305456,
+      "sha256": "4261b863f112b52292e80f67271a562ce8c689d13d6e76bc4e338afca2f6ccd0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-mobile-poster.jpg",
+      "bytes": 257632,
+      "sha256": "e8f1a2907581c763854530e71cfcc1fcbb1eb48ca2f96d16b649594aa0f38b04"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/02a22/le-plateau-mont-royal-02a22-hero-mobile-web.mp4",
+      "bytes": 3434473,
+      "sha256": "9b39ec93c709969067e07a91fe22f4101c5d3f2055e4509edd2d71c785bc6c06"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-desktop-poster.jpg",
+      "bytes": 183244,
+      "sha256": "857ce362535b0b7c64985dd617b859bfd01a538ca3115e3b51be771877fbc272"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-desktop-web.mp4",
+      "bytes": 1608715,
+      "sha256": "4721efde2fa1f785a8915f65fb3a18644fbdf4f5c2d251b3fc069da1976c91f4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-mobile-poster.jpg",
+      "bytes": 108282,
+      "sha256": "c0f72c72e6e66060e0549db391bf21b5f14fca8473ee9da80c0a8d03feed91fe"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/03i33/le-plateau-mont-royal-03i33-hero-mobile-web.mp4",
+      "bytes": 998888,
+      "sha256": "9a7b886f4bed5f61f877e48f3671bbbf6b0da32a2781550a2ca58e45fc4365ec"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-desktop-poster.jpg",
+      "bytes": 170553,
+      "sha256": "5ca4782ecc8c4259c37ab5d8d897470bf3079949c0cdc975f9217bb916ce6ae8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-desktop-web.mp4",
+      "bytes": 3922132,
+      "sha256": "1b27c7fc280d980405c257d0f599bb8d75bdb73de3815ad58015da3b82391657"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-mobile-poster.jpg",
+      "bytes": 99015,
+      "sha256": "78dec91a01b981396a0fb6513496f9cde0982b501360e73496d297f436856c53"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/04m44/le-plateau-mont-royal-04m44-hero-mobile-web.mp4",
+      "bytes": 1878201,
+      "sha256": "ab1b226acdffeda286ff3f24697101f21f0622bfb98cdd15a599ccf88f36c538"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-desktop-poster.jpg",
+      "bytes": 193095,
+      "sha256": "f63f8886983ae5a4f86cfb6bddab8560343463dceaaa15d64182915398fb96d9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-desktop-web.mp4",
+      "bytes": 1985895,
+      "sha256": "fe07e58a9fa1cb9ae28b61909ca838e86a5be1b4e457d34915563c8e5a266f14"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-mobile-poster.jpg",
+      "bytes": 112128,
+      "sha256": "8db218946ca38a1ccd43cfa543a117e003fa8258d957caadb3f0b4670aa7e8e0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/05c55/le-plateau-mont-royal-05c55-hero-mobile-web.mp4",
+      "bytes": 1213945,
+      "sha256": "20dcc9aa27d7aa2ad838332003b608b9464534cd919c6fda73e9505a57b78759"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-desktop-poster.jpg",
+      "bytes": 221338,
+      "sha256": "bfcf6c35a5e7d9bfcac5a50a938d155be3f8292d37329261447ff17a6a6c488e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-desktop-web.mp4",
+      "bytes": 1986877,
+      "sha256": "803fe410a7e847ab9f7d913e84f8fa630777a46fa96bb5a400e7cfa7a79c882e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-mobile-poster.jpg",
+      "bytes": 125559,
+      "sha256": "220e19e69ada03645d692bf0fa9146a37db46739e8d81a350fd52d888ee404a3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/main/le-plateau-mont-royal-main-hero-mobile-web.mp4",
+      "bytes": 1104093,
+      "sha256": "6948a91dc32209bb5c32dd4ad83859d81ad2cfa4ff2d412fb02b09543b5da657"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-desktop-poster.jpg",
+      "bytes": 215001,
+      "sha256": "633b7281122447301271ab6f5b10fe2c0118f88c9d4dad2e666ab2284c4a9dc1"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-desktop-web.mp4",
+      "bytes": 4170813,
+      "sha256": "8e99371927068fb69c8d5258c1ca8dd43715c437a37e8b82d4f35e4a90ecbf69"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-mobile-poster.jpg",
+      "bytes": 122723,
+      "sha256": "6c60e4051920a30c789ffdb58ea86036a1ccfb73960092b4fc2c529b62806300"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/o1a11/le-plateau-mont-royal-o1a11-hero-mobile-web.mp4",
+      "bytes": 2141174,
+      "sha256": "111a2fc509973729e660fbb003bbc2dfc96ca90fb3c91807dfdbf14adfa03836"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-plateau-mont-royal/web-manifest.json",
+      "bytes": 5704,
+      "sha256": "5b0bf9a5b48b1613559030c1017d43b60a193ee5b9471ea21ef05fc91cefce01"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/02a22/le-sud-ouest-02a22-hero-desktop-poster.jpg",
+      "bytes": 335391,
+      "sha256": "3c51f3cf2b57dca17b0d5c51bcf35f059ddb6bb286c418285e63780ce492f49f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/02a22/le-sud-ouest-02a22-hero-desktop-web.mp4",
+      "bytes": 4552341,
+      "sha256": "18d03ebf177bfe77a06686aafc487da3a52621e65d364243b1792efad3796f01"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/02a22/le-sud-ouest-02a22-hero-mobile-poster.jpg",
+      "bytes": 178597,
+      "sha256": "f5a62ae445f4b2a5a6792e4ce24ff43691434fc69c957b7c7ffc5d6814a8f3fc"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/02a22/le-sud-ouest-02a22-hero-mobile-web.mp4",
+      "bytes": 2425052,
+      "sha256": "c480d1d1059b5b11ad06290630017afeb7bb6c64c40ef566c0f5e69fee5c825c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/03i33/le-sud-ouest-03i33-hero-desktop-poster.jpg",
+      "bytes": 317394,
+      "sha256": "2bdde38c6831298a6e5d609168c63f071984f2b3c172055dae4adae77f3c82fb"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/03i33/le-sud-ouest-03i33-hero-desktop-web.mp4",
+      "bytes": 3127723,
+      "sha256": "fd9079d78099915cfb57953724ede273d313ceade4c50f2b3ac70eeac8535f73"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/03i33/le-sud-ouest-03i33-hero-mobile-poster.jpg",
+      "bytes": 183670,
+      "sha256": "8c6db4699554380d64dd5275bd77bba04290f2a188791fb5971e303bb96baf13"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/03i33/le-sud-ouest-03i33-hero-mobile-web.mp4",
+      "bytes": 1495145,
+      "sha256": "410713253e07f90e5e5cfaf935adbf17bbec3b666e20d2185a3620743de297db"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/04m44/le-sud-ouest-04m44-hero-desktop-poster.jpg",
+      "bytes": 373586,
+      "sha256": "03bca1d5f0bb1a870abad1f8e4728811215efea9e5d441a50c7426a7d2ad8286"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/04m44/le-sud-ouest-04m44-hero-desktop-web.mp4",
+      "bytes": 4635154,
+      "sha256": "19cab7ed032cff716a0157b2a8f4a43a108bafc3c0269f3c7d5a255185933132"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/04m44/le-sud-ouest-04m44-hero-mobile-poster.jpg",
+      "bytes": 176071,
+      "sha256": "f8ce16298cbb3dbc5baa31d4f73fa998f9945403758fd626addd59616d997f7b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/04m44/le-sud-ouest-04m44-hero-mobile-web.mp4",
+      "bytes": 1924389,
+      "sha256": "388613fc751aa009852fda093eb0e42eeca1c588871dfbb2504a68222266e792"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/05c55/le-sud-ouest-05c55-hero-desktop-poster.jpg",
+      "bytes": 186460,
+      "sha256": "6c4592b939603d6db63db491fd56d2aec7a23ef669af2e6612f38c3c43b2a0a3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/05c55/le-sud-ouest-05c55-hero-desktop-web.mp4",
+      "bytes": 1824959,
+      "sha256": "61754fc473ff8f239b5cc55d7129513eefca8f1a8920c6eff1d7fcf1d3af4d11"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/05c55/le-sud-ouest-05c55-hero-mobile-poster.jpg",
+      "bytes": 107370,
+      "sha256": "a63a64984901d4351580988ed40a93c4ec332094f5d2d257b3c07c74bede9f41"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/05c55/le-sud-ouest-05c55-hero-mobile-web.mp4",
+      "bytes": 990847,
+      "sha256": "18e20b9884a839a038df3601e17f968f8968cacda57c73be55931ea84863ceac"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/main/le-sud-ouest-main-hero-desktop-poster.jpg",
+      "bytes": 238229,
+      "sha256": "3d0aae39d8e2ce1aef0ab5099fba792ee8ec67f1e6b81cbe7279890934b5205f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/main/le-sud-ouest-main-hero-desktop-web.mp4",
+      "bytes": 4219568,
+      "sha256": "a36d9294e8420928b9b79dcd89615ba7e2f6dfc49edea1eb808e8d87ecacc96a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/main/le-sud-ouest-main-hero-mobile-poster.jpg",
+      "bytes": 138972,
+      "sha256": "5d5564c4c54b2566ab98ee8760dd387bcf74eb8e3a4c1fd3c79f996e6eebe9f7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/main/le-sud-ouest-main-hero-mobile-web.mp4",
+      "bytes": 1877108,
+      "sha256": "39144ba2de473ba363b2b9ae26bcc2164921ff2080a4cd4a084f997f7e4c3095"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-desktop-poster.jpg",
+      "bytes": 231526,
+      "sha256": "75fe2fd8f11735329e18a2a982f26f037f4c00e8ec7678677549aac42e78010e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-desktop-web.mp4",
+      "bytes": 3885663,
+      "sha256": "85070acc912e7e9a76a728228c6c782964424acd4952406c3d7b594bd8c0bb63"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-mobile-poster.jpg",
+      "bytes": 134724,
+      "sha256": "62305f9a3da2e4da422f399c157a101ed9170548ab1ec94921eed222c1b4e3f0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/o1a11/le-sud-ouest-o1a11-hero-mobile-web.mp4",
+      "bytes": 2030710,
+      "sha256": "150f1e2bf99d1367481f7f41471a860e5afda79c284692c22a2e4daed74183ad"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/le-sud-ouest/web-manifest.json",
+      "bytes": 5200,
+      "sha256": "c0f92bca7ff7acd9025557f0b3f126099a8c35a31b7e1c5111d0ad5afaccf6c8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/02a22/longueuil-02a22-hero-desktop-poster.jpg",
+      "bytes": 306184,
+      "sha256": "8d9d16f3a3bd5a2a6de40e9c4e8299e03d3396430a64d4b4f1a95fdee088e48f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/02a22/longueuil-02a22-hero-desktop-web.mp4",
+      "bytes": 2534456,
+      "sha256": "ad559f456decf0e07612e62e861481307935f8e6db886407f0db2d73f502bdda"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/02a22/longueuil-02a22-hero-mobile-poster.jpg",
+      "bytes": 170403,
+      "sha256": "9b431336381a471e2c1432f054633ff176907e25c8873cf71b3d3234e0991840"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/02a22/longueuil-02a22-hero-mobile-web.mp4",
+      "bytes": 1263637,
+      "sha256": "33594c55d7b20c184a0e4b38de739679771225db678640f25e0650baf73a0683"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/03i33/longueuil-03i33-hero-desktop-poster.jpg",
+      "bytes": 202198,
+      "sha256": "eddf0f6fb4d290cb2ff6283899a30765a09338a72ec862037d6c90dfd19de53e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/03i33/longueuil-03i33-hero-desktop-web.mp4",
+      "bytes": 1945843,
+      "sha256": "5a4723eb65347ef5129f494f51b72dad27282c19ff065f453f6aada3767cca4b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/03i33/longueuil-03i33-hero-mobile-poster.jpg",
+      "bytes": 108628,
+      "sha256": "e75c50cade17126ebcadc0781d24b65ab5e54b05df74a839ee789af6d93fbe8a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/03i33/longueuil-03i33-hero-mobile-web.mp4",
+      "bytes": 983474,
+      "sha256": "a2ba222f87b0d4d22715b914b0847ba97781427d74e8b5cca3a10528783fc8bd"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/04m44/longueuil-04m44-hero-desktop-poster.jpg",
+      "bytes": 172430,
+      "sha256": "23b6e8e78fe1568aa42d07c66a74503e56323d536629c7ee71e0e7c9a460be74"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/04m44/longueuil-04m44-hero-desktop-web.mp4",
+      "bytes": 1738389,
+      "sha256": "8ac7de3d14aed4056a42c6663c2463da673262ae363db32c35b7a5ea94ec30bb"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/04m44/longueuil-04m44-hero-mobile-poster.jpg",
+      "bytes": 108518,
+      "sha256": "04aae622489206eedca1a2ca7e986f3b495ef648a46b05e1f29e943f88768b98"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/04m44/longueuil-04m44-hero-mobile-web.mp4",
+      "bytes": 940466,
+      "sha256": "c743b9f25309a350eb7994525c01af3a75b247637bbb89c2f822a9d78a740afe"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/05c55/longueuil-05c55-hero-desktop-poster.jpg",
+      "bytes": 201434,
+      "sha256": "cf1c8888ec0a699de536f6bd9815e842c2f6be0ec87c176666812f885124f5ef"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/05c55/longueuil-05c55-hero-desktop-web.mp4",
+      "bytes": 2163243,
+      "sha256": "ca1b469ef79811a322b9b77e259f18afe86d92f08bd1db61fb64ae1b2fcbd9e7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/05c55/longueuil-05c55-hero-mobile-poster.jpg",
+      "bytes": 143500,
+      "sha256": "00cdadbb867d046823a5f5bf885c4044359fe38c8c48f5c589ed1de068c6c3e9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/05c55/longueuil-05c55-hero-mobile-web.mp4",
+      "bytes": 1286301,
+      "sha256": "8fc3579d94d4298d7a647b441754f750bc751479925549a7edb6a93d342fd662"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/main/longueuil-main-hero-desktop-poster.jpg",
+      "bytes": 178783,
+      "sha256": "bb2e28384a8d2401e7938662b784604e4120d46a0dd2e94671d0dca98d16cad9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/main/longueuil-main-hero-desktop-web.mp4",
+      "bytes": 1876519,
+      "sha256": "24cce9fd4a896b41162748f02208e125411821ed9a75d7a1d3cabf5cb247a7d6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/main/longueuil-main-hero-mobile-poster.jpg",
+      "bytes": 93127,
+      "sha256": "9b2d4e718c2350a3670cf24571223d5a2e8ac4e746c86036510936ddd5fe28bf"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/main/longueuil-main-hero-mobile-web.mp4",
+      "bytes": 935119,
+      "sha256": "98fd20535db168191348b2de57a6306058d08e9d1ad8179ffcd3a3662aefb0dc"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/o1a11/longueuil-o1a11-hero-desktop-poster.jpg",
+      "bytes": 173689,
+      "sha256": "7b2ab0a7d4c1dbd3e4767cd85e0b181d1b5633df6e7c8d24d3bf9ed001d9286e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/o1a11/longueuil-o1a11-hero-desktop-web.mp4",
+      "bytes": 2182409,
+      "sha256": "c0385be8b3ef2016a73ebd8798c996805e0240d14df433ac08b76aa52ab884d4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/o1a11/longueuil-o1a11-hero-mobile-poster.jpg",
+      "bytes": 90235,
+      "sha256": "0d8b92efb2d0478b38631df3e3e4fc543b702c65f50aa9384c8fd65f139f530c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/o1a11/longueuil-o1a11-hero-mobile-web.mp4",
+      "bytes": 1046697,
+      "sha256": "20e723ee731fd1748b838e6407281f72038bca033df9fc2a1f8b52cf4adca027"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/longueuil/web-manifest.json",
+      "bytes": 5032,
+      "sha256": "158e20a37b83fc188663f99b8e502b82e9492d189535acbb5c8ce973757234ed"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/MANIFEST.json",
+      "bytes": 398364,
+      "sha256": "130525f7da1278e8bdd54037e98e63e1118bb9d97341e07f6cea57573e0b2df9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/MANIFEST.sha256",
+      "bytes": 80,
+      "sha256": "bb3583217e69442925f87ec1265ee0fbb22bba6341b1d21bbc0b141350fe95c4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-desktop-poster.jpg",
+      "bytes": 316864,
+      "sha256": "ef436613ba8f72c3ad6456e741a18915c4e6bd94de41088d828cec289d454c98"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-desktop-web.mp4",
+      "bytes": 2166655,
+      "sha256": "0f266e37c98869346ac9594071b9fc1187e3100b4f4166c6348815c13009e52e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-mobile-poster.jpg",
+      "bytes": 183628,
+      "sha256": "0a2724f46f2a46d5aa069de7f036dacf1a4f5dee0f967741d37641d4eaf2e984"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-mobile-web.mp4",
+      "bytes": 1264064,
+      "sha256": "116b850b0583913e645e82bbb4b4a7c94f6c9f7d9a93a01913d3b5c99917e458"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-desktop-poster.jpg",
+      "bytes": 302591,
+      "sha256": "eac4218ef92571472c65e434d93e7838f2dbd627b5bbeedc240888a8461e81c9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-desktop-web.mp4",
+      "bytes": 3013294,
+      "sha256": "fe34feeaed9e0330f2fc70d23128e64f29309db3cc3dc97af2582472c2ad4d6e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-mobile-poster.jpg",
+      "bytes": 179252,
+      "sha256": "09cb5770081ffe1d0741759373f4a053029544044be242f853fcaf01d3315cb0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-mobile-web.mp4",
+      "bytes": 1672232,
+      "sha256": "1d3cccf360907ea2f07ebdd70e4bdc238801bbccf336176e7381cc23f0a2d045"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-desktop-poster.jpg",
+      "bytes": 258386,
+      "sha256": "694cd213d34e53aee37df6884682c6fa85fb4a12a5e86612a961ca9e33b65b4f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-desktop-web.mp4",
+      "bytes": 3491587,
+      "sha256": "e680454e51030bed9217c1bd439251e9dbfc4a126fdfebce70fa06c03b0d08fa"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-mobile-poster.jpg",
+      "bytes": 134119,
+      "sha256": "cc272845aad6c1a7c0e2b94500712d7733aae3210d4cadf9da340ffb5d35b348"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-mobile-web.mp4",
+      "bytes": 1666508,
+      "sha256": "dcb60cbd3eef8c22e04ec190aa06daacdf3568dce6be4aab765b567c01ee0712"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-desktop-poster.jpg",
+      "bytes": 241963,
+      "sha256": "19111993e02d4ac2cbe3bdd930899bf03b9b083bc0768fa3b94737053a1b9922"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-desktop-web.mp4",
+      "bytes": 2319658,
+      "sha256": "657a0c05ded63686ed14202a6e287e04c467ec2432408b828285c3827183da8b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-mobile-poster.jpg",
+      "bytes": 109027,
+      "sha256": "1a1f280d80a3bdde745ef7827c108324e3eeed588db4b6337eeba701e9f73309"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-mobile-web.mp4",
+      "bytes": 1104025,
+      "sha256": "0791b46d6aea9cc1ece2a0b543a7c749f7cec69273b5f9a305ae801cbb310798"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-desktop-poster.jpg",
+      "bytes": 103940,
+      "sha256": "e91a8049b4dc079234762c38115053a745266dd6236adfd47d706c5e18f83dad"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-desktop-web.mp4",
+      "bytes": 1870745,
+      "sha256": "21169841b7c644cf71186e2f701dc8accf77fbd9112e00397a769325f8b7628f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-mobile-poster.jpg",
+      "bytes": 71062,
+      "sha256": "9a59edd36cf12710914f8f0ffdfc7e12412f43a08b7a5032916176c56c744517"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-mobile-web.mp4",
+      "bytes": 1028890,
+      "sha256": "92971f34297164c28c654d6ac384cf0d624fc5385487875dc98ee6f3c81ed70c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-desktop-poster.jpg",
+      "bytes": 101657,
+      "sha256": "5e0dff5edc8a48dbb73bc6378ade9f3ab6a5a4068925a04e977f75b6c855abe5"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-desktop-web.mp4",
+      "bytes": 1699870,
+      "sha256": "3c2ebefc9c978533c05d32878ec17d1f345c57d45cf1ba39ec65523967764f51"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-mobile-poster.jpg",
+      "bytes": 64793,
+      "sha256": "4282bd08dc63d91e26a9221457f5173a9d9b37877c7c84dd1a4112825e80dfa5"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-mobile-web.mp4",
+      "bytes": 1016880,
+      "sha256": "186931ea1a9464c614bf1b535b96ff77e471ce787793fa7ca7de9472986bc9cb"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/mercier-hochelaga-maisonneuve/web-manifest.json",
+      "bytes": 6154,
+      "sha256": "b97e8522e42b963642689059acbe276c9c1e6892a67cda29d16beb91850c7397"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-desktop-poster.jpg",
+      "bytes": 223141,
+      "sha256": "26f49f5027ce0a3201e53c04defcdcfdabb03ef6147764ea263c007c5fe7d3c2"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-desktop-web.mp4",
+      "bytes": 2715558,
+      "sha256": "4ba9a2a993bb452c787ba0f0fdb57e6b9fcdb011680b9b585677ce10aaf7eb46"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-mobile-poster.jpg",
+      "bytes": 131507,
+      "sha256": "41ed9746fe34acf5e65e57e3335dc4238d7b5dc37a46188a7d8d195db0f0be1a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-mobile-web.mp4",
+      "bytes": 1637728,
+      "sha256": "4bbff8cea83b9f2fb75ea6a19b154da1ae21f3c9c61dfd10e48ebb02c84bada4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-desktop-poster.jpg",
+      "bytes": 174878,
+      "sha256": "381195d2c4bbf8baf28b854ddbdda5bf1a2561e98a5b2b71ea8bfa5bda942098"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-desktop-web.mp4",
+      "bytes": 1902464,
+      "sha256": "80a8af132ec1d52ca3c2cd904a736bf5cdb558f31a9c93a6fb20cdf226453f72"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-mobile-poster.jpg",
+      "bytes": 100063,
+      "sha256": "ca63e8b0bd43e3b9bee142818eaf8d1d71100b1a2b06627472e7c02e65867026"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-mobile-web.mp4",
+      "bytes": 884883,
+      "sha256": "f79c8e7d671960c72a3c72322e8ac70ff3398ba131466f0a77cc68738b89710a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-desktop-poster.jpg",
+      "bytes": 390125,
+      "sha256": "7c18f5e4e7839aa61285011d91f93848cecb5ccd83b2b807ae23057833c70b81"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-desktop-web.mp4",
+      "bytes": 4787247,
+      "sha256": "ff899dc88bc7b8be07e1e5a345c164d227a8df7834fbd99bfb529ece1783d560"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-mobile-poster.jpg",
+      "bytes": 171732,
+      "sha256": "17b0cfcaa0adbecea59f5154277ef41016bcefcb74fabb8457762c406a97a7a6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-mobile-web.mp4",
+      "bytes": 1899168,
+      "sha256": "316f2db9cc5934b538f795e40f64aa08ee1b1e03be6d1a6cc91052614cea2171"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-desktop-poster.jpg",
+      "bytes": 184398,
+      "sha256": "d25641040d0edcd09046b9bad1c89cc7e89a532feca38ca98d2e2785451b538e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-desktop-web.mp4",
+      "bytes": 2316919,
+      "sha256": "1755a70cf06d142dff53e81d74708beba50f065208541946963bf2362ebb8346"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-mobile-poster.jpg",
+      "bytes": 122733,
+      "sha256": "5e5d84547c6380fd6da4b8c12a0793d7cbd07b5d1d182c6a37a332d74fb40718"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-mobile-web.mp4",
+      "bytes": 1216429,
+      "sha256": "3e58ecb711b3bc30a255cae5b9668bcd2a4eeb249e979182b33f2b19ebb28327"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-desktop-poster.jpg",
+      "bytes": 276684,
+      "sha256": "122147c2a0dde04b3617eac67d48ba4b44cbaf38af4b992f36fbb7c502b9fe76"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-desktop-web.mp4",
+      "bytes": 2837507,
+      "sha256": "a8db327c32d05f7bd78127a7fbf83b9fa6b84f505ea69217bd704b84f2bc39c7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-mobile-poster.jpg",
+      "bytes": 141958,
+      "sha256": "7ba1ab0ccf5ea95321e91c5d7a7850b732d95b6f913131f55909f00125e64dde"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-mobile-web.mp4",
+      "bytes": 1396135,
+      "sha256": "efa80279aabfd02db8279b31126f1214bc51d7fbb54d85f725add293ea6a600e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-desktop-poster.jpg",
+      "bytes": 266734,
+      "sha256": "db61911557a9bcdebfac02adc69f0e0f03f5f54a29457857ce45fbc9af5d4cf4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-desktop-web.mp4",
+      "bytes": 2715727,
+      "sha256": "b5a8aad3305532b41a7c46974700e1197867106b46db924687699d947cd81afd"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-mobile-poster.jpg",
+      "bytes": 139907,
+      "sha256": "28c78cea86e984cefd4063bc8bda257f4496aea4efce4020d952bd471a8daf45"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-mobile-web.mp4",
+      "bytes": 1642329,
+      "sha256": "191c4c868f51c485a8479ba237f8511c9a1eff55542db70a453d4ab46b9e7f47"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ndg-montreal-ouest/web-manifest.json",
+      "bytes": 5539,
+      "sha256": "a69ba425339b0bc2f8578bf7547d35eafbdd342e47a7ff1c3eb9dd44def4a6d3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/02a22/ouest-de-lile-02a22-hero-desktop-poster.jpg",
+      "bytes": 161746,
+      "sha256": "64aeac9d8069c126493f6fa7d0a403fcf13aa3b53b03fd981da82b2afa242977"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/02a22/ouest-de-lile-02a22-hero-desktop-web.mp4",
+      "bytes": 2414055,
+      "sha256": "e99c8dce29f735f2d7bb71388acab05247d6f5960aae7678e22ea1899c7744e9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/02a22/ouest-de-lile-02a22-hero-mobile-poster.jpg",
+      "bytes": 73098,
+      "sha256": "c307fe808f90920ab73e7f3b62e55b413c90bc6b7f8231b9aa55870135cbab90"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/02a22/ouest-de-lile-02a22-hero-mobile-web.mp4",
+      "bytes": 1390497,
+      "sha256": "c6fd37408c8dd223f2badc33ead18897ac52b927f337cc1aa05644425b677ef0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/03i33/ouest-de-lile-03i33-hero-desktop-poster.jpg",
+      "bytes": 256603,
+      "sha256": "bb6e9de24eaa60107414320c53b19d6b9b7dc9719fd4a6a766343e81b456e8f3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/03i33/ouest-de-lile-03i33-hero-desktop-web.mp4",
+      "bytes": 1798862,
+      "sha256": "4132de53b2cdc595835346749cda5b0e1ec15b9700c07012118c06d873f76b2f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/03i33/ouest-de-lile-03i33-hero-mobile-poster.jpg",
+      "bytes": 132633,
+      "sha256": "de4af97cc5b71095e22e3986dc5a20d8e5efae5e92e9d714a75ff50548dead79"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/03i33/ouest-de-lile-03i33-hero-mobile-web.mp4",
+      "bytes": 937900,
+      "sha256": "08e574c26be92ad5ed7f9c29653e73e49e012cac36a08e472ce784557722abbb"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/04m44/ouest-de-lile-04m44-hero-desktop-poster.jpg",
+      "bytes": 250489,
+      "sha256": "306a0787cc307b65a08cb9c5b4cf91a114001a600fc688ca4bb36bc005739591"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/04m44/ouest-de-lile-04m44-hero-desktop-web.mp4",
+      "bytes": 2798932,
+      "sha256": "a377471d0a99d676aea4aafed663b19bc82b5f98b24ddc074f8e240dabb079b4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/04m44/ouest-de-lile-04m44-hero-mobile-poster.jpg",
+      "bytes": 134305,
+      "sha256": "213ba1d15179b9d4e82edc45818048f800b22503cb4734dbecaddaf02a28b8b6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/04m44/ouest-de-lile-04m44-hero-mobile-web.mp4",
+      "bytes": 1437080,
+      "sha256": "ba129397883349e94adb757d00748b19fc17ac77e3db5af9dfbe7a964ffea97b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/05c55/ouest-de-lile-05c55-hero-desktop-poster.jpg",
+      "bytes": 210712,
+      "sha256": "d5dd5191cba845ef12a3be569b29c8f03d41a6395b7217d4c40403a0115bd410"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/05c55/ouest-de-lile-05c55-hero-desktop-web.mp4",
+      "bytes": 1964374,
+      "sha256": "2dd01a5da566b362a1b5b67c6fe8c80ea24ef496a454ee6abd98d4bffda85eaf"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/05c55/ouest-de-lile-05c55-hero-mobile-poster.jpg",
+      "bytes": 99510,
+      "sha256": "bd3a1c975f2909f22837c00fc07e9017eb1d193f66a15e103515607e4301f65c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/05c55/ouest-de-lile-05c55-hero-mobile-web.mp4",
+      "bytes": 1000568,
+      "sha256": "0a8ffb27ca0b590e19875531aa348e2e16d47627bc759f4a407522b45ba884ab"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/main/ouest-de-lile-main-hero-desktop-poster.jpg",
+      "bytes": 275120,
+      "sha256": "1da7a54831f54f3b3219c39fe251e08221dfa9b9a1438b2e6170b8ec0479f5e6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/main/ouest-de-lile-main-hero-desktop-web.mp4",
+      "bytes": 2247673,
+      "sha256": "ed5032c51da008dbc713b5257d63e59ff78964b9b3032f311625cd2693f34180"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/main/ouest-de-lile-main-hero-mobile-poster.jpg",
+      "bytes": 154850,
+      "sha256": "1ab08f54f833234c5b89ac315dd1c7691b8bacc78cba4da68e86d2ec5f3790b6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/main/ouest-de-lile-main-hero-mobile-web.mp4",
+      "bytes": 1231614,
+      "sha256": "99496e0a4931c428fdba9c2e011532ffd7ed36bf0f4b511d97005f01fa1a9f82"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-desktop-poster.jpg",
+      "bytes": 265798,
+      "sha256": "adfda4ee951a5186a304d473dcf67a90c86daebb9c72d30f23606b436a6a0646"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-desktop-web.mp4",
+      "bytes": 2668161,
+      "sha256": "8e9a8a48ac827669330743b2c0f492c56ef606e302e23781fc18860785db230c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-mobile-poster.jpg",
+      "bytes": 151736,
+      "sha256": "7fa245c13ee4190ff02fab22fe9a85846a51a235c94e1c6188fe3c8baa33fe33"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-mobile-web.mp4",
+      "bytes": 1523316,
+      "sha256": "d06cc8db364a81f51508e57201bbb870adde3b34b8782a86c1f15599b7126f97"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ouest-de-lile/web-manifest.json",
+      "bytes": 5260,
+      "sha256": "7910a980dd647269f5451e51596103d94f49a4c4916d6ed29ce0ead24445fcb9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-desktop-poster.jpg",
+      "bytes": 286566,
+      "sha256": "c47a33d8dd42303f0f4b5538dc83d1284eb731c0be01dcbd9a259be811c08f28"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-desktop-web.mp4",
+      "bytes": 2448380,
+      "sha256": "060261ad0e541128e222438ff91c8ac3c905fbdb33a24ea8f16fdf345922fdb8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-mobile-poster.jpg",
+      "bytes": 155638,
+      "sha256": "18269ceb1756dc153099333a32220e6482ff8e3d7fd4807242f708bd8e28206a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-mobile-web.mp4",
+      "bytes": 1271379,
+      "sha256": "ae190e1c9fe2cec209c0e84197be4f4a516de7ab60fa4e500558daa18b3c68c2"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-desktop-poster.jpg",
+      "bytes": 234966,
+      "sha256": "5d727f49abfc50a68ea1d94f7a9fc8dca622bad5864b3de9e1051c8c69abba72"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-desktop-web.mp4",
+      "bytes": 2959661,
+      "sha256": "a14d5e10f200c9efb19cc0d5cea9c009ba7c49e15c9a8f6aec4c592c5825753e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-mobile-poster.jpg",
+      "bytes": 146389,
+      "sha256": "695085d079a4d22249973b765e74d3c0d2c7889b6dfab7c5cf97c27cba787f11"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-mobile-web.mp4",
+      "bytes": 1824813,
+      "sha256": "5237d54ee8e273aad711079a05921958147d273c5de26ff0290ca1d8c509dd16"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-desktop-poster.jpg",
+      "bytes": 205523,
+      "sha256": "3c781243ace4c94c3067ae19cdd5f2cf56b7f3e5ad5fa736706a097586d099d5"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-desktop-web.mp4",
+      "bytes": 2100880,
+      "sha256": "105ffb9d51da4ee3d5f91bc644027de5ee7d80f20f0f76dff1c1b552bafa9dd8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-mobile-poster.jpg",
+      "bytes": 126804,
+      "sha256": "916b04064ff2df3592f7ef6c25b4695b69993451adee0a1f914a8aa45af44f40"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-mobile-web.mp4",
+      "bytes": 1228203,
+      "sha256": "7a4f9a06aaa5058684056612c7b724686496253738d82cf98e0a1147a9837f43"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-desktop-poster.jpg",
+      "bytes": 188292,
+      "sha256": "2ebb0d8bbf276038eb210d1f0d241ecb987870fd3d5e48fdcc8c289561ab6b15"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-desktop-web.mp4",
+      "bytes": 2434306,
+      "sha256": "74ff2c5e9e86161c9b95c254de5660b22024aefac62da9f364eaa4c2578b38ba"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-mobile-poster.jpg",
+      "bytes": 112851,
+      "sha256": "62efdcbdbf8f8075ba60f6d2de414d5454d42a4331770b1fd663d1ca2695747e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-mobile-web.mp4",
+      "bytes": 1254322,
+      "sha256": "57686863616f40de9d667d3dcbd05ebb9283594d8bbff2d53147787ce1b36957"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-desktop-poster.jpg",
+      "bytes": 322040,
+      "sha256": "3d804d404da03b411c7493a8832abeebb78dea3b7f50f4c80e995e8b66a6027b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-desktop-web.mp4",
+      "bytes": 2766107,
+      "sha256": "a6e0443864bb2b81ccdde41cd0c2ce6262392052972a5ec1da5d5c2b5d69227e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-mobile-poster.jpg",
+      "bytes": 183826,
+      "sha256": "69dbc34883edc84af8cce79690cab835e322b34956e9d78c513aafcfe07e22ea"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-mobile-web.mp4",
+      "bytes": 1534463,
+      "sha256": "54c29be895bfa129631332a891b11a4392fdc5c1e3248d9273f25bc796d5ae4a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-desktop-poster.jpg",
+      "bytes": 180424,
+      "sha256": "c45e99443100b698cc4fd07b5870ca2900f297548b7ae1f7758614992ea489e6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-desktop-web.mp4",
+      "bytes": 2063760,
+      "sha256": "d8190fae3e679e8ca2a41ca6fb993eebb936d12f40193564b3a3a35e30833ad8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-mobile-poster.jpg",
+      "bytes": 94372,
+      "sha256": "58314bef6408db0f10ecf3a8fad595dabd84455cfb46072bb781b18545deb3ae"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-mobile-web.mp4",
+      "bytes": 1051573,
+      "sha256": "0eb2e1941e14c0e9056d606954ec5b18735cf1ee35337eada1879894ee12be56"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/outremont-westmount-vmr/web-manifest.json",
+      "bytes": 5820,
+      "sha256": "315dc6c83ea8340eba40df2ebd826596be04b6f34a84ee7abdbfda1c38497480"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/QA_SUMMARY.md",
+      "bytes": 2412,
+      "sha256": "26775850d9bb6774908ad200503b425d8e68c65b14b82e19782162846bb2afbb"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/README.md",
+      "bytes": 723,
+      "sha256": "4b4bf7186e59f5cb0d1c4f96a69cc0d72416938cdd79d7aacefe791fa528fb8f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/02a22/repentigny-02a22-hero-desktop-poster.jpg",
+      "bytes": 388991,
+      "sha256": "e02b46ac3844552b0ac088c27f6bb267036ebb64b92a2db1c30e4b161fb8e9f4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/02a22/repentigny-02a22-hero-desktop-web.mp4",
+      "bytes": 4559513,
+      "sha256": "9bb87ace42dc36df3c2e3315a1f3fc9bfac4f10673e257b6ac75094f3103f6e2"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/02a22/repentigny-02a22-hero-mobile-poster.jpg",
+      "bytes": 236384,
+      "sha256": "132e7e682151eacca06757e47af4b56ed66a1b10a81cb902148bd6043f4784a4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/02a22/repentigny-02a22-hero-mobile-web.mp4",
+      "bytes": 3261443,
+      "sha256": "cead016043ec289fc6e3a86e0ab5b1a52997bd7b4d3e3c8e252fce962902ccfd"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/03i33/repentigny-03i33-hero-desktop-poster.jpg",
+      "bytes": 157167,
+      "sha256": "7974a399729bc9184346afbcd2ddd319b84c671b4ae14a7ef0618c074560a133"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/03i33/repentigny-03i33-hero-desktop-web.mp4",
+      "bytes": 2759132,
+      "sha256": "a66014228de2eed459820a11df2dfad869c5680c6f71fca0c3411a6049338840"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/03i33/repentigny-03i33-hero-mobile-poster.jpg",
+      "bytes": 93716,
+      "sha256": "044d44b35a7b5c0a7eee1224657e2d592b35b46cd36938b6ddc6e18546108a13"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/03i33/repentigny-03i33-hero-mobile-web.mp4",
+      "bytes": 1331158,
+      "sha256": "38fd3531e01bb0fdef296f43f56a6736c6703ef5e3ae44229415790bb01244bd"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/04m44/repentigny-04m44-hero-desktop-poster.jpg",
+      "bytes": 202352,
+      "sha256": "fd5b5962bb49687f2fd145afb8e029d6e7d85a65352982445e96548d51f2c330"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/04m44/repentigny-04m44-hero-desktop-web.mp4",
+      "bytes": 3828565,
+      "sha256": "8bd5359fcaa9ceb5f7701699c4f83c72a450fde9a60d0735e993d2e261d4851a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/04m44/repentigny-04m44-hero-mobile-poster.jpg",
+      "bytes": 125842,
+      "sha256": "c5ec6d10a36988d50132e2074444db89d0f8ab0b75ff32134c01910585ff1d7d"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/04m44/repentigny-04m44-hero-mobile-web.mp4",
+      "bytes": 2469889,
+      "sha256": "9cdce985f19941f09d70eea6bb13b26b08779407844bfa8b875a540159950df4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/05c55/repentigny-05c55-hero-desktop-poster.jpg",
+      "bytes": 251818,
+      "sha256": "f327498f3b4ba0b949fef1c423108e0086ac51a2cffad1aa95091ff653414a7d"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/05c55/repentigny-05c55-hero-desktop-web.mp4",
+      "bytes": 3537508,
+      "sha256": "3f02c54d58c99c2b56a084a4945d703bd90afe25e567bf272c97e2caa0c97cf3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/05c55/repentigny-05c55-hero-mobile-poster.jpg",
+      "bytes": 159056,
+      "sha256": "05ebb931568aad78fdc1a2e4284c5a3de042379380947a80486dd251bb5097ac"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/05c55/repentigny-05c55-hero-mobile-web.mp4",
+      "bytes": 1980065,
+      "sha256": "08f4d9111b77407f0b4905b6382b7732be1afc2edf350a5296bb3e9f3a815b9c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/main/repentigny-main-hero-desktop-poster.jpg",
+      "bytes": 238933,
+      "sha256": "58772d189f0764f90551916deea50ea48a881b6f454386c9a289653aeb829c6a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/main/repentigny-main-hero-desktop-web.mp4",
+      "bytes": 2631401,
+      "sha256": "56d93a70b88887404bccb3fb04d7eb374a2c19c058debb56f38715663b4e0895"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/main/repentigny-main-hero-mobile-poster.jpg",
+      "bytes": 152543,
+      "sha256": "0dcb390fdff528405db39e3187611fda0898921919ca9e8ed8509b34145c5d95"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/main/repentigny-main-hero-mobile-web.mp4",
+      "bytes": 1594921,
+      "sha256": "dbf3370d6afddd98a43648575fce7502b9df07ec50f0edb0f14ac50c15d20315"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/o1a11/repentigny-o1a11-hero-desktop-poster.jpg",
+      "bytes": 230160,
+      "sha256": "013e8fdea3fb6161a218c0e31ad5002c53bb956c7f8546f51bffc70300f77e49"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/o1a11/repentigny-o1a11-hero-desktop-web.mp4",
+      "bytes": 3635818,
+      "sha256": "ac38a3c6ad931ac5c8d6c58c14a29fc0b3ded477ff8954e4da33191b828c7e14"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/o1a11/repentigny-o1a11-hero-mobile-poster.jpg",
+      "bytes": 153270,
+      "sha256": "c83b92d87526b065ff3aed34c5600babde4d17680bd53d7ce64cefe20cf50482"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/o1a11/repentigny-o1a11-hero-mobile-web.mp4",
+      "bytes": 2639000,
+      "sha256": "5bad547338fffeb123268e6d4d70655b1b3fbb47708c8156dbe8788fffc05c32"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/repentigny/web-manifest.json",
+      "bytes": 5088,
+      "sha256": "0e18bd945a5c4542e5e048e4bbe5b30182bfe3cbf9044eb86e8b1718cdff8219"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-desktop-poster.jpg",
+      "bytes": 242737,
+      "sha256": "99e7c81f6ec9a1da3794b692878050f84369d6f806e0f42d62556fa60b4ba618"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-desktop-web.mp4",
+      "bytes": 2095036,
+      "sha256": "7c05de934bacc1553c2326cbb948722f38e12e44ae5a11dabf90790a4adee46c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-mobile-poster.jpg",
+      "bytes": 135000,
+      "sha256": "7daea3bea1417d319216e7233472872183625b4a52ce8672aa489bb5d9e707eb"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/02a22/rosemont-la-petite-patrie-02a22-hero-mobile-web.mp4",
+      "bytes": 1160839,
+      "sha256": "05fb91990ff30e1928c46ef9c3428808cdde5f87ffa575f764f50eb4279d0150"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-desktop-poster.jpg",
+      "bytes": 350823,
+      "sha256": "c72641716db2943d356916dcf554994e7efe38496f0f56e4606442f307960fcc"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-desktop-web.mp4",
+      "bytes": 4606198,
+      "sha256": "8df2b1bd2f1d7efae74044022af9a1f4634bc790983c98ef09b6aa313a64c991"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-mobile-poster.jpg",
+      "bytes": 173206,
+      "sha256": "a6f7105b4baf6315d5fdf2e21c43c89e8b325fd1ad224d8bebd43c3b11a85597"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/03i33/rosemont-la-petite-patrie-03i33-hero-mobile-web.mp4",
+      "bytes": 2239771,
+      "sha256": "d51b7e52c3a6c3c6686bce3d8de2fe68849a3235df789f2650d09cf7cefcbd2b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-desktop-poster.jpg",
+      "bytes": 241635,
+      "sha256": "041184b1ba3a51e64adfd34ad083cb1c497f47ee68045379fa218ba6b041a082"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-desktop-web.mp4",
+      "bytes": 2794886,
+      "sha256": "85be669a9edab909676e162eb3dce273aa6e619e9fdf00006d53199eee7432e7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-mobile-poster.jpg",
+      "bytes": 132111,
+      "sha256": "79afbf6b0c5e8f2a69de3602c298896d1ec276b3651ac9f064ff644d7a58ec26"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/04m44/rosemont-la-petite-patrie-04m44-hero-mobile-web.mp4",
+      "bytes": 1332277,
+      "sha256": "bebe2b3918b14516fa2c940e263ac7fd5753bede3f1c8b4bb1822f422eb42204"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-desktop-poster.jpg",
+      "bytes": 188304,
+      "sha256": "b45903fc7d1683ce671ca7136841287e92413669b2641b85d30727d8cfc1d8c3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-desktop-web.mp4",
+      "bytes": 2850309,
+      "sha256": "f77b03d8039282cda608ad4799e1f87075aa5959600fb467444410b2518eec33"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-mobile-poster.jpg",
+      "bytes": 105704,
+      "sha256": "bdd268386525488dc6fecca5c54169d8734cd7ac1d4a62e9553adc46a65d3f28"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/05c55/rosemont-la-petite-patrie-05c55-hero-mobile-web.mp4",
+      "bytes": 1454575,
+      "sha256": "85ff49782830acb21cd9b349ba5afc3fc39cc01d3248d7a852e36a1119b4d16a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-desktop-poster.jpg",
+      "bytes": 199930,
+      "sha256": "c47fe3efa8367f98e293e03bc12ca21f9e9d691199d270753d3238f0213e63eb"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-desktop-web.mp4",
+      "bytes": 3645619,
+      "sha256": "2708bbc0843d1b5c5238835091e58c423cb03243fdb535a8e928a5810d711d9a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-mobile-poster.jpg",
+      "bytes": 116304,
+      "sha256": "16552c9ef9824c9991156264b9de2fd208463f2c8be99637338bdd6ba717b90d"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/main/rosemont-la-petite-patrie-main-hero-mobile-web.mp4",
+      "bytes": 1840972,
+      "sha256": "7546a3a1ac8944d4d61606edb47f34ea660fb48ccbaf5f4f5a28e2a3a248a2c8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-desktop-poster.jpg",
+      "bytes": 193700,
+      "sha256": "c551165a0184baa3eec41c751f4c97b275d2210dd6bff02f625f60957b8e808a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-desktop-web.mp4",
+      "bytes": 1943864,
+      "sha256": "a4a597c372f9bac1443719821f749bfc4e932d7919a07c1ea700fa9d7b1c1332"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-mobile-poster.jpg",
+      "bytes": 111826,
+      "sha256": "4e52bf2bd95e7088202981297a936b7554e7adb3e6a9faef00e8f7ab25d6d2e0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/o1a11/rosemont-la-petite-patrie-o1a11-hero-mobile-web.mp4",
+      "bytes": 1141371,
+      "sha256": "3dd168f1cc90a0a9d0deef2d5bcdfa1974c74034fd5e5f2f7659fed295e279f3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/rosemont-la-petite-patrie/web-manifest.json",
+      "bytes": 5930,
+      "sha256": "aa10f2a60a417d3bd0669412c710fd82803e5d09cace363cc99c2eb22dd8c224"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/02a22/saint-laurent-02a22-hero-desktop-poster.jpg",
+      "bytes": 278053,
+      "sha256": "ac1f6f88d4a7bdf0487beeb44ab21537fae7bf56e1ccb1fbafd326a066b78286"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/02a22/saint-laurent-02a22-hero-desktop-web.mp4",
+      "bytes": 2659712,
+      "sha256": "fea540d67e184200ea71fbaf9005f1cc46be078f82c0239457293c2f41d77503"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/02a22/saint-laurent-02a22-hero-mobile-poster.jpg",
+      "bytes": 174650,
+      "sha256": "a9e870fe208fe6930ae9fc7dced87ccd11d440d1e46238cd05c00c1257d412ce"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/02a22/saint-laurent-02a22-hero-mobile-web.mp4",
+      "bytes": 1562871,
+      "sha256": "7e80ed2f832bbc1757c70926c4eae3d825852fadf206f35b8388fda513602295"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/03i33/saint-laurent-03i33-hero-desktop-poster.jpg",
+      "bytes": 266767,
+      "sha256": "57ce4444214fd3ce3eff31122d894f7d19f8e28fb8bf3337f4e5489879d6ca4c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/03i33/saint-laurent-03i33-hero-desktop-web.mp4",
+      "bytes": 2456188,
+      "sha256": "8a330c882a891c12c3a4553eeaa8cd23b5051e7e82d365deb385a81559407629"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/03i33/saint-laurent-03i33-hero-mobile-poster.jpg",
+      "bytes": 139784,
+      "sha256": "8ce4cf0adbbb872340e1ef7562754b1fb2c0bc2eb81e5d3a73b9e7d790a88207"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/03i33/saint-laurent-03i33-hero-mobile-web.mp4",
+      "bytes": 1121372,
+      "sha256": "991b5f5abc42609fc6fcd12df3f6e4c18559ceccf3d2290f56e6e9651a86caa6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/04m44/saint-laurent-04m44-hero-desktop-poster.jpg",
+      "bytes": 376812,
+      "sha256": "df7a57dc0cf594d77ea47946318a22858bc9695b93b647162c4e97cd20d9860c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/04m44/saint-laurent-04m44-hero-desktop-web.mp4",
+      "bytes": 3946775,
+      "sha256": "e5efb16aa30ece6ad713953252cf2857df494f9217923f3f2ac886841971ca8c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/04m44/saint-laurent-04m44-hero-mobile-poster.jpg",
+      "bytes": 219294,
+      "sha256": "dc052ea6824a7a2f1dbdc60c0a47434a67af62979881dae21e8e345736aa35a8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/04m44/saint-laurent-04m44-hero-mobile-web.mp4",
+      "bytes": 2383152,
+      "sha256": "07694ee2ad38e62d1c5f816d841bf30c5e68f6032fc75ce3f6865b51fb48e7e7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/05c55/saint-laurent-05c55-hero-desktop-poster.jpg",
+      "bytes": 179023,
+      "sha256": "12d32eb1390e8420373d2dd62c7a228f2d2502c1e3829a8fa7ed4bce61c925f3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/05c55/saint-laurent-05c55-hero-desktop-web.mp4",
+      "bytes": 1711820,
+      "sha256": "938ba1b83fcb08c3a118adeb359e1e53687ecdd93df038133a7ab3a3f6c31319"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/05c55/saint-laurent-05c55-hero-mobile-poster.jpg",
+      "bytes": 110335,
+      "sha256": "fb11861db7118c43b613b697750453af98211752c31875e7bb832e3a23bb3a25"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/05c55/saint-laurent-05c55-hero-mobile-web.mp4",
+      "bytes": 1012338,
+      "sha256": "ba936a4b2d14d9c42a4298b5a4fa02214c7bf1c65bab3e30dbaeba0a4d9d03d7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/main/saint-laurent-main-hero-desktop-poster.jpg",
+      "bytes": 181623,
+      "sha256": "1da69c609c6b0a060aa9462dd2aba03d5ab86acce6e70e1d47dc455b0f6dc3d4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/main/saint-laurent-main-hero-desktop-web.mp4",
+      "bytes": 2131214,
+      "sha256": "20823f4785574a54d282e93854a8f93d2313d714ca0c96779d495c289d300738"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/main/saint-laurent-main-hero-mobile-poster.jpg",
+      "bytes": 103078,
+      "sha256": "32a0a19c741250bd7e067e9407092a3d44fc1573fbc6f995586c9a1d29aa1999"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/main/saint-laurent-main-hero-mobile-web.mp4",
+      "bytes": 1147360,
+      "sha256": "4ea636fc4e2639ac060d7bf46ba3e47eb2957fe9f3f0ab6df3aac79b5b60b19c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/o1a11/saint-laurent-o1a11-hero-desktop-poster.jpg",
+      "bytes": 176092,
+      "sha256": "381fb1090dfe6bb713ba1938ace814f6b9d5f16006d86bd1d76d47e3cb4df091"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/o1a11/saint-laurent-o1a11-hero-desktop-web.mp4",
+      "bytes": 2352526,
+      "sha256": "12cc327e2ddc321e036c18dbb020a67bcda386f612f6a5c9d3cad8813be650ef"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/o1a11/saint-laurent-o1a11-hero-mobile-poster.jpg",
+      "bytes": 101259,
+      "sha256": "d09050abe0e08a220a21d1b90e504826feed0df50098bb65157a206aea29dedf"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/o1a11/saint-laurent-o1a11-hero-mobile-web.mp4",
+      "bytes": 1387458,
+      "sha256": "7f25f59de5dbbdf06406087f89e0e6174b6a235c5a5793a050aa6d760018c490"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/saint-laurent/web-manifest.json",
+      "bytes": 5256,
+      "sha256": "99c258008eec39e62f4ce2931aaa35ad5dced7dbb866afae427d815c65b7de9c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-desktop-poster.jpg",
+      "bytes": 338321,
+      "sha256": "ee03d4f3d9b2635ae75bc243abbb72dbc3086ad4aa531a21722408a0e4557264"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-desktop-web.mp4",
+      "bytes": 3460118,
+      "sha256": "27e8de1e20e641b90521c15eb62ffe0bdafb6585b1b938c67a657f175e588848"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-mobile-poster.jpg",
+      "bytes": 205339,
+      "sha256": "14d0fb64cb91588f624a75412f4ff65b48f642e0af4768bf11f248ce00193c31"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/02a22/vaudreuil-soulanges-02a22-hero-mobile-web.mp4",
+      "bytes": 2084637,
+      "sha256": "d35468db38adeb43012691779c570b441dd6be5ebbf09e3a411fc831847bacaa"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-desktop-poster.jpg",
+      "bytes": 308661,
+      "sha256": "17bbe43cdd33282f617fa4210a137302f177c120e8b5b835e2e6dca5e265dd1e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-desktop-web.mp4",
+      "bytes": 2932662,
+      "sha256": "28aec2eaab6b1b2c08f96f07bdafd2d5a3d8ad0cf154b72e385aab0b2f6c656c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-mobile-poster.jpg",
+      "bytes": 185658,
+      "sha256": "2489da3606a271039eace36d717c568bac19664c7dc8b1f5cfe21f2fb1cec743"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/03i33/vaudreuil-soulanges-03i33-hero-mobile-web.mp4",
+      "bytes": 2065070,
+      "sha256": "d6ae71d9597cabec379738cc310e7be5bdc21841a69188bd04735143c42dfa40"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-desktop-poster.jpg",
+      "bytes": 358701,
+      "sha256": "c9e8fdb296259e27c3bb453f120405fe6aee8ac1fcf61ed4df3c648461eadac7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-desktop-web.mp4",
+      "bytes": 4539939,
+      "sha256": "badfdb045cd184ec11916048a927fea20325dcf8e86e556f5d533c461d8cb4f0"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-mobile-poster.jpg",
+      "bytes": 185947,
+      "sha256": "39596d9266aa23c5afb8f146235af2ecb58c2d10719f5f888ebff76ed09d228b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/04m44/vaudreuil-soulanges-04m44-hero-mobile-web.mp4",
+      "bytes": 1909412,
+      "sha256": "60ae012c044e72e68f7cc664fdf75f7b33e841d7be0bccb2fa799b77e01fb5a3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-desktop-poster.jpg",
+      "bytes": 158979,
+      "sha256": "b2d8331af1da4210ed583aba00f94d475b16830c4776ceaf037af201f91ec6d2"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-desktop-web.mp4",
+      "bytes": 2033847,
+      "sha256": "4702b26352d1523060b41201e780b4414745849ae6256b7e6dbb185488d11538"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-mobile-poster.jpg",
+      "bytes": 102925,
+      "sha256": "b68cb079324b0b62bd02fee87074402270d63af2faa50309810f01c398ff0230"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/05c55/vaudreuil-soulanges-05c55-hero-mobile-web.mp4",
+      "bytes": 1353758,
+      "sha256": "14b5065beb25837eb56cd7156accbfbf985c6bd7b2b8bcb44248741868689124"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-desktop-poster.jpg",
+      "bytes": 154574,
+      "sha256": "7914ab44938ae0712ea433ebf6763af8c71189745534ff5c49291484f3bed8fb"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-desktop-web.mp4",
+      "bytes": 2636600,
+      "sha256": "638cf4cc2a8de54c2cd2053ee6b4521c5dae5feef24ac1a33c121ab9fd745203"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-mobile-poster.jpg",
+      "bytes": 92374,
+      "sha256": "787296bf6b80011be9a9cdfbd25575eb9818930f2960f6613a3fff373ced359f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/main/vaudreuil-soulanges-main-hero-mobile-web.mp4",
+      "bytes": 1634424,
+      "sha256": "9b4be34de35aa61e514a16d161dc65e2386a7f6642f4fdb0cd0d45e66d0710a6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-desktop-poster.jpg",
+      "bytes": 150291,
+      "sha256": "8c5b5d3acfa127bc334917b9634bf4fa1b39d40129612597aef31586c84e022f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-desktop-web.mp4",
+      "bytes": 3024856,
+      "sha256": "33afc5f69bb2ed1b0f689a97655ad27924b2f3012571e13fae8894353837ae87"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-mobile-poster.jpg",
+      "bytes": 90754,
+      "sha256": "c4bfa30809d2cb49b7b82247a481922b46c4abe39ca0150d5c657be9eda7bcfe"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/o1a11/vaudreuil-soulanges-o1a11-hero-mobile-web.mp4",
+      "bytes": 1775435,
+      "sha256": "7832a4083caa67902932648aec70d6062086adda4cabe289011244bbf2a7f8fe"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/vaudreuil-soulanges/web-manifest.json",
+      "bytes": 5592,
+      "sha256": "90b3c202b65388bc1ac10ff082c011cd12e1137b47aee2818a68caa6c3ba7928"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-desktop-poster.jpg",
+      "bytes": 312550,
+      "sha256": "6199468b94d04a0331da8b38620947856aa97070fb2cc3b7c6fdb77586083666"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-desktop-web.mp4",
+      "bytes": 3378963,
+      "sha256": "886da2d3e3f8feecfb5612ee316a42fe63ece9a472224d7a9aeb64e01d4e7913"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-mobile-poster.jpg",
+      "bytes": 175353,
+      "sha256": "ce40847246e076a656b46f0ea4510b658b589161abb3f2fe4a0fd5f153ac3f5a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/02a22/verdun-ile-des-soeurs-02a22-hero-mobile-web.mp4",
+      "bytes": 2227087,
+      "sha256": "c32867ec4ff8b398007e8e0d564d732f9408213e46440b6d2787854ab1136a08"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-desktop-poster.jpg",
+      "bytes": 344106,
+      "sha256": "451868f04752d2a5b89444ed6e5a907db1f80622f57b82e655d4057e2e38ab5d"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-desktop-web.mp4",
+      "bytes": 7308461,
+      "sha256": "e52b6cd7bdd89678ba91497f73e22e2cf1017ccee818a48ccfff533aeb4743dd"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-mobile-poster.jpg",
+      "bytes": 177901,
+      "sha256": "537afc5d5e00df80c4c231bcba574e5b7afe9ce73cc610d604ac5401034f97a7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/03i33/verdun-ile-des-soeurs-03i33-hero-mobile-web.mp4",
+      "bytes": 3145778,
+      "sha256": "31dc6c6bb3d8812bf290fd3cea4073d20d4908779d06882ad2b54483c8e705fa"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-desktop-poster.jpg",
+      "bytes": 227697,
+      "sha256": "342209545fbf3103a4f87e9cd7339d69fd60cdffe1e37cb53d2ca8ecd1be8531"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-desktop-web.mp4",
+      "bytes": 2445474,
+      "sha256": "6767e607cf50080b8eac8f9fd9f0f1bb390879afb6bbb244b12af2c8aade738e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-mobile-poster.jpg",
+      "bytes": 121608,
+      "sha256": "ab9e8b15e6f77ee45a176fe10b159bb5f22cda553ff90c414154f070e4cbaac5"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/04m44/verdun-ile-des-soeurs-04m44-hero-mobile-web.mp4",
+      "bytes": 1355198,
+      "sha256": "d4ba595d3127902a460cd13c43e1057f937a77f646f54dbdf0d30290a3293d2e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-desktop-poster.jpg",
+      "bytes": 310281,
+      "sha256": "3ceb548092d66695afecb30ef076fe35e039c09875b8c362b4f620d87545c0b8"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-desktop-web.mp4",
+      "bytes": 5912440,
+      "sha256": "f8d0804557b7025270c3239c6dc67c82505053ff8235347a8b8632f5fe514a02"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-mobile-poster.jpg",
+      "bytes": 179646,
+      "sha256": "4d87ef8337da5099a9b67fbc747cd3655274736160daa84302a2636d9c3b8fc4"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/05c55/verdun-ile-des-soeurs-05c55-hero-mobile-web.mp4",
+      "bytes": 3328723,
+      "sha256": "790595cf901ba2685c1b54e5f497a20e628f5d05e349a636af7748f2db1540fd"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-desktop-poster.jpg",
+      "bytes": 257061,
+      "sha256": "6f306955238839c3321fbff9ed90b37cdb0af3b488282b12a019e54f24ca8135"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-desktop-web.mp4",
+      "bytes": 3866357,
+      "sha256": "63753dcf53a0c7731b015d059a882322ca72434fb83df49e1e3139ca2c56d29e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-mobile-poster.jpg",
+      "bytes": 151097,
+      "sha256": "f0a50ef849bd62c065c050a9123c8c1ba0f4172043784c2e6fc68e33dc6d3a56"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/main/verdun-ile-des-soeurs-main-hero-mobile-web.mp4",
+      "bytes": 1991608,
+      "sha256": "cc1bd34e4fc787733bb236f941ce7a7391e1da0a7463995fa550849fabf63a80"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-desktop-poster.jpg",
+      "bytes": 247510,
+      "sha256": "f5bac8833dafb95df7300e2ab2614669949fdefa65fab28461c6ea360c5ba85d"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-desktop-web.mp4",
+      "bytes": 3355317,
+      "sha256": "cf4d29bb8993e13979f5389d82c8b530b178a76164ed5368f58ef0bc134838ec"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-mobile-poster.jpg",
+      "bytes": 152419,
+      "sha256": "9d35a7476173369137ad7f355bb18bf621674c09b9d06498fe7caf55d2e04044"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/o1a11/verdun-ile-des-soeurs-o1a11-hero-mobile-web.mp4",
+      "bytes": 2211992,
+      "sha256": "35ea841bfc3e35fd3c067645ae245a48125ef90fc445a25af3e172ef8553928e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/verdun-ile-des-soeurs/web-manifest.json",
+      "bytes": 5711,
+      "sha256": "0957e084615fe245a5834dc2732126afef4e262647947eaafd8acd9a3f22d64a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/02a22/ville-marie-02a22-hero-desktop-poster.jpg",
+      "bytes": 200823,
+      "sha256": "6e2a9ad1e33c5acd43d887c2ae1c6612f2cff0af22ea6fb786423b6e3f6268f6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/02a22/ville-marie-02a22-hero-desktop-web.mp4",
+      "bytes": 2286183,
+      "sha256": "b93313d2dcfa53e149c4afdf81963bffe3d0a0dbced93e70db1f81c3501f4841"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/02a22/ville-marie-02a22-hero-mobile-poster.jpg",
+      "bytes": 124951,
+      "sha256": "53f141c8ef71aed88ba34112bdf657a83a10d6fb1b2e31fee39e7fcbf740b152"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/02a22/ville-marie-02a22-hero-mobile-web.mp4",
+      "bytes": 1397259,
+      "sha256": "7a0a337e436651823cce4cb32ba49ad4bd54199c85bb6b98a89f15acc5f3ee0c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/03i33/ville-marie-03i33-hero-desktop-poster.jpg",
+      "bytes": 237675,
+      "sha256": "7ac8821f52f52e1107a0422dc491ca1f5c513fab0591f1cd2209a301e7fe72b6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/03i33/ville-marie-03i33-hero-desktop-web.mp4",
+      "bytes": 2421362,
+      "sha256": "63cee296d2ed238213c9c5d96ec1cd2eb749cb021e34cca9fb7049a7a4a77cf1"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/03i33/ville-marie-03i33-hero-mobile-poster.jpg",
+      "bytes": 141942,
+      "sha256": "56695bda5f8dc6db7745f9038a27140b083418479ee0d2882d648c9c5b7c51d6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/03i33/ville-marie-03i33-hero-mobile-web.mp4",
+      "bytes": 1486340,
+      "sha256": "4753c9976cf569b30dcd35809a8ee76bacab9e4ccdc1b91e41123fd49dce9f9f"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/04m44/ville-marie-04m44-hero-desktop-poster.jpg",
+      "bytes": 193809,
+      "sha256": "f6a9c6215204cd83fbb06dbc21cacf3a0a8c557c5667301c37ca22a23b3e1b44"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/04m44/ville-marie-04m44-hero-desktop-web.mp4",
+      "bytes": 2122632,
+      "sha256": "52875771060d81c0a0a0118d0d8f0e02b0da65f6e1fcd566cf5cf7cabe97f538"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/04m44/ville-marie-04m44-hero-mobile-poster.jpg",
+      "bytes": 109839,
+      "sha256": "0cebb542b071ff84468ac4943918e2d1d1ff5ad6a76b12a6b96852ef745bdcd9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/04m44/ville-marie-04m44-hero-mobile-web.mp4",
+      "bytes": 1252158,
+      "sha256": "70525a5c714aee40b52fdbc1177629c9fa5df628f02803c90e516dd43c95b9db"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/05c55/ville-marie-05c55-hero-desktop-poster.jpg",
+      "bytes": 260040,
+      "sha256": "900f8a4ae1e55b3d9e1925200c7f1e84ef1c4cb1d6d4dfc946db86347186735e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/05c55/ville-marie-05c55-hero-desktop-web.mp4",
+      "bytes": 2768793,
+      "sha256": "459a7feec6b2facf04432412f04cddf0c66db5a37aecbaaa151fd7303c79881a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/05c55/ville-marie-05c55-hero-mobile-poster.jpg",
+      "bytes": 147523,
+      "sha256": "d1e60d416051b1a4c27339cd86eea81ea2bf0f26f095d26aab04ccb5c3b5c106"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/05c55/ville-marie-05c55-hero-mobile-web.mp4",
+      "bytes": 1563950,
+      "sha256": "90e1962e4fbb8a66de4720f23cc57fc16d12c41e9db0a3ea41b2c7ef4e938613"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/main/ville-marie-main-hero-desktop-poster.jpg",
+      "bytes": 276430,
+      "sha256": "e3efa48d1fb6d7ee7c154578777d8496985a08ebe090b40cfe072bd112da74de"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/main/ville-marie-main-hero-desktop-web.mp4",
+      "bytes": 3171713,
+      "sha256": "d505a0d8b4a4d1fe8b4475d8846eee1a90b6f89a8a535363cc943576473119f5"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/main/ville-marie-main-hero-mobile-poster.jpg",
+      "bytes": 156227,
+      "sha256": "107adfa3312f187a0df5d50201aab07326976501edd94a98dca4e7834b844f02"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/main/ville-marie-main-hero-mobile-web.mp4",
+      "bytes": 1708275,
+      "sha256": "506f6c1b52d2032696e435f4050b973eab1eaec13c3f0a997e9ea1eca0730f53"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/o1a11/ville-marie-o1a11-hero-desktop-poster.jpg",
+      "bytes": 267568,
+      "sha256": "13b5e271b2a0cdaf1566889e8e0f2a44bc3f41ae481c2dd1cd511ac4f2fbb557"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/o1a11/ville-marie-o1a11-hero-desktop-web.mp4",
+      "bytes": 2731200,
+      "sha256": "dab022b36fa27815d7b50ba4891cdc79d46b854897dac3fc97d98a4b04b6a2bc"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/o1a11/ville-marie-o1a11-hero-mobile-poster.jpg",
+      "bytes": 159529,
+      "sha256": "41072534edafb54a84fb3c62bd134fe64669951c335f6e366efc0711ee7753fd"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/o1a11/ville-marie-o1a11-hero-mobile-web.mp4",
+      "bytes": 1608261,
+      "sha256": "6bbaeafc8840359249a0bc9d04fee64e394b7f014303025c6770ab4359bc4f3a"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/ville-marie/web-manifest.json",
+      "bytes": 5144,
+      "sha256": "959abef73f3b65ff350e873aef3f7844b92cc3bda13cae1da9d842af33189ab9"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-desktop-poster.jpg",
+      "bytes": 335949,
+      "sha256": "3dddc023a0792ae9592162197f84b586f175c8b2359afd75b8aa7c8f4b3c6b02"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-desktop-web.mp4",
+      "bytes": 4694781,
+      "sha256": "cf3111bfefd190546ad4bdd42e20b1884b6c0247b9c46938838234146bb7c61b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-mobile-poster.jpg",
+      "bytes": 168795,
+      "sha256": "d28996b3c42cab57d836508c3d9b304b11666f2d36066e6388b51ca28f7a7d09"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/02a22/villeray-saint-michel-parc-extension-02a22-hero-mobile-web.mp4",
+      "bytes": 1805138,
+      "sha256": "368cc674ba6acc5131c7af9bc282ef1f42ab49aa0a463856f64193c96db384eb"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-desktop-poster.jpg",
+      "bytes": 310463,
+      "sha256": "96b592eb8a233c210633ab523dd3ff93d959a101ab09493f5759718d0511f902"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-desktop-web.mp4",
+      "bytes": 4322608,
+      "sha256": "3f2c769956c955889c73e2a1ada83a16be7543872aa70ff60ebce9bbea9e95dc"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-mobile-poster.jpg",
+      "bytes": 178314,
+      "sha256": "5ccae538b8a9c004d4a8d20dff40f66f625d6719a2ca7a396bbf785c09f6b315"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/03i33/villeray-saint-michel-parc-extension-03i33-hero-mobile-web.mp4",
+      "bytes": 2263783,
+      "sha256": "e4d27de21540a8d5cb3b7f2156fe48f0d4881a79b8fc2d9429024a81b3367a7b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-desktop-poster.jpg",
+      "bytes": 200654,
+      "sha256": "4f1597ac7db0be80a77afc57e2e874351dab0ada69feecfba5fafe199743242d"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-desktop-web.mp4",
+      "bytes": 3620721,
+      "sha256": "ab5ffc105c2f0ba9fdd36b4ee2a757dc37441a99b924fda18ad48013ca952959"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-mobile-poster.jpg",
+      "bytes": 119057,
+      "sha256": "8fcc8936358d946754deb13e278eb8492f8398695be54dab4fbf470d8b4d2c75"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/04m44/villeray-saint-michel-parc-extension-04m44-hero-mobile-web.mp4",
+      "bytes": 1454812,
+      "sha256": "44de31d4cdc27dda2c3839f7816ba6d8e4c6666921b4ecfe55e1303a37cb4253"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-desktop-poster.jpg",
+      "bytes": 151770,
+      "sha256": "786e2705375e7a73bce766901d10657558b04bd5c58b18fa49c12d6218c6049b"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-desktop-web.mp4",
+      "bytes": 1389620,
+      "sha256": "eedcfc41deab63e684c18c3a08c759e10d3d7b600d84d70f7c69b50a69d20e45"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-mobile-poster.jpg",
+      "bytes": 104715,
+      "sha256": "bc79e43344e3131da4f2ba0a37824ea2e895be505531f11eb5f84c08fc2d9396"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/05c55/villeray-saint-michel-parc-extension-05c55-hero-mobile-web.mp4",
+      "bytes": 781931,
+      "sha256": "fd2feadfc60883030ad7ea968f2bf0146acb9dda72ca6f6de131f7fb6d754b67"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-desktop-poster.jpg",
+      "bytes": 164877,
+      "sha256": "866069e53737e5b980b39964b1a7744f1b3a1c06e161095bd8aa6a8bd754c9ca"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-desktop-web.mp4",
+      "bytes": 3154969,
+      "sha256": "49238e454004b243aae41753ae027b9bc7434e03585da09286186e742097489e"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-mobile-poster.jpg",
+      "bytes": 97329,
+      "sha256": "3c535021a00479eecf39ef0195ea3fe9564717f2bc4aea36586db176529403d3"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/main/villeray-saint-michel-parc-extension-main-hero-mobile-web.mp4",
+      "bytes": 1204493,
+      "sha256": "15b08eee6b00c64da2f03694ae94330ede2cc09f61b6a0e16a60b403bea314c7"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-desktop-poster.jpg",
+      "bytes": 160427,
+      "sha256": "c612200069e2b55db930f87442dd4c1458e62adb0388e78bc4e9b051f802275c"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-desktop-web.mp4",
+      "bytes": 3257854,
+      "sha256": "585de2c5bc36407c25526c70c511ba2c0ee454316a8f3a9bda834f38127325a1"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-mobile-poster.jpg",
+      "bytes": 91435,
+      "sha256": "9622395cb775ac65bbbb66b40d4fd46647ad14751f75f333c3b6ee70d89b7830"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/o1a11/villeray-saint-michel-parc-extension-o1a11-hero-mobile-web.mp4",
+      "bytes": 1313136,
+      "sha256": "1d08801670f5543bc6320b68b0e423bfeaa6aa34f562ea66a7e1f23e45a680f6"
+    },
+    {
+      "status": "A",
+      "path": "assets/video/heroes/heroes-2026-08-31-v01/villeray-saint-michel-parc-extension/web-manifest.json",
+      "bytes": 6548,
+      "sha256": "e2f596330ac76dff8eeaabccf1d72ecc3decdf85794272be8ed555bb943796f9"
+    },
+    {
+      "status": "M",
+      "path": "cdn-cote-saint-luc/02a22/index.html",
+      "bytes": 20447,
+      "sha256": "4ada506305c37b9611a380f9e7057dba8950c9553afbfb3df0285c23c793ba10"
+    },
+    {
+      "status": "M",
+      "path": "cdn-cote-saint-luc/03i33/index.html",
+      "bytes": 20280,
+      "sha256": "8b72b51ccda309cbb2b10f3db9e5bc88e860f92577e1ee21c3dd5e4c24095476"
+    },
+    {
+      "status": "M",
+      "path": "cdn-cote-saint-luc/04m44/index.html",
+      "bytes": 20220,
+      "sha256": "cc75445f1b2ecfaf71f8a0bd01bb82a5ef0f4d172a8c59049f14893deb0d7fd3"
+    },
+    {
+      "status": "M",
+      "path": "cdn-cote-saint-luc/05c55/index.html",
+      "bytes": 20267,
+      "sha256": "ab74af164cba098d10a4aabd705310705bfcff1eaa81ddd03bdf2acc57b57b0d"
+    },
+    {
+      "status": "M",
+      "path": "cdn-cote-saint-luc/o1a11/index.html",
+      "bytes": 20317,
+      "sha256": "f4d0210d57d1ce2712def99397f83522095d9aa8ae5a3f913265ff2a953ee90e"
+    },
+    {
+      "status": "A",
+      "path": "credits-heros-secteurs.html",
+      "bytes": 152497,
+      "sha256": "ba83f5fc5e5b8d815a9cefdcd482a77c839c870bfd063ecaf5d4662679985924"
+    },
+    {
+      "status": "A",
+      "path": "data/sector-hero-map.json",
+      "bytes": 82758,
+      "sha256": "7eb7d2eb4792e5da9d0f39f624973334dc4c9155889b2f5fd63cf5c4b386ebf8"
+    },
+    {
+      "status": "A",
+      "path": "DEPLOYMENT_PACKAGE.md",
+      "bytes": 2673,
+      "sha256": "c9c964fb6dc46324c771fc0d89be7c3eca4e806757e19057f331097fda745742"
+    },
+    {
+      "status": "A",
+      "path": "HERO_INTEGRATION_STATUS.md",
+      "bytes": 2374,
+      "sha256": "750e147ab8332748780e86998411f04146a77bc161cd2e997da83d785b7c3ad8"
+    },
+    {
+      "status": "M",
+      "path": "lachine-lasalle/02a22/index.html",
+      "bytes": 20277,
+      "sha256": "365cf68067efa7d6334eefe7bd7dcecdd0f3b979f34ed82bd94e3dddfaea7acb"
+    },
+    {
+      "status": "M",
+      "path": "lachine-lasalle/03i33/index.html",
+      "bytes": 20102,
+      "sha256": "3725b2294c74b75906a90cd8ca33b5e46beff0c0f9dfd639f76c40b3ff08daba"
+    },
+    {
+      "status": "M",
+      "path": "lachine-lasalle/04m44/index.html",
+      "bytes": 20042,
+      "sha256": "04d6f678f5f799b8fd99f90f96047c480f2d74569ee5be7d7a8fe57d4d27614d"
+    },
+    {
+      "status": "M",
+      "path": "lachine-lasalle/05c55/index.html",
+      "bytes": 20089,
+      "sha256": "c6f1558e953a02a3c9e4f10f1adee04fa057fbf1e4d5f5f69e7859f19ed9d63f"
+    },
+    {
+      "status": "M",
+      "path": "lachine-lasalle/o1a11/index.html",
+      "bytes": 20143,
+      "sha256": "6679df8a22143f4f9ed09c60d08951fbd19b28d33b2f71e5e11d8b8fc8d8c798"
+    },
+    {
+      "status": "M",
+      "path": "laval/02a22/index.html",
+      "bytes": 21222,
+      "sha256": "aded9c266543d08c41594370dc62d112084c947856573c981967378b6c62550a"
+    },
+    {
+      "status": "M",
+      "path": "laval/03i33/index.html",
+      "bytes": 20989,
+      "sha256": "4a6e978fd31892f5e60729f19a909a4bd80afd51957f66bdac2ceb6827aaab02"
+    },
+    {
+      "status": "M",
+      "path": "laval/04m44/index.html",
+      "bytes": 20568,
+      "sha256": "6750686b8e4a93db99febf5fe6ab9ef9213b60ae39837f35af1ef77a5ccd33be"
+    },
+    {
+      "status": "M",
+      "path": "laval/05c55/index.html",
+      "bytes": 20822,
+      "sha256": "635bf18bffd2d057abbb7d600cffd88d8deb0b6a610076aeb946622dff7d4df6"
+    },
+    {
+      "status": "M",
+      "path": "laval/o1a11/index.html",
+      "bytes": 22601,
+      "sha256": "0ee314ed04c9a5bf0d5b1e0a39d0e2673323b0ea9d5b9dad807696af60593db2"
+    },
+    {
+      "status": "M",
+      "path": "le-plateau-mont-royal/02a22/index.html",
+      "bytes": 20805,
+      "sha256": "995145f10f3024f8bd20006814ab13193ee59802da013b9bee0ecc756f04dda7"
+    },
+    {
+      "status": "M",
+      "path": "le-plateau-mont-royal/03i33/index.html",
+      "bytes": 20584,
+      "sha256": "cd7f0311b180c378ecf8140bd179e48d50144775ae94322213532a7141dfd63b"
+    },
+    {
+      "status": "M",
+      "path": "le-plateau-mont-royal/04m44/index.html",
+      "bytes": 20555,
+      "sha256": "8e9d6d94d81e31e20976f9e82c1f224d8cf7b1c4ebd023a359d973ce5457f136"
+    },
+    {
+      "status": "M",
+      "path": "le-plateau-mont-royal/05c55/index.html",
+      "bytes": 20470,
+      "sha256": "15b7be2c1992416d9146e692bb45056ab5e2a9e924952c4877667d64e2748f38"
+    },
+    {
+      "status": "M",
+      "path": "le-plateau-mont-royal/o1a11/index.html",
+      "bytes": 22101,
+      "sha256": "83367018ee6d612e13c36de83d351c350c499a847dcc797c7a43573368a7f6d9"
+    },
+    {
+      "status": "M",
+      "path": "le-sud-ouest/02a22/index.html",
+      "bytes": 20309,
+      "sha256": "4a74a1569b379ada6dc2f81b353b81a68575afa98f1763e37fe63b420028f5fb"
+    },
+    {
+      "status": "M",
+      "path": "le-sud-ouest/03i33/index.html",
+      "bytes": 20074,
+      "sha256": "904cb10ab25a5c60b62656cbd809e4f6420d6a817028c8d5faabbfef34ab5352"
+    },
+    {
+      "status": "M",
+      "path": "le-sud-ouest/04m44/index.html",
+      "bytes": 20063,
+      "sha256": "22427c1eaf15f5c53f7066e98e0e9576925f78f88d97676a108f150e24dd71f8"
+    },
+    {
+      "status": "M",
+      "path": "le-sud-ouest/05c55/index.html",
+      "bytes": 19976,
+      "sha256": "a98fcf1fe455a3a58e484bafbeb492f8d3f937e2f9d023a5c196ee5c15b04b3c"
+    },
+    {
+      "status": "M",
+      "path": "le-sud-ouest/o1a11/index.html",
+      "bytes": 21605,
+      "sha256": "3cf2d5b39d7560998265321e26754a81b9d29ed7024a31ca8508fc07359737a4"
+    },
+    {
+      "status": "M",
+      "path": "longueuil/02a22/index.html",
+      "bytes": 20196,
+      "sha256": "f8ff963975f734ae39b1e3700db611c00ed7debbfae6c37dd3bb0278ca60555a"
+    },
+    {
+      "status": "M",
+      "path": "longueuil/03i33/index.html",
+      "bytes": 19947,
+      "sha256": "1384c633effc056d0e4b5b725dd6614dab618720fe4440be956e963f88a9e911"
+    },
+    {
+      "status": "M",
+      "path": "longueuil/04m44/index.html",
+      "bytes": 19932,
+      "sha256": "511247834226fb5335a19717af769ec487a64f8c7f1178d6683e3152abd20fea"
+    },
+    {
+      "status": "M",
+      "path": "longueuil/05c55/index.html",
+      "bytes": 19855,
+      "sha256": "56593b701dd5b0b419000640cc56b58be0e8042e9e0f3e08bab495ea4cb7d58b"
+    },
+    {
+      "status": "M",
+      "path": "longueuil/o1a11/index.html",
+      "bytes": 21487,
+      "sha256": "1e11e46ebe78afb30b1e39256267c585494e51c1629e2ca23249b21060ccef94"
+    },
+    {
+      "status": "M",
+      "path": "mercier-hochelaga-maisonneuve/02a22/index.html",
+      "bytes": 21323,
+      "sha256": "12bbb30fbaba6da9ceec946dbf734a276e22d560b9f8451fb5be9eeb333ffffc"
+    },
+    {
+      "status": "M",
+      "path": "mercier-hochelaga-maisonneuve/03i33/index.html",
+      "bytes": 21099,
+      "sha256": "400dd8d5df757aa44d0100a4ae7de39b2855ea2f017e778a760eeca34bd89bd5"
+    },
+    {
+      "status": "M",
+      "path": "mercier-hochelaga-maisonneuve/04m44/index.html",
+      "bytes": 21050,
+      "sha256": "96b5b2e0c151d7b517d3419f2fa94a4aa4ff203eebe9612f36ff65a1cff25007"
+    },
+    {
+      "status": "M",
+      "path": "mercier-hochelaga-maisonneuve/05c55/index.html",
+      "bytes": 20969,
+      "sha256": "789c40a1c8389f401007dd04039fb2f489897fedf0aca94d0d6253a75e1e3c2d"
+    },
+    {
+      "status": "M",
+      "path": "mercier-hochelaga-maisonneuve/o1a11/index.html",
+      "bytes": 22607,
+      "sha256": "172ec0a79d906750e9d6604aae29a5a12f16d02d462788527a668a651d7d6ce1"
+    },
+    {
+      "status": "M",
+      "path": "ndg-montreal-ouest/02a22/index.html",
+      "bytes": 20810,
+      "sha256": "4b2f9f45fb0206ee6b3648de060969e91d98c56e0ea69746486d2743f68cbc05"
+    },
+    {
+      "status": "M",
+      "path": "ndg-montreal-ouest/03i33/index.html",
+      "bytes": 20595,
+      "sha256": "561ccce482906ad369f96680d66b559369f5a22373286058716ecfeead76f57a"
+    },
+    {
+      "status": "M",
+      "path": "ndg-montreal-ouest/04m44/index.html",
+      "bytes": 20566,
+      "sha256": "10c7ee598e0db39b7d9b426a8301673ceb1bf18710f677eafec1a0e4affad610"
+    },
+    {
+      "status": "M",
+      "path": "ndg-montreal-ouest/05c55/index.html",
+      "bytes": 20467,
+      "sha256": "d556e96ba230aea1b26f587c2eb6ef53f7156fe81b1421e3a421da6a888e251c"
+    },
+    {
+      "status": "M",
+      "path": "ndg-montreal-ouest/o1a11/index.html",
+      "bytes": 22087,
+      "sha256": "33c57d3d2110dbfa51cfa5f83dfecc9c493c47d5df9c0fc46ae5c5fbec7a5877"
+    },
+    {
+      "status": "M",
+      "path": "ouest-de-lile/02a22/index.html",
+      "bytes": 21260,
+      "sha256": "ffe4b50496a7b825b2c67e3c898fb2f5a966e1caa2fdceedfdffc32d96c12c80"
+    },
+    {
+      "status": "M",
+      "path": "ouest-de-lile/03i33/index.html",
+      "bytes": 21121,
+      "sha256": "44e0e4eeb2e58b1c6a507f0c3272e4bb572ee10eb8383b0da2ba1662a6861627"
+    },
+    {
+      "status": "M",
+      "path": "ouest-de-lile/04m44/index.html",
+      "bytes": 21057,
+      "sha256": "a8eb86a7443181208ca4b27213a4b88f672e4a7e990cdfbd00d87012b45ece79"
+    },
+    {
+      "status": "M",
+      "path": "ouest-de-lile/05c55/index.html",
+      "bytes": 20949,
+      "sha256": "ad46546e6631b1f95823597cd22aae00f221f8d7198bff1f1479127e0ad60ea1"
+    },
+    {
+      "status": "M",
+      "path": "ouest-de-lile/o1a11/index.html",
+      "bytes": 21253,
+      "sha256": "351c779bfd37ad9f2eaade21ccad44392da19f5386c1313b48380eef5b9d162f"
+    },
+    {
+      "status": "M",
+      "path": "outremont-westmount-vmr/02a22/index.html",
+      "bytes": 21086,
+      "sha256": "959ac3fab88741f0b65ba9452f3524b6c2ddb07abdc2a41799be205f72b9931c"
+    },
+    {
+      "status": "M",
+      "path": "outremont-westmount-vmr/03i33/index.html",
+      "bytes": 20966,
+      "sha256": "b131b76467796d249a44f5684cb6dc586d75c39364e922ab519502eb0464ed0d"
+    },
+    {
+      "status": "M",
+      "path": "outremont-westmount-vmr/04m44/index.html",
+      "bytes": 20900,
+      "sha256": "cc5e4092b659e3cb6117f6941076669e6106ec127a848bf740b7a6cc6a973562"
+    },
+    {
+      "status": "M",
+      "path": "outremont-westmount-vmr/05c55/index.html",
+      "bytes": 20787,
+      "sha256": "1aab5cda7fa74151733aa013487c9dfd8dfb9fe1b7e638c01145b2944818729d"
+    },
+    {
+      "status": "M",
+      "path": "outremont-westmount-vmr/o1a11/index.html",
+      "bytes": 22386,
+      "sha256": "8685ba72dd01e2f20c89a27c84014b8c254680d12d3dbe506c0c0e9157b43781"
+    },
+    {
+      "status": "A",
+      "path": "qa/build-hero-deployment-inventory.mjs",
+      "bytes": 3476,
+      "sha256": "d2c24f0308c4a0a6dbd95f7e56d5183294eee510b34a13d46a21d0672c595325"
+    },
+    {
+      "status": "A",
+      "path": "qa/check-sector-page-links.mjs",
+      "bytes": 4221,
+      "sha256": "0fc593c41e753b90b2d6ba24b2041a3143e8e0b8abe82cebdbd054a058d8b65c"
+    },
+    {
+      "status": "A",
+      "path": "qa/serve-sector-hero-preview.mjs",
+      "bytes": 10551,
+      "sha256": "66293293ef0929c5f8cc8890401223d60cdc6519e2a2221c35f2d16c498cfc8f"
+    },
+    {
+      "status": "A",
+      "path": "qa/test-sector-hero-runtime.mjs",
+      "bytes": 4046,
+      "sha256": "b7451ce9e2f14f0c9976194ebc586523f8b26ded2ec38a1ade197457392fea23"
+    },
+    {
+      "status": "A",
+      "path": "qa/validate-multi-sector-hero-integration.mjs",
+      "bytes": 16132,
+      "sha256": "1b02114d5707283183b43981cd25a1861a130f8c9f0713683a61ba319e25c946"
+    },
+    {
+      "status": "M",
+      "path": "repentigny/02a22/index.html",
+      "bytes": 20240,
+      "sha256": "6c9bd7ac4284a36bcc7d6922c13d76e435d59b1cdceff2b7d5d7e6496d7a8468"
+    },
+    {
+      "status": "M",
+      "path": "repentigny/03i33/index.html",
+      "bytes": 20108,
+      "sha256": "d64858ea3a653fe8f4be32be1258a89ec2e263265e02aa8da9a97d68a8a3f526"
+    },
+    {
+      "status": "M",
+      "path": "repentigny/04m44/index.html",
+      "bytes": 19976,
+      "sha256": "5f4d72b0ff2ebbcf2df17e23b7143a47ee4517b47bc1fc9fd809f0c82219b6e3"
+    },
+    {
+      "status": "M",
+      "path": "repentigny/05c55/index.html",
+      "bytes": 19897,
+      "sha256": "862ac266db37255c27ede357117d628919fbb7f9a6282f519157a240c7f86b05"
+    },
+    {
+      "status": "M",
+      "path": "repentigny/o1a11/index.html",
+      "bytes": 21530,
+      "sha256": "8d03482958aac02a28219c7e6981464b1504722fc69ff04d851cc3ff222c5f3f"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/captures/rosemont-o1a11-1280x800.png",
+      "bytes": 130099,
+      "sha256": "4d0066fc0afc5046b0bc36a245d09544c0cb4ba6e9f76d8f75594410ab832b3d"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/captures/vaudreuil-04m44-390x844.png",
+      "bytes": 53850,
+      "sha256": "5854de521c2e038dcb234ed21e56aee340bc45ebd32750965bb04776c6eed4d5"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/captures/villeray-main-1920x1080.png",
+      "bytes": 196824,
+      "sha256": "b6ee13501f3f5a3e4285923f8d52cbb990673ee8abf3b4b5f7371f25bd9ace35"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/captures/villeray-main-390x844.png",
+      "bytes": 57967,
+      "sha256": "c053225cb167b500bf281543a716c10774bd959ced6f6bf228a75244a94737f7"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/G0-site-audit.md",
+      "bytes": 3151,
+      "sha256": "9dc412279df23a833340731f15d4cdba34c8dda0a78ac4a6a854cf115a3b9a17"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/G1-release-verification.md",
+      "bytes": 1458,
+      "sha256": "0d0d16f81a61bc1ea6282d25c3859cd12e685dd6c71ed86056ff9f8feb2ff31d"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/G2-G4-adapter-component-pages.md",
+      "bytes": 3079,
+      "sha256": "bd2b26cf1e718a901da19d250a0c83476b5107fd0b2e9c38e33204cb8bbb6e01"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/G5-static-qa.md",
+      "bytes": 1506,
+      "sha256": "df1dabbcfa11e705b81be284aede8bceafb8c3d4c0c676671eaaba960601275e"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/G6-browser-qa.md",
+      "bytes": 4930,
+      "sha256": "cb2fee1d052bc12ae1e5b9b78ca394397dacae92482deed33eb9ee987c52b554"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/G7-independent-review.md",
+      "bytes": 2460,
+      "sha256": "99a5a02fc65633f2866c44264b3146b8348e611c88f04cb4eedd53df3f347e9f"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/G8-deployment-readiness.md",
+      "bytes": 1617,
+      "sha256": "425bf224002c662cbcbf75b03cb02a4e4d757891be994f734045a88c0a0bb0de"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/G9-production-not-authorized.md",
+      "bytes": 619,
+      "sha256": "a4b00139239813006256bcdfc05861a62360a869c3a4a99aaf34f64c3994ace3"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/mobile-network-proof.json",
+      "bytes": 2296,
+      "sha256": "3e1a67781060b21c8e69d150bf2004f12a8f7ff6f947c7b7d902246e6d101a74"
+    },
+    {
+      "status": "A",
+      "path": "reports/hero-integration/POINT-DE-REPRISE.md",
+      "bytes": 1745,
+      "sha256": "06ccd95d942a6204cc3405888ccd62f987bac915060642125fd80da6a46a3163"
+    },
+    {
+      "status": "A",
+      "path": "ROLLBACK.md",
+      "bytes": 2153,
+      "sha256": "75c0f9d999d6fac70bfd13bdc8693c8fb95bd1373ec10de533097f6023b33fea"
+    },
+    {
+      "status": "M",
+      "path": "rosemont-la-petite-patrie/02a22/index.html",
+      "bytes": 26190,
+      "sha256": "372ba851339d65826064c2ff235d97f40f0b200d2f0b03a3e96e114473f1c885"
+    },
+    {
+      "status": "M",
+      "path": "rosemont-la-petite-patrie/03i33/index.html",
+      "bytes": 21552,
+      "sha256": "f0f157e02656e2bc3cdd1c70f266094b98c745da12d0df90490f451566efea9f"
+    },
+    {
+      "status": "M",
+      "path": "rosemont-la-petite-patrie/04m44/index.html",
+      "bytes": 24735,
+      "sha256": "6e3235d95f50a4d78b84b3c521ecba84e7f688aa2085d65da56f1624f8fbc386"
+    },
+    {
+      "status": "M",
+      "path": "rosemont-la-petite-patrie/05c55/index.html",
+      "bytes": 24063,
+      "sha256": "eb4af1cb69ee45fd8f8d9c40a7aef14cdd7758ef5327b1520f863c0b93aa79b8"
+    },
+    {
+      "status": "M",
+      "path": "rosemont-la-petite-patrie/o1a11/index.html",
+      "bytes": 26122,
+      "sha256": "3bb7eff980a5e4a16bc3a0e5078e67130b9511a7e8cf8761b57b949909f9f893"
+    },
+    {
+      "status": "M",
+      "path": "saint-laurent/02a22/index.html",
+      "bytes": 20441,
+      "sha256": "b89755ea4a164dcc81067d2392aa2949dfece527b07e4d93785d31d7f1b400ac"
+    },
+    {
+      "status": "M",
+      "path": "saint-laurent/03i33/index.html",
+      "bytes": 20356,
+      "sha256": "f5a3cedb08523b8f858db703efa0fe81b539abd185edad2f64d383eb74abf5ce"
+    },
+    {
+      "status": "M",
+      "path": "saint-laurent/04m44/index.html",
+      "bytes": 20197,
+      "sha256": "806556894b4c653d9c0663174448612329b9782d6a6a5e9fcc6e42276ccc98f9"
+    },
+    {
+      "status": "M",
+      "path": "saint-laurent/05c55/index.html",
+      "bytes": 20106,
+      "sha256": "7117155403c6edff62908b9682e053254118a569e94d143df7ec9a3a52068a30"
+    },
+    {
+      "status": "M",
+      "path": "saint-laurent/o1a11/index.html",
+      "bytes": 21736,
+      "sha256": "90e3ce880f4e3e1e61a2552f6683964d53cc687306031645334dfa0ad1b4ca6f"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/ahuntsic-cartierville/index.html",
+      "bytes": 21769,
+      "sha256": "31f4c423ba944f97899692de4d567ec85b342471e3d6d2b751313fe98ce64e99"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/anjou-saint-leonard/index.html",
+      "bytes": 21663,
+      "sha256": "cd3e3eb55415045130f6b50aa0ec980a1d0a98ccec1a6af7ad2794da1694a652"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/cdn-cote-saint-luc/index.html",
+      "bytes": 21573,
+      "sha256": "69cb313e4517f623fccb8950b013b222af647033050fcb1d712cf547976b379d"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/lachine-lasalle/index.html",
+      "bytes": 21346,
+      "sha256": "68f7d3cce1bf0728c593d2951788efd38c5f154ae810cfa883c2cd9b56950527"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/laval/index.html",
+      "bytes": 23366,
+      "sha256": "1a7c6a152fd7d6305f3fb5499e0fc1e844c46e3beeb249484e60e07b60719a06"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/le-plateau-mont-royal/index.html",
+      "bytes": 23535,
+      "sha256": "e598ccbb10b9277ab50768826bfeaa58f5ec0144c6f0cf25dff7481c20eeef92"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/le-sud-ouest/index.html",
+      "bytes": 22967,
+      "sha256": "d0db6c705be959d83ada645b9f3a502d5cf4d9e7342714d89ce78b28252806de"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/longueuil/index.html",
+      "bytes": 22742,
+      "sha256": "42926a3e91b29cfe288301f9390d0ee8b48e0ee6382fafeb942b8db5465f6774"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/mercier-hochelaga-maisonneuve/index.html",
+      "bytes": 24190,
+      "sha256": "62659b7c415d4f4aa366f7e871f260a48d0ebb7144c2ee49e5aaa8d8f4c35257"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/ndg-montreal-ouest/index.html",
+      "bytes": 23622,
+      "sha256": "e01fa05515ee470ab87b6b0e0190fa2db4c08b3a03083f32f6124302de04a7ee"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/ouest-de-lile/index.html",
+      "bytes": 22663,
+      "sha256": "516ad2a31f17d7c76a5fb8df954e7c4481fc0a85a945995c1929b69f1ad98236"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/outremont-westmount-vmr/index.html",
+      "bytes": 24020,
+      "sha256": "30a03d6b9d3842d2ffed7c1e835e9e4467d18ef6ea644ef96ead78a20da0d5de"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/repentigny/index.html",
+      "bytes": 22816,
+      "sha256": "0801e16a42633cd392acc1c11473050653525e39ee248aa6238a8e20c7714dab"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/rosemont-la-petite-patrie/index.html",
+      "bytes": 25000,
+      "sha256": "09be0a4bceb0df5831054fecf530ea7419082b28c00dfb8b7d49f79c0ae8fd19"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/saint-laurent/index.html",
+      "bytes": 23096,
+      "sha256": "b836270f96cc7500d79e17601067753e6d7ce1b83782a3fa02b9f03aff8759a1"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/vaudreuil-soulanges/index.html",
+      "bytes": 28951,
+      "sha256": "9af8e546620ffc0d0b68be539a83e41eca9f36a530d2605db295323b6ce05c2f"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/verdun-ile-des-soeurs/index.html",
+      "bytes": 24131,
+      "sha256": "6926411a022fb87cdbeda0642b1e9586fe720cbfd62d051582d70541553fa6bc"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/ville-marie/index.html",
+      "bytes": 22984,
+      "sha256": "3fff583ee9d08065737ca743e288d88e6112a95e806314cd81e1dec98ca36453"
+    },
+    {
+      "status": "M",
+      "path": "secteurs/villeray-saint-michel-parc-extension/index.html",
+      "bytes": 24963,
+      "sha256": "ccc97c72329fc696aad79ba0ed0e0bda0817796285cbc623e3f8c5365bbb9a3b"
+    },
+    {
+      "status": "A",
+      "path": "sector-hero.css",
+      "bytes": 4107,
+      "sha256": "d39ae9899b04aa3f6722002785e44555d7e105916f742b1c4583b2b28f23b66a"
+    },
+    {
+      "status": "A",
+      "path": "sector-hero.js",
+      "bytes": 2506,
+      "sha256": "5f7346b84221f574a494f51517bfdb7d87d1daa2f1876666bef6ddc81cbc0d56"
+    },
+    {
+      "status": "A",
+      "path": "tools/integrate-multi-sector-heroes.mjs",
+      "bytes": 23071,
+      "sha256": "be8aa66bbc0c55be147b1e3f1642a822319d125e5e90439d37c47ee26a4cf50a"
+    },
+    {
+      "status": "M",
+      "path": "vaudreuil-soulanges/02a22/index.html",
+      "bytes": 28016,
+      "sha256": "d9022e398046b510caf0dc42c398fb325464a09b46381b7770a76dfe9805c790"
+    },
+    {
+      "status": "M",
+      "path": "vaudreuil-soulanges/03i33/index.html",
+      "bytes": 24448,
+      "sha256": "f0716486ba711dcb166cdcd3a6d249aebcc2ce024ee46583e2d754fd0993a925"
+    },
+    {
+      "status": "M",
+      "path": "vaudreuil-soulanges/04m44/index.html",
+      "bytes": 27221,
+      "sha256": "617d5d0fd4656638d83c5ab97adf8b00203fa065ac773c07907ca02f3cb2c513"
+    },
+    {
+      "status": "M",
+      "path": "vaudreuil-soulanges/05c55/index.html",
+      "bytes": 26999,
+      "sha256": "78b69cc6385fd6ad0d6304d2f6ffd7c2e33831cfd333600dd24d209364d73ca4"
+    },
+    {
+      "status": "M",
+      "path": "vaudreuil-soulanges/o1a11/index.html",
+      "bytes": 29166,
+      "sha256": "8830c50a41696ebddd7e78c4902806baf49327a1db70ebd54f4cd741e443df63"
+    },
+    {
+      "status": "M",
+      "path": "verdun-ile-des-soeurs/02a22/index.html",
+      "bytes": 21296,
+      "sha256": "d9b3da146297f47e39e7b7f74c962563e118c5a48da320a88962d2858b0d84c6"
+    },
+    {
+      "status": "M",
+      "path": "verdun-ile-des-soeurs/03i33/index.html",
+      "bytes": 21474,
+      "sha256": "a5333a3f38ea346a53f0059e71d6ed8bcd53a45869090b0c422741caad7a5c2f"
+    },
+    {
+      "status": "M",
+      "path": "verdun-ile-des-soeurs/04m44/index.html",
+      "bytes": 20993,
+      "sha256": "3e6d0fc5a5fdd44304ae88c85c1fd5ce23ca22e8b4f275e423346033e69d98c5"
+    },
+    {
+      "status": "M",
+      "path": "verdun-ile-des-soeurs/05c55/index.html",
+      "bytes": 20954,
+      "sha256": "5cc73c8a3f92401accef5da9074f294e0c31dde2646e7da9bf009908360c4cee"
+    },
+    {
+      "status": "M",
+      "path": "verdun-ile-des-soeurs/o1a11/index.html",
+      "bytes": 22565,
+      "sha256": "a9e69d5caa1699bb2b4abcd5600d372a414b5ec9d5492eb29e41d23cdbc17085"
+    },
+    {
+      "status": "M",
+      "path": "ville-marie/02a22/index.html",
+      "bytes": 20337,
+      "sha256": "2c429356a55efbfc892d84c6b7c867f5b760bdb02d6e6bc442744408c84dd651"
+    },
+    {
+      "status": "M",
+      "path": "ville-marie/03i33/index.html",
+      "bytes": 20236,
+      "sha256": "f733c3150261006edf2796437241acca28810968c28cf222cfdb31dffede80ff"
+    },
+    {
+      "status": "M",
+      "path": "ville-marie/04m44/index.html",
+      "bytes": 20102,
+      "sha256": "9ac61d6cdbd2c4895ef2dc395a7d7a7d42c5ab2173aa32b100685bd28ce36715"
+    },
+    {
+      "status": "M",
+      "path": "ville-marie/05c55/index.html",
+      "bytes": 20005,
+      "sha256": "9524ccaa683cbaf1c8b184bce2075809349d4f44ae5a188f7286317fd68ed755"
+    },
+    {
+      "status": "M",
+      "path": "ville-marie/o1a11/index.html",
+      "bytes": 21643,
+      "sha256": "4392be5557c60ed6cf7fdbb5b61c3b801cbfd6b6e1c6b70353e9de340b14baa5"
+    },
+    {
+      "status": "M",
+      "path": "villeray-saint-michel-parc-extension/02a22/index.html",
+      "bytes": 21785,
+      "sha256": "25b099df6cb15f7a159d505ce9e84f8035caa7d8732e9e925c1f8081fe3badd8"
+    },
+    {
+      "status": "M",
+      "path": "villeray-saint-michel-parc-extension/03i33/index.html",
+      "bytes": 21726,
+      "sha256": "f6890bfa614cf9119a0fc9e8126608be232780ec840cd8f1b447695c764e0d63"
+    },
+    {
+      "status": "M",
+      "path": "villeray-saint-michel-parc-extension/04m44/index.html",
+      "bytes": 21619,
+      "sha256": "143a1d5856bcfaa2283b44e555eeb23c5b7f1e8408a2dd60565222421265a15b"
+    },
+    {
+      "status": "M",
+      "path": "villeray-saint-michel-parc-extension/05c55/index.html",
+      "bytes": 21517,
+      "sha256": "32c32bfa59dece9c4c52661798b73ee719ef6134c9fc19cbf9167cf455bb98a5"
+    },
+    {
+      "status": "M",
+      "path": "villeray-saint-michel-parc-extension/o1a11/index.html",
+      "bytes": 23098,
+      "sha256": "a4ce09e4bfa1da6eef6517e02274ff238db5443078cd3828647f29db23fce233"
+    }
+  ]
+}
