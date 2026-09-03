@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "cdn-cote-saint-luc",
+  "displayName": "CDN / Côte-Saint-Luc",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/cdn-cote-saint-luc/",
+      "applicable": true,
+      "desktopVideo": "cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-desktop-web.mp4",
+      "mobileVideo": "cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-mobile-web.mp4",
+      "desktopPoster": "cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-desktop-poster.jpg",
+      "mobilePoster": "cdn-cote-saint-luc/main/cdn-cote-saint-luc-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "df1b6150b404c52bb6960f7b2470f3ed53cdb129314beb9d6a961c20c64fe845",
+        "desktopPoster": "d64edf3ebe614b9b3f16cf79f8dc7bdd28b87a4a21b1f7c6904a1b6659729f95",
+        "mobileVideo": "8a01c8eda353131322b28e0cb408e04deb2edb2e7cd73ebe541c7716c4fb2c00",
+        "mobilePoster": "38e7e57bfe4d75a5eec021eece1b62f9651abadc98b4d5922776709b8c62e60b"
+      }
+    },
+    "o1a11": {
+      "route": "/cdn-cote-saint-luc/o1a11/",
+      "applicable": true,
+      "desktopVideo": "cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "cdn-cote-saint-luc/o1a11/cdn-cote-saint-luc-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "679567ac8749b0e5f7b030b4eac59abd62ececb4af1a5b814a92a5c8b30b4b7d",
+        "desktopPoster": "4ac8b3a5d07914d6b89b5556646e1ff31396a5b5ec05aae3ba1442f9d32fa28e",
+        "mobileVideo": "1a661520fe0249242a2c7252f98fd9419a8e628f9e674afd32ff4f468d35899b",
+        "mobilePoster": "4b58d859db85a6ea4924b0ea505ff7a982050a88578c38e26f03f4932ab5fb95"
+      }
+    },
+    "02a22": {
+      "route": "/cdn-cote-saint-luc/02a22/",
+      "applicable": true,
+      "desktopVideo": "cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "cdn-cote-saint-luc/02a22/cdn-cote-saint-luc-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "4785a5e599c39ade61fb20730238ea635da52fbac078a778ed04713dd313ddbd",
+        "desktopPoster": "e9158c5d9b69581969134b0d0e9a82ae51c6f113ba91c5201673028708d2fdf3",
+        "mobileVideo": "e612ceb9727a4a7bd0fab8e8790255aa42be331eac9f000aa68e0c66d1321732",
+        "mobilePoster": "b24b5cb45cc9a1f102cb83abb9a521afbe9718e405a0217cec12a22c6bb68e92"
+      }
+    },
+    "03i33": {
+      "route": "/cdn-cote-saint-luc/03i33/",
+      "applicable": true,
+      "desktopVideo": "cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "cdn-cote-saint-luc/03i33/cdn-cote-saint-luc-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "45c8c734ea8eb581b4edcb3de4f6469c98424aadcdd14c40f36287c049ffbca2",
+        "desktopPoster": "9718a7142ca391bdfc309e9e49453743c1403cc8cb225c0ae9e7cf347ff88861",
+        "mobileVideo": "37f8f74763130ce5b712e00b98ab26bcd0cdab5143f2d99f08278f396b07a400",
+        "mobilePoster": "a053070f1b4edad2eab624d62c7bb063df85d85fde87447342ee98a4989b6627"
+      }
+    },
+    "04m44": {
+      "route": "/cdn-cote-saint-luc/04m44/",
+      "applicable": true,
+      "desktopVideo": "cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "cdn-cote-saint-luc/04m44/cdn-cote-saint-luc-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "829a3bbe1db741eb749957f401ad2bbf0f5f7eca3e928322325fe17632f7b690",
+        "desktopPoster": "089bb3cacdee2f47caf734d205b07a629b83c44da1c6e2ad1dc423c6b497de12",
+        "mobileVideo": "b735f64295171b4390223ad80000cd35542dbe71ea1db317c27556fb6de9ef75",
+        "mobilePoster": "a2f6350e7dc70a20796d46ad099d53a3b97ae0a42420513b3c2e346e4d21e2f3"
+      }
+    },
+    "05c55": {
+      "route": "/cdn-cote-saint-luc/05c55/",
+      "applicable": true,
+      "desktopVideo": "cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "cdn-cote-saint-luc/05c55/cdn-cote-saint-luc-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "409feeac01e791c3cb8407b59512d48b7d1817d34a5ffe97ebe99f93999b7166",
+        "desktopPoster": "46b869afd7aed8b050a747a719373a5ba8d4b14a162abf40a26b6264dec57409",
+        "mobileVideo": "520c43511bb803321b7373bebb13421a6e293755568ea36f3fb88a1e262037e4",
+        "mobilePoster": "0be9c7001044dcc07a80133112eca62db00bedbb81e49171744f1c760227640e"
+      }
+    }
+  }
+}

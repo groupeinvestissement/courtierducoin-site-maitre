@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "lachine-lasalle",
+  "displayName": "Lachine / LaSalle",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/lachine-lasalle/",
+      "applicable": true,
+      "desktopVideo": "lachine-lasalle/main/lachine-lasalle-main-hero-desktop-web.mp4",
+      "mobileVideo": "lachine-lasalle/main/lachine-lasalle-main-hero-mobile-web.mp4",
+      "desktopPoster": "lachine-lasalle/main/lachine-lasalle-main-hero-desktop-poster.jpg",
+      "mobilePoster": "lachine-lasalle/main/lachine-lasalle-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "93caee8d034973224d2ce12e17380282f8a6a71782b3573e2ab49cb03c9161c2",
+        "desktopPoster": "ce993b9bd7f95b724851e678661b2eec3a261c84b0f1a9f3068b714bba53ad91",
+        "mobileVideo": "95609d13d0cf95858aaaa00aa2b9f322ea4029f08fcc35f35e1f3b28c536a873",
+        "mobilePoster": "3b10d5107a6c63362a1466c01466739b758750437d84d8f01a6b549363f8b19c"
+      }
+    },
+    "o1a11": {
+      "route": "/lachine-lasalle/o1a11/",
+      "applicable": true,
+      "desktopVideo": "lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "lachine-lasalle/o1a11/lachine-lasalle-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "259993c1111242eaecf73516ac4aa647f74151ce25526950243b94f44d0e365c",
+        "desktopPoster": "7f71b5085bfa7ec7ad4d1602b1942dfff021fda4ac2ad9cf93d2f0aaf1bf47f5",
+        "mobileVideo": "5fc7c6bc25acb751e192af2b5dadcbadcc5f8bb43402ffb5cd6ffae885196750",
+        "mobilePoster": "728e4be409408651d0b4725cd1cc44ebe2157e38ad73870af76393cc74c74003"
+      }
+    },
+    "02a22": {
+      "route": "/lachine-lasalle/02a22/",
+      "applicable": true,
+      "desktopVideo": "lachine-lasalle/02a22/lachine-lasalle-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "lachine-lasalle/02a22/lachine-lasalle-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "lachine-lasalle/02a22/lachine-lasalle-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "lachine-lasalle/02a22/lachine-lasalle-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "ce5bb943e6965efd302cd7ed28414a7666221fcf85a3e5bef3688f85ff2f5dca",
+        "desktopPoster": "14089c11d9cc7c5b5a7468e3226cca000840fac1b286020a469ce84948b13880",
+        "mobileVideo": "0b1ce0ce2c3ea5f0857af44750804054de00f9fb8ae1201dd0f148bfaef391e6",
+        "mobilePoster": "f12b212a5e4bd76e5601006844ca24c362ea94781047d8b8336fb273c9decaa3"
+      }
+    },
+    "03i33": {
+      "route": "/lachine-lasalle/03i33/",
+      "applicable": true,
+      "desktopVideo": "lachine-lasalle/03i33/lachine-lasalle-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "lachine-lasalle/03i33/lachine-lasalle-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "lachine-lasalle/03i33/lachine-lasalle-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "lachine-lasalle/03i33/lachine-lasalle-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "9bbfca28d213bebedf1d85f081fd58c83872da423289d070e99247f9ebf3bdd1",
+        "desktopPoster": "52d15b1e51a55339928899f27044991951ce5ad8e93a60d149c7e64dda88cbac",
+        "mobileVideo": "004e7405e8ff1b1ca50425b01d8135e756aa13e3a73302529977a37255b7a4d8",
+        "mobilePoster": "77ab8453cbb45b6b502175d226d2b222ae6c3c851333a745a86cb65920622a9c"
+      }
+    },
+    "04m44": {
+      "route": "/lachine-lasalle/04m44/",
+      "applicable": true,
+      "desktopVideo": "lachine-lasalle/04m44/lachine-lasalle-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "lachine-lasalle/04m44/lachine-lasalle-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "lachine-lasalle/04m44/lachine-lasalle-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "lachine-lasalle/04m44/lachine-lasalle-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "1fc3500e88b9812dbeeaf2083307a12eaa7d78905bcb8b31088d2defb6658f88",
+        "desktopPoster": "9991febbd1418d8356e1635bbfc95f40fa0e08fb328180e2ab899ea6bd4050f9",
+        "mobileVideo": "c9fb969eae7da388c491b8129498df9560680f7bb3abfbc0040b899206492049",
+        "mobilePoster": "7f3d7949bb5f7f4b304ce03ffe3ffbbcae510b47f0fcfd5c2178d031973411b6"
+      }
+    },
+    "05c55": {
+      "route": "/lachine-lasalle/05c55/",
+      "applicable": true,
+      "desktopVideo": "lachine-lasalle/05c55/lachine-lasalle-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "lachine-lasalle/05c55/lachine-lasalle-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "lachine-lasalle/05c55/lachine-lasalle-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "lachine-lasalle/05c55/lachine-lasalle-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "8de2fd726906ada65af35f50f17d3f76b18c04fd5fe3424472945d19915159ed",
+        "desktopPoster": "d6023972267d76a1a0922fa1d71e96fe613128486ff33b036032a598a8de0a20",
+        "mobileVideo": "97d855205db73cdb781d13009621a694031619181949beb420401641870657c5",
+        "mobilePoster": "d624f8d20e4d21976639ebaa798de834c4d53d7a13fb4fae1e212a74274595d7"
+      }
+    }
+  }
+}

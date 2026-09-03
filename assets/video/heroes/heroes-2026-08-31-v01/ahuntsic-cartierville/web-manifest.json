@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "ahuntsic-cartierville",
+  "displayName": "Ahuntsic-Cartierville",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/ahuntsic-cartierville/",
+      "applicable": true,
+      "desktopVideo": "ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-desktop-web.mp4",
+      "mobileVideo": "ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-mobile-web.mp4",
+      "desktopPoster": "ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-desktop-poster.jpg",
+      "mobilePoster": "ahuntsic-cartierville/main/ahuntsic-cartierville-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "35109c61e0193e5d86866d385e667ec956149cf1561166bf89cb9cf67a83af08",
+        "desktopPoster": "d6da76cfc9df8ef5a2ce1f945340d706902b44d60855084cd4fe2ff3a56988f5",
+        "mobileVideo": "539a855157d04ead53096232c0294a38156f8be89a12fd4c187ec49828823849",
+        "mobilePoster": "c52762cab0eb726fcb697367ea4ec13050c26fc2b6d781358c4a50de4a130c3f"
+      }
+    },
+    "o1a11": {
+      "route": "/ahuntsic-cartierville/o1a11/",
+      "applicable": true,
+      "desktopVideo": "ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "ahuntsic-cartierville/o1a11/ahuntsic-cartierville-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "efd03b6de8870b416b6bfb86d31aafa679cd327f0983921151829926d08f24ec",
+        "desktopPoster": "1b111aaee1624e435685ffc458038a880475ce35ef782f76eb1afb8629b228db",
+        "mobileVideo": "9b5313b7a1f7295bc1122b9a8c31a05457bd361f6afb1272b9c07d0da62b0084",
+        "mobilePoster": "7b8cfd2df12d97c3e093f93d40f10b712f9a427b56bff13f5d8d05da5ca400a7"
+      }
+    },
+    "02a22": {
+      "route": "/ahuntsic-cartierville/02a22/",
+      "applicable": true,
+      "desktopVideo": "ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "ahuntsic-cartierville/02a22/ahuntsic-cartierville-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "4ef3e6bfc100df5dd71dff0cc6c7c53c9aa51be007eefa2ef31ed88bdf936790",
+        "desktopPoster": "56dd83a5c40c2c2d74ec67081d13ba5f3d874194e5eb6042eac7cebd6eb313d7",
+        "mobileVideo": "e89134539a000746b3a0efd83e2408ea270c9924003d877ec0e8db13c2cf24f4",
+        "mobilePoster": "812a903a6ac8d0cbb9e6fef4883b15e52cd027afbcce5cce5cb492e105eba7d9"
+      }
+    },
+    "03i33": {
+      "route": "/ahuntsic-cartierville/03i33/",
+      "applicable": true,
+      "desktopVideo": "ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "ahuntsic-cartierville/03i33/ahuntsic-cartierville-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "5b9647171b789ef9b2279613b281ae266a9f1c94995acd66a407460bcd950898",
+        "desktopPoster": "2fe34a6eb489d4d8546421e0ff006a7dbda2015f5fafa2acfec613e2c2e7691a",
+        "mobileVideo": "a4c6e1025f67c09f0f31c6a61e3b79e6aa42beaff5d697564fe7d2440c88d8d5",
+        "mobilePoster": "fb6d01e3adf3698aa0597857ddef82ac5b57c3307bbe8570f86cb1e216add2ea"
+      }
+    },
+    "04m44": {
+      "route": "/ahuntsic-cartierville/04m44/",
+      "applicable": true,
+      "desktopVideo": "ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "ahuntsic-cartierville/04m44/ahuntsic-cartierville-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "9bd96c4ab2431b5b70e1d3a987673869a98154e7d0c042c0ccaf3f1a1be370e3",
+        "desktopPoster": "095ec190bac8491e58f6201db0b902447f36c414eb0e30856ec8fe38626759d0",
+        "mobileVideo": "26a7109409ed8023585f54fc7a979f1f851b7baa11f03d4207f5cb7151844bf6",
+        "mobilePoster": "4f686af6df198e8f4dfef449b06e5451a7305e51e9f6ca64405a572c83817360"
+      }
+    },
+    "05c55": {
+      "route": "/ahuntsic-cartierville/05c55/",
+      "applicable": true,
+      "desktopVideo": "ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "ahuntsic-cartierville/05c55/ahuntsic-cartierville-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "23a9adb35a833e0611c76b1e78a2654ff136ba2d177ad18ada058e2bc1a14a8b",
+        "desktopPoster": "d427c6fa560a770bf6f4dbd048bb33d07f64817358c2235f23ad416d7791f38f",
+        "mobileVideo": "d86b3eba9d6179e7d535863b2b18b6b0788cd9815935f5cb019ef1627ff12fa8",
+        "mobilePoster": "21fa24882b4dac315ad2f767055be4017c2f6348c9911a1d508cd530c18a7a89"
+      }
+    }
+  }
+}

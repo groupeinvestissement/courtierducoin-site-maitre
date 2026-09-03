@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "anjou-saint-leonard",
+  "displayName": "Anjou / Saint-Léonard",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/anjou-saint-leonard/",
+      "applicable": true,
+      "desktopVideo": "anjou-saint-leonard/main/anjou-saint-leonard-main-hero-desktop-web.mp4",
+      "mobileVideo": "anjou-saint-leonard/main/anjou-saint-leonard-main-hero-mobile-web.mp4",
+      "desktopPoster": "anjou-saint-leonard/main/anjou-saint-leonard-main-hero-desktop-poster.jpg",
+      "mobilePoster": "anjou-saint-leonard/main/anjou-saint-leonard-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "d03f18d7939ed7921966152a0398b7f96fcb3700943663113e3eb3d4639744ef",
+        "desktopPoster": "72dd668e107594366b619bcda22c0c530bf7c938392256f5b13230c760964b36",
+        "mobileVideo": "77926ad01485941a2c1d766d9401049341e6537ae9b9b03d1492b86c1d608701",
+        "mobilePoster": "ce643a50004c88153b8197573509fe63a172567f4c2a5992838c740d5520885d"
+      }
+    },
+    "o1a11": {
+      "route": "/anjou-saint-leonard/o1a11/",
+      "applicable": true,
+      "desktopVideo": "anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "anjou-saint-leonard/o1a11/anjou-saint-leonard-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "892f976fe8a54415fb6a53589c4393fd588ee735e9a67e7d0b09170fb50c08ae",
+        "desktopPoster": "763e2b647068a9fd9144f6844634e35161d862b10fbb94690a0749b61a909c72",
+        "mobileVideo": "ef45e1e58789cf0b06df1db0e3d29f63b59f6c44af36f4e9f1175fe227090c2f",
+        "mobilePoster": "9b03f7c390af381c3995f32173944d3192392d227d90c2e18471f0901eb15b4e"
+      }
+    },
+    "02a22": {
+      "route": "/anjou-saint-leonard/02a22/",
+      "applicable": true,
+      "desktopVideo": "anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "anjou-saint-leonard/02a22/anjou-saint-leonard-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "6aa13f014281cf29d8c17b645f5bf9cd6bd80b5b727872892a32c26ea0e9a4c0",
+        "desktopPoster": "9af763f186608d2ef0b03799f27eaa12bdeb1a24b297fc6db26ee157f69e3ef8",
+        "mobileVideo": "8b4d650643a3e759c973a14343c022da4f090fe18e917badd493070c5456f428",
+        "mobilePoster": "2d7cad32dac3c611c21c38403f31a6bffc3150926b7d3286ebc024cce5ad7017"
+      }
+    },
+    "03i33": {
+      "route": "/anjou-saint-leonard/03i33/",
+      "applicable": true,
+      "desktopVideo": "anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "anjou-saint-leonard/03i33/anjou-saint-leonard-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "d3f7e6ef656d0d95ae7e0a79776bbcfb183fd469470e191e40beb712da9754d4",
+        "desktopPoster": "cb1e7b6e3c19722cf53130ac966f9cde0089ec5bfdad5bbf46a0a52ae8e60879",
+        "mobileVideo": "467a4b63b34efe289feadad34970b77a8cfc0f893dd62ac7b074b76d96b12a9f",
+        "mobilePoster": "419837459913220f695ecf866f3dce173b3556f7c1958655ab55861fa59be199"
+      }
+    },
+    "04m44": {
+      "route": "/anjou-saint-leonard/04m44/",
+      "applicable": true,
+      "desktopVideo": "anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "anjou-saint-leonard/04m44/anjou-saint-leonard-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "e2fc13fd2f23620bd281b6e3e0ce30b64f0ca8e48928e2b3768d82e16c0df3a0",
+        "desktopPoster": "9172d5bf40c92447e4699e2a917a3c60fa730eacdff7b085f8e42edb16c08e12",
+        "mobileVideo": "59b5ee2cbb84ec52662f31afcc479c64ccb6e19837fa20f57c7751ff8a9d68fd",
+        "mobilePoster": "a85aab283fa50d1ee612f67c2aefc22ca18f7e073df56bfe4d051f3deb1387ee"
+      }
+    },
+    "05c55": {
+      "route": "/anjou-saint-leonard/05c55/",
+      "applicable": true,
+      "desktopVideo": "anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "anjou-saint-leonard/05c55/anjou-saint-leonard-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "002446f5c02703acfc984b7551ed60c195ca9e74ffeb2634eca97a1be65bba73",
+        "desktopPoster": "34e43135adc4973ccf84a698211dcec3c93a06523287f9c58d71b187b2d45bb7",
+        "mobileVideo": "5b2ce56b65c56af6c105dc94981453d6fd3dfc615f442d7aac20533e95999645",
+        "mobilePoster": "2fe6e7afbaeb50f387b9c2afedc5782ecd9b840e5c581cecc16a8a48f6e654a1"
+      }
+    }
+  }
+}
