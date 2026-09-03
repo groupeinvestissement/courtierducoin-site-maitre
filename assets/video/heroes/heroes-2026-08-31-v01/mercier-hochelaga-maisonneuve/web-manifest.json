@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "mercier-hochelaga-maisonneuve",
+  "displayName": "Mercier–Hochelaga-Maisonneuve",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/mercier-hochelaga-maisonneuve/",
+      "applicable": true,
+      "desktopVideo": "mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-desktop-web.mp4",
+      "mobileVideo": "mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-mobile-web.mp4",
+      "desktopPoster": "mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-desktop-poster.jpg",
+      "mobilePoster": "mercier-hochelaga-maisonneuve/main/mercier-hochelaga-maisonneuve-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "21169841b7c644cf71186e2f701dc8accf77fbd9112e00397a769325f8b7628f",
+        "desktopPoster": "e91a8049b4dc079234762c38115053a745266dd6236adfd47d706c5e18f83dad",
+        "mobileVideo": "92971f34297164c28c654d6ac384cf0d624fc5385487875dc98ee6f3c81ed70c",
+        "mobilePoster": "9a59edd36cf12710914f8f0ffdfc7e12412f43a08b7a5032916176c56c744517"
+      }
+    },
+    "o1a11": {
+      "route": "/mercier-hochelaga-maisonneuve/o1a11/",
+      "applicable": true,
+      "desktopVideo": "mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "mercier-hochelaga-maisonneuve/o1a11/mercier-hochelaga-maisonneuve-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "3c2ebefc9c978533c05d32878ec17d1f345c57d45cf1ba39ec65523967764f51",
+        "desktopPoster": "5e0dff5edc8a48dbb73bc6378ade9f3ab6a5a4068925a04e977f75b6c855abe5",
+        "mobileVideo": "186931ea1a9464c614bf1b535b96ff77e471ce787793fa7ca7de9472986bc9cb",
+        "mobilePoster": "4282bd08dc63d91e26a9221457f5173a9d9b37877c7c84dd1a4112825e80dfa5"
+      }
+    },
+    "02a22": {
+      "route": "/mercier-hochelaga-maisonneuve/02a22/",
+      "applicable": true,
+      "desktopVideo": "mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "mercier-hochelaga-maisonneuve/02a22/mercier-hochelaga-maisonneuve-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "0f266e37c98869346ac9594071b9fc1187e3100b4f4166c6348815c13009e52e",
+        "desktopPoster": "ef436613ba8f72c3ad6456e741a18915c4e6bd94de41088d828cec289d454c98",
+        "mobileVideo": "116b850b0583913e645e82bbb4b4a7c94f6c9f7d9a93a01913d3b5c99917e458",
+        "mobilePoster": "0a2724f46f2a46d5aa069de7f036dacf1a4f5dee0f967741d37641d4eaf2e984"
+      }
+    },
+    "03i33": {
+      "route": "/mercier-hochelaga-maisonneuve/03i33/",
+      "applicable": true,
+      "desktopVideo": "mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "mercier-hochelaga-maisonneuve/03i33/mercier-hochelaga-maisonneuve-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "fe34feeaed9e0330f2fc70d23128e64f29309db3cc3dc97af2582472c2ad4d6e",
+        "desktopPoster": "eac4218ef92571472c65e434d93e7838f2dbd627b5bbeedc240888a8461e81c9",
+        "mobileVideo": "1d3cccf360907ea2f07ebdd70e4bdc238801bbccf336176e7381cc23f0a2d045",
+        "mobilePoster": "09cb5770081ffe1d0741759373f4a053029544044be242f853fcaf01d3315cb0"
+      }
+    },
+    "04m44": {
+      "route": "/mercier-hochelaga-maisonneuve/04m44/",
+      "applicable": true,
+      "desktopVideo": "mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "mercier-hochelaga-maisonneuve/04m44/mercier-hochelaga-maisonneuve-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "e680454e51030bed9217c1bd439251e9dbfc4a126fdfebce70fa06c03b0d08fa",
+        "desktopPoster": "694cd213d34e53aee37df6884682c6fa85fb4a12a5e86612a961ca9e33b65b4f",
+        "mobileVideo": "dcb60cbd3eef8c22e04ec190aa06daacdf3568dce6be4aab765b567c01ee0712",
+        "mobilePoster": "cc272845aad6c1a7c0e2b94500712d7733aae3210d4cadf9da340ffb5d35b348"
+      }
+    },
+    "05c55": {
+      "route": "/mercier-hochelaga-maisonneuve/05c55/",
+      "applicable": true,
+      "desktopVideo": "mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "mercier-hochelaga-maisonneuve/05c55/mercier-hochelaga-maisonneuve-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "657a0c05ded63686ed14202a6e287e04c467ec2432408b828285c3827183da8b",
+        "desktopPoster": "19111993e02d4ac2cbe3bdd930899bf03b9b083bc0768fa3b94737053a1b9922",
+        "mobileVideo": "0791b46d6aea9cc1ece2a0b543a7c749f7cec69273b5f9a305ae801cbb310798",
+        "mobilePoster": "1a1f280d80a3bdde745ef7827c108324e3eeed588db4b6337eeba701e9f73309"
+      }
+    }
+  }
+}

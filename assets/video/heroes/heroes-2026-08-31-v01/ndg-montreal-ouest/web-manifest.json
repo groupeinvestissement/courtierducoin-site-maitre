@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "ndg-montreal-ouest",
+  "displayName": "NDG / Montréal-Ouest",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/ndg-montreal-ouest/",
+      "applicable": true,
+      "desktopVideo": "ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-desktop-web.mp4",
+      "mobileVideo": "ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-mobile-web.mp4",
+      "desktopPoster": "ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-desktop-poster.jpg",
+      "mobilePoster": "ndg-montreal-ouest/main/ndg-montreal-ouest-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "a8db327c32d05f7bd78127a7fbf83b9fa6b84f505ea69217bd704b84f2bc39c7",
+        "desktopPoster": "122147c2a0dde04b3617eac67d48ba4b44cbaf38af4b992f36fbb7c502b9fe76",
+        "mobileVideo": "efa80279aabfd02db8279b31126f1214bc51d7fbb54d85f725add293ea6a600e",
+        "mobilePoster": "7ba1ab0ccf5ea95321e91c5d7a7850b732d95b6f913131f55909f00125e64dde"
+      }
+    },
+    "o1a11": {
+      "route": "/ndg-montreal-ouest/o1a11/",
+      "applicable": true,
+      "desktopVideo": "ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "ndg-montreal-ouest/o1a11/ndg-montreal-ouest-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "b5a8aad3305532b41a7c46974700e1197867106b46db924687699d947cd81afd",
+        "desktopPoster": "db61911557a9bcdebfac02adc69f0e0f03f5f54a29457857ce45fbc9af5d4cf4",
+        "mobileVideo": "191c4c868f51c485a8479ba237f8511c9a1eff55542db70a453d4ab46b9e7f47",
+        "mobilePoster": "28c78cea86e984cefd4063bc8bda257f4496aea4efce4020d952bd471a8daf45"
+      }
+    },
+    "02a22": {
+      "route": "/ndg-montreal-ouest/02a22/",
+      "applicable": true,
+      "desktopVideo": "ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "ndg-montreal-ouest/02a22/ndg-montreal-ouest-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "4ba9a2a993bb452c787ba0f0fdb57e6b9fcdb011680b9b585677ce10aaf7eb46",
+        "desktopPoster": "26f49f5027ce0a3201e53c04defcdcfdabb03ef6147764ea263c007c5fe7d3c2",
+        "mobileVideo": "4bbff8cea83b9f2fb75ea6a19b154da1ae21f3c9c61dfd10e48ebb02c84bada4",
+        "mobilePoster": "41ed9746fe34acf5e65e57e3335dc4238d7b5dc37a46188a7d8d195db0f0be1a"
+      }
+    },
+    "03i33": {
+      "route": "/ndg-montreal-ouest/03i33/",
+      "applicable": true,
+      "desktopVideo": "ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "ndg-montreal-ouest/03i33/ndg-montreal-ouest-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "80a8af132ec1d52ca3c2cd904a736bf5cdb558f31a9c93a6fb20cdf226453f72",
+        "desktopPoster": "381195d2c4bbf8baf28b854ddbdda5bf1a2561e98a5b2b71ea8bfa5bda942098",
+        "mobileVideo": "f79c8e7d671960c72a3c72322e8ac70ff3398ba131466f0a77cc68738b89710a",
+        "mobilePoster": "ca63e8b0bd43e3b9bee142818eaf8d1d71100b1a2b06627472e7c02e65867026"
+      }
+    },
+    "04m44": {
+      "route": "/ndg-montreal-ouest/04m44/",
+      "applicable": true,
+      "desktopVideo": "ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "ndg-montreal-ouest/04m44/ndg-montreal-ouest-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "ff899dc88bc7b8be07e1e5a345c164d227a8df7834fbd99bfb529ece1783d560",
+        "desktopPoster": "7c18f5e4e7839aa61285011d91f93848cecb5ccd83b2b807ae23057833c70b81",
+        "mobileVideo": "316f2db9cc5934b538f795e40f64aa08ee1b1e03be6d1a6cc91052614cea2171",
+        "mobilePoster": "17b0cfcaa0adbecea59f5154277ef41016bcefcb74fabb8457762c406a97a7a6"
+      }
+    },
+    "05c55": {
+      "route": "/ndg-montreal-ouest/05c55/",
+      "applicable": true,
+      "desktopVideo": "ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "ndg-montreal-ouest/05c55/ndg-montreal-ouest-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "1755a70cf06d142dff53e81d74708beba50f065208541946963bf2362ebb8346",
+        "desktopPoster": "d25641040d0edcd09046b9bad1c89cc7e89a532feca38ca98d2e2785451b538e",
+        "mobileVideo": "3e58ecb711b3bc30a255cae5b9668bcd2a4eeb249e979182b33f2b19ebb28327",
+        "mobilePoster": "5e5d84547c6380fd6da4b8c12a0793d7cbd07b5d1d182c6a37a332d74fb40718"
+      }
+    }
+  }
+}

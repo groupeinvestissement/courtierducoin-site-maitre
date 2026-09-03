@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "ouest-de-lile",
+  "displayName": "Ouest-de-l’Île",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/ouest-de-lile/",
+      "applicable": true,
+      "desktopVideo": "ouest-de-lile/main/ouest-de-lile-main-hero-desktop-web.mp4",
+      "mobileVideo": "ouest-de-lile/main/ouest-de-lile-main-hero-mobile-web.mp4",
+      "desktopPoster": "ouest-de-lile/main/ouest-de-lile-main-hero-desktop-poster.jpg",
+      "mobilePoster": "ouest-de-lile/main/ouest-de-lile-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "ed5032c51da008dbc713b5257d63e59ff78964b9b3032f311625cd2693f34180",
+        "desktopPoster": "1da7a54831f54f3b3219c39fe251e08221dfa9b9a1438b2e6170b8ec0479f5e6",
+        "mobileVideo": "99496e0a4931c428fdba9c2e011532ffd7ed36bf0f4b511d97005f01fa1a9f82",
+        "mobilePoster": "1ab08f54f833234c5b89ac315dd1c7691b8bacc78cba4da68e86d2ec5f3790b6"
+      }
+    },
+    "o1a11": {
+      "route": "/ouest-de-lile/o1a11/",
+      "applicable": true,
+      "desktopVideo": "ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "ouest-de-lile/o1a11/ouest-de-lile-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "8e9a8a48ac827669330743b2c0f492c56ef606e302e23781fc18860785db230c",
+        "desktopPoster": "adfda4ee951a5186a304d473dcf67a90c86daebb9c72d30f23606b436a6a0646",
+        "mobileVideo": "d06cc8db364a81f51508e57201bbb870adde3b34b8782a86c1f15599b7126f97",
+        "mobilePoster": "7fa245c13ee4190ff02fab22fe9a85846a51a235c94e1c6188fe3c8baa33fe33"
+      }
+    },
+    "02a22": {
+      "route": "/ouest-de-lile/02a22/",
+      "applicable": true,
+      "desktopVideo": "ouest-de-lile/02a22/ouest-de-lile-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "ouest-de-lile/02a22/ouest-de-lile-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "ouest-de-lile/02a22/ouest-de-lile-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "ouest-de-lile/02a22/ouest-de-lile-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "e99c8dce29f735f2d7bb71388acab05247d6f5960aae7678e22ea1899c7744e9",
+        "desktopPoster": "64aeac9d8069c126493f6fa7d0a403fcf13aa3b53b03fd981da82b2afa242977",
+        "mobileVideo": "c6fd37408c8dd223f2badc33ead18897ac52b927f337cc1aa05644425b677ef0",
+        "mobilePoster": "c307fe808f90920ab73e7f3b62e55b413c90bc6b7f8231b9aa55870135cbab90"
+      }
+    },
+    "03i33": {
+      "route": "/ouest-de-lile/03i33/",
+      "applicable": true,
+      "desktopVideo": "ouest-de-lile/03i33/ouest-de-lile-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "ouest-de-lile/03i33/ouest-de-lile-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "ouest-de-lile/03i33/ouest-de-lile-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "ouest-de-lile/03i33/ouest-de-lile-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "4132de53b2cdc595835346749cda5b0e1ec15b9700c07012118c06d873f76b2f",
+        "desktopPoster": "bb6e9de24eaa60107414320c53b19d6b9b7dc9719fd4a6a766343e81b456e8f3",
+        "mobileVideo": "08e574c26be92ad5ed7f9c29653e73e49e012cac36a08e472ce784557722abbb",
+        "mobilePoster": "de4af97cc5b71095e22e3986dc5a20d8e5efae5e92e9d714a75ff50548dead79"
+      }
+    },
+    "04m44": {
+      "route": "/ouest-de-lile/04m44/",
+      "applicable": true,
+      "desktopVideo": "ouest-de-lile/04m44/ouest-de-lile-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "ouest-de-lile/04m44/ouest-de-lile-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "ouest-de-lile/04m44/ouest-de-lile-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "ouest-de-lile/04m44/ouest-de-lile-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "a377471d0a99d676aea4aafed663b19bc82b5f98b24ddc074f8e240dabb079b4",
+        "desktopPoster": "306a0787cc307b65a08cb9c5b4cf91a114001a600fc688ca4bb36bc005739591",
+        "mobileVideo": "ba129397883349e94adb757d00748b19fc17ac77e3db5af9dfbe7a964ffea97b",
+        "mobilePoster": "213ba1d15179b9d4e82edc45818048f800b22503cb4734dbecaddaf02a28b8b6"
+      }
+    },
+    "05c55": {
+      "route": "/ouest-de-lile/05c55/",
+      "applicable": true,
+      "desktopVideo": "ouest-de-lile/05c55/ouest-de-lile-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "ouest-de-lile/05c55/ouest-de-lile-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "ouest-de-lile/05c55/ouest-de-lile-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "ouest-de-lile/05c55/ouest-de-lile-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "2dd01a5da566b362a1b5b67c6fe8c80ea24ef496a454ee6abd98d4bffda85eaf",
+        "desktopPoster": "d5dd5191cba845ef12a3be569b29c8f03d41a6395b7217d4c40403a0115bd410",
+        "mobileVideo": "0a8ffb27ca0b590e19875531aa348e2e16d47627bc759f4a407522b45ba884ab",
+        "mobilePoster": "bd3a1c975f2909f22837c00fc07e9017eb1d193f66a15e103515607e4301f65c"
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "heroes-2026-08-31-v01",
+  "sectorId": "outremont-westmount-vmr",
+  "displayName": "Outremont / Westmount / VMR",
+  "canonicalBaseUrl": "https://www.courtierducoin.ca",
+  "status": "READY_FOR_SITE_INTEGRATION",
+  "deploymentStatus": "NOT_DEPLOYED",
+  "pages": {
+    "main": {
+      "route": "/secteurs/outremont-westmount-vmr/",
+      "applicable": true,
+      "desktopVideo": "outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-desktop-web.mp4",
+      "mobileVideo": "outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-mobile-web.mp4",
+      "desktopPoster": "outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-desktop-poster.jpg",
+      "mobilePoster": "outremont-westmount-vmr/main/outremont-westmount-vmr-main-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "a6e0443864bb2b81ccdde41cd0c2ce6262392052972a5ec1da5d5c2b5d69227e",
+        "desktopPoster": "3d804d404da03b411c7493a8832abeebb78dea3b7f50f4c80e995e8b66a6027b",
+        "mobileVideo": "54c29be895bfa129631332a891b11a4392fdc5c1e3248d9273f25bc796d5ae4a",
+        "mobilePoster": "69dbc34883edc84af8cce79690cab835e322b34956e9d78c513aafcfe07e22ea"
+      }
+    },
+    "o1a11": {
+      "route": "/outremont-westmount-vmr/o1a11/",
+      "applicable": true,
+      "desktopVideo": "outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-desktop-web.mp4",
+      "mobileVideo": "outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-mobile-web.mp4",
+      "desktopPoster": "outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-desktop-poster.jpg",
+      "mobilePoster": "outremont-westmount-vmr/o1a11/outremont-westmount-vmr-o1a11-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "d8190fae3e679e8ca2a41ca6fb993eebb936d12f40193564b3a3a35e30833ad8",
+        "desktopPoster": "c45e99443100b698cc4fd07b5870ca2900f297548b7ae1f7758614992ea489e6",
+        "mobileVideo": "0eb2e1941e14c0e9056d606954ec5b18735cf1ee35337eada1879894ee12be56",
+        "mobilePoster": "58314bef6408db0f10ecf3a8fad595dabd84455cfb46072bb781b18545deb3ae"
+      }
+    },
+    "02a22": {
+      "route": "/outremont-westmount-vmr/02a22/",
+      "applicable": true,
+      "desktopVideo": "outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-desktop-web.mp4",
+      "mobileVideo": "outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-mobile-web.mp4",
+      "desktopPoster": "outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-desktop-poster.jpg",
+      "mobilePoster": "outremont-westmount-vmr/02a22/outremont-westmount-vmr-02a22-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "060261ad0e541128e222438ff91c8ac3c905fbdb33a24ea8f16fdf345922fdb8",
+        "desktopPoster": "c47a33d8dd42303f0f4b5538dc83d1284eb731c0be01dcbd9a259be811c08f28",
+        "mobileVideo": "ae190e1c9fe2cec209c0e84197be4f4a516de7ab60fa4e500558daa18b3c68c2",
+        "mobilePoster": "18269ceb1756dc153099333a32220e6482ff8e3d7fd4807242f708bd8e28206a"
+      }
+    },
+    "03i33": {
+      "route": "/outremont-westmount-vmr/03i33/",
+      "applicable": true,
+      "desktopVideo": "outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-desktop-web.mp4",
+      "mobileVideo": "outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-mobile-web.mp4",
+      "desktopPoster": "outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-desktop-poster.jpg",
+      "mobilePoster": "outremont-westmount-vmr/03i33/outremont-westmount-vmr-03i33-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "a14d5e10f200c9efb19cc0d5cea9c009ba7c49e15c9a8f6aec4c592c5825753e",
+        "desktopPoster": "5d727f49abfc50a68ea1d94f7a9fc8dca622bad5864b3de9e1051c8c69abba72",
+        "mobileVideo": "5237d54ee8e273aad711079a05921958147d273c5de26ff0290ca1d8c509dd16",
+        "mobilePoster": "695085d079a4d22249973b765e74d3c0d2c7889b6dfab7c5cf97c27cba787f11"
+      }
+    },
+    "04m44": {
+      "route": "/outremont-westmount-vmr/04m44/",
+      "applicable": true,
+      "desktopVideo": "outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-desktop-web.mp4",
+      "mobileVideo": "outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-mobile-web.mp4",
+      "desktopPoster": "outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-desktop-poster.jpg",
+      "mobilePoster": "outremont-westmount-vmr/04m44/outremont-westmount-vmr-04m44-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "105ffb9d51da4ee3d5f91bc644027de5ee7d80f20f0f76dff1c1b552bafa9dd8",
+        "desktopPoster": "3c781243ace4c94c3067ae19cdd5f2cf56b7f3e5ad5fa736706a097586d099d5",
+        "mobileVideo": "7a4f9a06aaa5058684056612c7b724686496253738d82cf98e0a1147a9837f43",
+        "mobilePoster": "916b04064ff2df3592f7ef6c25b4695b69993451adee0a1f914a8aa45af44f40"
+      }
+    },
+    "05c55": {
+      "route": "/outremont-westmount-vmr/05c55/",
+      "applicable": true,
+      "desktopVideo": "outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-desktop-web.mp4",
+      "mobileVideo": "outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-mobile-web.mp4",
+      "desktopPoster": "outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-desktop-poster.jpg",
+      "mobilePoster": "outremont-westmount-vmr/05c55/outremont-westmount-vmr-05c55-hero-mobile-poster.jpg",
+      "sha256": {
+        "desktopVideo": "74ff2c5e9e86161c9b95c254de5660b22024aefac62da9f364eaa4c2578b38ba",
+        "desktopPoster": "2ebb0d8bbf276038eb210d1f0d241ecb987870fd3d5e48fdcc8c289561ab6b15",
+        "mobileVideo": "57686863616f40de9d667d3dcbd05ebb9283594d8bbff2d53147787ce1b36957",
+        "mobilePoster": "62efdcbdbf8f8075ba60f6d2de414d5454d42a4331770b1fd663d1ca2695747e"
+      }
+    }
+  }
+}
