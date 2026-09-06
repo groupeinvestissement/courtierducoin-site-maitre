@@ -1,6 +1,6 @@
-# Point de reprise — 2026-09-03
+# Point de reprise — 2026-09-05
 
-Statut : **MANDAT TERMINÉ — PRODUCTION LIVE — G9 PASS**
+Statut : **MANDAT TERMINÉ — PRODUCTION LIVE — G10 PASS**
 
 - Autorisation humaine de mise en ligne reçue.
 - Branche publique : `main`.
@@ -14,5 +14,9 @@ Statut : **MANDAT TERMINÉ — PRODUCTION LIVE — G9 PASS**
 - Correcteur indépendant G9 : PASS, aucun défaut produit détecté.
 - Limite d'observabilité : l'environnement navigateur de recette impose reduced-motion et n'expose pas l'API plein écran; le scénario mouvement normal reste couvert par le test runtime local du même arbre et les fichiers publics ont été contre-vérifiés.
 - Procédure de retour arrière corrigée pour la topologie Git fractionnée dans `ROLLBACK.md`; les anciens médias sont conservés.
+- Correctif Chrome ordinateur publié : `236d30baefed4da1035fbf562f7a6a2fd87f4b67`.
+- Cause G10 : Chrome héritait de `prefers-reduced-motion: reduce` depuis Windows et l'ancien composant retirait volontairement le MP4, sans offrir de commande de lecture.
+- Solution G10 : bouton **Lire la vidéo** visible dès l'ouverture, lecture/pause volontaire, choix conservé pendant la session et repli poster en cas d'échec.
+- Recette G10 : Chrome installé sur Windows, lecture réelle et navigation inter-secteurs PASS; 114/114 pages publiques sur `20260905-v2`; revue indépendante PASS.
 
 Prochaine action : aucune. Conserver la branche de transit et les anciens médias pendant la période d'acceptation.

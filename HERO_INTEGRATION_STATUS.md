@@ -2,8 +2,8 @@
 
 Release : `heroes-2026-08-31-v01`
 Branche : `main`
-Déploiement : **LIVE — G9 PASS — 2026-09-03**
-Commit fonctionnel : `4000570fcd259cd22ec536aabc45c70d7329e2e4`
+Déploiement : **LIVE — G10 PASS — 2026-09-05**
+Commit de production courant : `236d30baefed4da1035fbf562f7a6a2fd87f4b67`
 
 | Gate | Statut | Preuve | Fichiers modifiés | Défaut / correction | Prochaine action |
 |---|---|---|---|---|---|
@@ -17,3 +17,4 @@ Commit fonctionnel : `4000570fcd259cd22ec536aabc45c70d7329e2e4`
 | G7 — Revue indépendante | PASS | `reports/hero-integration/G7-independent-review.md` | Rapport indépendant | Blocker réseau mobile levé; aucun défaut bloquant restant | Préparer et tester G8 |
 | G8 — Prêt au déploiement | PASS | `reports/hero-integration/G8-deployment-readiness.md` | Paquet, inventaires et retour arrière | Commit local et réversion exacte testés; aucun défaut ouvert | Terminé |
 | G9 — Production | PASS | `reports/hero-integration/G9-production.md`, `reports/hero-integration/g9-production-proof.json` | Journal de production et procédure de retour arrière mise à jour | 114/114 pages et 456/456 médias publics conformes; contre-vérification indépendante PASS | Conserver les anciens médias pendant la période d'acceptation |
+| G10 — Correctif Chrome ordinateur | PASS | `reports/hero-integration/G10-chrome-desktop-fix.md` | Composant commun, tests et versions des 114 pages | Préférence Windows de mouvement réduit identifiée; bouton de lecture volontaire, persistance de session et repli poster validés dans Chrome | Terminé |
