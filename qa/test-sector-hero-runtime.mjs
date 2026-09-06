@@ -8,11 +8,14 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const runtimeCode = await readFile(path.join(ROOT, 'sector-hero.js'), 'utf8');
 
-function scenario({ mobile = false, reduced = false, missing = false } = {}) {
+function scenario({ mobile = false, reduced = false, missing = false, storedOverride = false } = {}) {
   const listeners = new Map();
   const queryListeners = new Map();
+  const controlListeners = new Map();
   const classes = new Set();
   const heroClasses = new Set();
+  const storage = new Map(storedOverride ? [['courtierducoin-sector-hero-motion', 'enabled']] : []);
+  let control = null;
   const video = {
     dataset: {},
     muted: false,
@@ -38,7 +41,12 @@ function scenario({ mobile = false, reduced = false, missing = false } = {}) {
   });
   const hero = {
     dataset: missing ? {} : { desktopVideo: '/desktop.mp4', mobileVideo: '/mobile.mp4' },
-    querySelector() { return video; },
+    querySelector(selector) {
+      if (selector === '[data-sector-hero-video]') return video;
+      if (selector === '[data-sector-hero-motion-control]') return control;
+      return null;
+    },
+    append(node) { control = node; },
     classList: {
       add(name) { heroClasses.add(name); },
       remove(name) { heroClasses.delete(name); },
@@ -49,8 +57,29 @@ function scenario({ mobile = false, reduced = false, missing = false } = {}) {
     '(prefers-reduced-motion: reduce)': reduced,
   };
   const context = {
-    document: { querySelectorAll: () => [hero] },
+    document: {
+      querySelectorAll: () => [hero],
+      createElement(name) {
+        if (name !== 'button') throw new Error(`Élément inattendu : ${name}`);
+        const attributes = new Map();
+        return {
+          attributes,
+          className: '',
+          dataset: {},
+          hidden: false,
+          textContent: '',
+          type: '',
+          addEventListener(event, listener) { controlListeners.set(event, listener); },
+          setAttribute(attribute, value) { attributes.set(attribute, String(value)); },
+        };
+      },
+    },
     window: {
+      sessionStorage: {
+        getItem(key) { return storage.get(key) ?? null; },
+        setItem(key, value) { storage.set(key, String(value)); },
+        removeItem(key) { storage.delete(key); },
+      },
       matchMedia(query) {
         return {
           matches: mediaQueries[query],
@@ -60,7 +89,7 @@ function scenario({ mobile = false, reduced = false, missing = false } = {}) {
     },
   };
   vm.runInNewContext(runtimeCode, context);
-  return { video, listeners, queryListeners, classes, heroClasses };
+  return { video, listeners, queryListeners, controlListeners, classes, heroClasses, storage, control };
 }
 
 const errors = [];
@@ -81,6 +110,28 @@ const reduced = scenario({ reduced: true });
 assert(reduced.video.src === '', 'Le mouvement réduit déclenche une source MP4.');
 assert(reduced.video.playCalls === 0, 'Le mouvement réduit tente une lecture.');
 assert(reduced.heroClasses.has('is-reduced-motion'), 'Le mouvement réduit n’est pas signalé au composant.');
+assert(reduced.control !== null && reduced.control.hidden === false, 'Le mouvement réduit ne propose pas de commande vidéo visible.');
+assert(reduced.control?.textContent === 'Lire la vidéo', 'La commande initiale du mouvement réduit est incorrecte.');
+
+reduced.controlListeners.get('click')?.();
+assert(reduced.video.src === '/desktop.mp4', 'L’activation volontaire ne charge pas la source bureau.');
+assert(reduced.video.playCalls === 1, 'L’activation volontaire ne lance pas la vidéo.');
+assert(reduced.heroClasses.has('is-motion-enabled') && !reduced.heroClasses.has('is-reduced-motion'), 'L’activation volontaire ne remplace pas le repli réduit.');
+assert(reduced.control?.textContent === 'Mettre la vidéo en pause', 'La commande active n’annonce pas la pause disponible.');
+assert(reduced.storage.get('courtierducoin-sector-hero-motion') === 'enabled', 'Le choix volontaire n’est pas conservé pendant la session.');
+
+reduced.controlListeners.get('click')?.();
+assert(reduced.video.src === '', 'La mise en pause ne retire pas la source en mouvement réduit.');
+assert(reduced.heroClasses.has('is-reduced-motion') && !reduced.heroClasses.has('is-motion-enabled'), 'La mise en pause ne restaure pas le repli réduit.');
+assert(reduced.control?.textContent === 'Lire la vidéo', 'La commande désactivée n’annonce pas la lecture disponible.');
+assert(!reduced.storage.has('courtierducoin-sector-hero-motion'), 'Le choix de pause reste enregistré à tort.');
+
+const reducedStored = scenario({ reduced: true, storedOverride: true });
+assert(reducedStored.video.src === '/desktop.mp4' && reducedStored.video.playCalls === 1, 'Le choix de session n’est pas réappliqué à la page suivante.');
+assert(reducedStored.heroClasses.has('is-motion-enabled'), 'Le choix de session ne réactive pas l’affichage vidéo.');
+
+const reducedStoredMobile = scenario({ mobile: true, reduced: true, storedOverride: true });
+assert(reducedStoredMobile.video.src === '/mobile.mp4', 'Le choix de session réduit ne respecte pas la variante mobile.');
 
 const missing = scenario({ missing: true });
 assert(missing.video.src === '', 'Des données absentes déclenchent une source MP4.');
@@ -96,6 +147,6 @@ if (errors.length > 0) {
 } else {
   console.log(JSON.stringify({
     status: 'PASS',
-    scenarios: ['desktop', 'mobile-or-portrait', 'reduced-motion', 'missing-data', 'video-error'],
+    scenarios: ['desktop', 'mobile-or-portrait', 'reduced-motion-opt-in', 'session-override', 'missing-data', 'video-error'],
   }, null, 2));
 }

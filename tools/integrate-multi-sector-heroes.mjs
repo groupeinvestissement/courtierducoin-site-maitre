@@ -10,7 +10,7 @@ const BASE_COMMIT = 'b3e4643146af928a37194259e08181196c8de2e7';
 const RELEASE_ID = 'heroes-2026-08-31-v01';
 const RELEASE_ROOT = path.join(ROOT, 'assets', 'video', 'heroes', RELEASE_ID);
 const PUBLIC_RELEASE_ROOT = `/assets/video/heroes/${RELEASE_ID}`;
-const COMPONENT_VERSION = '20260902-v1';
+const COMPONENT_VERSION = '20260905-v2';
 const PAGE_KEYS = ['main', 'o1a11', '02a22', '03i33', '04m44', '05c55'];
 const SAMPLE_ROUTES = new Set([
   '/secteurs/villeray-saint-michel-parc-extension/',

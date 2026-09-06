@@ -9,7 +9,9 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BASE_COMMIT = 'b3e4643146af928a37194259e08181196c8de2e7';
 const RELEASE_ID = 'heroes-2026-08-31-v01';
+const COMPONENT_VERSION = '20260905-v2';
 const RELEASE_ROOT = path.join(ROOT, 'assets', 'video', 'heroes', RELEASE_ID);
+const RELEASE_TEXT_EXTENSIONS = new Set(['.json', '.md', '.sha256']);
 const SAMPLE_ROUTES = new Set([
   '/secteurs/villeray-saint-michel-parc-extension/',
   '/rosemont-la-petite-patrie/o1a11/',
@@ -143,6 +145,13 @@ async function expectedPagesFromManifests() {
   return { manifestCount, pages };
 }
 
+function canonicalReleaseBytes(filePath, fileBytes) {
+  if (!RELEASE_TEXT_EXTENSIONS.has(path.extname(filePath).toLowerCase())) return fileBytes;
+  // Git for Windows may materialize tracked release metadata with CRLF even though
+  // the canonical repository payload and its recorded checksums use LF.
+  return Buffer.from(fileBytes.toString('utf8').replace(/\r\n/g, '\n'), 'utf8');
+}
+
 async function physicalReleaseInventory(directory) {
   let files = 0;
   let bytes = 0;
@@ -155,7 +164,9 @@ async function physicalReleaseInventory(directory) {
     } else if (entry.isFile()) {
       const fileStat = await stat(target);
       files += 1;
-      bytes += fileStat.size;
+      bytes += RELEASE_TEXT_EXTENSIONS.has(path.extname(target).toLowerCase())
+        ? canonicalReleaseBytes(target, await readFile(target)).length
+        : fileStat.size;
     }
   }
   return { files, bytes };
@@ -167,8 +178,8 @@ function validatePageMarkup(html, page) {
   if (occurrences(html, /\bdata-sector-hero=/gi) !== 1) fail(`${route} — composant hero absent ou dupliqué.`);
   if (occurrences(html, /class=(['"])[^'"]*\bsector-hero__poster\b[^'"]*\1/gi) !== 1) fail(`${route} — picture poster absent ou dupliqué.`);
   if (occurrences(html, /\bdata-sector-hero-video\b/gi) !== 1) fail(`${route} — vidéo décorative absente ou dupliquée.`);
-  if (occurrences(html, /\/sector-hero\.css\?v=20260902-v1/gi) !== 1) fail(`${route} — CSS commun absent ou dupliqué.`);
-  if (occurrences(html, /\/sector-hero\.js\?v=20260902-v1/gi) !== 1) fail(`${route} — JS commun absent ou dupliqué.`);
+  if (occurrences(html, new RegExp(`/sector-hero\\.css\\?v=${COMPONENT_VERSION}`, 'gi')) !== 1) fail(`${route} — CSS commun absent ou dupliqué.`);
+  if (occurrences(html, new RegExp(`/sector-hero\\.js\\?v=${COMPONENT_VERSION}`, 'gi')) !== 1) fail(`${route} — JS commun absent ou dupliqué.`);
   if (occurrences(html, /credits-heros-secteurs\.html/gi) !== 1) fail(`${route} — lien de crédits absent ou dupliqué.`);
   if (/VideoObject/i.test(html)) fail(`${route} — VideoObject décoratif interdit encore présent.`);
   if (/rosemont-(?:lead-hero|hero-video)\.js/i.test(html)) fail(`${route} — ancien chargeur vidéo Rosemont encore actif.`);
@@ -271,7 +282,8 @@ if (!/href="\/#secteurs"/.test(credits) || /href="\/secteurs\/"/.test(credits)) 
   fail('Le retour de la page de crédits ne cible pas /#secteurs.');
 }
 
-const manifestBytes = await readFile(path.join(RELEASE_ROOT, 'MANIFEST.json'));
+const manifestPath = path.join(RELEASE_ROOT, 'MANIFEST.json');
+const manifestBytes = canonicalReleaseBytes(manifestPath, await readFile(manifestPath));
 const manifestHash = createHash('sha256').update(manifestBytes).digest('hex');
 if (manifestHash !== '130525f7da1278e8bdd54037e98e63e1118bb9d97341e07f6cea57573e0b2df9') {
   fail(`Empreinte du manifeste copiée incorrecte : ${manifestHash}.`);
@@ -283,7 +295,8 @@ const releaseManifest = JSON.parse(manifestBytes.toString('utf8'));
 let payloadErrors = 0;
 let payloadBytes = 0;
 for (const file of releaseManifest.files ?? []) {
-  const fileBytes = await readFile(path.join(RELEASE_ROOT, ...file.path.split('/')));
+  const filePath = path.join(RELEASE_ROOT, ...file.path.split('/'));
+  const fileBytes = canonicalReleaseBytes(filePath, await readFile(filePath));
   payloadBytes += fileBytes.length;
   if (fileBytes.length !== file.bytes || createHash('sha256').update(fileBytes).digest('hex') !== file.sha256) {
     payloadErrors += 1;
