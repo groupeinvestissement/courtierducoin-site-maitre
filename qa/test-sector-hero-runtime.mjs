@@ -8,13 +8,13 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const runtimeCode = await readFile(path.join(ROOT, 'sector-hero.js'), 'utf8');
 
-function scenario({ mobile = false, reduced = false, missing = false, storedOverride = false } = {}) {
+function scenario({ mobile = false, reduced = false, missing = false, storedPreference = null } = {}) {
   const listeners = new Map();
   const queryListeners = new Map();
   const controlListeners = new Map();
   const classes = new Set();
   const heroClasses = new Set();
-  const storage = new Map(storedOverride ? [['courtierducoin-sector-hero-motion', 'enabled']] : []);
+  const storage = new Map(storedPreference ? [['courtierducoin-sector-hero-motion', storedPreference]] : []);
   let control = null;
   const video = {
     dataset: {},
@@ -107,30 +107,30 @@ const mobile = scenario({ mobile: true });
 assert(mobile.video.src === '/mobile.mp4', 'Le scénario mobile/portrait ne choisit pas uniquement la source mobile.');
 
 const reduced = scenario({ reduced: true });
-assert(reduced.video.src === '', 'Le mouvement réduit déclenche une source MP4.');
-assert(reduced.video.playCalls === 0, 'Le mouvement réduit tente une lecture.');
-assert(reduced.heroClasses.has('is-reduced-motion'), 'Le mouvement réduit n’est pas signalé au composant.');
+assert(reduced.video.src === '/desktop.mp4', 'Le mouvement réduit ne charge pas la source bureau par défaut.');
+assert(reduced.video.playCalls === 1, 'Le mouvement réduit ne lance pas automatiquement la vidéo par défaut.');
+assert(reduced.heroClasses.has('is-motion-enabled') && !reduced.heroClasses.has('is-reduced-motion'), 'Le mouvement réduit n’affiche pas la vidéo par défaut.');
 assert(reduced.control !== null && reduced.control.hidden === false, 'Le mouvement réduit ne propose pas de commande vidéo visible.');
-assert(reduced.control?.textContent === 'Lire la vidéo', 'La commande initiale du mouvement réduit est incorrecte.');
-
-reduced.controlListeners.get('click')?.();
-assert(reduced.video.src === '/desktop.mp4', 'L’activation volontaire ne charge pas la source bureau.');
-assert(reduced.video.playCalls === 1, 'L’activation volontaire ne lance pas la vidéo.');
-assert(reduced.heroClasses.has('is-motion-enabled') && !reduced.heroClasses.has('is-reduced-motion'), 'L’activation volontaire ne remplace pas le repli réduit.');
-assert(reduced.control?.textContent === 'Mettre la vidéo en pause', 'La commande active n’annonce pas la pause disponible.');
-assert(reduced.storage.get('courtierducoin-sector-hero-motion') === 'enabled', 'Le choix volontaire n’est pas conservé pendant la session.');
+assert(reduced.control?.textContent === 'Mettre la vidéo en pause', 'La commande initiale du mouvement réduit est incorrecte.');
 
 reduced.controlListeners.get('click')?.();
 assert(reduced.video.src === '', 'La mise en pause ne retire pas la source en mouvement réduit.');
 assert(reduced.heroClasses.has('is-reduced-motion') && !reduced.heroClasses.has('is-motion-enabled'), 'La mise en pause ne restaure pas le repli réduit.');
 assert(reduced.control?.textContent === 'Lire la vidéo', 'La commande désactivée n’annonce pas la lecture disponible.');
-assert(!reduced.storage.has('courtierducoin-sector-hero-motion'), 'Le choix de pause reste enregistré à tort.');
+assert(reduced.storage.get('courtierducoin-sector-hero-motion') === 'disabled', 'Le choix de pause n’est pas conservé pendant la session.');
 
-const reducedStored = scenario({ reduced: true, storedOverride: true });
-assert(reducedStored.video.src === '/desktop.mp4' && reducedStored.video.playCalls === 1, 'Le choix de session n’est pas réappliqué à la page suivante.');
-assert(reducedStored.heroClasses.has('is-motion-enabled'), 'Le choix de session ne réactive pas l’affichage vidéo.');
+reduced.controlListeners.get('click')?.();
+assert(reduced.video.src === '/desktop.mp4', 'La reprise volontaire ne recharge pas la source bureau.');
+assert(reduced.video.playCalls === 2, 'La reprise volontaire ne relance pas la vidéo.');
+assert(reduced.heroClasses.has('is-motion-enabled') && !reduced.heroClasses.has('is-reduced-motion'), 'La reprise volontaire ne remplace pas le repli réduit.');
+assert(reduced.control?.textContent === 'Mettre la vidéo en pause', 'La commande active n’annonce pas la pause disponible.');
+assert(reduced.storage.get('courtierducoin-sector-hero-motion') === 'enabled', 'Le choix de reprise n’est pas conservé pendant la session.');
 
-const reducedStoredMobile = scenario({ mobile: true, reduced: true, storedOverride: true });
+const reducedPaused = scenario({ reduced: true, storedPreference: 'disabled' });
+assert(reducedPaused.video.src === '' && reducedPaused.video.playCalls === 0, 'Le choix de pause n’est pas réappliqué à la page suivante.');
+assert(reducedPaused.heroClasses.has('is-reduced-motion'), 'Le choix de pause ne restaure pas l’affiche à la page suivante.');
+
+const reducedStoredMobile = scenario({ mobile: true, reduced: true, storedPreference: 'enabled' });
 assert(reducedStoredMobile.video.src === '/mobile.mp4', 'Le choix de session réduit ne respecte pas la variante mobile.');
 
 const missing = scenario({ missing: true });
@@ -147,6 +147,6 @@ if (errors.length > 0) {
 } else {
   console.log(JSON.stringify({
     status: 'PASS',
-    scenarios: ['desktop', 'mobile-or-portrait', 'reduced-motion-opt-in', 'session-override', 'missing-data', 'video-error'],
+    scenarios: ['desktop', 'mobile-or-portrait', 'reduced-motion-autoplay-and-pause', 'session-pause', 'session-resume-mobile', 'missing-data', 'video-error'],
   }, null, 2));
 }

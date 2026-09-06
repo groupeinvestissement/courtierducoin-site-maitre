@@ -7,9 +7,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const BASE_COMMIT = 'b3e4643146af928a37194259e08181196c8de2e7';
+const BASE_COMMIT = '4448546d392e53ec6b2d8d52436a4407371c0cb6';
 const RELEASE_ID = 'heroes-2026-08-31-v01';
-const COMPONENT_VERSION = '20260905-v2';
+const COMPONENT_VERSION = '20260905-v3';
 const RELEASE_ROOT = path.join(ROOT, 'assets', 'video', 'heroes', RELEASE_ID);
 const RELEASE_TEXT_EXTENSIONS = new Set(['.json', '.md', '.sha256']);
 const SAMPLE_ROUTES = new Set([
@@ -152,6 +152,28 @@ function canonicalReleaseBytes(filePath, fileBytes) {
   return Buffer.from(fileBytes.toString('utf8').replace(/\r\n/g, '\n'), 'utf8');
 }
 
+function extractStructuredVideoObjects(html) {
+  const videos = [];
+  const visit = (value) => {
+    if (Array.isArray(value)) {
+      value.forEach(visit);
+      return;
+    }
+    if (!value || typeof value !== 'object') return;
+    const types = Array.isArray(value['@type']) ? value['@type'] : [value['@type']];
+    if (types.includes('VideoObject')) videos.push(value);
+    Object.values(value).forEach(visit);
+  };
+  for (const match of html.matchAll(/<script\b[^>]*\btype=(['"])application\/ld\+json\1[^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      visit(JSON.parse(match[2]));
+    } catch {
+      fail('Un bloc JSON-LD est invalide.');
+    }
+  }
+  return videos;
+}
+
 async function physicalReleaseInventory(directory) {
   let files = 0;
   let bytes = 0;
@@ -181,7 +203,10 @@ function validatePageMarkup(html, page) {
   if (occurrences(html, new RegExp(`/sector-hero\\.css\\?v=${COMPONENT_VERSION}`, 'gi')) !== 1) fail(`${route} — CSS commun absent ou dupliqué.`);
   if (occurrences(html, new RegExp(`/sector-hero\\.js\\?v=${COMPONENT_VERSION}`, 'gi')) !== 1) fail(`${route} — JS commun absent ou dupliqué.`);
   if (occurrences(html, /credits-heros-secteurs\.html/gi) !== 1) fail(`${route} — lien de crédits absent ou dupliqué.`);
-  if (/VideoObject/i.test(html)) fail(`${route} — VideoObject décoratif interdit encore présent.`);
+  const structuredVideos = extractStructuredVideoObjects(html);
+  if (structuredVideos.some((video) => typeof video.contentUrl !== 'string')) {
+    fail(`${route} — VideoObject décoratif sans contenu réel encore présent.`);
+  }
   if (/rosemont-(?:lead-hero|hero-video)\.js/i.test(html)) fail(`${route} — ancien chargeur vidéo Rosemont encore actif.`);
 
   const heroTag = html.match(/<section\b[^>]*\bdata-sector-hero=(['"])[\s\S]*?\1[^>]*>/i)?.[0];
@@ -216,6 +241,10 @@ function validatePageMarkup(html, page) {
   if (getAttribute(videoTag, 'tabindex') !== '-1' || getAttribute(videoTag, 'aria-hidden') !== 'true') fail(`${route} — vidéo décorative exposée à l'accessibilité.`);
   if (/\ssrc\s*=/i.test(videoTag) || /\sposter\s*=/i.test(videoTag) || /\scontrols(?:\s|>|=)/i.test(videoTag)) fail(`${route} — la vidéo initiale a src/poster/controls.`);
   if (/<source\b/i.test((html.match(/<video\b[^>]*\bdata-sector-hero-video\b[^>]*>[\s\S]*?<\/video>/i)?.[0] ?? ''))) fail(`${route} — source vidéo injectée dans le HTML initial.`);
+  const unexpectedAutoplayVideos = [...html.matchAll(/<video\b[^>]*>/gi)]
+    .map((match) => match[0])
+    .filter((tag) => /\sautoplay(?:\s|>|=)/i.test(tag) && !/\bdata-sector-hero-video\b/i.test(tag));
+  if (unexpectedAutoplayVideos.length > 0) fail(`${route} — une vidéo secondaire contient autoplay.`);
   if (/\brm-hero-photo\b/i.test((html.match(/<section\b[^>]*\bdata-sector-hero=[\s\S]*?<\/section>/i)?.[0] ?? ''))) fail(`${route} — ancien visuel de hero encore présent.`);
 
   if (['o1a11', '02a22'].includes(page.pageKey)) {

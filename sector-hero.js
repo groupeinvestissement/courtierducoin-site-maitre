@@ -11,9 +11,9 @@
 
   const readMotionOverride = () => {
     try {
-      return window.sessionStorage?.getItem(MOTION_OVERRIDE_KEY) === 'enabled';
+      return window.sessionStorage?.getItem(MOTION_OVERRIDE_KEY) !== 'disabled';
     } catch {
-      return false;
+      return true;
     }
   };
 
@@ -24,9 +24,9 @@
     motionOverride = enabled;
     try {
       if (enabled) window.sessionStorage?.setItem(MOTION_OVERRIDE_KEY, 'enabled');
-      else window.sessionStorage?.removeItem(MOTION_OVERRIDE_KEY);
+      else window.sessionStorage?.setItem(MOTION_OVERRIDE_KEY, 'disabled');
     } catch {
-      // Le stockage peut être bloqué; l'activation reste valable pour la page courante.
+      // Le stockage peut être bloqué; le choix reste valable pour la page courante.
     }
   };
 

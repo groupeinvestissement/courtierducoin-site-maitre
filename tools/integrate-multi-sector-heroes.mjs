@@ -10,7 +10,7 @@ const BASE_COMMIT = 'b3e4643146af928a37194259e08181196c8de2e7';
 const RELEASE_ID = 'heroes-2026-08-31-v01';
 const RELEASE_ROOT = path.join(ROOT, 'assets', 'video', 'heroes', RELEASE_ID);
 const PUBLIC_RELEASE_ROOT = `/assets/video/heroes/${RELEASE_ID}`;
-const COMPONENT_VERSION = '20260905-v2';
+const COMPONENT_VERSION = '20260905-v3';
 const PAGE_KEYS = ['main', 'o1a11', '02a22', '03i33', '04m44', '05c55'];
 const SAMPLE_ROUTES = new Set([
   '/secteurs/villeray-saint-michel-parc-extension/',
@@ -308,7 +308,7 @@ function removeVideoObjects(html) {
     if (Array.isArray(value)) return value.map(cleanValue).filter((item) => item !== undefined);
     if (!value || typeof value !== 'object') return value;
     const types = Array.isArray(value['@type']) ? value['@type'] : [value['@type']];
-    if (types.includes('VideoObject')) return undefined;
+    if (types.includes('VideoObject') && typeof value.contentUrl !== 'string') return undefined;
     return Object.fromEntries(Object.entries(value)
       .map(([key, nested]) => [key, cleanValue(nested)])
       .filter(([, nested]) => nested !== undefined));
@@ -320,7 +320,7 @@ function removeVideoObjects(html) {
       try {
         data = JSON.parse(jsonText);
       } catch {
-        throw new Error('Bloc JSON-LD invalide rencontré pendant le retrait de VideoObject.');
+        throw new Error('Bloc JSON-LD invalide rencontré pendant le retrait d’un VideoObject décoratif.');
       }
       const cleaned = cleanValue(data);
       return cleaned === undefined ? '' : `<script${attributes}>${JSON.stringify(cleaned)}</script>`;
@@ -328,10 +328,23 @@ function removeVideoObjects(html) {
 }
 
 function addComponentAssets(html) {
-  html = html.replace(/<link\b[^>]*href=(['"])\/sector-hero\.css(?:\?[^'"]*)?\1[^>]*>/gi, '');
-  html = html.replace(/<script\b[^>]*src=(['"])(?:\/sector-hero\.js|\/rosemont-hero-video\.js|\/rosemont-lead-hero\.js)(?:\?[^'"]*)?\1[^>]*><\/script>/gi, '');
-  html = html.replace('</head>', `<link rel="stylesheet" href="/sector-hero.css?v=${COMPONENT_VERSION}"></head>`);
-  html = html.replace('</body>', `<script src="/sector-hero.js?v=${COMPONENT_VERSION}" defer></script></body>`);
+  const cssTag = `<link rel="stylesheet" href="/sector-hero.css?v=${COMPONENT_VERSION}">`;
+  let cssFound = false;
+  html = html.replace(/<link\b[^>]*href=(['"])\/sector-hero\.css(?:\?[^'"]*)?\1[^>]*>/gi, () => {
+    if (cssFound) return '';
+    cssFound = true;
+    return cssTag;
+  });
+  if (!cssFound) html = html.replace('</head>', `${cssTag}</head>`);
+
+  const runtimeTag = `<script src="/sector-hero.js?v=${COMPONENT_VERSION}" defer></script>`;
+  let runtimeFound = false;
+  html = html.replace(/<script\b[^>]*src=(['"])(?:\/sector-hero\.js|\/rosemont-hero-video\.js|\/rosemont-lead-hero\.js)(?:\?[^'"]*)?\1[^>]*><\/script>/gi, (tag) => {
+    if (!/\/sector-hero\.js/i.test(tag) || runtimeFound) return '';
+    runtimeFound = true;
+    return runtimeTag;
+  });
+  if (!runtimeFound) html = html.replace('</body>', `${runtimeTag}</body>`);
   return html;
 }
 
